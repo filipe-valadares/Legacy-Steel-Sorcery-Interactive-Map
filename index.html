@@ -1,27 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Interactive Map</title>
-
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
   <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
   <div class="left-bar">
     <img src="images/logo.png" alt="Logo" class="logo" />
     <input type="text" id="search-bar" placeholder="Search markers..." />
-    <button id="toggle-all" class="toggle-all-button">Toggle All</button>
-    <div id="categories-container">
-    </div>
-    <button id="create-entry" class="toggle-all-button" style="margin-top: 30px;">Create New Marker</button>
+    <button id="toggle-all" class="toggle-all-button">Hide All Markers</button>
+    <div id="categories-container"></div>
+    <!-- <button id="create-entry" class="toggle-all-button" style="margin-top: 30px;" disabled>Create New Marker</button> -->
+    <p class="sidebar-footer">This is still in development, a lot of markers may be missing or wrong. This work is being done by Filipe, Just_Filip, Vezgez and PunchieAU.</p>
   </div>
   <div id="map"></div>
   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
   <script src="script.js"></script>
 </body>
-
 </html>

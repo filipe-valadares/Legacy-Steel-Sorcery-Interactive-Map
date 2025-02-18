@@ -29,6 +29,21 @@ map.on('click', function (event) {
 
 });
 
+document.getElementById('search-bar').addEventListener('input', function (e) {
+  var searchText = e.target.value.toLowerCase();
+  var buttons = document.querySelectorAll('.marker-toggle');
+  buttons.forEach(function (button) {
+    var markerName = button.dataset.markerName.toLowerCase();
+    if (markerName.includes(searchText)) {
+      button.style.visibility = 'visible';
+      button.style.height = 'auto';
+    } else {
+      button.style.visibility = 'hidden';
+      button.style.height = '0';
+    }
+  });
+});
+
 
 fetch('markers.json')
   .then(response => response.json())
@@ -154,12 +169,9 @@ function toggleMarkers(name, isVisible) {
 var allMarkersVisible = true;
 
 document.getElementById('toggle-all').addEventListener('click', function () {
-  var buttons = document.querySelectorAll('.marker-toggle');
-
-
   allMarkersVisible = !allMarkersVisible;
 
-
+  var buttons = document.querySelectorAll('.marker-toggle');
   buttons.forEach(function (button) {
     var markerName = button.dataset.markerName;
     if (allMarkersVisible) {
@@ -173,42 +185,16 @@ document.getElementById('toggle-all').addEventListener('click', function () {
     }
   });
 
-
   var toggleAllBtn = document.getElementById('toggle-all');
   if (allMarkersVisible) {
+    toggleAllBtn.textContent = "Hide All Markers";
     toggleAllBtn.classList.add("all-on");
     toggleAllBtn.classList.remove("all-off");
   } else {
+    toggleAllBtn.textContent = "Show All Markers";
     toggleAllBtn.classList.add("all-off");
     toggleAllBtn.classList.remove("all-on");
   }
 });
 
 
-
-
-document.getElementById('toggle-all').addEventListener('click', function () {
-  var buttons = document.querySelectorAll('.marker-toggle');
-  var allVisible = true;
-
-
-  buttons.forEach(function (button) {
-    if (button.dataset.visible === "false") {
-      allVisible = false;
-    }
-  });
-
-
-  buttons.forEach(function (button) {
-    var markerName = button.dataset.markerName;
-    if (allVisible) {
-      button.dataset.visible = "false";
-      button.classList.add("disabled");
-      toggleMarkers(markerName, false);
-    } else {
-      button.dataset.visible = "true";
-      button.classList.remove("disabled");
-      toggleMarkers(markerName, true);
-    }
-  });
-});
