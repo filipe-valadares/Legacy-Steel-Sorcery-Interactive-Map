@@ -434,7 +434,7 @@
       "color": "#f7d97e",
       "category": "Droped Items",
       "desc": "Medical Drops",
-      "url": "images/Icons/drop.png",
+      "url": "images/Icons/drop-med.png",
       "points": [
         { "x": 597.5625, "y": 511.1875 },
         { "x": 471.5, "y": 376 },
@@ -637,8 +637,12 @@
       "color": "#ffc0cb",
       "category": "Misc",
       "desc": "Exit",
+      "url": "images/Icons/exit.png",
       "points": [
-        {"x": 223.75, "y": 285.25}
+        {"x": 223.75, "y": 285.25},
+        {"x": 311.5, "y": 777.25},
+        {"x": 850.5, "y": 431},
+        {"x": 723.5, "y": 126.75}
       ]
     },
     {
