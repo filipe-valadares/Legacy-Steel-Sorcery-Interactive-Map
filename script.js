@@ -14,25 +14,21 @@ map.on('click', function (event) {
   var lat = event.latlng.lat;
   var lng = event.latlng.lng;
 
-  var newMarkerData = {
-    category: 'New Category',
-    name: 'New Marker ' + Date.now(),
-    points: [
-      {
-        x: lng + 7,
-        y: lat,
-      }
-    ]
-  };
+  var coordinateText = `{"x": ${lng}, "y": ${lat}}`;
+  console.log(coordinateText);
 
-  console.log(`{ "x": ${lng}, "y": ${lat} }`);
-
+  navigator.clipboard.writeText(coordinateText).then(() => {
+    console.log('Copied to clipboard:', coordinateText);
+  }).catch(err => {
+    console.error('Failed to copy:', err);
+  });
 });
 
-document.getElementById('search-bar').addEventListener('input', function (e) {
+
+document.getElementById('search-bar').addEventListener('input', function(e) {
   var searchText = e.target.value.toLowerCase();
   var buttons = document.querySelectorAll('.marker-toggle');
-  buttons.forEach(function (button) {
+  buttons.forEach(function(button) {
     var markerName = button.dataset.markerName.toLowerCase();
     if (markerName.includes(searchText)) {
       button.style.visibility = 'visible';
@@ -170,7 +166,7 @@ var allMarkersVisible = true;
 
 document.getElementById('toggle-all').addEventListener('click', function () {
   allMarkersVisible = !allMarkersVisible;
-
+  
   var buttons = document.querySelectorAll('.marker-toggle');
   buttons.forEach(function (button) {
     var markerName = button.dataset.markerName;
@@ -184,7 +180,7 @@ document.getElementById('toggle-all').addEventListener('click', function () {
       toggleMarkers(markerName, false);
     }
   });
-
+  
   var toggleAllBtn = document.getElementById('toggle-all');
   if (allMarkersVisible) {
     toggleAllBtn.textContent = "Hide All Markers";
