@@ -10,19 +10,19 @@ map.fitBounds(bounds);
 
 var markerLayers = {};
 
-map.on('click', function (event) {
-  var lat = event.latlng.lat;
-  var lng = event.latlng.lng;
+// map.on('click', function (event) {
+//   var lat = event.latlng.lat;
+//   var lng = event.latlng.lng;
 
-  var coordinateText = `{"x": ${lng}, "y": ${lat}}`;
-  console.log(coordinateText);
+//   var coordinateText = `{"x": ${lng}, "y": ${lat}}`;
+//   console.log(coordinateText);
 
-  navigator.clipboard.writeText(coordinateText).then(() => {
-    console.log('Copied to clipboard:', coordinateText);
-  }).catch(err => {
-    console.error('Failed to copy:', err);
-  });
-});
+//   navigator.clipboard.writeText(coordinateText).then(() => {
+//     console.log('Copied to clipboard:', coordinateText);
+//   }).catch(err => {
+//     console.error('Failed to copy:', err);
+//   });
+// });
 
 
 document.getElementById('search-bar').addEventListener('input', function(e) {
