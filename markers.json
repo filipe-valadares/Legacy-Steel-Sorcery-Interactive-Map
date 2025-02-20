@@ -62,7 +62,7 @@
       "url": "images/Icons/mob-stronger.png",
       "desc": "Elite Goblins Spawn",
       "points": [
-
+        {"x": 477.5, "y": 219.75}
       ]
     },
     {
@@ -308,6 +308,28 @@
       ]
     },
     {
+      "name": "Gear Chest",
+      "color": "#c49300",
+      "category": "Loot",
+      "desc": "Gear Chest",
+      "url": "images/Icons/chest-war.png",
+      "points": [
+        { "x": 250.75, "y": 444 },
+        {"x": 704.375, "y": 600.03125}
+      ]
+    },
+    {
+      "name": "Minecart",
+      "color": "#c49300",
+      "category": "Loot",
+      "desc": "Minecart",
+      "url": "images/Icons/chest-minecart.png",
+      "points": [     
+        {"x": 712, "y": 609.75},
+        {"x": 683, "y": 674.75}
+      ]
+    },
+    {
       "name": "Ring Chest",
       "color": "#c49300",
       "category": "Loot",
@@ -315,17 +337,6 @@
       "url": "images/Icons/chest-green.png",
       "points": [
         {"x": 465.8125, "y": 434.625}
-      ]
-    },
-    {
-      "name": "Wardrobes",
-      "color": "#c49300",
-      "category": "Loot",
-      "desc": "Wardrobes",
-      "url": "images/Icons/chest-war.png",
-      "points": [
-        { "x": 250.75, "y": 444 },
-        {"x": 704.375, "y": 600.03125}
       ]
     },
     {
@@ -388,17 +399,6 @@
       ]
     },
     {
-      "name": "Minecart",
-      "color": "#c49300",
-      "category": "Loot",
-      "desc": "Minecart",
-      "url": "images/Icons/chest.png",
-      "points": [     
-        {"x": 712, "y": 609.75},
-        {"x": 683, "y": 674.75}
-      ]
-    },
-    {
       "name": "Tree Bag",
       "color": "#f7d97e",
       "category": "Loot",
@@ -424,11 +424,21 @@
       ]
     },
     {
-      "name": "Medic Chests",
+      "name": "Herb Bag",
+      "color": "#f7d97e",
+      "category": "Loot",
+      "desc": "Herb Bag",
+      "url": "images/Icons/chest-herb.png",
+      "points": [
+
+      ]
+    },
+    {
+      "name": "Recovery",
       "color": "#f7d97e",
       "category": "Loot",
       "url": "images/Icons/chest-medic.png",
-      "desc": "Medic Chest",
+      "desc": "Recovery",
       "points": [
         { "x": 319.13, "y": 773.86 },
         { "x": 585.71, "y": 644.85 },
@@ -438,6 +448,66 @@
         { "x": 448.98, "y": 549.03 },
         { "x": 253.5, "y": 465 },
         {"x": 879.25, "y": 615.625}
+      ]
+    },
+    {
+      "name": "Alchemy Chests",
+      "color": "#f7d97e",
+      "category": "Loot",
+      "url": "images/Icons/chest-alchemist.png",
+      "desc": "Alchemy Chest",
+      "points": [
+        
+      ]
+    },
+    {
+      "name": "Treasure",
+      "color": "#f7d97e",
+      "category": "Loot",
+      "url": "images/Icons/tresure.png",
+      "desc": "Treasure",
+      "points": [
+        
+      ]
+    },
+    {
+      "name": "Big Treasure",
+      "color": "#f7d97e",
+      "category": "Loot",
+      "url": "images/Icons/big-resure.png",
+      "desc": "Big Treasure",
+      "points": [
+        
+      ]
+    },
+    {
+      "name": "Coin Safe",
+      "color": "#f7d97e",
+      "category": "Loot",
+      "url": "images/Icons/coin-safe.png",
+      "desc": "Coin Safe",
+      "points": [
+        
+      ]
+    },
+    {
+      "name": "Armor/Weapons",
+      "color": "#f7d97e",
+      "category": "Loot",
+      "url": "images/Icons/armor-chest.png",
+      "desc": "Armor & Weapons",
+      "points": [
+        
+      ]
+    },
+    {
+      "name": "Consumables",
+      "color": "#f7d97e",
+      "category": "Loot",
+      "url": "images/Icons/crate.png",
+      "desc": "Consumables",
+      "points": [
+        
       ]
     },
     {
