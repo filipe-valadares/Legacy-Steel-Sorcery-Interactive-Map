@@ -35,6 +35,7 @@ map.on("click", function (event) {
 });
 
 
+
 document.getElementById('search-bar').addEventListener('input', function(e) {
   var searchText = e.target.value.toLowerCase();
   var buttons = document.querySelectorAll('.marker-toggle');
@@ -55,9 +56,39 @@ fetch('markers.json')
   .then(response => response.json())
   .then(data => {
     loadMarkers(data);
+    const urlParams = new URLSearchParams(window.location.search);
+    const markerParam = urlParams.get('marker');
+    if (markerParam) {
+      let markerFound = false;
+      for (let markerName in markerLayers) {
+        if (markerName.toLowerCase() === markerParam.toLowerCase()) {
+          markerFound = true;
+          break;
+        }
+      }
+      if (markerFound) {
+        filterMarkersByName(markerParam);
+      }
+    }
   })
   .catch(error => console.error('Error loading markers.json:', error));
 
+function filterMarkersByName(targetName) {
+  for (let markerName in markerLayers) {
+    const isMatch = markerName.toLowerCase() === targetName.toLowerCase();
+    toggleMarkers(markerName, isMatch);
+    
+    let button = document.querySelector(`.marker-toggle[data-marker-name="${markerName}"]`);
+    if (button) {
+      button.dataset.visible = isMatch ? "true" : "false";
+      if (isMatch) {
+        button.classList.remove("disabled");
+      } else {
+        button.classList.add("disabled");
+      }
+    }
+  }
+}
 
 function loadMarkers(data) {
 
