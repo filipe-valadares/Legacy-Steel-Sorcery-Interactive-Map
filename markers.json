@@ -229,7 +229,9 @@
         { "x": 245.40, "y": 443.21 },
         { "desc": "Underground", "x": 383.75, "y": 382 },
         { "desc": "Underground", "x": 857.25, "y": 384.5 },
-        {"x": 875, "y": 536.125}
+        {"x": 875, "y": 536.125},
+        {"x": 456.75, "y": 419.75},
+        {"x": 455.5, "y": 400.75}
       ]
     },
     {
@@ -303,11 +305,11 @@
        ]
     },
     {
-      "name": "Armored Spirit",
+      "name": "Living Armor",
       "color": "#7c8079",
       "category": "Bosses",
-      "url": "images/Icons/mob-stronger.png",
-      "desc": "Armored Spirit",
+      "url": "images/Icons/mob-boss-living.png",
+      "desc": "Living Armor",
       "points": [
         {"x": 339.5, "y": 368}
        ]
