@@ -403,16 +403,6 @@
       ]
     },
     {
-      "name": "Ring Chest",
-      "color": "#c49300",
-      "category": "Loot",
-      "desc": "Chests",
-      "url": "images/Icons/chest-green.png",
-      "points": [
-        {"x": 465.8125, "y": 434.625}
-      ]
-    },
-    {
       "name": "Barrels",
       "color": "#c49300",
       "category": "Loot",
@@ -785,16 +775,6 @@
             {"x": 888.5, "y": 592.5},
             {"x": 303.3125, "y": 319.3125},
             {"x": 296.9375, "y": 517.3125}
-        ]
-      },
-      {
-        "name": "Crypt Key",
-        "color": "#f7d97e",
-        "category": "Droped Items",
-        "desc": "Crypt Key",
-        "url": "images/Icons/drop-key.png",
-        "points": [
-          {"image":"images/Chests/chestUnderRuin3246534.png", "desc": "Underground", "x": 352.75, "y": 699.46875}
         ]
       },
     {
