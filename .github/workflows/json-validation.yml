@@ -22,5 +22,5 @@ jobs:
 
       - name: Validate JSON file
         run: |
-          echo "Validating data.json"
-          jsonlint -q data.json || { echo "Invalid JSON in data.json"; exit 1; }
+          echo "Validating markers.json"
+          jsonlint -q markers.json || { echo "Invalid JSON"; exit 1; }
