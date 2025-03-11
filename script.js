@@ -56,8 +56,8 @@ document.getElementById('search-bar').addEventListener('input', function(e) {
 // Define a timestamp for this session
 const timestamp = new Date().getTime();
 
-// Fetch markers03.json with a no-cache parameter
-fetch('markers03.json?v=' + timestamp)
+// Fetch markers.json with a no-cache parameter
+fetch('markers.json?v=' + timestamp)
   .then(response => response.json())
   .then(data => {
     loadMarkers(data);
@@ -76,7 +76,7 @@ fetch('markers03.json?v=' + timestamp)
       }
     }
   })
-  .catch(error => console.error('Error loading markers03.json:', error));
+  .catch(error => console.error('Error loading markers.json:', error));
 
 
 function filterMarkersByName(targetName) {
