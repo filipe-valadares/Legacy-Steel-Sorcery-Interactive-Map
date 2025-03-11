@@ -41,7 +41,8 @@ document.getElementById('search-bar').addEventListener('input', function(e) {
   var buttons = document.querySelectorAll('.marker-toggle');
   buttons.forEach(function(button) {
     var markerName = button.dataset.markerName.toLowerCase();
-    if (markerName.includes(searchText)) {
+    var categoryName = button.closest('.category-section').id.toLowerCase(); 
+    if (markerName.includes(searchText) || categoryName.includes(searchText)) {
       button.style.visibility = 'visible';
       button.style.height = 'auto';
     } else {
