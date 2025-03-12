@@ -67,7 +67,7 @@
       "color": "#f5fced",
       "category": "Enemies",
       "url": "images/Icons/mob-goblin-elite.png",
-      "desc": "Elite Goblins Spawn",
+      "desc": "Elite Goblin Spawn",
       "points": [
         {"x": 477.5, "y": 219.75},
         {"x": 349, "y": 543},
