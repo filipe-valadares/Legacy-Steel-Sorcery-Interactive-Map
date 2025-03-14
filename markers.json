@@ -399,7 +399,10 @@
         {"x": 683, "y": 674.75},
         { "x": 470.5, "y": 782.5 },
         {"x": 486.375, "y": 836.875},
-        {"x": 705.5, "y": 594.9375}    
+        {"x": 705.5, "y": 594.9375},
+	{"x": 365.375, "y": 155.875},
+	{"x": 351.4375, "y": 145.4375},
+	{"x": 731.1875, "y": 202}
       ]
     },
     {
@@ -522,9 +525,10 @@
         { "x": 523, "y": 688 },
         { "x": 765.25, "y": 417 },
         { "x": 383.25, "y": 181.75 },
-        { "x": 554, "y": 261.5 },
-        { "x": 510.5, "y": 291.5 },
-        { "x": 543.75, "y": 312 },
+        {"x": 547, "y": 275.625},
+        {"x": 494.25, "y": 302.5},
+	{"x": 505.5, "y": 286.75},
+        {"x": 552.1875, "y": 303.3125},
         { "x": 666.5, "y": 243 },
         { "x": 694.75, "y": 302.5 },
         { "x": 759.5, "y": 293 },
@@ -532,7 +536,8 @@
         { "x": 573.5, "y": 679 },
         { "x": 830.5, "y": 597.75 },
         { "x": 478.75, "y": 447.75 },
-        {"x": 520.25, "y": 599.25}
+        {"x": 520.25, "y": 599.25},
+	{"x": 650.625, "y": 211}
       ]
     },
     {
@@ -635,7 +640,7 @@
         {"x": 293.125, "y": 317.375},
         {"desc": "Top of Tower","image":"images/Chests/topofTowerRuisn456672.png", "x": 356.375, "y": 699.4375},
         {"image":"images/Chests/armorchstogre23423.png", "x": 743.1875, "y": 189.1875},
-        { "image":"images/Tools/bookUnder213123.png", "x": 599.25, "y": 483.75 },
+        { "image":"images/Tools/bookUnder600.png", "x": 600, "y": 483.75 },
         {"x": 618.0625, "y": 334.8125},
         {"x": 582.625, "y": 351.1875},
         {"desc": "Underground","image":"images/Chests/armorundergroundmage21342.png", "x": 596.625, "y": 249.875},
@@ -662,7 +667,7 @@
     {
       "name": "Tools",
       "color": "#f7d97e",
-      "category": "Droped Items",
+      "category": "Dropped Items",
       "desc": "Dropped Tools",
       "url": "images/Icons/tools.png",
       "points": [
@@ -689,18 +694,30 @@
     {
       "name": "Books",
       "color": "#f7d97e",
-      "category": "Droped Items",
+      "category": "Dropped Items",
       "desc": "Books",
       "url": "images/Icons/drop-book.png",
       "points": [
         {"x": 564.3125, "y": 660.6875},
-        {"image":"images/Tools/bookUnder213123.png", "x": 599.3125, "y": 488.5625}
+        {"desc": "Book can spawn on the window ledge next to river", "image":"images/Tools/bookUnder600.png", "x": 600.0, "y": 488.5625},
+	{"desc": "Book can spawn next to coffin in an alcove in the Castle","image":"images/Tools/bookUnder666.png", "x": 666.0, "y": 445.125},
+	{"desc": "Books can spawn in the basement of the tower","image":"images/Tools/bookUnder462.png","x": 462.0, "y": 428.5625},
+	{"desc": "Jump down in the hole in forest and explore the basement","image":"images/Tools/bookUnder372.png", "x": 372.0, "y": 785.75},
+	{"desc": "Jump down in the hole in forest and explore the basement","image":"images/Tools/bookUnder398.png","x": 398.0, "y": 774.5},
+	{"desc": "On a wooden shelf behind the house, books and other rare items can spawn here","image":"images/Tools/bookUnder325.png","x": 325.0, "y": 635.5},
+	{"desc": "Big stairs go down into the crypt, explore until you reach this room, book can spawn on the altar","image":"images/Tools/bookUnder595.png","x": 595.0, "y": 290},
+	{"desc": "Books can spawn on the shelves/ledges in Oakheart's Vigil dungeon","image":"images/Tools/bookUnder836.png","x": 836.0, "y": 375.25},
+	{"desc": "On wooden shelves next to a goblin house","image":"images/Tools/bookUnder299.png","x": 299, "y": 514.75},
+	{"desc": "Inside a fountain at the Southern part of the Castle, on top of the stairs","image":"images/Tools/bookUnder632.png","x": 632.0, "y": 418.5},
+	{"desc": "Go left from the entrance and go to the small square room after 2 spiders, other lodge items can spawn here too","image":"images/Tools/bookUnder830.png","x": 830.0, "y": 385.5},
+	{"desc": "Go left from the entrance and go to the small square room after 2 spiders, other lodge items can spawn here too","image":"images/Tools/bookUnder240.png","x": 240.0, "y": 494},
+	{"desc": "Books can spawn on the 2nd floor here","image":"images/Tools/bookUnder319.png","x": 319, "y": 454}
       ]
     },
     {
       "name": "Random Drops",
       "color": "#f7d97e",
-      "category": "Droped Items",
+      "category": "Dropped Items",
       "desc": "Random Drops",
       "url": "images/Icons/drop.png",
       "points": [
@@ -739,7 +756,7 @@
     {
       "name": "Medical Drops",
       "color": "#f7d97e",
-      "category": "Droped Items",
+      "category": "Dropped Items",
       "desc": "Medical Drops",
       "url": "images/Icons/drop-med.png",
       "points": [
@@ -755,7 +772,7 @@
     {
         "name": "Food",
         "color": "#f7d97e",
-        "category": "Droped Items",
+        "category": "Dropped Items",
         "desc": "Food",
         "url": "images/Icons/food.png",
         "points": [
@@ -785,43 +802,42 @@
       "desc": "Birch and Oak",
       "points": [
         { "x": 630.34, "y": 514.82 },
-        {"x": 241.75, "y": 435.75},
-        {"x": 268.25, "y": 213.25},
-        {"x": 390.25, "y": 183.75},
-        {"x": 520.5, "y": 265.75},
-        {"x": 474.75, "y": 322.25},
-        {"x": 456, "y": 289},
-        {"x": 656, "y": 175.75},
-        {"x": 562.5, "y": 722.75},
-        {"x": 425.75, "y": 530.25},
-        {"x": 584.375, "y": 348.75},
-        {"x": 578, "y": 345},
-        {"x": 577.5, "y": 347.875},
+        { "x": 241.75, "y": 435.75},
+        { "x": 268.25, "y": 213.25},
+        { "x": 390.25, "y": 183.75},
+        { "x": 520.5, "y": 265.75},
+        { "x": 474.75, "y": 322.25},
+        { "x": 456, "y": 289},
+        { "x": 656, "y": 175.75},
+        { "x": 562.5, "y": 722.75},
+        { "x": 425.75, "y": 530.25},
+        { "x": 584.375, "y": 348.75},
+        { "x": 578, "y": 345},
+        { "x": 577.5, "y": 347.875},
         { "x": 644.90, "y": 537.33 },
         { "x": 255.35, "y": 261.27 },
         { "x": 235.20, "y": 298.57 },
         { "x": 288.77, "y": 504.90 },
         { "x": 273.47, "y": 546.64 },
         { "x": 267.35, "y": 607.00 },
-        {"x": 308.5625, "y": 458.5},
-        {"x": 411.5, "y": 508.5},
-        {"x": 520.25, "y": 599.25},
-        {"x": 520.25, "y": 599.25},
-        {"x": 499.5, "y": 618},
+        { "x": 308.5625, "y": 458.5},
+        { "x": 411.5, "y": 508.5},
+        { "x": 520.25, "y": 599.25},
+        { "x": 520.25, "y": 599.25},
+        { "x": 499.5, "y": 618},
         { "x": 315.5, "y": 405.5 },
         { "x": 330.61, "y": 767.29 },
-        {"x": 691.75, "y": 573.25},
-        {"x": 479.75, "y": 549.5},
+        { "x": 691.75, "y": 573.25},
+        { "x": 479.75, "y": 549.5},
         { "x": 366.33, "y": 743.08 },
         { "x": 393.37, "y": 796.70 },
         { "x": 457.14, "y": 669.56 },
-        {"x": 295.75, "y": 613.25},
+        { "x": 295.75, "y": 613.25},
         { "x": 475.51, "y": 643.24 },
         { "x": 460.96, "y": 610.57 },
         { "x": 414.79, "y": 622.40 },
         { "x": 418.37, "y": 657.26 },
         { "x": 396.18, "y": 541.71 },
-        { "x": 511.22, "y": 520.37 },
         { "x": 618.87, "y": 559.34 },
         { "x": 722.19, "y": 527.13 },
         { "x": 790.00, "y": 447.28 },
@@ -832,9 +848,8 @@
         { "x": 312.5, "y": 514.25 },
         { "x": 829.5, "y": 660 },
         { "x": 796, "y": 623 },
-        {"x": 747, "y": 393.25},
+        { "x": 747, "y": 393.25},
         { "x": 755.5, "y": 509 },
-        { "x": 874.75, "y": 581.25 },
         { "x": 250.75, "y": 331.5 },
         { "x": 269.75, "y": 457.5 }
       ]
@@ -848,10 +863,11 @@
       "points": [     
         { "x": 300.00, "y": 633.37 },
         { "x": 790.00, "y": 330.41 },
-        {"x": 805.25, "y": 360},
+        { "x": 805.25, "y": 360},
         { "x": 710.30, "y": 135.56 },
-        {"x": 687, "y": 467.5}, 
-        {"x": 569.25, "y": 356.25}
+        { "x": 687, "y": 467.5}, 
+        { "x": 569.25, "y": 356.25},
+	{ "x": 511.22, "y": 520.37 }
       ]
     },
     {
@@ -866,9 +882,10 @@
         { "x": 274.5, "y": 641.5 },
         { "x": 805.78, "y": 545.47 },
         { "x": 669.38, "y": 503.83 },
-        {"x": 678, "y": 466.75},
-        {"x": 278.5, "y": 523.25},
-	      { "x": 441.58, "y": 711.33 }
+        { "x": 678, "y": 466.75},
+        { "x": 278.5, "y": 523.25},
+	{ "x": 441.58, "y": 711.33 },
+        { "x": 874.75, "y": 581.25 }
       ]
     },
     {
@@ -1061,8 +1078,13 @@
 	{"x": 600.375, "y": 473.75},
 	{"x": 554.6875, "y": 543},
 	{"x": 376.75, "y": 708.4375},
-	{"x": 784.25, "y": 354.5},
-	{"x": 587.25, "y": 525.75}
+	{"image":"images/Plants/KingsMint784.png","x": 784.0, "y": 354.5},
+	{"x": 587.25, "y": 525.75},
+	{"x": 560.0, "y": 488.625},
+	{"x": 701.75, "y": 374.4375},
+	{"x": 698.5, "y": 369.9375},
+	{"x": 674.25, "y": 495.75},
+	{"image":"images/Plants/KingsMint553.png", "x": 553.0, "y": 473.0625}
       ]
     },
     {
@@ -1072,7 +1094,7 @@
       "desc": "Wheat",
       "url": "images/Icons/wheat.png",
       "points": [
-        {"x": 261.25, "y": 465.75},
+        {"x": 239, "y": 446.75},
         {"x": 219.25, "y": 327.25},
         {"x": 206.5, "y": 345.25},
         {"x": 217, "y": 362},
@@ -1080,7 +1102,11 @@
         {"x": 234, "y": 394.75},
         {"x": 209.25, "y": 411},
         {"x": 197.75, "y": 405.25},
-        {"x": 222.25, "y": 465.25}
+        {"x": 222.25, "y": 465.25},
+	{"x": 296.25, "y": 472.75},
+	{"x": 267, "y": 414.5},
+	{"x": 264.5, "y": 408},
+	{"x": 183.75, "y": 440.75}
       ]
     },
     {
@@ -1161,7 +1187,8 @@
         {"x": 762.75, "y": 396},
         {"x": 290, "y": 409.75},
         {"x": 329.75, "y": 398},
-        {"x": 836.5, "y": 577.25}
+        {"x": 836.5, "y": 577.25},
+	{"x": 345.875, "y": 378.375}
       ]
     },
     {
@@ -1215,7 +1242,8 @@
 	{"x": 652.625, "y": 266.875},
 	{"x": 480.125, "y": 523.25},
 	{"x": 477.75, "y": 407.75},
-	{"x": 834.5, "y": 374.875}
+	{"x": 834.5, "y": 374.875},
+	{"x": 674.25, "y": 333.375}
       ]
     },
 
@@ -1250,11 +1278,12 @@
       "desc": "Exit",
       "url": "images/Icons/exit.png",
       "points": [
-        {"x": 223.75, "y": 285.25},
-        {"x": 311.5, "y": 777.25},
-        {"x": 850.5, "y": 431},
-        {"x": 723.5, "y": 126.75},
-        {"desc": "Key needed","image":"images/Exit/keyCrypt12412.png", "x": 596.25, "y": 355.5625}
+        {"desc": "To exit from here, you need to pay 100 Gold coins from your inventory","x": 223.75, "y": 285.25},
+        {"desc": "One of the 2 random free extracts", "x": 311.5, "y": 777.25},
+        {"desc": "One of the 2 random free extracts","x": 850.5, "y": 431},
+        {"desc": "To exit from here, you need to lower the bridge with Goblin Lever that can drop from any Goblin","x": 723.5, "y": 126.75},
+        {"desc": "Crypt Key is needed to open the gate","image":"images/Exit/keyCrypt12412.png", "x": 596.25, "y": 355.5625},
+	{"desc": "On the top of the highest Castle tower, Castle Key is needed to open the gate","x": 673, "y": 450}
       ]
     },
     {
