@@ -1,12 +1,19 @@
-
 var map = L.map('map', {
   crs: L.CRS.Simple,
   center: [0, 0],
   zoom: 1,
 });
 var bounds = [[0, 0], [1000, 1000]];
-L.imageOverlay('mapBakcgroundNew.jpg', bounds).addTo(map);
+
+// Remove or replace the duplicate background overlay if not needed:
+const layers = [
+  { file: "Main Floor.json", background: "Main Floor.jpg" },
+  { file: "-1 Floor.json", background: "-1 floor.jpg" }
+];
+
+var backgroundOverlay = L.imageOverlay(layers[0].background, bounds).addTo(map);
 map.fitBounds(bounds);
+
 
 var markerLayers = {};
 
@@ -17,6 +24,47 @@ document.getElementById("dev-mode-toggle").addEventListener("click", function ()
   this.textContent = devMode ? "Dev Mode: ON" : "Dev Mode: OFF";
   this.classList.toggle("active", devMode);
 });
+
+
+function loadLayerButtons() {
+  const container = document.getElementById('layers-container');
+  container.innerHTML = ''; // clear any existing buttons
+  layers.forEach(layer => {
+    const layerName = layer.file.replace('.json', '');
+    const button = document.createElement('button');
+    button.className = 'layer-button';
+    button.textContent = layerName;
+    button.addEventListener('click', () => {
+      // Mark this button as active and clear active state from others
+      document.querySelectorAll('.layer-button').forEach(b => b.classList.remove('active'));
+      button.classList.add('active');
+    
+      // Clear current markers
+      for (let key in markerLayers) {
+        markerLayers[key].forEach(marker => map.removeLayer(marker));
+      }
+      markerLayers = {}; // reset markers
+    
+      // Clear filters (categories container)
+      document.getElementById('categories-container').innerHTML = '';
+    
+      // Update map background
+      if (backgroundOverlay) {
+        map.removeLayer(backgroundOverlay);
+      }
+      backgroundOverlay = L.imageOverlay(layer.background, bounds).addTo(map);
+    
+      // Fetch the selected layer's JSON and load markers
+      fetch(layer.file + '?v=' + timestamp)
+        .then(response => response.json())
+        .then(data => {
+          loadMarkers(data);
+        })
+        .catch(error => console.error('Error loading ' + layer.file, error));
+    });
+    container.appendChild(button);
+  });
+}
 
 map.on("click", function (event) {
   if (!devMode) return; // Only allow copying if Dev Mode is enabled
@@ -95,6 +143,16 @@ function filterMarkersByName(targetName) {
     }
   }
 }
+
+loadLayerButtons();
+
+// Optionally, load the first layer by default if desired:
+fetch(layers[0].file + '?v=' + timestamp)
+  .then(response => response.json())
+  .then(data => {
+    loadMarkers(data);
+  })
+  .catch(error => console.error('Error loading ' + layers[0].file, error));
 
 function loadMarkers(data) {
 
