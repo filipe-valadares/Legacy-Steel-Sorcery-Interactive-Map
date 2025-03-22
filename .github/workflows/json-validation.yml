@@ -20,7 +20,9 @@ jobs:
       - name: Install jsonlint
         run: npm install -g jsonlint
 
-      - name: Validate JSON file
+      - name: Validate JSON files
         run: |
-          echo "Validating markers.json"
-          jsonlint -q markers.json || { echo "Invalid JSON"; exit 1; }
+          for file in $(find . -type f -name "*.json"); do
+            echo "Validating $file"
+            jsonlint -q "$file" || { echo "Invalid JSON in $file"; exit 1; }
+          done
