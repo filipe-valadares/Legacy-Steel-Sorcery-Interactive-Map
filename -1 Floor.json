@@ -1,0 +1,14 @@
+{ 
+  "markers": [
+    {
+      "name": "Goblins",
+      "color": "#4e9100",
+      "category": "Enemies",
+      "desc": "Goblin Spawn",
+      "url": "images/Icons/mob-goblin.png",
+      "points": [
+        {"x": 362, "y": 440}
+      ]
+    }
+  ]
+}

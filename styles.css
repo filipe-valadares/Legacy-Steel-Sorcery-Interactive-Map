@@ -271,3 +271,31 @@ body {
 .dev-mode-button.active {
   background-color: #A0522D;
 }
+
+
+#layers-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.layer-button {
+  padding: 5px 10px;    /* Reduced padding for a smaller button */
+  font-size: 14px;      /* Slightly smaller font */
+  background-color: #A0522D;
+  color: #ecf0f1;
+  border: 2px solid #A0522D; 
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.layer-button:hover {
+  background-color: #8B4513;
+}
+
+.layer-button.active {
+  background-color: #6b3f1f; /* A slightly darker shade to indicate selection */
+  border: 2px solid #A0522D;   /* Optional: adds extra visual emphasis */
+}
