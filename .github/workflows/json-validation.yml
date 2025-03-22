@@ -22,7 +22,7 @@ jobs:
 
       - name: Validate JSON files
         run: |
-          for file in $(find . -type f -name "*.json"); do
+          find . -type f -name "*.json" -print0 | while IFS= read -r -d '' file; do
             echo "Validating $file"
             jsonlint -q "$file" || { echo "Invalid JSON in $file"; exit 1; }
           done
