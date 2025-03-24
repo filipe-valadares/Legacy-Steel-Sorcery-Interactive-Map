@@ -152,6 +152,9 @@
       "points": [
 	{"desc": "2 Skeletons in ground in a basement area accessible from outside","x": 541.21875, "y": 549.71875},
 	{"desc": "Skeleton underground","x": 887.3125, "y": 539.4375},
+	{"desc": "Armored Sword Skeleton in ground, spawns when timer <15 min","x": 854, "y": 250.25},
+	{"desc": "Armored Sword Skeleton in ground, spawns when timer <15 min","x": 854.25, "y": 263.75},
+	{"desc": "Armored Sword Skeleton in ground, spawns when timer <15 min","x": 502.3125, "y": 361.9375},
 	{"desc": "Skeleton in ground, spawns when timer <15 min","x": 256.75, "y": 355.5},
 	{"desc": "Skeleton in ground, spawns when timer <15 min","x": 401.125, "y": 287.5625},
 	{"desc": "Skeleton with green cape in ground, spawns when timer <15 min","x": 409, "y": 284.875},
@@ -852,7 +855,12 @@
       "url": "images/Icons/chest-priest.png",
       "points": [
         {"x": 572.125, "y": 361.1875},
-        {"x": 666.75, "y": 274}
+        {"x": 666.75, "y": 274},
+	{"x": 697.375, "y": 136.25},
+	{"x": 602.6875, "y": 367.8125},
+	{"x": 653.375, "y": 333.5},
+	{"x": 605.25, "y": 510.5},
+	{"x": 318.625, "y": 335.5}
       ]
     },
     {
@@ -1077,6 +1085,7 @@
       "desc": "Books",
       "url": "images/Icons/drop-book.png",
       "points": [
+	{"desc": "Book can spawn in a boat","image":"images/Tools/bookUnder856.png","x": 856.0, "y": 647.75},
         {"x": 564.3125, "y": 660.6875},
 	{"desc": "Book can spawn in the cave below North Tower","image":"images/Tools/bookUnder354.png","x": 354, "y": 691.5},
 	{"desc": "Book can spawn in the basement","image":"images/Tools/bookUnder364.png","x": 364.0, "y": 583.4375},
@@ -1182,6 +1191,7 @@
       "category": "Tree",
       "desc": "Birch and Oak",
       "points": [
+	{"x": 782.8125, "y": 194.5625},
 	{"x": 675.875, "y": 157.25},
         { "x": 630.34, "y": 514.82 },
         { "x": 241.75, "y": 435.75},
@@ -1281,6 +1291,7 @@
       "category": "Ores",
       "desc": "Copper Ore",
       "points": [
+	{"x": 696.4375, "y": 156.5},
         {"x": 507.5, "y": 828.125},
 	{"x": 488.0625, "y": 842.0625},
 	{"x": 500.875, "y": 817.25},
@@ -1342,6 +1353,8 @@
       "category": "Ores",
       "desc": "Iron Ore",
       "points": [
+	{"x": 699, "y": 140.375},
+	{"x": 734.25, "y": 158.75},
 	{"x": 625.4375, "y": 402.0625},
        {"x": 488.0625, "y": 842.0625},
        {"x": 479.5, "y": 795.875},
@@ -1386,6 +1399,7 @@
       "desc": "Field Lily",
       "url": "images/Icons/flower.png",
       "points": [
+	{"x": 695.125, "y": 161.625},
 	{"x": 426.5, "y": 288.75},
         { "x": 336.5, "y": 566 },
         { "x": 362.75, "y": 504 },
@@ -1435,6 +1449,8 @@
       "desc": "Cloudstem",
       "url": "images/Icons/flower-green.png",
       "points": [
+	{"x": 680.125, "y": 150.375},
+	{"x": 677.75, "y": 153.75},
         {"x": 667.5, "y": 192.25},
         { "x": 641.5, "y": 509.75 },
         { "x": 643.5, "y": 495.25 },
@@ -1470,15 +1486,16 @@
       "desc": "King's Mint",
       "url": "images/Icons/flower-blue.png",
       "points": [
+	{"image":"images/Plants/KingsMint698.png","x": 698.0, "y": 358.875},
+	{"image":"images/Plants/KingsMint620.png","x": 620.0, "y": 463.1875},
 	{"x": 323, "y": 368.1875},
-	{"x": 340.5, "y": 344.3125},
+	{"image":"images/Plants/KingsMint340.png","x": 340.0, "y": 344.3125},
 	{"image":"images/Plants/KingsMint705.png","x": 705.0, "y": 359.75},
 	{"image":"images/Plants/KingsMint315.png","x": 315.0, "y": 328.375},
 	{"image":"images/Plants/KingsMint625.png","x": 625.0, "y": 428},
 	{"image":"images/Plants/KingsMint601.png","x": 601.0, "y": 479.1875},
 	{"image":"images/Plants/KingsMint577.png","x": 577, "y": 540.5},
 	{"image":"images/Plants/KingsMint600.png","x": 600.0, "y": 512.375},
-        { "x": 547.25, "y": 514.25 },
         {"x": 579.1875, "y": 626.625},
 	{"x": 648.5, "y": 411.125},
 	{"x": 679, "y": 427.4375},
@@ -1491,8 +1508,6 @@
 	{"image":"images/Plants/KingsMint784.png","x": 784.0, "y": 354.5},
 	{"image":"images/Plants/KingsMint587.png","x": 587.0, "y": 525.75},
 	{"image":"images/Plants/KingsMint560.png","x": 560.0, "y": 488.625},
-	{"x": 701.75, "y": 374.4375},
-	{"x": 698.5, "y": 369.9375},
 	{"x": 674.25, "y": 495.75},
 	{"image":"images/Plants/KingsMint553.png", "x": 553.0, "y": 473.0625}
       ]
@@ -1526,6 +1541,7 @@
       "desc": "Frog",
       "url": "images/Icons/frog.png",
       "points": [
+	{"x": 691.375, "y": 144.125},
         {"x": 267, "y": 308},
         {"x": 317, "y": 308},
         {"x": 372, "y": 352},
@@ -1645,6 +1661,7 @@
       "desc": "Glowmoss",
       "url": "images/Icons/glowmoss.png",
       "points": [
+	{"x": 622.25, "y": 243},
 	{"x": 847.875, "y": 572.8125},
 	{"x": 640.9375, "y": 369.3125},
 	{"x": 651.8125, "y": 363.4375},
@@ -1652,9 +1669,9 @@
 	{"x": 635.53125, "y": 279.53125},
 	{"x": 649.375, "y": 265.0625},
 	{"x": 652.625, "y": 266.875},
-	{"x": 480.125, "y": 523.25},
-	{"x": 477.75, "y": 407.75},
-	{"x": 834.5, "y": 374.875},
+	{"desc": "In Cursed Vault dungeon","x": 480.125, "y": 523.25},
+	{"desc": "In Seraph's Rest dungeon","x": 477.75, "y": 407.75},
+	{"desc": "In Oakheart's Vigil dungeon","x": 855.25, "y": 369.1875},
 	{"x": 674.25, "y": 333.375}
       ]
     },
