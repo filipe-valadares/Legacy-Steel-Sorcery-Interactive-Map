@@ -768,7 +768,7 @@
 	{"image":"images/Ores/MineCart365.png", "x": 365.0, "y": 155.875},
 	{"image":"images/Ores/MineCart351.png", "x": 351.0, "y": 145.44},
 	{ "desc": "Underground in tiny cave", "x": 731.1875, "y": 202},
-	{"x": 699.5, "y": 635.8125},
+	{"image":"images/Ores/MineCart700.png","x": 700.0, "y": 635.8125},
 	{"image":"images/Ores/MineCart690.png","x": 690.0, "y": 680.6875}	
       ]
     },
@@ -1086,7 +1086,7 @@
       "url": "images/Icons/drop-book.png",
       "points": [
 	{"desc": "Book can spawn in a boat","image":"images/Tools/bookUnder856.png","x": 856.0, "y": 647.75},
-        {"x": 564.3125, "y": 660.6875},
+        {"desc": "Book can spawn on top of the roof corner","image":"images/Tools/bookUnder564.png","x": 564.0, "y": 660.6875},
 	{"desc": "Book can spawn in the cave below North Tower","image":"images/Tools/bookUnder354.png","x": 354, "y": 691.5},
 	{"desc": "Book can spawn in the basement","image":"images/Tools/bookUnder364.png","x": 364.0, "y": 583.4375},
         {"desc": "Book can spawn on the window ledge next to river", "image":"images/Tools/bookUnder600.png", "x": 600.0, "y": 488.5625},
@@ -1191,8 +1191,7 @@
       "category": "Tree",
       "desc": "Birch and Oak",
       "points": [
-	{"x": 782.8125, "y": 194.5625},
-	{"x": 675.875, "y": 157.25},
+	{"x": 783.0, "y": 194.5625},
         { "x": 630.34, "y": 514.82 },
         { "x": 241.75, "y": 435.75},
         { "x": 268.25, "y": 213.25},
@@ -1258,6 +1257,7 @@
         {"x": 805, "y": 365.25},
         { "x": 710.30, "y": 135.56 },
 	{ "x": 511.22, "y": 520.37 },
+	 {"image":"images/Plants/MapleTrees675.png","x": 675.0, "y": 157.25},
         {"image":"images/Plants/MapleTrees570.png","x": 570.0, "y": 357.4},
 	{"image":"images/Plants/MapleTrees570.png","x": 569.13, "y": 356.11},
 	{"image":"images/Plants/MapleTrees570.png", "x": 584.4, "y": 348.75},
@@ -1498,18 +1498,19 @@
 	{"image":"images/Plants/KingsMint600.png","x": 600.0, "y": 512.375},
         {"x": 579.1875, "y": 626.625},
 	{"x": 648.5, "y": 411.125},
-	{"x": 679, "y": 427.4375},
 	{"x": 610.5625, "y": 485},
 	{"image":"images/Plants/KingsMint617.png","x": 617.0, "y": 484.625},
 	{"image":"images/Plants/KingsMint638.png","x": 638.0, "y": 478.9375},
-	{"x": 600.375, "y": 473.75},
+	{"image":"images/Plants/KingsMint602.png","x": 602.0, "y": 473.75},
 	{"x": 554.6875, "y": 543},
 	{"x": 376.75, "y": 708.4375},
 	{"image":"images/Plants/KingsMint784.png","x": 784.0, "y": 354.5},
 	{"image":"images/Plants/KingsMint587.png","x": 587.0, "y": 525.75},
 	{"image":"images/Plants/KingsMint560.png","x": 560.0, "y": 488.625},
 	{"x": 674.25, "y": 495.75},
-	{"image":"images/Plants/KingsMint553.png", "x": 553.0, "y": 473.0625}
+	{"image":"images/Plants/KingsMint553.png", "x": 553.0, "y": 473.0625},
+	{"image":"images/Plants/KingsMint680.png","x": 680.0, "y": 429.265625},
+	{"image":"images/Plants/KingsMint681.png","x": 681.0, "y": 424.015625}
       ]
     },
     {
@@ -1607,6 +1608,7 @@
       "desc": "Beetle",
       "url": "images/Icons/beetle.png",
       "points": [
+	{"x": 753.1875, "y": 219.375},
         {"x": 306, "y": 496},
         {"x": 705.25, "y": 617.25},
         {"x": 827.25, "y": 633.75},
@@ -1624,6 +1626,8 @@
       "desc": "Glowbug",
       "url": "images/Icons/worm.png",
       "points": [	
+	{"x": 398, "y": 664.5625},
+	{"x": 366.8125, "y": 638.4375},
 	{"x": 292.1875, "y": 369.125},
         {"x": 538.75, "y": 625.25},
         {"x": 485.5, "y": 460.25},
