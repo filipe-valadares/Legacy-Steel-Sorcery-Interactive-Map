@@ -1,13 +1,124 @@
 { 
   "markers": [
     {
-      "name": "Goblins",
-      "color": "#4e9100",
-      "category": "Enemies",
-      "desc": "Goblin Spawn",
-      "url": "images/Icons/mob-goblin.png",
+      "name": "Treasure",
+      "color": "#f7d97e",
+      "category": "Loot",
+      "url": "images/Icons/tresure.png",
+      "desc": "Treasure",
       "points": [
-        {"x": 362, "y": 440}
+	{"desc": "Needs Treasure Room Key to access the room", "x": 860.75, "y": 520.75},
+	{"desc": "Needs Treasure Room Key to access the room","x": 663.5, "y": 294.75}
+      ]
+    },
+	{
+      "name": "Mor'thog",
+      "color": "#7c8079",
+      "category": "Bosses",
+      "url": "images/Icons/mob-morthog.png",
+      "desc": "Interact with fireplace inside cave to summon Mor'thog Boss",
+      "points": [
+    	 {"x": 759.1875, "y": 181.4375}
+       ]
+    },
+	    {
+      "name": "Ogres",
+      "color": "#7c8079",
+      "category": "Bosses",
+      "url": "images/Icons/mob-goblin-boss.png",
+      "desc": "Ogres",
+      "points": [
+        { "desc": "Inside cave", "x": 502.375, "y": 823.125},
+        { "desc": "Underground", "x": 752.3125, "y": 216.9375}
+       ]
+    },
+	    {
+      "name": "Skeletons",
+      "color": "#f5fced",
+      "category": "Enemies",
+      "desc": "Skeleton Spawn",
+      "url": "images/Icons/mob-default.png",
+      "points": [
+	{"desc": "Skeleton Archer","x": 390.609375, "y": 776.25},
+	{"desc": "Shield Skeleton","x": 398.125, "y": 753.4375},
+	{"desc": "Skeleton in ground","x": 367.25, "y": 785.8125},
+	{"desc": "Patrolling Shield Skeleton","x": 384.9375, "y": 772.5625},
+	{"desc": "Skeleton Mage","x": 380.375, "y": 755.1875},
+
+	{ "desc": "Skeleton in basement","x": 249.4375, "y": 510.5625},
+	{ "desc": "Skeleton Archer in basement","x": 240.4375, "y": 504.3125},
+        { "desc": "Sword Skeleton in basement","x": 246.625, "y": 499.625},
+{"desc": "Random group of 1-4 skeletons","x": 414.25, "y": 688.75},
+	{"desc": "Shield Skeleton in a cave below Tower", "x": 355.21875, "y": 695.1875}
+   ]
+    },
+	    {
+      "name": "Spiders",
+      "color": "#808080",
+      "category": "Enemies",
+      "url": "images/Icons/mob-spider.png",
+      "desc": "Spiders",
+      "points": [
+        { "desc": "In the basement","x": 257.375, "y": 448.75},
+        { "desc": "In the basement", "x": 377.875, "y": 392.375},
+        { "desc": "Underground","x": 878.3125, "y": 536.9375},
+	{ "desc": "Underground", "x": 861.375, "y": 541.4375},
+
+        { "desc": "Underground", "x": 828.5625, "y": 415.4375},
+	{ "desc": "Underground", "x": 822.25, "y": 408},
+	{ "desc": "Underground", "x": 844.3125, "y": 402.625},
+	{ "desc": "Underground","x": 854.4375, "y": 397.1875},
+
+	{ "desc": "Underground", "x": 769.34375, "y": 532.75},
+	{ "desc": "Underground","x": 759, "y": 526.5},
+	{ "desc": "Underground","x": 782.8125, "y": 533.875},
+        { "desc": "In Seraph's Rest dungeon","x": 475.1875, "y": 420.375},
+	{ "desc": "In Seraph's Rest dungeon","x": 481.875, "y": 427.4375},
+	{ "desc": "More spiders spawn here if you activate the wrong Rune in the puzzle","x": 878, "y": 380.0625}
+      ]
+    },
+	    {
+      "name": "Elite Spider",
+      "color": "#f5fced",
+      "category": "Enemies",
+      "url": "images/Icons/mob-spider-elite.png",
+      "desc": "Big Spider",
+      "points": [
+        { "desc": "Underground", "x": 383.25, "y": 389.0625},
+	{ "desc": "Underground on the most bottom floor","x": 777, "y": 532.5},
+        {"x": 886.875, "y": 553.0625},
+	{ "desc": "In Seraph's Rest dungeon","x": 463.125, "y": 409.25},
+	{"x": 865.625, "y": 386.5}
+      ]
+    },
+	{
+      "name": "Big Spider Elite",
+      "color": "#f5fced",
+      "category": "Enemies",
+      "url": "images/Icons/mob-spider-giant.png",
+      "desc": "Giant Spider Elite",
+      "points": [
+        { "desc": "Underground", "x": 487.4375, "y": 550.875}
+      ]
+    },
+	{
+	"name": "Breakables",
+	"color": "#ffc0cb",
+	"category": "Misc",
+	"desc": "Boxes and barrels you can break",
+	"url": "images/Icons/crate.png",
+	"points": [
+		{"x": 753, "y": 522},
+	{"x": 773.1875, "y": 515.625},
+	{"x": 778.6875, "y": 511.9375},
+	{"x": 758.375, "y": 490.6875},
+	{"x": 770, "y": 531.375},
+	{"x": 770, "y": 531.375},
+	{"x": 770, "y": 531.375},
+	{"x": 770, "y": 531.375},
+	{"x": 580.3125, "y": 363.75},
+	{"x": 336.375, "y": 807.0625},
+	{"x": 493.34375, "y": 831.875}
       ]
     }
   ]
