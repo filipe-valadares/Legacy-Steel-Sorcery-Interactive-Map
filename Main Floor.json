@@ -170,13 +170,8 @@
 	{"desc": "Skeleton with green cape", "x": 353.4375, "y": 716.0625},
 	{"desc": "Shield Skeleton in a cave below Tower", "x": 355.21875, "y": 695.1875},
 	{"desc": "Skeleton Archer on top of rock", "x": 357.4375, "y": 739.0625},
-	{"desc": "Skeleton Archer in crypt underground","x": 394.3125, "y": 775.1875},
-	{"desc": "Shield Skeleton in crypt underground","x": 395.625, "y": 758.5625},
 	{ "desc": "Skeleton under bridge","x": 367.84375, "y": 726.46875},
 	{ "desc": "Skeleton under bridge","x": 371.6875, "y": 727.375},
-	{"desc": "Skeleton in crypt underground","x": 381.5, "y": 786.4375},
-	{"desc": "Patrolling Shield Skeleton in crypt underground","x": 384.9375, "y": 772.5625},
-	{"desc": "Skeleton Mage in crypt underground","x": 382.375, "y": 767.125},
 	{"desc": "Shield Skeleton","x": 411.5, "y": 735},
 	{"desc": "Sword Skeleton in basement","x": 575.8125, "y": 352.125},
 	{"desc": "Skeleton in basement","x": 575.5, "y": 350},
@@ -217,9 +212,9 @@
 	{ "desc": "Shield Skeleton","x": 470.4375, "y": 390.125},
         { "desc": "Skeleton on bridge", "x": 472.75, "y": 367.75 },
 	{ "desc": "Skeleton Archer on bridge","x": 472.3125, "y": 361.75},
-	{ "desc": "Skeleton in basement","x": 242.1875, "y": 503.9375},
+	{ "desc": "Skeleton in basement","x": 249.4375, "y": 510.5625},
 	{ "desc": "Skeleton Archer in basement","x": 240.4375, "y": 504.3125},
-        { "desc": "Sword Skeleton in basement","x": 241.625, "y": 497.8125},
+        { "desc": "Sword Skeleton in basement","x": 246.625, "y": 499.625},
 	{ "desc": "Armored Sword Skeleton first floor of tower","x": 478.8125, "y": 342.25},
 	{ "desc": "Skeleton in ground second floor balcony","x": 484.875, "y": 346},
 	{ "desc": "Skeleton Archer in ground on stairs","x": 486.25, "y": 335.5625},
@@ -647,7 +642,7 @@
       "url": "images/Icons/mob-spider-giant.png",
       "desc": "Giant Spider Elite",
       "points": [
-        { "desc": "Underground", "x": 485.5, "y": 527.5}
+          { "desc": "Underground", "x": 487.4375, "y": 550.875}
       ]
     },
     {
@@ -695,7 +690,7 @@
       "desc": "Ogres",
       "points": [
         { "desc": "Inside cave", "x": 502.375, "y": 823.125},
-        { "desc": "Underground", "x": 742.5, "y": 218.75}
+        { "desc": "Underground", "x": 752.3125, "y": 216.9375}
        ]
     },
 	{
@@ -705,7 +700,7 @@
       "url": "images/Icons/mob-morthog.png",
       "desc": "Interact with fireplace inside cave to summon Mor'thog Boss",
       "points": [
-    	  {"x": 745.5, "y": 187.5}
+    	 {"x": 759.1875, "y": 181.4375}
        ]
     },
     {
@@ -1042,16 +1037,6 @@
       ]
     },
     {
-      "name": "Consumables",
-      "color": "#f7d97e",
-      "category": "Loot",
-      "url": "images/Icons/crate.png",
-      "desc": "Consumables",
-      "points": [
-        {"x": 315.25, "y": 446.625}
-      ]
-    },
-    {
       "name": "Tools",
       "color": "#f7d97e",
       "category": "Dropped Items",
@@ -1085,6 +1070,7 @@
       "desc": "Books",
       "url": "images/Icons/drop-book.png",
       "points": [
+	{"x": 610.1875, "y": 373.625},
 	{"desc": "Book can spawn in a boat","image":"images/Tools/bookUnder856.png","x": 856.0, "y": 647.75},
         {"desc": "Book can spawn on top of the roof corner","image":"images/Tools/bookUnder564.png","x": 564.0, "y": 660.6875},
 	{"desc": "Book can spawn in the cave below North Tower","image":"images/Tools/bookUnder354.png","x": 354, "y": 691.5},
@@ -1679,7 +1665,65 @@
 	{"x": 674.25, "y": 333.375}
       ]
     },
-
+	{
+	"name": "Breakables",
+	"color": "#ffc0cb",
+	"category": "Misc",
+	"desc": "Boxes and barrels you can break",
+	"url": "images/Icons/crate.png",
+	"points": [
+	{"x": 336, "y": 802},
+	{"desc": "Lots more boxes underground","x": 759, "y": 521.25},
+	{"x": 700, "y": 601.25},
+	{"x": 708.75, "y": 601.25},
+	{"x": 261.9375, "y": 222.625},
+	{"x": 223.75, "y": 307},
+	{"x": 194.25, "y": 365},
+	{"x": 314.25, "y": 318.75},
+	{"x": 312.25, "y": 328.5625},
+	{"x": 356.8125, "y": 346.9375},
+	{"x": 352.4375, "y": 372.0625},
+	{"x": 355.5, "y": 377.6875},
+	{"x": 349.4375, "y": 378.1875},
+	{"x": 305.25, "y": 348.125},
+	{"x": 310, "y": 363.875},
+	{"x": 316.5, "y": 363.5625},
+	{"x": 159.25, "y": 406.25},
+	{"x": 245.75, "y": 406.25},
+	{"x": 317, "y": 446},
+	{"x": 281, "y": 518},
+	{"x": 347.25, "y": 575.75},
+	{"x": 296, "y": 781},
+	{"x": 311.25, "y": 784},
+	{"x": 323, "y": 751.5},
+	{"x": 571.1875, "y": 624.8125},
+	{"x": 588.8125, "y": 655.3125},
+	{"x": 441.375, "y": 553.1875},
+	{"desc": "Inside the tower","x": 545.5, "y": 546},
+	{"x": 561.75, "y": 531.1875},
+	{"x": 587.0625, "y": 536.9375},
+	{"x": 557.625, "y": 509},
+	{"x": 577.875, "y": 499.375},
+	{"x": 676.0625, "y": 411.0625},
+	{"x": 641.6875, "y": 415.875},
+	{"x": 683.875, "y": 431.625},
+	{"desc": "Entrance is from outside stairs to a small cellar","x": 706.125, "y": 364.5},
+	{"x": 774.875, "y": 355.375},
+	{"x": 755.4375, "y": 360.3125},
+	{"x": 751.625, "y": 365.84375},
+	{"x": 741.59375, "y": 369.3125},
+	{"x": 727.53125, "y": 358.75},
+	{"x": 733.65625, "y": 349.9375},
+	{"x": 735.1875, "y": 344.34375},
+	{"x": 720.375, "y": 351.375},
+	{"x": 707.625, "y": 372.0625},
+	{"x": 610.4375, "y": 363.6875},
+	{"x": 596.4375, "y": 360.4375},
+	{"x": 491.625, "y": 830.0625},
+	{"x": 652.5625, "y": 485.875},
+	{"x": 768.0625, "y": 355.8125}
+      ]
+    },
     {
       "name": "Spawn",
       "color": "#ffc0cb",
