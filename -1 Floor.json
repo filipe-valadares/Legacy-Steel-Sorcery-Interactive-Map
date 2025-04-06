@@ -119,6 +119,7 @@
       "desc": "Skeleton Spawn",
       "url": "images/Icons/mob-default.png",
       "points": [
+	{"desc": "2 Skeletons in ground","x": 546.25, "y": 546.1875},
 	{"desc": "Skeleton with green cape","x": 656.75, "y": 307.8125},
 	{ "desc": "Skeleton Archer","x": 653, "y": 314},
 	{ "desc": "Armored Sword Skeleton","x": 651.25, "y": 280.75},
@@ -412,6 +413,7 @@
       "url": "images/Icons/armor-chest.png",
       "desc": "Armor & Weapons",
       "points": [
+	{"x": 639.15625, "y": 303.984375},
 	{"x": 578.546875, "y": 511.015625},
 	{"desc": "Requires Skull Key","x": 483.359375, "y": 567.40625},
 	{"x": 478.421875, "y": 567.5625},
@@ -588,6 +590,9 @@
 	{"x": 857.421875, "y": 524.578125},
 	{"x": 856.078125, "y": 520.296875},
 	{"x": 859.5625, "y": 517.359375},
+	{"x": 546.75, "y": 549.875},
+	{"image":"images/Tools/gemstone610.png","x": 610.0, "y": 373.125},
+	{"image":"images/Tools/gemstone884.png","x": 884, "y": 376.625},
 	{"image":"images/Tools/gemstone485.png","x": 485.0, "y": 565.140625},
 	{"image":"images/Tools/gemstone508.png","x": 508.0, "y": 540.6875},
 	{"image":"images/Tools/gemstone638.png","x": 638.0, "y": 305.125},
@@ -607,7 +612,7 @@
 	{"image":"images/Tools/gemstone354.png","x": 354.0, "y": 699.5625},
 	{"x": 497.0625, "y": 851},
 	{"image":"images/Tools/gemstone593.png","x": 593.0, "y": 248.375},
-	{"x": 822.703125, "y": 405.1875}
+	{"image":"images/Tools/gemstone821.png","x": 821.0, "y": 404.75}
       ]
     },	
 
