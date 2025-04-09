@@ -7,6 +7,9 @@
       "url": "images/Icons/tresure.png",
       "desc": "Treasure",
       "points": [
+	{"x": 365.171875, "y": 786},
+	{"x": 371.96875, "y": 778.96875},
+	{"x": 260.5625, "y": 448.75},
 	{"x": 575.828125, "y": 516.296875},
 	{"x": 744.5625, "y": 358.96875},
 	{"x": 769.984375, "y": 357.421875},
@@ -119,6 +122,8 @@
       "desc": "Skeleton Spawn",
       "url": "images/Icons/mob-default.png",
       "points": [
+		{ "desc": "Shield Skeleton in underpass","x": 689.6875, "y": 526.6875},
+	{ "desc": "Skeleton in underpass","x": 692.0625, "y": 526.8125},
 	{"desc": "2 Skeletons in ground","x": 546.25, "y": 546.1875},
 	{"desc": "Skeleton with green cape","x": 656.75, "y": 307.8125},
 	{ "desc": "Skeleton Archer","x": 653, "y": 314},
@@ -149,7 +154,9 @@
 	{"desc": "Skeleton in basement","x": 463.9375, "y": 427.1875},
 	{ "desc": "Skeleton Archer in basement","x": 245.0625, "y": 513.0625},
         { "desc": "Sword Skeleton in basement","x": 246.625, "y": 499.625},
-	{"desc": "Random group of 1-4 skeletons","x": 414.25, "y": 688.75},
+		{"desc": "Skeleton","x": 414, "y": 696.125},
+	{"desc": "Armored Skeleton Archer in ground, spawns when timer <15 min","x": 409.5625, "y": 688.1875},
+	{"desc": "Skeleton in ground, spawns when timer <15 min","x": 411, "y": 692.875},
 	{"desc": "Shield Skeleton in a cave below Tower", "x": 355.21875, "y": 695.1875},
 	{"desc": "Armored Shield Skeleton", "x": 588.4375, "y": 283.4375},
 	{"desc": "Sword Skeleton","x": 581.5, "y": 282.875},	
@@ -279,6 +286,11 @@
       "desc": "Barrels",
       "url": "images/Icons/chest-barrel.png",
       "points": [  
+	{"x": 684.875, "y": 528.6875},
+	{"x": 695.5625, "y": 526.3125},
+	{"x": 251.5625, "y": 511.75},
+	{"x": 376.84375, "y": 622.03125},
+	{"x": 375.09375, "y": 389.5},
 	{"x": 565.03125, "y": 511.265625},
 	{"x": 571.953125, "y": 509.15625},
 	{"x": 482.0625, "y": 533.0625},
@@ -321,7 +333,7 @@
 	{"x": 883.3125, "y": 383.625},
 	{"image":"images/Tools/rarelodge377.png","x": 377.0, "y": 635},
 	{"image":"images/Tools/rarelodge859.png","x": 859.0, "y": 516.25},
-	{"image":"images/Tools/rarelodge375.png","x": 375.0, "y": 784.015625},
+	{"image":"images/Tools/rarelodge375.png","x": 374.0, "y": 784.015625},
 	{"image":"images/Tools/rarelodge404.png","x": 404.0, "y": 779.1875},
 	{"image":"images/Tools/rarelodge857.png","x": 857.0, "y": 398.234375}
       ]
@@ -333,6 +345,8 @@
       "url": "images/Icons/chest-medic.png",
       "desc": "Recovery",
       "points": [
+	{"x": 331.546875, "y": 282.21875},
+	{"x": 331.828125, "y": 279.3125},
 	{"x": 488.125, "y": 556.1875},
 	{"x": 377.125, "y": 620},
 	{"x": 760.125, "y": 371.6875},
@@ -455,6 +469,7 @@
       "desc": "Mushroom",
       "url": "images/Icons/mush.png",
       "points": [
+	{"x": 685.5625, "y": 526.125},
 	{"x": 702.5, "y": 248.5},
 	{"x": 744.9375, "y": 218.5625},
 	{"x": 750.6875, "y": 219.1875},
@@ -471,6 +486,7 @@
       "desc": "Books",
       "url": "images/Icons/drop-book.png",
       "points": [
+	 {"image":"images/Tools/bookUnder313.png","x": 313.0, "y": 203.125},
 	{"desc": "Books can spawn on the shelves/ledges in Oakheart's Vigil dungeon","image":"images/Tools/bookUnder836.png","x": 855.375, "y": 399.75},
 	{"desc": "Go left from the entrance and go to the small square room after 2 spiders, other lodge items can spawn here too","image":"images/Tools/bookUnder830.png","x": 815.875, "y": 416},
 	 {"image":"images/Tools/bookUnder866.png","x": 866.0, "y": 534.5625},
@@ -495,6 +511,7 @@
       "desc": "Possible spawns for Keys",
       "url": "images/Icons/keys.png",
       "points": [
+	{"image":"images/Tools/key355.png","x": 355.0, "y": 700.78125},
 	{"desc": "Key can be in skeleton's hand","image":"images/Tools/key763.png","x": 763.0, "y": 498.375},
 	{"image":"images/Tools/key240.png","x": 240.0, "y": 504.953125},
 	{"image":"images/Tools/key376.png","x": 376.0, "y": 395.015625},
@@ -584,6 +601,8 @@
       "desc": "Gemstones (Topaz, Sapphire, Emerald, Ruby)",
       "url": "images/Icons/gemstone.png",
       "points": [
+	
+	{"x": 859.765625, "y": 519.78125},
 	{"x": 663.296875, "y": 291.65625},
 	{"x": 660.09375, "y": 296.765625},
 	{"x": 861.921875, "y": 523.203125},
@@ -591,6 +610,8 @@
 	{"x": 856.078125, "y": 520.296875},
 	{"x": 859.5625, "y": 517.359375},
 	{"x": 546.75, "y": 549.875},
+	{"image":"images/Tools/gemstone578.png","x": 578.5625, "y": 382.9375},	
+	{"image":"images/Tools/gemstone390.png","x": 390.0, "y": 777.28125},
 	{"image":"images/Tools/gemstone610.png","x": 610.0, "y": 373.125},
 	{"image":"images/Tools/gemstone884.png","x": 884, "y": 376.625},
 	{"image":"images/Tools/gemstone485.png","x": 485.0, "y": 565.140625},
