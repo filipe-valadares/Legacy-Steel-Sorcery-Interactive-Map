@@ -286,6 +286,7 @@
       "desc": "Barrels",
       "url": "images/Icons/chest-barrel.png",
       "points": [  
+	{"x": 800.265625, "y": 267.46875},
 	{"x": 684.875, "y": 528.6875},
 	{"x": 695.5625, "y": 526.3125},
 	{"x": 251.5625, "y": 511.75},
@@ -486,6 +487,7 @@
       "desc": "Books",
       "url": "images/Icons/drop-book.png",
       "points": [
+	{"image":"images/Tools/bookUnder883.png","x": 883.15625, "y": 553.765625},
 	 {"image":"images/Tools/bookUnder313.png","x": 313.0, "y": 203.125},
 	{"desc": "Books can spawn on the shelves/ledges in Oakheart's Vigil dungeon","image":"images/Tools/bookUnder836.png","x": 855.375, "y": 399.75},
 	{"desc": "Go left from the entrance and go to the small square room after 2 spiders, other lodge items can spawn here too","image":"images/Tools/bookUnder830.png","x": 815.875, "y": 416},
@@ -601,7 +603,6 @@
       "desc": "Gemstones (Topaz, Sapphire, Emerald, Ruby)",
       "url": "images/Icons/gemstone.png",
       "points": [
-	
 	{"x": 859.765625, "y": 519.78125},
 	{"x": 663.296875, "y": 291.65625},
 	{"x": 660.09375, "y": 296.765625},
@@ -610,6 +611,8 @@
 	{"x": 856.078125, "y": 520.296875},
 	{"x": 859.5625, "y": 517.359375},
 	{"x": 546.75, "y": 549.875},
+	{"image":"images/Tools/gemstone804.png","x": 804.25, "y": 255.1875},
+	{"image":"images/Tools/gemstone589.png","x": 590.0, "y": 640.28125},
 	{"image":"images/Tools/gemstone578.png","x": 578.5625, "y": 382.9375},	
 	{"image":"images/Tools/gemstone390.png","x": 390.0, "y": 777.28125},
 	{"image":"images/Tools/gemstone610.png","x": 610.0, "y": 373.125},
@@ -624,7 +627,7 @@
 	{"image":"images/Tools/gemstone495.png","x": 495.0, "y": 264.875},
 	{"image":"images/Tools/gemstone704.png","x": 704.0, "y": 660},
 	{"x": 457.765625, "y": 429.53125},
-	{"image":"images/Tools/gemstone801.png","x": 801.0, "y": 267.859375},
+	{"image":"images/Tools/gemstone801.png","x": 802.109375, "y": 267.3125},
 	{"image":"images/Tools/gemstone594.png","x": 595.0, "y": 280.140625},
 	{"image":"images/Tools/gemstone382.png","x": 382.0, "y": 629.9375},
 	{"image":"images/Tools/gemstone872.png","x": 872.0, "y": 535.125},
@@ -664,7 +667,7 @@
 	{"x": 652.625, "y": 266.875},
 	{"desc": "In Cursed Vault dungeon","x": 485.4375, "y": 522.4375},
 	{"desc": "In Seraph's Rest dungeon","x": 468, "y": 412.5},
-	{"desc": "In Oakheart's Vigil dungeon", "x": 864.875, "y": 386.0625}
+	{"desc": "In Oakheart's Vigil dungeon","x": 868.5625, "y": 391.5}
       ]
     }
 
