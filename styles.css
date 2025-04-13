@@ -39,8 +39,6 @@ body {
   border-radius: 4px;
 }
 
-
-
 .left-bar h3 {
   font-size: 24px;
   font-weight: bold;
@@ -58,12 +56,9 @@ body {
   outline: none;
 }
 
-
-
 #search-bar:focus {
   outline: none;
 }
-
 
 #map {
   width: calc(100% - 370px);
@@ -71,13 +66,11 @@ body {
   margin-left: 350px;
 }
 
-
 .marker-buttons {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 5px;
 }
-
 
 .marker-toggle {
   display: flex;
@@ -100,7 +93,6 @@ body {
   text-decoration: line-through;
   opacity: 0.8;
 }
-
 
 .marker-icon {
   width: 32px;
@@ -150,7 +142,9 @@ body {
   height: auto;
 }
 
-
+.mobile-button{
+  z-index: 400000;
+}
 
 .category-section {
   margin-top: 15px;
@@ -217,7 +211,7 @@ body {
   padding: 10px;
   border-radius: 4px;
   font-family: 'Arial', sans-serif;
-  max-width: 350px;
+
 }
 
 .custom-popup h3 {
@@ -228,11 +222,13 @@ body {
 .custom-popup p {
   margin: 5px 0;
   font-size: 14px;
+	max-width: 500px;
+min-width: 150px;
 }
 
 .popup-image {
-  width: 100%;
-  max-width: 600px;
+	max-height: 400px;
+  max-width: 500px;
   display: block;
   margin: 10px 0;
 }
@@ -242,11 +238,32 @@ body {
   color: #ccc;
 }
 
+.leaflet-popup-content{
+  width:100% !important;
+}
+
 .leaflet-popup-content-wrapper,
 .leaflet-popup-tip {
   background: none;
   color: none;
   box-shadow: none;
+}
+
+.leaflet-popup-close-button{
+  color: red !important;
+  margin-top: 20px;
+  padding: 0px !important;
+  margin-right: -10px;
+  text-shadow: #fc0 1px 0 10px !important;
+  font-size: 22px !important;
+}
+
+.leaflet-popup-close-button:hover{
+  color: white !important;
+}
+
+.leaflet-marker-icon:hover{
+  filter: brightness(140%) !important;
 }
 
 .dev-mode-button {

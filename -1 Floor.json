@@ -1,80 +1,6 @@
 { 
   "markers": [
-    {
-      "name": "Treasure Chest",
-      "color": "#f7d97e",
-      "category": "Loot",
-      "url": "images/Icons/tresure.png",
-      "desc": "Treasure",
-      "points": [
-	{"x": 365.171875, "y": 786},
-	{"x": 371.96875, "y": 778.96875},
-	{"x": 260.5625, "y": 448.75},
-	{"x": 575.828125, "y": 516.296875},
-	{"x": 744.5625, "y": 358.96875},
-	{"x": 769.984375, "y": 357.421875},
-	{"desc": "Needs Treasure Room Key to access the room", "x": 860.75, "y": 520.75},
-	{"desc": "Needs Treasure Room Key to access the room","x": 663.5, "y": 294.75},
-	{"desc": "Needs Crypt Extract Key to access the room","x": 589, "y": 357.125},
-	{"image":"images/Chests/treasureChest594.png","x": 594.0, "y": 245.125},
-	{"x": 859.59375, "y": 546.765625},
-	{"x": 598.5, "y": 250.96875},
-	{"x": 759, "y": 213.1875},
-	{"x": 581.4375, "y": 246.6875},
-	{"x": 606.5625, "y": 260.375},
-		{"x": 245.6875, "y": 514.625}
-      ]
-    },
-	{
-      "name": "Chests",
-      "color": "#c49300",
-      "category": "Loot",
-      "desc": "Chests",
-      "url": "images/Icons/chest.png",
-      "points": [
-	{"desc": "Requires Skull Key","x": 510.4375, "y": 527.75},
-	{"x": 582.375, "y": 633.328125},
-	  { "x": 351.0, "y": 698.375},
-	  { "image":"images/Chests/chest819.png", "x": 819, "y": 417.625},
-	   {"desc": "Underground","image":"images/Chests/chest464.png","x": 464.0, "y": 425.453125}
-      ]
-    },
-	 {
-      "name": "Alchemy Chests",
-      "color": "#f7d97e",
-      "category": "Loot",
-      "url": "images/Icons/chest-alchemist.png",
-      "desc": "Alchemy Chest",
-      "points": [
-	{"x": 884.25, "y": 382.5625},
-	{"x": 472, "y": 421},
-	{"x": 374.9375, "y": 386.3125},
-	{"x": 626.625, "y": 295.5625},
-        {"x": 588.828125, "y": 646.859375}
-      ]
-    },
-
-	{
-      "name": "Mor'thog",
-      "color": "#7c8079",
-      "category": "Bosses",
-      "url": "images/Icons/mob-morthog.png",
-      "desc": "Interact with fireplace inside cave to summon Mor'thog Boss",
-      "points": [
-    	 {"x": 759.1875, "y": 181.4375}
-       ]
-    },
-	    {
-      "name": "Wraith",
-      "color": "#7c8079",
-      "category": "Bosses",
-      "url": "images/Icons/mob-boss-wraith.png",
-      "desc": "Wraith",
-      "points": [
-        {"x": 586.25, "y": 364.6875},
-        {"x": 621.9375, "y": 314.125}
-       ]
-    },
+	
 	 {
       "name": "Goblins",
       "color": "#4e9100",
@@ -103,7 +29,27 @@
 	{"x": 695.40625, "y": 675.0625}
       ]
     },
-
+	{
+      "name": "Mor'thog",
+      "color": "#7c8079",
+      "category": "Bosses",
+      "url": "images/Icons/mob-morthog.png",
+      "desc": "Interact with fireplace inside cave to summon Mor'thog Boss",
+      "points": [
+    	 {"x": 759.1875, "y": 181.4375}
+       ]
+    },
+	    {
+      "name": "Wraith",
+      "color": "#7c8079",
+      "category": "Bosses",
+      "url": "images/Icons/mob-boss-wraith.png",
+      "desc": "Wraith",
+      "points": [
+        {"x": 586.25, "y": 364.6875},
+        {"x": 621.9375, "y": 314.125}
+       ]
+    },
 	    {
       "name": "Ogres",
       "color": "#7c8079",
@@ -282,7 +228,7 @@
 	  {
       "name": "Barrels",
       "color": "#c49300",
-      "category": "Loot",
+      "category": "Containers",
       "desc": "Barrels",
       "url": "images/Icons/chest-barrel.png",
       "points": [  
@@ -324,6 +270,63 @@
 	{ "desc": "Food/Ingredients throughout basement","x": 462.25, "y": 432.75}
         ]
       },
+	 {
+      "name": "Copper Ore",
+      "color": "#c44b00",
+      "url": "images/Icons/ore-copper.png",
+      "category": "Ores",
+      "desc": "Copper Ore",
+      "points": [	
+	{"x": 328.5625, "y": 804.375},
+	{"x": 510.0625, "y": 830.625},
+	{"x": 488.75, "y": 829.3125},
+	{"x": 502.5625, "y": 817.6875},
+	{"x": 747.875, "y": 233.1875},
+	{"x": 701.0625, "y": 247.875},
+	{"x": 692.0625, "y": 672.625},
+	{"x": 729.0625, "y": 345.25}
+      ]
+    },
+
+	 {
+      "name": "Iron Ore",
+      "color": "#c44b00",
+      "url": "images/Icons/ore-iron.png",
+      "category": "Ores",
+      "desc": "Iron Ore",
+      "points": [
+	{"x": 769, "y": 199.75},
+	{"x": 353.6875, "y": 791.375},
+	{"x": 324.1875, "y": 797.4375},
+	{"x": 729.0625, "y": 345.25},
+	{"x": 759.1875, "y": 230.8125},
+	{"x": 498.75, "y": 848}
+      ]
+    },
+{
+      "name": "Bloodsteel Ore",
+      "color": "#c44b00",
+      "url": "images/Icons/ore-blood.png",
+      "category": "Ores",
+      "desc": "Bloodsteel Ore",
+      "points": [
+        {"image":"images/Ores/Bloodsteel483.png","x": 490.3125, "y": 852.375},
+        {"x": 753.25, "y": 175.6875},
+	{"image":"images/Ores/Bloodsteel335.png","x": 332.5625, "y": 136.0625}
+      ]
+    },
+
+	{
+      "name": "Lodge Items",
+      "color": "#f7d97e",
+      "category": "Dropped Items",
+      "desc": "Possible spawns for Dream Pillow/Artisan's Tool Kit/Copper Pot/Crumbling Skull",
+      "url": "images/Icons/lodge.png",
+      "points":[
+	{"image":"images/Tools/lodge368.png","x": 368.0, "y": 583.1875}
+	]
+
+    },
 	{
       "name": "Rare Lodge Items",
       "color": "#f7d97e",
@@ -332,6 +335,7 @@
       "url": "images/Icons/rarelodge.png",
       "points":[
 	{"x": 883.3125, "y": 383.625},
+	{"image":"images/Tools/lodge249.png","x": 249.0, "y": 515.90625},
 	{"image":"images/Tools/rarelodge377.png","x": 377.0, "y": 635},
 	{"image":"images/Tools/rarelodge859.png","x": 859.0, "y": 516.25},
 	{"image":"images/Tools/rarelodge375.png","x": 374.0, "y": 784.015625},
@@ -342,10 +346,11 @@
 	 {
       "name": "Recovery",
       "color": "#f7d97e",
-      "category": "Loot",
+      "category": "Containers",
       "url": "images/Icons/chest-medic.png",
       "desc": "Recovery",
       "points": [
+	{"x": 762.265625, "y": 500.75},
 	{"x": 331.546875, "y": 282.21875},
 	{"x": 331.828125, "y": 279.3125},
 	{"x": 488.125, "y": 556.1875},
@@ -386,6 +391,46 @@
 	{"x": 610.421875, "y": 276}
       ]
     },
+    {
+      "name": "Treasure Chest",
+      "color": "#f7d97e",
+      "category": "Containers",
+      "url": "images/Icons/tresure.png",
+      "desc": "Treasure",
+      "points": [
+	{"x": 365.171875, "y": 786},
+	{"x": 371.96875, "y": 778.96875},
+	{"x": 260.5625, "y": 448.75},
+	{"x": 575.828125, "y": 516.296875},
+	{"x": 744.5625, "y": 358.96875},
+	{"x": 769.984375, "y": 357.421875},
+	{"desc": "Needs Treasure Room Key to access the room", "x": 860.75, "y": 520.75},
+	{"desc": "Needs Treasure Room Key to access the room","x": 663.5, "y": 294.75},
+	{"desc": "Needs Crypt Extract Key to access the room","x": 589, "y": 357.125},
+	{"image":"images/Chests/treasureChest594.png","x": 594.0, "y": 245.125},
+	{"x": 859.59375, "y": 546.765625},
+	{"x": 598.5, "y": 250.96875},
+	{"x": 759, "y": 213.1875},
+	{"x": 581.4375, "y": 246.6875},
+	{"x": 606.5625, "y": 260.375},
+		{"x": 245.6875, "y": 514.625}
+      ]
+    },
+	 {
+      "name": "Alchemy Chests",
+      "color": "#f7d97e",
+      "category": "Containers",
+      "url": "images/Icons/chest-alchemist.png",
+      "desc": "Alchemy Chest",
+      "points": [
+	{"x": 663.625, "y": 257.875},
+	{"x": 884.25, "y": 382.5625},
+	{"x": 472, "y": 421},
+	{"x": 374.9375, "y": 386.3125},
+	{"x": 626.625, "y": 295.5625},
+        {"x": 588.828125, "y": 646.859375}
+      ]
+    },
   {
       "name": "Priest Altar",
       "color": "#ffc0cb",
@@ -400,7 +445,7 @@
 	 {
       "name": "Big Treasure",
       "color": "#f7d97e",
-      "category": "Loot",
+      "category": "Containers",
       "url": "images/Icons/big-resure.png",
       "desc": "Always contains at least 1 Uncommon treasure",
       "points": [
@@ -413,7 +458,7 @@
  {
       "name": "Rogue Chest",
       "color": "#c49300",
-      "category": "Loot",
+      "category": "Containers",
       "desc": "RogueChests",
       "url": "images/Icons/chest-rogue.png",
       "points": [
@@ -424,10 +469,16 @@
 	{
       "name": "Armor/Weapons",
       "color": "#f7d97e",
-      "category": "Loot",
+      "category": "Containers",
       "url": "images/Icons/armor-chest.png",
       "desc": "Armor & Weapons",
       "points": [
+	{"x": 574.5625, "y": 381.5},
+	{"desc": "Requires Skull Key","x": 510.4375, "y": 527.75},
+	{"x": 582.375, "y": 633.328125},
+	{ "x": 351.0, "y": 698.375},
+	{ "image":"images/Chests/chest819.png", "x": 819, "y": 417.625},
+	{"desc": "Underground","image":"images/Chests/chest464.png","x": 464.0, "y": 425.453125},
 	{"x": 639.15625, "y": 303.984375},
 	{"x": 578.546875, "y": 511.015625},
 	{"desc": "Requires Skull Key","x": 483.359375, "y": 567.40625},
@@ -455,7 +506,7 @@
 	    {
       "name": "Coin Safe",
       "color": "#f7d97e",
-      "category": "Loot",
+      "category": "Containers",
       "url": "images/Icons/coin-safe.png",
       "desc": "Coin Safe",
       "points": [
@@ -529,7 +580,7 @@
 	 {
       "name": "Coffins",
       "color": "#c49300",
-      "category": "Loot",
+      "category": "Containers",
       "desc": "Coffins",
       "url": "images/Icons/chest-coffin.png",
       "points": [  
@@ -551,51 +602,6 @@
 	{"x": 661.6875, "y": 254.96875}
       ]
     },
- {
-      "name": "Copper Ore",
-      "color": "#c44b00",
-      "url": "images/Icons/ore-copper.png",
-      "category": "Ores",
-      "desc": "Copper Ore",
-      "points": [	
-	{"x": 328.5625, "y": 804.375},
-	{"x": 510.0625, "y": 830.625},
-	{"x": 488.75, "y": 829.3125},
-	{"x": 502.5625, "y": 817.6875},
-	{"x": 747.875, "y": 233.1875},
-	{"x": 701.0625, "y": 247.875},
-	{"x": 692.0625, "y": 672.625},
-	{"x": 729.0625, "y": 345.25}
-      ]
-    },
-
-	 {
-      "name": "Iron Ore",
-      "color": "#c44b00",
-      "url": "images/Icons/ore-iron.png",
-      "category": "Ores",
-      "desc": "Iron Ore",
-      "points": [
-	{"x": 769, "y": 199.75},
-	{"x": 353.6875, "y": 791.375},
-	{"x": 324.1875, "y": 797.4375},
-	{"x": 729.0625, "y": 345.25},
-	{"x": 759.1875, "y": 230.8125},
-	{"x": 498.75, "y": 848}
-      ]
-    },
-{
-      "name": "Bloodsteel Ore",
-      "color": "#c44b00",
-      "url": "images/Icons/ore-blood.png",
-      "category": "Ores",
-      "desc": "Bloodsteel Ore",
-      "points": [
-        {"image":"images/Ores/Bloodsteel483.png","x": 490.3125, "y": 852.375},
-        {"x": 753.25, "y": 175.6875},
-	{"image":"images/Ores/Bloodsteel335.png","x": 332.5625, "y": 136.0625}
-      ]
-    },
 	{
       "name": "Gemstones",
       "color": "#f7d97e",
@@ -603,6 +609,7 @@
       "desc": "Gemstones (Topaz, Sapphire, Emerald, Ruby)",
       "url": "images/Icons/gemstone.png",
       "points": [
+	{"x": 762.578125, "y": 499.078125},
 	{"x": 859.765625, "y": 519.78125},
 	{"x": 663.296875, "y": 291.65625},
 	{"x": 660.09375, "y": 296.765625},
@@ -643,7 +650,7 @@
  {
       "name": "Minecart",
       "color": "#c49300",
-      "category": "Loot",
+      "category": "Containers",
       "desc": "Minecart",
       "url": "images/Icons/chest-minecart.png",
       "points": [     
