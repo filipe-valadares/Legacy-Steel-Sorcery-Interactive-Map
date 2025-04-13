@@ -14,10 +14,10 @@ const layers = [
 var backgroundOverlay = L.imageOverlay(layers[0].background, bounds).addTo(map);
 map.fitBounds(bounds);
 
-
 var markerLayers = {};
 
 let devMode = false;
+let mobileMode = false;
 
 document.getElementById("dev-mode-toggle").addEventListener("click", function () {
   devMode = !devMode;
@@ -25,6 +25,17 @@ document.getElementById("dev-mode-toggle").addEventListener("click", function ()
   this.classList.toggle("active", devMode);
 });
 
+document.getElementById("mobile-mode-toggle").addEventListener("click", function () {
+ 	document.getElementById('show-menu').style.display = 'block';
+	this.parentNode.style.display = 'none';
+	document.getElementById("map").style.width = '100%';
+	document.getElementById("map").style.margin = '0';
+});
+
+document.getElementById("show-menu").addEventListener("click", function () {
+ 	document.getElementById('show-menu').style.display = 'none';
+	document.getElementById('mobile-mode-toggle').parentNode.style.display = 'block';
+});
 
 function loadLayerButtons() {
   const container = document.getElementById('layers-container');
@@ -240,7 +251,7 @@ function addMarker(markerData, point) {
       <h3>${markerData.name}</h3>
       <p>${description}</p>
       ${point.image ? `<img src="${point.image}" alt="${markerData.name} image" class="popup-image" />` : ''}
-      <p class="popup-coords">Coords: (${point.x.toFixed(2)}, ${point.y.toFixed(2)})</p>
+      <p class="popup-coords">Coordinates: (${point.x.toFixed(2)}, ${point.y.toFixed(2)})</p>
     </div>
   `;
 
@@ -297,5 +308,3 @@ document.getElementById('toggle-all').addEventListener('click', function () {
     toggleAllBtn.classList.remove("all-on");
   }
 });
-
-
