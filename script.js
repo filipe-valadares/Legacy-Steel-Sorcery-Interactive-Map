@@ -1,7 +1,10 @@
 var map = L.map('map', {
   crs: L.CRS.Simple,
   center: [0, 0],
-  zoom: 1,
+  zoom: -1,
+  zoomSnap: 0.5,
+  minZoom: -1,
+  maxZoom: 5
 });
 var bounds = [[0, 0], [1000, 1000]];
 
@@ -17,7 +20,6 @@ map.fitBounds(bounds);
 var markerLayers = {};
 
 let devMode = false;
-let mobileMode = false;
 
 document.getElementById("dev-mode-toggle").addEventListener("click", function () {
   devMode = !devMode;
@@ -236,7 +238,7 @@ function addMarker(markerData, point) {
   var iconUrl = markerData.url || "images/Icons/default.png";
   var markerIcon = L.icon({
     iconUrl: iconUrl,
-    iconSize: [32, 32],
+    iconSize: [26, 26],
     iconAnchor: [16, 16],
     popupAnchor: [0, -16]
   });
