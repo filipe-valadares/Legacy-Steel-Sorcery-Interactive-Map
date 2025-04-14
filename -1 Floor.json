@@ -68,7 +68,9 @@
       "desc": "Skeleton Spawn",
       "url": "images/Icons/mob-default.png",
       "points": [
-		{ "desc": "Shield Skeleton in underpass","x": 689.6875, "y": 526.6875},
+	{"x": 771, "y": 513.8125},
+	{"x": 889.40625, "y": 537.125},
+	{ "desc": "Shield Skeleton in underpass","x": 689.6875, "y": 526.6875},
 	{ "desc": "Skeleton in underpass","x": 692.0625, "y": 526.8125},
 	{"desc": "2 Skeletons in ground","x": 546.25, "y": 546.1875},
 	{"desc": "Skeleton with green cape","x": 656.75, "y": 307.8125},
@@ -232,6 +234,8 @@
       "desc": "Barrels",
       "url": "images/Icons/chest-barrel.png",
       "points": [  
+	{"x": 593.125, "y": 354.78125},
+	{"x": 855.78125, "y": 521.40625},
 	{"x": 800.265625, "y": 267.46875},
 	{"x": 684.875, "y": 528.6875},
 	{"x": 695.5625, "y": 526.3125},
@@ -323,6 +327,8 @@
       "desc": "Possible spawns for Dream Pillow/Artisan's Tool Kit/Copper Pot/Crumbling Skull",
       "url": "images/Icons/lodge.png",
       "points":[
+	{"image":"images/Tools/lodge820.png","x": 820.8125, "y": 420},
+	{"x": 578.21875, "y": 239.03125},
 	{"image":"images/Tools/lodge368.png","x": 368.0, "y": 583.1875}
 	]
 
@@ -423,6 +429,7 @@
       "url": "images/Icons/chest-alchemist.png",
       "desc": "Alchemy Chest",
       "points": [
+	{"x": 479.8125, "y": 338.4375},
 	{"x": 663.625, "y": 257.875},
 	{"x": 884.25, "y": 382.5625},
 	{"x": 472, "y": 421},
@@ -449,6 +456,7 @@
       "url": "images/Icons/big-resure.png",
       "desc": "Always contains at least 1 Uncommon treasure",
       "points": [
+	{"x": 583.75, "y": 356.40625},
        {"x": 858.125, "y": 516.4375},
 	{"x": 862.375, "y": 516.875},
 	{"x": 862.125, "y": 368.625},
@@ -473,6 +481,8 @@
       "url": "images/Icons/armor-chest.png",
       "desc": "Armor & Weapons",
       "points": [
+	{"x": 590.96875, "y": 361.65625},
+	{"x": 888.0625, "y": 561.03125},
 	{"x": 574.5625, "y": 381.5},
 	{"desc": "Requires Skull Key","x": 510.4375, "y": 527.75},
 	{"x": 582.375, "y": 633.328125},
@@ -510,6 +520,7 @@
       "url": "images/Icons/coin-safe.png",
       "desc": "Coin Safe",
       "points": [
+	{"x": 856.84375, "y": 518.09375},
 	{"x": 649.875, "y": 274.75},
           {"desc": "Requires Skull Key to open","x": 892.3125, "y": 557.3125}
       ]
@@ -541,7 +552,6 @@
 	{"image":"images/Tools/bookUnder883.png","x": 883.15625, "y": 553.765625},
 	 {"image":"images/Tools/bookUnder313.png","x": 313.0, "y": 203.125},
 	{"desc": "Books can spawn on the shelves/ledges in Oakheart's Vigil dungeon","image":"images/Tools/bookUnder836.png","x": 855.375, "y": 399.75},
-	{"desc": "Go left from the entrance and go to the small square room after 2 spiders, other lodge items can spawn here too","image":"images/Tools/bookUnder830.png","x": 815.875, "y": 416},
 	 {"image":"images/Tools/bookUnder866.png","x": 866.0, "y": 534.5625},
 	 {"image":"images/Tools/bookUnder610.png","x": 607.90625, "y": 372.328125},
 	{"desc": "Books can spawn in the basement of the tower","image":"images/Tools/bookUnder462.png","x": 462.0, "y": 428.5625},
@@ -617,7 +627,12 @@
 	{"x": 857.421875, "y": 524.578125},
 	{"x": 856.078125, "y": 520.296875},
 	{"x": 859.5625, "y": 517.359375},
-	{"x": 546.75, "y": 549.875},
+	{"x": 457.765625, "y": 429.53125},
+	{"x": 497.0625, "y": 851},
+	{"x": 548.65, "y": 542.88},
+	{"image":"images/Tools/gemstone547.png","x": 547.0, "y": 549.875},
+	{"image":"images/Tools/gemstone655.png","x": 655.34375, "y": 259.96875},
+	{"image":"images/Tools/gemstone618.png","x": 618.0, "y": 256.59375},
 	{"image":"images/Tools/gemstone804.png","x": 804.25, "y": 255.1875},
 	{"image":"images/Tools/gemstone589.png","x": 590.0, "y": 640.28125},
 	{"image":"images/Tools/gemstone578.png","x": 578.5625, "y": 382.9375},	
@@ -633,7 +648,6 @@
 	{"image":"images/Tools/gemstone492.png","x": 492.0, "y": 267.125},
 	{"image":"images/Tools/gemstone495.png","x": 495.0, "y": 264.875},
 	{"image":"images/Tools/gemstone704.png","x": 704.0, "y": 660},
-	{"x": 457.765625, "y": 429.53125},
 	{"image":"images/Tools/gemstone801.png","x": 802.109375, "y": 267.3125},
 	{"image":"images/Tools/gemstone594.png","x": 595.0, "y": 280.140625},
 	{"image":"images/Tools/gemstone382.png","x": 382.0, "y": 629.9375},
@@ -641,7 +655,6 @@
 	{"image":"images/Tools/gemstone876.png","x": 876, "y": 534.75},
 	{"image":"images/Tools/key882.png","x": 883.0, "y": 558.21875},
 	{"image":"images/Tools/gemstone354.png","x": 354.0, "y": 699.5625},
-	{"x": 497.0625, "y": 851},
 	{"image":"images/Tools/gemstone593.png","x": 593.0, "y": 248.375},
 	{"image":"images/Tools/gemstone821.png","x": 821.0, "y": 404.75}
       ]
@@ -675,6 +688,16 @@
 	{"desc": "In Cursed Vault dungeon","x": 485.4375, "y": 522.4375},
 	{"desc": "In Seraph's Rest dungeon","x": 468, "y": 412.5},
 	{"desc": "In Oakheart's Vigil dungeon","x": 868.5625, "y": 391.5}
+      ]
+    },
+	{
+      "name": "Exit",
+      "color": "#ffc0cb",
+      "category": "Misc",
+      "desc": "Exit",
+      "url": "images/Icons/exit.png",
+      "points": [
+        {"desc": "Crypt Key is needed to open the gate","image":"images/Exit/keyCrypt12412.png", "x": 586.65625, "y": 361.84375}
       ]
     }
 
