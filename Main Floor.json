@@ -152,6 +152,7 @@
       "desc": "Skeleton Spawn",
       "url": "images/Icons/mob-default.png",
       "points": [
+	{"desc": "Shield Skeleton in ground","x": 796.9375, "y": 266.125},
 	{"desc": "Skeleton Archer patrolling","x": 404, "y": 325.75},
 	{"desc": "Shield Skeleton in ground","x": 612.1875, "y": 270.5},
 	{"desc": "Sword Skeleton in ground","x": 648.8125, "y": 311.5625},
@@ -738,7 +739,7 @@
         {"x": 415.625, "y": 592.5625},
         {"x": 488.25, "y": 593.25},
         {"x": 856.75, "y": 555.8125},
-        {"x": 838.875, "y": 466.9375},
+        {"x": 859.25, "y": 471},
         {"x": 878.125, "y": 604.5},
         {"x": 693.5625, "y": 679.375},
         {"x": 700.4375, "y": 600.375},
@@ -758,7 +759,7 @@
         {"x": 876.5625, "y": 625.25},
         { "x": 464.75, "y": 738.5 },
         { "x": 271.75, "y": 441.75 },
-        { "x": 826.25, "y": 363.75 },
+        {"x": 843.1875, "y": 376.6875},
         { "x": 329.75, "y": 287 },
         { "x": 345.4375, "y": 308.3125 },
         { "x": 385.25, "y": 372.75 },
@@ -783,7 +784,7 @@
         {"x": 342, "y": 567},
         {"x": 503, "y": 261},
         {"x": 361, "y": 159},
-        {"x": 745, "y": 255},
+        {"x": 747.0, "y": 262.5},
         {"x": 322.6875, "y": 635.65625},
         {"x": 391, "y": 418},
 	{"x": 459.0625, "y": 783.125},
@@ -908,6 +909,8 @@
       "desc": "Adventurer Bag",
       "url": "images/Icons/chest-herb.png",
       "points": [
+{"x": 348.25, "y": 375.25},
+	{"x": 347.9375, "y": 575.53125},
 	{"x": 325.75, "y": 744.3125},
 	{"x": 323.5, "y": 449.8125}
       ]
@@ -920,6 +923,7 @@
       "url": "images/Icons/chest-medic.png",
       "desc": "Healing items, Dried Herbs",
       "points": [
+	{"x": 739.6, "y": 260.8},
 	{"desc": "Under roof","image":"images/Chests/chest570.png","x": 577.625, "y": 384.1875},
 	{"x": 679.1875, "y": 523.75},
 	{"x": 834.4375, "y": 423.75},
@@ -949,6 +953,7 @@
       "url": "images/Icons/chest-alchemist.png",
       "desc": "Alchemy Chest",
       "points": [
+	{"x": 630.6875, "y": 293.625},
 	{"x": 578.5, "y": 493},
 	{"image":"images/Chests/armorChest553.png","x": 555.6875, "y": 505.3125},
 	{"desc": "On second floor","x": 856.1875, "y": 557.5},
@@ -964,7 +969,7 @@
 	{"x": 460.6875, "y": 607.515625},
         { "x": 585.71, "y": 644.85 },
         {"x": 582.625, "y": 641.9375},
-        {"x": 849.0625, "y": 472.5625},
+        {"x": 871.25, "y": 474.25},
         {"x": 588.6875, "y": 257.375},
        {"x": 351.1875, "y": 345.6875}
       ]
@@ -976,6 +981,7 @@
       "url": "images/Icons/tresure.png",
       "desc": "Treasure",
       "points": [	
+	{"x": 587.09375, "y": 246.59375},
 	{"x": 587.71875, "y": 268.21875},
 	{"x": 679.1875, "y": 523.75},
 	{"desc": "Hidden inside of wall on ground floor","x": 593.25, "y": 430.0625},
@@ -1033,6 +1039,7 @@
       "url": "images/Icons/armor-chest.png",
       "desc": "Armor & Weapons",
       "points": [
+	{"x": 868.625, "y": 466.625},
 	{"desc": "Under roof","image":"images/Chests/chest570.png","x": 570, "y": 386.625},
 	{"x": 579, "y": 372.125},
 	{"x": 578.1875, "y": 368.3125},
@@ -1053,7 +1060,6 @@
         {"x": 565.375, "y": 353.4375},
         {"x": 228, "y": 310.75},
        {"x": 300.625, "y": 383.625},
-        { "x": 587.25, "y": 245 },
         {"x": 602.4375, "y": 269.375},
         {"x": 714.125, "y": 597},
         {"x": 456.21875, "y": 434.6875},
@@ -1175,9 +1181,9 @@
       "desc": "Possible spawns for Dream Pillow/Artisan's Tool Kit/Copper Pot/Crumbling Skull",
       "url": "images/Icons/lodge.png",
       "points":[
+	{"image":"images/Tools/lodge723.png","x": 723.0, "y": 377.96875},
 	{"image":"images/Tools/lodge603.png","x": 603.0, "y": 530.9375},
 	{"image":"images/Tools/lodge483.png","x": 483.0, "y": 406.4375},
-	{"image":"images/Tools/lodge326.png","x": 326.0, "y": 746.859375},
 	{"image":"images/Tools/lodge585.png","x": 585.0, "y": 224.328125},
 	{"image":"images/Tools/lodge387.png","x": 387.0, "y": 759.5},
 	{"image":"images/Tools/lodge540.png","x": 540.0, "y": 577.3125},
@@ -1189,7 +1195,6 @@
 	{"image":"images/Tools/lodge244.png","x": 244.0, "y": 457.125}
       ]
     },
-
 	{
       "name": "Rare Lodge Items",
       "color": "#f7d97e",
@@ -1197,8 +1202,9 @@
       "desc": "Possible spawns for Anvil/Master Hammer/Goblin Cauldron",
       "url": "images/Icons/rarelodge.png",
       "points":[
+	{"image":"images/Tools/lodge326.png","x": 326.0, "y": 746.859375},
 	{"image":"images/Tools/rarelodge665.png","x": 665.0625, "y": 446.1875},
-	{"desc": "Lodge items can spawn on the floor of the tower","x": 641.4375, "y": 202.125},
+	{"image":"images/Tools/rarelodge641.png","desc": "Lodge items can spawn on the floor of the tower","x": 641.4375, "y": 202.125},
 	{"image":"images/Tools/rarelodge587.png","x": 587.0625, "y": 539.9375},
 	{"image":"images/Tools/rarelodge618.png","x": 618.8125, "y": 471.625},
 	{"desc": "Under bridge","x": 523.5625, "y": 427.625},
@@ -1243,6 +1249,8 @@
       "desc": "Gemstones (Topaz, Sapphire, Emerald, Ruby)",
       "url": "images/Icons/gemstone.png",
       "points": [
+
+	{"image":"images/Tools/gemstone639.png","x": 639.1875, "y": 259.1875},
 	{"image":"images/Tools/gemstone586.png","x": 586.0, "y": 267.03125},
 	{"image":"images/Tools/gemstone588.png","x": 588.0, "y": 353.3125},
 	{"image":"images/Tools/gemstone248.png","x": 248.125, "y": 404.75},
@@ -1331,6 +1339,7 @@
 	{"image":"images/Tools/gemstone889.png","x": 889.1875, "y": 608.375},
 	{"image":"images/Tools/gemstone449.png","x": 449.4375, "y": 554.5625},
 	{"image":"images/Tools/gemstone565.png","x": 565.4375, "y": 660.9375},
+	{"x": 313.78125, "y": 632.15625},
 	{"x": 417.4375, "y": 594.75},
 	{"x": 587.5, "y": 223.3125},
 	{"x": 482.5625, "y": 325.9375},
@@ -1517,7 +1526,7 @@
 	{"x": 749.625, "y": 554.375},
 	{"x": 770.75, "y": 502.25},
 	{"x": 847.5, "y": 523.5},
-	{"x": 831.875, "y": 462.75},
+	{"x": 850.75, "y": 470.625},
 	{"x": 781.75, "y": 381},
 	{"x": 705.25, "y": 344.25},
 	{"x": 796.625, "y": 232.25},
@@ -1701,6 +1710,7 @@
       "desc": "King's Mint",
       "url": "images/Icons/flower-blue.png",
       "points": [
+	{"image":"images/Plants/KingsMint616.png","x": 616.75, "y": 433.6875},
 	{"image":"images/Plants/KingsMint555.png","x": 555, "y": 560.9375},
 	{"image":"images/Plants/KingsMint598.png","x": 598.0, "y": 537.0625},
 	{"image":"images/Plants/KingsMint737.png","x": 737.0, "y": 531.1875},
@@ -1798,6 +1808,7 @@
       "desc": "Mushroom",
       "url": "images/Icons/mush.png",
       "points": [
+	{"x": 490.21875, "y": 301.4375},
         {"x": 417.6875, "y": 687},
         {"x": 348.75, "y": 790},
         {"x": 329.5, "y": 787},
@@ -1908,6 +1919,7 @@
 	"desc": "Boxes and barrels you can break",
 	"url": "images/Icons/crate.png",
 	"points": [
+	{"x": 712.84375, "y": 376.875},
 	{"x": 601.75, "y": 297},
 	{"x": 585.6875, "y": 309.75},
 	{"x": 341.9375, "y": 706.1875},
@@ -2038,7 +2050,6 @@
         {"desc": "One of the 2 random free extracts", "x": 311.5, "y": 777.25},
         {"desc": "One of the 2 random free extracts","x": 850.5, "y": 431},
         {"desc": "To exit from here, you need to lower the bridge with Goblin Lever that can drop from any Goblin","x": 723.5, "y": 126.75},
-        {"desc": "Crypt Key is needed to open the gate","image":"images/Exit/keyCrypt12412.png", "x": 596.25, "y": 355.5625},
 	{"desc": "On the top of the highest Castle tower, Castle Key is needed to open the gate","x": 673, "y": 450}
       ]
     },
