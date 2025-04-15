@@ -683,9 +683,10 @@
       "desc": "Glowmoss",
       "url": "images/Icons/glowmoss.png",
       "points": [
+	{"desc": "In Cursed Vault dungeon","x": 486.18, "y": 564.28},
 	{"x": 649.375, "y": 265.0625},
 	{"x": 652.625, "y": 266.875},
-	{"desc": "In Cursed Vault dungeon","x": 485.4375, "y": 522.4375},
+	{"desc": "In Cursed Vault dungeon","x": 483.34375, "y": 525.03125},
 	{"desc": "In Seraph's Rest dungeon","x": 468, "y": 412.5},
 	{"desc": "In Oakheart's Vigil dungeon","x": 868.5625, "y": 391.5}
       ]

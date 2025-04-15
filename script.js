@@ -42,11 +42,14 @@ document.getElementById("show-menu").addEventListener("click", function () {
 function loadLayerButtons() {
   const container = document.getElementById('layers-container');
   container.innerHTML = ''; // clear any existing buttons
-  layers.forEach(layer => {
+  layers.forEach((layer, index) => {
     const layerName = layer.file.replace('.json', '');
     const button = document.createElement('button');
     button.className = 'layer-button';
     button.textContent = layerName;
+    if(index == 0){
+	 button.classList.add('active'); //always add active button class to the first layer since that always loads by default, better visual feedback
+    }
     button.addEventListener('click', () => {
       // Mark this button as active and clear active state from others
       document.querySelectorAll('.layer-button').forEach(b => b.classList.remove('active'));
@@ -96,7 +99,6 @@ map.on("click", function (event) {
 });
 
 
-
 document.getElementById('search-bar').addEventListener('input', function(e) {
   var searchText = e.target.value.toLowerCase();
   var buttons = document.querySelectorAll('.marker-toggle');
@@ -118,7 +120,7 @@ document.getElementById('search-bar').addEventListener('input', function(e) {
 const timestamp = new Date().getTime();
 
 // Fetch markers.json with a no-cache parameter
-fetch('markers.json?v=' + timestamp)
+/*fetch('markers.json?v=' + timestamp)
   .then(response => response.json())
   .then(data => {
     loadMarkers(data);
@@ -138,6 +140,7 @@ fetch('markers.json?v=' + timestamp)
     }
   })
   .catch(error => console.error('Error loading markers.json:', error));
+*/
 
 
 function filterMarkersByName(targetName) {
@@ -163,15 +166,13 @@ loadLayerButtons();
 fetch(layers[0].file + '?v=' + timestamp)
   .then(response => response.json())
   .then(data => {
-    loadMarkers(data);
+    loadMarkers(data);  
   })
   .catch(error => console.error('Error loading ' + layers[0].file, error));
 
 function loadMarkers(data) {
-
   data.markers.forEach(function (markerData) {
     var categoriesContainer = document.getElementById('categories-container');
-
 
     var categorySection = document.getElementById(markerData.category);
     if (!categorySection) {
@@ -192,12 +193,9 @@ function loadMarkers(data) {
       categoriesContainer.appendChild(categorySection);
     }
 
-
     var buttonsContainer = categorySection.querySelector('.marker-buttons');
 
-
     var iconUrl = markerData.url || "images/Icons/default.png";
-
 
     var button = document.createElement('button');
     button.className = "marker-toggle";
@@ -222,18 +220,21 @@ function loadMarkers(data) {
 
     buttonsContainer.appendChild(button);
 
-
     markerData.points.forEach(function (point) {
-      addMarker(markerData, point);
-    });
+	addMarker(markerData, point);
+    });	
+
+    //filter custom marker every time even if layers/jsons are changed
+    const urlParams = new URLSearchParams(window.location.search);
+    const markerParam = urlParams.get('marker');
+    if (markerParam) {
+        filterMarkersByName(markerParam);	//filter markers even if there's a typo or doesn't exist, it will just return empty, otherwise shows all markers which can confuse
+    }	
   });
 }
 
-
 function addMarker(markerData, point) {
-
   var description = point.desc || markerData.desc;
-
 
   var iconUrl = markerData.url || "images/Icons/default.png";
   var markerIcon = L.icon({
@@ -246,7 +247,6 @@ function addMarker(markerData, point) {
   var marker = L.marker([point.y, point.x], {
     icon: markerIcon
   }).addTo(map);
-
 
   var popupContent = `
     <div class="custom-popup">
@@ -265,7 +265,6 @@ function addMarker(markerData, point) {
   markerLayers[markerData.name].push(marker);
 }
 
-
 function toggleMarkers(name, isVisible) {
   var markers = markerLayers[name];
   if (markers) {
@@ -278,7 +277,6 @@ function toggleMarkers(name, isVisible) {
     });
   }
 }
-
 
 var allMarkersVisible = true;
 
