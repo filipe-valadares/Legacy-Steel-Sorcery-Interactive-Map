@@ -1039,6 +1039,7 @@
       "url": "images/Icons/armor-chest.png",
       "desc": "Armor & Weapons",
       "points": [
+	{"desc": "Ground floor under roof","x": 620.7, "y": 366.06},
 	{"x": 868.625, "y": 466.625},
 	{"desc": "Under roof","image":"images/Chests/chest570.png","x": 570, "y": 386.625},
 	{"x": 579, "y": 372.125},
@@ -1202,6 +1203,7 @@
       "desc": "Possible spawns for Anvil/Master Hammer/Goblin Cauldron",
       "url": "images/Icons/rarelodge.png",
       "points":[
+	{"image":"images/Tools/rarelodge330.png","x": 330.3, "y": 292.3},
 	{"image":"images/Tools/lodge326.png","x": 326.0, "y": 746.859375},
 	{"image":"images/Tools/rarelodge665.png","x": 665.0625, "y": 446.1875},
 	{"image":"images/Tools/rarelodge641.png","desc": "Lodge items can spawn on the floor of the tower","x": 641.4375, "y": 202.125},
@@ -1249,7 +1251,8 @@
       "desc": "Gemstones (Topaz, Sapphire, Emerald, Ruby)",
       "url": "images/Icons/gemstone.png",
       "points": [
-
+	{"image":"images/Tools/gemstone600.png","x": 600.33, "y": 538.28},
+	{"image":"images/Tools/gemstone592.png","x": 592.0, "y": 646.1875},
 	{"image":"images/Tools/gemstone639.png","x": 639.1875, "y": 259.1875},
 	{"image":"images/Tools/gemstone586.png","x": 586.0, "y": 267.03125},
 	{"image":"images/Tools/gemstone588.png","x": 588.0, "y": 353.3125},
@@ -1710,6 +1713,9 @@
       "desc": "King's Mint",
       "url": "images/Icons/flower-blue.png",
       "points": [
+	{"image":"images/Plants/KingsMint735.png","x": 735.8, "y": 259.3},
+	{"image":"images/Plants/KingsMint582.png","x": 582.0, "y": 531.8},
+	{"image":"images/Plants/KingsMint580.png","x": 580.625, "y": 491.8125},
 	{"image":"images/Plants/KingsMint616.png","x": 616.75, "y": 433.6875},
 	{"image":"images/Plants/KingsMint555.png","x": 555, "y": 560.9375},
 	{"image":"images/Plants/KingsMint598.png","x": 598.0, "y": 537.0625},
@@ -1836,6 +1842,7 @@
       "desc": "Beetle",
       "url": "images/Icons/beetle.png",
       "points": [
+	{"x": 580.40, "y": 535.19},
 	{"image":"images/Collectables/beetle823.png","x": 823, "y": 637.625},
 	{"image":"images/Collectables/beetle340.png","x": 340.0, "y": 698.21875},
 	{"image":"images/Collectables/beetle753.png","x": 753.0, "y": 219.375},
@@ -1897,6 +1904,7 @@
       "desc": "Glowmoss",
       "url": "images/Icons/glowmoss.png",
       "points": [
+	{"x": 620.70, "y": 366.0},
 	{"x": 621.140625, "y": 240.4375},
 	{"x": 622.25, "y": 243},
 	{"x": 847.875, "y": 572.8125},
