@@ -340,6 +340,7 @@
       "desc": "Possible spawns for Dream Pillow/Artisan's Tool Kit/Copper Pot/Crumbling Skull",
       "url": "images/Icons/lodge.png",
       "points":[
+	{"x": 619.9375, "y": 255.96875},
 	{"image":"images/Tools/lodge820.png","x": 820.8125, "y": 420},
 	{"x": 578.21875, "y": 239.03125},
 	{"image":"images/Tools/lodge368.png","x": 368.0, "y": 583.1875}
@@ -360,6 +361,35 @@
 	{"image":"images/Tools/rarelodge375.png","x": 374.0, "y": 784.015625},
 	{"image":"images/Tools/rarelodge404.png","x": 404.0, "y": 779.1875},
 	{"image":"images/Tools/rarelodge857.png","x": 857.0, "y": 398.234375}
+      ]
+    },
+	 {
+      "name": "Tools & Mats",
+      "color": "#f7d97e",
+      "category": "Dropped Items",
+      "desc": "Search this area for possible spawn of: Wood Saw,Simple Scissors,Crude Awl,Dried Herbs,Ogre Fat,Tree Resin,Paper,Heavy Thread,Simple Buckle,Metal Hinge,Wax Candle,Sewing Needles,Iron Nails,Simple Vial,Simple Rope,Waxed Rope,Fire Powder,Bone Hammer,Splintered Bone,Massive Femur",
+      "url": "images/Icons/tools.png",
+      "points": [
+	{"x": 857.90625, "y": 397.0625},
+	{"x": 868.25, "y": 535.125},
+	{"x": 751.8125, "y": 516.40625},
+	{"x": 586.90625, "y": 640.625},
+	{"x": 588.40625, "y": 645.8125},
+	{"x": 405.71875, "y": 779.4375},
+	{"x": 393.96875, "y": 779.625},
+	{"x": 377.59375, "y": 749.25},
+	{"x": 860.125, "y": 515.84375},
+	{"x": 304.625, "y": 192.34375},
+	{"x": 381.96875, "y": 394.46875},
+	{"x": 242.84375, "y": 508.625},
+	{"x": 704.875, "y": 365.59375},
+	{"x": 738.78125, "y": 366.28125},
+	{"x": 609.84375, "y": 470.90625},
+	{"x": 605.46875, "y": 480.65625},
+	{"x": 803, "y": 253.3125},
+	{"x": 585.03125, "y": 257.375},
+	{"x": 477, "y": 371.78125}
+
       ]
     },
 	 {
@@ -495,6 +525,8 @@
       "url": "images/Icons/armor-chest.png",
       "desc": "Armor & Weapons",
       "points": [
+	{"x": 626.84375, "y": 285.1875},
+	{"x": 710.5, "y": 605.09375},
 	{"x": 590.96875, "y": 361.65625},
 	{"x": 888.0625, "y": 561.03125},
 	{"x": 574.5625, "y": 381.5},
@@ -627,6 +659,16 @@
 	{"x": 661.6875, "y": 254.96875}
       ]
     },
+	 {
+      "name": "Adventurer Bag",
+      "color": "#f7d97e",
+      "category": "Containers",
+      "desc": "Adventurer Bag",
+      "url": "images/Icons/chest-herb.png",
+      "points": [
+	{"desc": "In a corner inside the mine","x": 693.0625, "y": 671.625}
+      ]
+    },
 	{
       "name": "Gemstones",
       "color": "#f7d97e",
@@ -645,7 +687,9 @@
 	{"x": 457.765625, "y": 429.53125},
 	{"x": 497.0625, "y": 851},
 	{"x": 548.65, "y": 542.88},
-	{"image":"images/Tools/gemstone611.png","x": 611.375, "y": 483.9375},
+	{"image":"images/Tools/gemstone653.png","x": 653.5625, "y": 314.84375},
+	{"image":"images/Tools/gemstone656.png","x": 656.34375, "y": 289.59375},
+	{"image":"images/Tools/gemstone612.png","x": 612, "y": 483.9375},
 	{"image":"images/Tools/gemstone762.png","x": 762.0, "y": 356.34375},
 	{"image":"images/Tools/gemstone346.png","x": 346.0, "y": 143.5},
 	{"image":"images/Tools/gemstone547.png","x": 547.0, "y": 549.875},
