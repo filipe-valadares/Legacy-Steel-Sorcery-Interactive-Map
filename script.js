@@ -232,3 +232,20 @@ document.getElementById('toggle-all').addEventListener('click', function () {
   this.classList.toggle("all-on", !allVisible);
   this.classList.toggle("all-off", allVisible);
 });
+
+//add back coordinate on click
+map.on("click", function (event) {
+  if (!devMode) return; // Only allow copying if Dev Mode is enabled
+
+  var lat = event.latlng.lat;
+  var lng = event.latlng.lng;
+
+  var coordinateText = `{"x": ${lng}, "y": ${lat}}`;
+  console.log(coordinateText);
+
+  navigator.clipboard.writeText(coordinateText).then(() => {
+    console.log("Copied to clipboard:", coordinateText);
+  }).catch(err => {
+    console.error("Failed to copy:", err);
+  });
+});
