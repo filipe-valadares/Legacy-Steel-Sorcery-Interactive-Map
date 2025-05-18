@@ -606,7 +606,7 @@
 	{"x": 818.5, "y": 549.25}
        ]
     },
-{
+	{
       "name": "Big Spider Elite",
       "color": "#f5fced",
       "category": "Enemies",
@@ -653,6 +653,22 @@
         {"x": 689.25, "y": 535.75}
        ]
     },
+	{
+      "name": "Gold Coins",
+      "color": "#f7d97e",
+      "category": "Collectables",
+      "url": "images/Icons/coins.png",
+      "desc":"Pile of Gold Coins",
+      "points": [	
+	{"x": 614.3125, "y": 243.78125},
+	{"x": 588.15625, "y": 247.0625},
+	{"x": 591.125, "y": 260.78125},
+	{"x": 592.40625, "y": 255.875},
+	{"x": 660.46875, "y": 447.21875},
+	{"x": 644.125, "y": 464.0625}
+      ]
+    },
+
     {
       "name": "Ogres",
       "color": "#7c8079",
@@ -913,7 +929,7 @@
       "name": "Adventurer Bag",
       "color": "#f7d97e",
       "category": "Containers",
-      "desc": "Adventurer Bag",
+      "desc": "Usually contains a backpack, various foods and resources",
       "url": "images/Icons/chest-herb.png",
       "points": [
 	{"desc": "In a corner inside the mine","x": 688.65625, "y": 679},
@@ -922,7 +938,8 @@
 	{"x": 348.25, "y": 375.25},
 	{"x": 347.9375, "y": 575.53125},
 	{"x": 325.75, "y": 744.3125},
-	{"x": 323.5, "y": 449.8125}
+	{"x": 323.5, "y": 449.8125},
+	{"x": 650.75, "y": 366.21875}
       ]
     },
 
@@ -1252,7 +1269,7 @@
       "name": "Lodge Items",
       "color": "#f7d97e",
       "category": "Dropped Items",
-      "desc": "Possible spawns for Dream Pillow/Artisan's Tool Kit/Copper Pot/Crumbling Skull",
+      "desc": "Possible spawns for Lodge upgrade items such as Artisan's Tool Kit,Iron Gear,Steel Tongs,Copper Pot,Master Hammer,Anvil etc.",
       "url": "images/Icons/lodge.png",
       "points":[
 	{"image":"images/Tools/lodge335.png","x": 335.84375, "y": 318.96875},
@@ -1272,16 +1289,7 @@
 	{"image":"images/Tools/lodge476.png","x": 476.0, "y": 371.4375},
 	{"image":"images/Tools/lodge393.png","x": 393.0, "y": 278.625},
 	{"image":"images/Tools/lodge247.png","x": 247.0, "y": 441.90625},
-	{"image":"images/Tools/lodge244.png","x": 244.0, "y": 457.125}
-      ]
-    },
-	{
-      "name": "Rare Lodge Items",
-      "color": "#f7d97e",
-      "category": "Dropped Items",
-      "desc": "Possible spawns for Anvil/Master Hammer/Goblin Cauldron",
-      "url": "images/Icons/rarelodge.png",
-      "points":[
+	{"image":"images/Tools/lodge244.png","x": 244.0, "y": 457.125},
 	{"x": 490, "y": 603.25},
 	{"image":"images/Tools/lodge879.png","x": 879, "y": 606.0625},
 	{"image":"images/Tools/rarelodge723.png","x": 723.1875, "y": 351.4375},
