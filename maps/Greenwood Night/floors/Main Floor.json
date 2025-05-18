@@ -1,5 +1,79 @@
 { 
   "markers": [
+		 {
+      "name": "Skeletons",
+      "color": "#f5fced",
+      "category": "Enemies",
+      "desc": "Skeleton Spawn",
+      "url": "images/Icons/mob-default.png",
+      "points": [
+	{"x": 610.15625, "y": 283.21875},
+	{"x": 613.59375, "y": 275.625},
+		{"x": 591.75, "y": 265.75},
+	{"x": 594.375, "y": 259.75},
+	{"x": 646.5, "y": 264.4375},
+	{"x": 641.8125, "y": 264.21875},
+	{"x": 643.75, "y": 257.6875},
+	{"desc":"Armored Skeleton Archer on top of wall","x": 620.375, "y": 353.375},
+	{"desc":"Armored Skeleton Archer on top of wall","x": 599.5, "y": 331.875},
+	{"desc":"Armored Skeleton Archer on top of wall","x": 630.15625, "y": 287.84375},
+	{"desc":"Armored Skeleton Archer on top of wall","x": 648.25, "y": 289.28125}
+
+      ]
+    },
+	{
+      "name": "Elite Skeletons",
+      "color": "#f5fced",
+      "category": "Enemies",
+      "url": "images/Icons/mob-stronger.png",
+      "desc": "Elite Skeleton Spawn",
+      "points": [
+	{ "desc": "Skeleton Swordsman","x": 610.53125, "y": 279.9375}
+      ]
+    },
+
+	{
+      "name": "Elite Skeleton Spearman",
+      "color": "#f5fced",
+      "category": "Enemies",
+      "desc": "Elite Skeleton Spearman",
+      "url": "images/Icons/mob-spearman-elite.png",
+      "points": [
+	{"desc":"In the ceiling of the church","x": 605.25, "y": 277.25},
+	{"desc":"In the ceiling of the church","x": 687.5, "y": 521.21875}
+	]
+    },
+
+	 {
+      "name": "Wraith",
+      "color": "#7c8079",
+      "category": "Bosses",
+      "url": "images/Icons/mob-boss-wraith.png",
+      "desc": "Wraith",
+      "points": [
+		{"x": 590.84375, "y": 274.5625}
+            ]
+    },
+	 {
+      "name": "Ogres",
+      "color": "#7c8079",
+      "category": "Bosses",
+      "url": "images/Icons/mob-goblin-boss.png",
+      "desc": "Ogres",
+      "points": [
+        {"x": 747.46875, "y": 360.03125}
+       ]
+    },
+	 {
+      "name": "Spiders",
+      "color": "#808080",
+      "category": "Enemies",
+      "url": "images/Icons/mob-spider.png",
+      "desc": "Spiders",
+      "points": [
+	
+      ]
+    },
         {
       "name": "Minecart",
       "color": "#c49300",
@@ -19,6 +93,40 @@
 	{"image":"images/Ores/MineCart690.png","x": 690.0, "y": 680.6875}	
       ]
     },
+	{
+      "name": "Big Spider Elite",
+      "color": "#f5fced",
+      "category": "Enemies",
+      "url": "images/Icons/mob-spider-giant.png",
+      "desc": "Giant Spider Elite",
+      "points": [
+         {"x": 642.375, "y": 260.65625}
+      ]
+    },
+
+ {
+      "name": "Necromancer",
+      "color": "#f5fced",
+      "category": "Enemies",
+      "url": "images/Icons/necromancer.png",
+      "desc": "Necromancer (drops Transmutation Recipes, Gear, Keys, Mats)",
+      "points": [
+	{"x": 583.1875, "y": 231.4375}
+      ]
+    },
+
+    {
+      "name": "Elite Necromancer",
+      "color": "#f5fced",
+      "category": "Enemies",
+      "url": "images/Icons/necromancer-elite.png",
+      "desc": "Elite Necromancer (drops Transmutation Recipes, Gear, Keys, Mats)",
+      "points": [
+     	{"x": 622.90625, "y": 303.78125},
+	{"x": 603.03125, "y": 268.125}
+      ]
+    },
+
     {
       "name": "Barrels",
       "color": "#c49300",
@@ -248,7 +356,8 @@
 	{"x": 348.25, "y": 375.25},
 	{"x": 347.9375, "y": 575.53125},
 	{"x": 325.75, "y": 744.3125},
-	{"x": 323.5, "y": 449.8125}
+	{"x": 323.5, "y": 449.8125},
+	{"x": 650.96875, "y": 366.15625}
       ]
     },
 
@@ -414,7 +523,6 @@
 	{"x": 677.1875, "y": 520.4375},
 	{"x": 466.140625, "y": 604.90625},
         { "x": 643.12, "y": 629.84 },
-        {"x": 609.125, "y": 280.75},
         {"x": 352.125, "y": 496.9375},
         {"x": 879, "y": 553.625},
         { "x": 631.12, "y": 501.60 },
@@ -649,7 +757,6 @@
 	{"desc": "Underground on altar","image":"images/Tools/key882.png","x": 882.0, "y": 557.03125},
 	{"desc": "Underground, key can be in skeleton's hand","image":"images/Tools/keySkeletonhand.png","x": 849.3125, "y": 401.5625},
 	{"image":"images/Tools/key257.png","x": 257.640625, "y": 313.921875},
-	{"desc": "Underground, key on left side of altar","image":"images/Tools/key611.png","x": 611.0, "y": 281.0},
 	{"image":"images/Tools/key238.png","x": 238.0, "y": 449.03125},
 	{"desc": "Underground, key on left side of the room","x": 824, "y": 405.375}
       ]
@@ -1031,10 +1138,10 @@
       ]
     },
     {
-      "name": "Field Lily",
+      "name": "Night Jasmine",
       "color": "#f7d97e",
       "category": "Collectables",
-      "desc": "Field Lily",
+      "desc": "Night Jasmine",
       "url": "images/Icons/flower.png",
       "points": [
 	{"x": 703.391, "y": 515.12},
@@ -1127,6 +1234,38 @@
 	{"x": 476.75, "y": 778.5}
       ]
     },
+{
+      "name": "Gold Coins",
+      "color": "#f7d97e",
+      "category": "Collectables",
+      "url": "images/Icons/coins.png",
+      "desc":"Pile of Gold Coins",
+      "points": [	
+	{"x": 614.3125, "y": 243.78125},
+	{"x": 588.15625, "y": 247.0625},
+	{"x": 591.125, "y": 260.78125},
+	{"x": 592.40625, "y": 255.875},
+	{"x": 660.46875, "y": 447.21875},
+	{"x": 644.125, "y": 464.0625}
+      ]
+    },
+
+{
+      "name": "Lunar Stone",
+      "color": "#f7d97e",
+      "category": "Collectables",
+      "desc": "Lunar Stone",
+      "url": "images/Icons/lunarstone.png",
+      "points": [
+		{"x": 573.53125, "y": 463.59375},
+	{"x": 528.71875, "y": 430.28125},
+	{"x": 446.21875, "y": 357.78125},
+	{"x": 403.375, "y": 364.03125},
+	{"x": 729.53125, "y": 453.4375},
+	{"x": 732.15625, "y": 450.6875}
+      ]
+    },
+
     {
       "name": "King's Mint",
       "color": "#f7d97e",

@@ -1,5 +1,56 @@
 { 
   "markers": [
+	 {
+      "name": "Skeletons",
+      "color": "#f5fced",
+      "category": "Enemies",
+      "desc": "Skeleton Spawn",
+      "url": "images/Icons/mob-default.png",
+      "points": [
+	{"x": 651.0625, "y": 280.5},
+	{"x": 589.03125, "y": 283.15625}
+      ]
+    },
+	
+	{
+      "name": "Elite Banshee",
+      "color": "#f5fced",
+      "category": "Bosses",
+      "url": "images/Icons/banshee-elite.png",
+      "desc": "Elite Banshee (drops Transmutation Recipes, Spirit Essence, Wizard Scrolls)",
+      "points": [
+ 	 {"x": 628, "y": 313.65625},
+	{"x": 617.5625, "y": 308.5}
+      ]
+    },
+	 {
+      "name": "Spiders",
+      "color": "#808080",
+      "category": "Enemies",
+      "url": "images/Icons/mob-spider.png",
+      "desc": "Spiders",
+      "points": [
+		{"x": 593.375, "y": 271.96875},
+	{"x": 576.78125, "y": 260.96875},
+	{"x": 580.125, "y": 260.09375},
+	{"x": 579.34375, "y": 255.6875},
+	{"x": 593, "y": 256.90625},
+	{"x": 595.53125, "y": 257.28125},
+	{"x": 593.53125, "y": 253.03125}
+      ]
+    },	
+	
+	{
+      "name": "Big Spider Elite",
+      "color": "#f5fced",
+      "category": "Enemies",
+      "url": "images/Icons/mob-spider-giant.png",
+      "desc": "Giant Spider Elite",
+      "points": [
+         {"x": 594.03125, "y": 256.875}
+      ]
+    },
+	
 		  {
       "name": "Barrels",
       "color": "#c49300",
@@ -110,23 +161,14 @@
       "name": "Lodge Items",
       "color": "#f7d97e",
       "category": "Dropped Items",
-      "desc": "Possible spawns for Dream Pillow/Artisan's Tool Kit/Copper Pot/Crumbling Skull",
+	"desc": "Possible spawns for Lodge upgrade items such as Artisan's Tool Kit,Iron Gear,Steel Tongs,Copper Pot,Master Hammer,Anvil etc.",
       "url": "images/Icons/lodge.png",
       "points":[
 	{"x": 619.9375, "y": 255.96875},
 	{"image":"images/Tools/lodge820.png","x": 820.8125, "y": 420},
 	{"x": 578.21875, "y": 239.03125},
-	{"image":"images/Tools/lodge368.png","x": 368.0, "y": 583.1875}
-	]
-
-    },
-	{
-      "name": "Rare Lodge Items",
-      "color": "#f7d97e",
-      "category": "Dropped Items",
-      "desc": "Possible spawns for Anvils/Master Hammers/Goblin Cauldrons",
-      "url": "images/Icons/rarelodge.png",
-      "points":[
+	{"image":"images/Tools/lodge368.png","x": 368.0, "y": 583.1875},
+	{"x": 655.34375, "y": 298.375},
 	{"x": 883.3125, "y": 383.625},
 	{"image":"images/Tools/lodge249.png","x": 249.0, "y": 515.90625},
 	{"image":"images/Tools/rarelodge377.png","x": 377.0, "y": 635},
@@ -134,7 +176,7 @@
 	{"image":"images/Tools/rarelodge375.png","x": 374.0, "y": 784.015625},
 	{"image":"images/Tools/rarelodge404.png","x": 404.0, "y": 779.1875},
 	{"image":"images/Tools/rarelodge857.png","x": 857.0, "y": 398.234375}
-      ]
+	]
     },
 	 {
       "name": "Tools & Mats",
@@ -228,15 +270,14 @@
 	{"x": 744.5625, "y": 358.96875},
 	{"x": 769.984375, "y": 357.421875},
 	{"desc": "Needs Treasure Room Key to access the room", "x": 860.75, "y": 520.75},
-	{"desc": "Needs Treasure Room Key to access the room","x": 663.5, "y": 294.75},
-	{"desc": "Needs Crypt Extract Key to access the room","x": 589, "y": 357.125},
 	{"image":"images/Chests/treasureChest594.png","x": 594.0, "y": 245.125},
 	{"x": 859.59375, "y": 546.765625},
 	{"x": 598.5, "y": 250.96875},
 	{"x": 759, "y": 213.1875},
 	{"x": 581.4375, "y": 246.6875},
 	{"x": 606.5625, "y": 260.375},
-		{"x": 245.6875, "y": 514.625}
+		{"x": 245.6875, "y": 514.625},
+	{"x": 661.25, "y": 289.6875}
       ]
     },
 	 {
@@ -341,9 +382,27 @@
       "points": [
 	{"x": 856.84375, "y": 518.09375},
 	{"x": 649.875, "y": 274.75},
-          {"desc": "Requires Skull Key to open","x": 892.3125, "y": 557.3125}
+          {"desc": "Requires Skull Key to open","x": 892.3125, "y": 557.3125},
+	{"x": 633.9375, "y": 315.40625}
       ]
     },
+{
+      "name": "Gold Coins",
+      "color": "#f7d97e",
+      "category": "Collectables",
+      "url": "images/Icons/coins.png",
+      "desc":"Pile of Gold Coins",
+      "points": [	
+	{"x": 659.375, "y": 264.5625},
+	{"x": 660.625, "y": 291.375},
+	{"x": 660.8125, "y": 297.375},
+	{"x": 665.78125, "y": 297.90625},
+	{"x": 582.28125, "y": 356.65625},
+	{"x": 589.6875, "y": 352.90625}
+      ]
+    },
+
+
 	 {
       "name": "Mushrooms",
       "color": "#f7d97e",
@@ -404,7 +463,8 @@
 	{"image":"images/Tools/key378.png","x": 378.0, "y": 772.5625},
 	{"image":"images/Tools/key611.png","x": 611.0, "y": 281.0},
 	{"desc": "Key can be in skeleton's hand","image":"images/Tools/keySkeletonhand.png","x": 849.3125, "y": 401.5625},
-	{"x": 824, "y": 405.375}
+	{"x": 824, "y": 405.375},
+	{"x": 593.53125, "y": 249.1875}
       ]
     },
 	 {
