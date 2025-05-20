@@ -26,7 +26,8 @@
       "url": "images/Icons/mob-goblin-elite.png",
       "desc": "Elite Goblins Spawn",
       "points": [
-	{"x": 695.40625, "y": 675.0625}
+	{"x": 695.40625, "y": 675.0625},
+	{"x": 710.40625, "y": 363.125}
       ]
     },
 	{
@@ -68,6 +69,7 @@
       "desc": "Skeleton Spawn",
       "url": "images/Icons/mob-default.png",
       "points": [
+	{"x": 872.84375, "y": 542.34375},
 	{"x": 771, "y": 513.8125},
 	{"x": 889.40625, "y": 537.125},
 	{ "desc": "Shield Skeleton in underpass","x": 689.6875, "y": 526.6875},
@@ -156,7 +158,7 @@
         { "desc": "In the basement","x": 257.375, "y": 448.75},
         { "desc": "In the basement", "x": 377.875, "y": 392.375},
         { "desc": "Underground","x": 878.3125, "y": 536.9375},
-	{ "desc": "Underground", "x": 861.375, "y": 541.4375},
+	{ "desc": "Underground","x": 856.90625, "y": 534.1875},
 
         { "desc": "Underground", "x": 828.5625, "y": 415.4375},
 	{ "desc": "Underground", "x": 822.25, "y": 408},
@@ -257,7 +259,8 @@
 	{"x": 755.25, "y": 490.25},
 	{"x": 699.890625, "y": 674.515625},
 	{"x": 397.75, "y": 621.3125},
-	{"x": 762.109375, "y": 510.875}
+	{"x": 762.109375, "y": 510.875},
+	{"x": 892.3125, "y": 557.3125}
       ]
     },
 	 {
@@ -343,17 +346,7 @@
 	{"x": 619.9375, "y": 255.96875},
 	{"image":"images/Tools/lodge820.png","x": 820.8125, "y": 420},
 	{"x": 578.21875, "y": 239.03125},
-	{"image":"images/Tools/lodge368.png","x": 368.0, "y": 583.1875}
-	]
-
-    },
-	{
-      "name": "Rare Lodge Items",
-      "color": "#f7d97e",
-      "category": "Dropped Items",
-      "desc": "Possible spawns for Anvils/Master Hammers/Goblin Cauldrons",
-      "url": "images/Icons/rarelodge.png",
-      "points":[
+	{"image":"images/Tools/lodge368.png","x": 368.0, "y": 583.1875},
 	{"x": 883.3125, "y": 383.625},
 	{"image":"images/Tools/lodge249.png","x": 249.0, "y": 515.90625},
 	{"image":"images/Tools/rarelodge377.png","x": 377.0, "y": 635},
@@ -361,7 +354,8 @@
 	{"image":"images/Tools/rarelodge375.png","x": 374.0, "y": 784.015625},
 	{"image":"images/Tools/rarelodge404.png","x": 404.0, "y": 779.1875},
 	{"image":"images/Tools/rarelodge857.png","x": 857.0, "y": 398.234375}
-      ]
+	]
+
     },
 	 {
       "name": "Tools & Mats",
@@ -454,16 +448,29 @@
 	{"x": 575.828125, "y": 516.296875},
 	{"x": 744.5625, "y": 358.96875},
 	{"x": 769.984375, "y": 357.421875},
-	{"desc": "Needs Treasure Room Key to access the room", "x": 860.75, "y": 520.75},
-	{"desc": "Needs Treasure Room Key to access the room","x": 663.5, "y": 294.75},
-	{"desc": "Needs Crypt Extract Key to access the room","x": 589, "y": 357.125},
 	{"image":"images/Chests/treasureChest594.png","x": 594.0, "y": 245.125},
 	{"x": 859.59375, "y": 546.765625},
 	{"x": 598.5, "y": 250.96875},
 	{"x": 759, "y": 213.1875},
 	{"x": 581.4375, "y": 246.6875},
 	{"x": 606.5625, "y": 260.375},
-		{"x": 245.6875, "y": 514.625}
+	{"x": 245.6875, "y": 514.625},
+	{"x": 660.71875, "y": 289.59375}
+      ]
+    },
+	{
+      "name": "Gold Coins",
+      "color": "#f7d97e",
+      "category": "Collectables",
+      "url": "images/Icons/coins.png",
+      "desc":"Pile of Gold Coins",
+      "points": [	
+	{"x": 861.75, "y": 521},
+	{"x": 856.90625, "y": 521.6875},
+	{"x": 861.8125, "y": 518},
+	{"x": 856.75, "y": 522.875},
+	{"x": 861.40625, "y": 523.71875},
+	{"x": 658.9375, "y": 264.09375}
       ]
     },
 	 {
@@ -501,7 +508,7 @@
       "desc": "Always contains at least 1 Uncommon treasure",
       "points": [
 	{"x": 583.75, "y": 356.40625},
-       {"x": 858.125, "y": 516.4375},
+       {"x": 856.9375, "y": 516.8125},
 	{"x": 862.375, "y": 516.875},
 	{"x": 862.125, "y": 368.625},
 	{"x": 666.875, "y": 295.25}
@@ -567,8 +574,7 @@
       "desc": "Coin Safe",
       "points": [
 	{"x": 856.84375, "y": 518.09375},
-	{"x": 649.875, "y": 274.75},
-          {"desc": "Requires Skull Key to open","x": 892.3125, "y": 557.3125}
+	{"x": 649.875, "y": 274.75}
       ]
     },
 	 {
@@ -737,7 +743,6 @@
 	{ "desc": "Underground in tiny cave", "x": 731.1875, "y": 202}	
       ]
     },
-
 	{
       "name": "Glowmoss",
       "color": "#f7d97e",
@@ -747,12 +752,26 @@
       "points": [
 	{"desc": "In Cursed Vault dungeon","x": 486.18, "y": 564.28},
 	{"x": 649.375, "y": 265.0625},
-	{"x": 652.625, "y": 266.875},
+	{"x": 658.5, "y": 267.75},
 	{"desc": "In Cursed Vault dungeon","x": 483.34375, "y": 525.03125},
 	{"desc": "In Seraph's Rest dungeon","x": 468, "y": 412.5},
 	{"desc": "In Oakheart's Vigil dungeon","x": 868.5625, "y": 391.5}
       ]
     },
+	{
+      "name": "Locked Door",
+      "color": "#f7d97e",
+      "category": "Misc",
+      "desc": "Locked door that requires a certain key to enter",
+      "url": "images/Icons/lockeddoor.png",
+      "points":[
+	{"desc": "Complete the Lion switch puzzle to open the gates","x": 867, "y": 376.9375},
+	{"desc": "Requires Treasure Room Key to enter","x": 860.34375, "y": 525.75},
+	{"desc": "Requires Crypt Extraction Key to enter","x": 586.71875, "y": 362.84375},
+	{"desc": "Requires Treasure Room Key to enter","x": 656.96875, "y": 294.84375}
+	  ]
+    },
+
 	{
       "name": "Exit",
       "color": "#ffc0cb",

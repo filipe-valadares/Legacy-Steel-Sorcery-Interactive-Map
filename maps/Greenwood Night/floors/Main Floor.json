@@ -21,6 +21,61 @@
 
       ]
     },
+	 {
+      "name": "Goblins",
+      "color": "#4e9100",
+      "category": "Enemies",
+      "desc": "Goblin Spawn",
+      "url": "images/Icons/mob-goblin.png",
+      "points": [
+	{"x": 519.875, "y": 234.0625},
+	{"x": 361.28125, "y": 596.6875},
+	{"x": 367.8125, "y": 595.09375},
+	{"x": 349.34375, "y": 607.84375},
+	{"x": 338.0625, "y": 584.90625}
+      ]
+    },
+
+	 {
+      "name": "Bandit",
+      "color": "#f5fced",
+      "category": "Enemies",
+      "desc": "Bandit Spawn",
+      "url": "images/Icons/bandit.png",
+      "points": [
+	{"x": 302.4375, "y": 617.0625}
+
+      ]
+    },
+	 {
+      "name": "Elite Bandit",
+      "color": "#f5fced",
+      "category": "Enemies",
+      "desc": "Elite Bandit Spawn",
+      "url": "images/Icons/bandit-elite.png",
+      "points": [
+	{"x": 332.375, "y": 318.875},
+	{"x": 532.53125, "y": 549.8125},
+	{"x": 372, "y": 603.59375},
+	{"x": 321.4375, "y": 632.6875}
+
+      ]
+    },
+	{
+      "name": "Big Wolf Elite",
+      "color": "#f5fced",
+      "category": "Enemies",
+      "url": "images/Icons/mob-wolf-giant.png",
+      "desc": "White Giant Wolf",
+      "points": [
+       {"x": 307.9375, "y": 572.03125},
+	{"x": 423.8125, "y": 582.96875},
+	{"x": 348.5, "y": 651.3125},
+	{"x": 335.8125, "y": 505.5},
+	{"x": 439.71875, "y": 597.78125}
+       ]
+    },
+
 	{
       "name": "Elite Skeletons",
       "color": "#f5fced",
@@ -31,6 +86,17 @@
 	{ "desc": "Skeleton Swordsman","x": 610.53125, "y": 279.9375}
       ]
     },
+	{
+      "name": "Skeleton Spearman",
+      "color": "#f5fced",
+      "category": "Enemies",
+      "desc": "Skeleton Spearman",
+      "url": "images/Icons/mob-spearman.png",
+      "points": [
+	{"x": 328.90625, "y": 685.59375},
+	{"x": 347.5, "y": 673.375}
+   ]
+    },
 
 	{
       "name": "Elite Skeleton Spearman",
@@ -40,8 +106,23 @@
       "url": "images/Icons/mob-spearman-elite.png",
       "points": [
 	{"desc":"In the ceiling of the church","x": 605.25, "y": 277.25},
-	{"desc":"In the ceiling of the church","x": 687.5, "y": 521.21875}
+	{"desc":"In the ceiling of the church","x": 687.5, "y": 521.21875},
+	{"x": 338.84375, "y": 321.59375},
+	{"x": 463.1875, "y": 623.78125},
+	{"x": 542.875, "y": 580.71875},
+	{"x": 643.375, "y": 563.71875}
 	]
+    },
+	{
+      "name": "Elite Banshee",
+      "color": "#f5fced",
+      "category": "Bosses",
+      "url": "images/Icons/banshee-elite.png",
+      "desc": "Elite Banshee (drops Transmutation Recipes, Spirit Essence, Wizard Scrolls)",
+      "points": [
+     	{"x": 349.5625, "y": 372.84375},
+	{"x": 857.8125, "y": 574.5}
+      ]
     },
 
 	 {
@@ -71,8 +152,9 @@
       "url": "images/Icons/mob-spider.png",
       "desc": "Spiders",
       "points": [
-	
-      ]
+	{"x": 260.75, "y": 310.09375},
+	{"x": 266.84375, "y": 305.125}
+      ]	
     },
         {
       "name": "Minecart",
@@ -111,7 +193,8 @@
       "url": "images/Icons/necromancer.png",
       "desc": "Necromancer (drops Transmutation Recipes, Gear, Keys, Mats)",
       "points": [
-	{"x": 583.1875, "y": 231.4375}
+	{"x": 583.1875, "y": 231.4375},
+	{"x": 327.34375, "y": 347.84375}
       ]
     },
 
@@ -123,7 +206,8 @@
       "desc": "Elite Necromancer (drops Transmutation Recipes, Gear, Keys, Mats)",
       "points": [
      	{"x": 622.90625, "y": 303.78125},
-	{"x": 603.03125, "y": 268.125}
+	{"x": 603.03125, "y": 268.125},
+	{"x": 321.9375, "y": 341.78125}
       ]
     },
 
@@ -134,6 +218,9 @@
       "desc": "Barrels",
       "url": "images/Icons/chest-barrel.png",
       "points": [ 
+	{"x": 853.59375, "y": 538.40625},
+	{"x": 865.96875, "y": 538.9375},
+	{"x": 352.78125, "y": 585.84375},
 	{"x": 359.4375, "y": 708.6875},
 	{"x": 837.625, "y": 422.9375},
 	{"x": 793.125, "y": 278.3125},
@@ -498,6 +585,7 @@
       "url": "images/Icons/armor-chest.png",
       "desc": "Armor & Weapons",
       "points": [
+	{"x": 637.25, "y": 246.375},
 	{"image":"images/Chests/armorChest732.png","x": 732.96875, "y": 340.78125},
 	{"desc": "On roof","image":"images/Chests/armorChest663.png","x": 663, "y": 441.28125},
 	{"desc": "On second floor","image":"images/Chests/armorChest649.png","x": 649.21875, "y": 472.9375},
@@ -524,9 +612,7 @@
 	{"x": 466.140625, "y": 604.90625},
         { "x": 643.12, "y": 629.84 },
         {"x": 352.125, "y": 496.9375},
-        {"x": 879, "y": 553.625},
         { "x": 631.12, "y": 501.60 },
-        {"x": 885.375, "y": 568.125},
         { "x": 522.70, "y": 265.49 },
         {"x": 322.1875, "y": 457.703125},
         {"x": 581.375, "y": 636.5625},
@@ -538,7 +624,6 @@
         {"x": 456.21875, "y": 434.6875},
        {"x": 325.03125, "y": 634.578125},
         { "x": 804.25, "y": 175.5 },
-        { "desc": "Underground", "x": 855.75, "y": 372.5 },
         { "x": 609.5625, "y": 476.375 },
         {"image":"images/Chests/armorChest604.png", "x": 604.75, "y": 509.375 },
         { "x": 490.82, "y": 585.40 },
@@ -706,16 +791,7 @@
 	{"image":"images/Tools/lodge476.png","x": 476.0, "y": 371.4375},
 	{"image":"images/Tools/lodge393.png","x": 393.0, "y": 278.625},
 	{"image":"images/Tools/lodge247.png","x": 247.0, "y": 441.90625},
-	{"image":"images/Tools/lodge244.png","x": 244.0, "y": 457.125}
-      ]
-    },
-	{
-      "name": "Rare Lodge Items",
-      "color": "#f7d97e",
-      "category": "Dropped Items",
-      "desc": "Possible spawns for Anvil/Master Hammer/Goblin Cauldron",
-      "url": "images/Icons/rarelodge.png",
-      "points":[
+	{"image":"images/Tools/lodge244.png","x": 244.0, "y": 457.125},
 	{"x": 490, "y": 603.25},
 	{"image":"images/Tools/lodge879.png","x": 879, "y": 606.0625},
 	{"image":"images/Tools/rarelodge723.png","x": 723.1875, "y": 351.4375},
@@ -749,18 +825,26 @@
 	{"image":"images/Tools/key335.png","x": 335.0, "y": 369.53125},
 	{"image":"images/Tools/key324.png","x": 325.046875, "y": 636.59375},
 	{"desc": "On top of wall","image":"images/Tools/key350.png","x": 350.0, "y": 353.125},
-	{"desc": "Underground on altar","image":"images/Tools/key482.png","x": 482.0, "y": 326.171875},
-	{"desc": "Underground on altar","image":"images/Tools/bookUnder892.png","x": 892.0, "y": 537.375},
-	{"desc": "Underground on ledge","image":"images/Tools/key378.png","x": 378.0, "y": 772.5625},
-	{"desc": "Underground on shelf","image":"images/Tools/key376.png","x": 376.0, "y": 395.015625},
-	{"desc": "Underground, key can be in skeleton's hand on ground","image":"images/Tools/keySkeletonhand.png","x": 871.4375, "y": 535.234375},
-	{"desc": "Underground on altar","image":"images/Tools/key882.png","x": 882.0, "y": 557.03125},
-	{"desc": "Underground, key can be in skeleton's hand","image":"images/Tools/keySkeletonhand.png","x": 849.3125, "y": 401.5625},
 	{"image":"images/Tools/key257.png","x": 257.640625, "y": 313.921875},
-	{"image":"images/Tools/key238.png","x": 238.0, "y": 449.03125},
-	{"desc": "Underground, key on left side of the room","x": 824, "y": 405.375}
+	{"image":"images/Tools/key238.png","x": 238.0, "y": 449.03125}
       ]
     },
+	{
+      "name": "Locked Door",
+      "color": "#f7d97e",
+      "category": "Misc",
+      "desc": "Locked door that requires a certain key to enter",
+      "url": "images/Icons/lockeddoor.png",
+      "points":[
+	{"desc": "Requires Farmhouse Key","x": 366.875, "y": 582.15625},
+	{"desc": "Requires Farmhouse Key","x": 261.84375, "y": 447.5},
+	{"desc": "Requires Farmhouse Key","x": 260.3125, "y": 230.6875},
+	{"desc": "Requires Twilight Catacombs Key","x": 483.4375, "y": 408.625},
+	{"desc": "Requires Twilight Catacombs Key","x": 834.15625, "y": 374.9375}
+	  ]
+
+    },
+
 	{
       "name": "Gemstones",
       "color": "#f7d97e",
@@ -1133,7 +1217,6 @@
         {"image":"images/Ores/Bloodsteel669.png","x": 669, "y": 593},
             {"image":"images/Ores/Bloodsteel483.png","x": 490.3125, "y": 852.375},
         {"image":"images/Ores/Bloodsteel736.png","x": 736.0, "y": 234},
-       {"desc": "Underground in cave","x": 753.25, "y": 175.6875},
 	{"image":"images/Ores/Bloodsteel335.png","x": 332.5625, "y": 136.0625}
       ]
     },
@@ -1234,6 +1317,17 @@
 	{"x": 476.75, "y": 778.5}
       ]
     },
+{
+      "name": "Moon Lotus",
+      "color": "#f7d97e",
+      "category": "Collectables",
+      "desc": "Moon Lotus (sells for vendor reputation)",
+      "url": "images/Icons/moonlotus.png",
+      "points": [
+	{"x": 319.5, "y": 307.6875}
+      ]
+    },
+
 {
       "name": "Gold Coins",
       "color": "#f7d97e",
@@ -1341,7 +1435,7 @@
       "points": [
 	{"x": 691.375, "y": 144.125},
         {"x": 267, "y": 308},
-        {"x": 317, "y": 308},
+        {"x": 323.53125, "y": 306.1875},
         {"x": 372, "y": 352},
         {"x": 390, "y": 346},
         {"x": 404, "y": 359},
@@ -1581,8 +1675,7 @@
 	{"x": 707.15625, "y": 375.6875},
 	{"x": 705.46875, "y": 375.25},
 	{"x": 764.53125, "y": 358.96875},
-	{"x": 354.75, "y": 586.3125},
-	{"x": 364.9375, "y": 597.0625}
+	{"x": 354.75, "y": 586.3125}
       ]
     },
     {
@@ -1648,7 +1741,8 @@
         {"x": 530.5, "y": 541.375},
         {"x": 476, "y": 315.25},
         {"x": 752.875, "y": 315.9375},
-        {"x": 776, "y": 575}
+        {"x": 776, "y": 575},
+	{"x": 365.92, "y": 614.12}
       ]
     }
   ]
