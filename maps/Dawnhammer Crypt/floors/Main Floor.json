@@ -281,6 +281,8 @@
       "url": "images/Icons/armor-chest.png",
       "desc": "Armor & Weapons",
       "points": [
+	{"x": 686, "y": 528.25},
+	{"x": 557.25, "y": 622.625},
 	{"x": 167.125, "y": 387.1875},
 	{"x": 168.03125, "y": 597.65625},
 	{"x": 306.34375, "y": 621.15625},
@@ -321,12 +323,20 @@
       "category": "Trees",
       "desc": "Birch, Oak and Maple",
       "points": [     
-	{"x": 417.5, "y": 351},
-	{"x": 483.875, "y": 350.9375}
+	{"x": 417.5, "y": 351}
         
       ]
     },
-
+	{
+      "name": "Ironwood or below",
+      "color": "#228B22",
+      "url": "images/Icons/tree-iron.png",
+      "category": "Trees",
+      "desc": "Birch, Oak, Maple and Ironwood",
+      "points": [
+	{"x": 483.875, "y": 350.9375}
+      ]
+    },
 	 {
       "name": "Barrels",
       "color": "#c49300",
@@ -404,6 +414,7 @@
       "url": "images/Icons/coins.png",
       "desc":"Pile of Gold Coins",
       "points": [	
+	{"x": 686, "y": 528.25},
 	{"x": 135.46875, "y": 442.25},
 	{"x": 142.5, "y": 442.125},
 	{"x": 260.96875, "y": 600.34375},
@@ -414,7 +425,8 @@
 	{"x": 529.46875, "y": 372.8125},
 	{"x": 732.5, "y": 713.5},
 	{"x": 737.53125, "y": 651.125},
-	{"desc":"Inside Sewer Key Extract","x": 426.6875, "y": 369.0625}
+	{"desc":"Inside Sewer Key Extract","x": 426.6875, "y": 369.0625},
+	{"x": 686, "y": 528.25}
       ]
     },
 	{
