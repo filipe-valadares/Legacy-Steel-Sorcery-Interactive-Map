@@ -25,7 +25,6 @@
         {"x": 262.5, "y": 350.5},
 	{"x": 317.125, "y": 473.0625},
         {"x": 160.5, "y": 405.75},
-        {"x": 485.4375, "y": 843.75},
         {"desc": "Armored Goblin Bruiser", "x": 266.58, "y": 383.68 },
         { "x": 286.74, "y": 377.30 },
         {"desc": "Goblin Bomber","x": 290.125, "y": 389.25},
@@ -116,7 +115,6 @@
 	{"desc": "Goblin Slinger on tree", "x": 376.25, "y": 744.75},
 	{"desc": "Goblin Slinger", "x": 374, "y": 745},
 	{"x": 690, "y": 594.75},
-	{"x": 690.0625, "y": 679.4375},
 	{"x": 716.75, "y": 207.25},
 	{"x": 288, "y": 433.25},
 	{"x": 332.25, "y": 181.75},
@@ -140,8 +138,7 @@
 	{"x": 346.5625, "y": 160.25},
         {"x": 477.5, "y": 766.125},
 	{"x": 673, "y": 574.5},
-	{"x": 690.375, "y": 677.625},
-		{"x": 746.1875, "y": 350.8125},
+	{"x": 746.1875, "y": 350.8125},
 	{"x": 744.40625, "y": 368.78125},
 	{"x": 702.75, "y": 354.46875},
 	{"x": 707.875, "y": 347.875}
@@ -155,6 +152,7 @@
       "desc": "Skeleton Spawn",
       "url": "images/Icons/mob-default.png",
       "points": [
+	{"desc": "Skeleton Archer","x": 691, "y": 679.1875},
 	{"desc": "Shield Skeleton","x": 653.0, "y": 423.1},
 	{"desc": "Shield Skeleton in ground","x": 796.9375, "y": 266.125},
 	{"desc": "Skeleton Archer patrolling","x": 404, "y": 325.75},
@@ -587,11 +585,11 @@
        ]
     },
     {
-      "name": "Living Armor",
+      "name": "Animated Armor",
       "color": "#7c8079",
       "category": "Bosses",
       "url": "images/Icons/mob-boss-living.png",
-      "desc": "Living Armor",
+      "desc": "Animated Armor",
       "points": [
         {"x": 339.5, "y": 368},
         {"x": 572, "y": 507.5},
@@ -654,16 +652,11 @@
       "desc": "Minecart",
       "url": "images/Icons/chest-minecart.png",
       "points": [     
-	{ "desc": "Underground", "image":"images/Ores/MineCart378.png","x": 378.0, "y": 635.875},
         {"image":"images/Ores/MineCart715.png", "x": 715.0, "y": 606.5625},
         {"image":"images/Ores/MineCart480.png", "x": 480.0, "y": 794.875},
-        {"image":"images/Ores/MineCart484.png","x": 484.0, "y": 846},
-	{"image":"images/Ores/MineCart488.png","x": 488.0, "y": 842.0625},
 	{"image":"images/Ores/MineCart365.png", "x": 365.0, "y": 155.875},
 	{"image":"images/Ores/MineCart351.png","x": 340.25, "y": 150.625},
-	{ "desc": "Underground in tiny cave", "x": 731.1875, "y": 202},
-	{"image":"images/Ores/MineCart700.png","x": 700.0, "y": 635.8125},
-	{"image":"images/Ores/MineCart690.png","x": 690.0, "y": 680.6875}	
+	{"image":"images/Ores/MineCart700.png","x": 700.0, "y": 635.8125}	
       ]
     },
     {
@@ -714,7 +707,6 @@
         {"x": 856.75, "y": 555.8125},
         {"x": 859.25, "y": 471},
         {"x": 878.125, "y": 604.5},
-        {"x": 693.5625, "y": 679.375},
         {"x": 700.4375, "y": 600.375},
         {"x": 578.65625, "y": 648.0625},
         {"x": 773, "y": 348},
@@ -891,7 +883,6 @@
       "desc": "Usually contains a backpack, various foods and resources",
       "url": "images/Icons/chest-herb.png",
       "points": [
-	{"desc": "In a corner inside the mine","x": 688.65625, "y": 679},
 	{"desc": "In a corner next to the armored archer skeleton","x": 618.1875, "y": 457.71875},
 	{"x": 239, "y": 446.75},
 	{"x": 348.25, "y": 375.25},
@@ -1193,6 +1184,7 @@
       "desc": "Books",
       "url": "images/Icons/drop-book.png",
       "points": [
+	{"x": 470.15625, "y": 702.40625},
 	{"x": 803.3125, "y": 253.65625},
 	{"desc": "Book can drop under bridge","image":"images/Tools/bookUnder520.png","x": 520.843, "y": 431.5},
 	{"desc": "Book can drop on shelf","image":"images/Tools/bookUnder312.png","x": 312.0, "y": 633.0625},
@@ -1401,24 +1393,6 @@
 	{"x": 392.1875, "y": 357.875},
 	{"x": 725.0, "y": 140.8125}      ]
     },
-
-    {
-      "name": "Medical Drops",
-      "color": "#f7d97e",
-      "category": "Dropped Items",
-      "desc": "Medical Drops",
-      "url": "images/Icons/drop-med.png",
-      "points": [
-	{"x": 833.640625, "y": 556.90625},
-	{"x": 756.9375, "y": 528.875},
-        { "x": 597.5625, "y": 511.1875 },
-        { "x": 471.5, "y": 376 },
-        {"x": 840.375, "y": 550.375},
-        {"x": 461.21875, "y": 435.90625},
-        {"x": 319.25, "y": 448.375},
-        {"x": 595.8125, "y": 367.3125}
-      ]
-    },
     {
         "name": "Food",
         "color": "#f7d97e",
@@ -1430,7 +1404,9 @@
 		{ "desc": "Food/Ingredients around the whole room","x": 720.6875, "y": 375.3125},
 		{ "desc": "Food/Ingredients around the whole house","x": 394.625, "y": 289.875},
 	    { "desc": "Food/Ingredients throughout the house","x": 462.953125, "y": 603.65625},
-            { "desc": "Apples", "x": 343, "y": 264 },
+            { "desc": "Tasty Red Apples & Rotten Apples", "x": 343, "y": 264 },
+	    { "desc": "Tasty Red Apples & Rotten Apples", "x": 334.0625, "y": 392.4375},
+	  { "desc": "Tasty Red Apples & Rotten Apples", "x": 450.21875, "y": 355},
             { "desc": "Pumpkins", "x": 295, "y": 248 },
             {"desc": "Carrots", "x": 336.75, "y": 515 },
             {"x": 323.9375, "y": 454.5},
@@ -1453,6 +1429,11 @@
       "category": "Trees",
       "desc": "Birch and Oak",
       "points": [
+	{"x": 295.53125, "y": 550.9375},
+	{"x": 685.625, "y": 492.9375},
+	{"x": 663.9375, "y": 499.78125},
+		{"x": 716.6875, "y": 512.375},
+	{"x": 696.59375, "y": 474.5},
 	{"x": 411.34375, "y": 546.375},
 	{"x": 783.0, "y": 194.5625},
         { "x": 630.34, "y": 514.82 },
@@ -1462,7 +1443,7 @@
         { "x": 520.5, "y": 265.75},
        {"x": 489.6875, "y": 330.125},
         { "x": 456, "y": 289},
-        { "x": 656, "y": 175.75},
+	{"x": 680.25, "y": 204.6875},
         { "x": 562.5, "y": 722.75},
         { "x": 425.75, "y": 530.25},
         { "x": 578, "y": 345},
@@ -1470,7 +1451,6 @@
         { "x": 255.35, "y": 261.27 },
         { "x": 235.20, "y": 298.57 },
         { "x": 288.77, "y": 504.90 },
-        { "x": 273.47, "y": 546.64 },
         { "x": 267.35, "y": 607.00 },
         {"x": 320.5625, "y": 467.3125},
         { "x": 411.5, "y": 508.5},
@@ -1542,7 +1522,7 @@
         {"image":"images/Plants/IronwoodTree874.png", "x": 874.0, "y": 581.25 },
 	{"image":"images/Plants/IronwoodTree578.png", "x": 578.0, "y": 347.875},
         {"image":"images/Plants/IronwoodTree573.png","x": 573.0, "y": 358},
-	        { "x": 670.03, "y": 180.48 },
+	                { "x": 656, "y": 175.75},
         { "x": 274.5, "y": 641.5 },
         { "x": 805.78, "y": 545.47 },
 	{"x": 444.25, "y": 697.75}
@@ -1560,7 +1540,6 @@
 	{"desc": "Inside cave below","x": 701.0625, "y": 247.875},
 	{"x": 696.4375, "y": 156.5},
         {"x": 507.5, "y": 828.125},
-	{"x": 488.0625, "y": 842.0625},
 	{"x": 500.875, "y": 817.25},
 	{"x": 328.875, "y": 808.625},
 	{"x": 448.5, "y": 772.5625},
@@ -1573,7 +1552,6 @@
 	{"x": 510.25, "y": 713.375},
 	{"x": 568.25, "y": 714.25},
 	{"x": 615.6875, "y": 723.9375},
-	{"x": 688.75, "y": 680.875},
 	{"x": 854.25, "y": 666},
 	{"x": 801.25, "y": 579},
 	{"x": 749.625, "y": 554.375},
@@ -1626,7 +1604,6 @@
 	{"x": 699, "y": 140.375},
 	{"x": 734.25, "y": 158.75},
 	{"x": 625.4375, "y": 402.0625},
-       {"x": 488.0625, "y": 842.0625},
        {"x": 479.5, "y": 795.875},
        {"x": 353.875, "y": 790.625},
        {"x": 325.1875, "y": 797},
@@ -1654,12 +1631,7 @@
       "category": "Ores",
       "desc": "Bloodsteel Ore",
       "points": [
-        {"image":"images/Ores/Bloodsteel669.png","x": 669, "y": 593},
-            {"image":"images/Ores/Bloodsteel483.png","x": 490.3125, "y": 852.375},
-        {"image":"images/Ores/Bloodsteel736.png","x": 736.0, "y": 234},
-       {"desc": "Underground in cave","x": 753.25, "y": 175.6875},
-	{"image":"images/Ores/Bloodsteel335.png","x": 332.5625, "y": 136.0625}
-      ]
+             ]
     },
     {
       "name": "Field Lily",

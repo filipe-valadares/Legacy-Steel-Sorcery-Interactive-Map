@@ -330,10 +330,7 @@
       "category": "Ores",
       "desc": "Bloodsteel Ore",
       "points": [
-        {"image":"images/Ores/Bloodsteel483.png","x": 490.3125, "y": 852.375},
-        {"x": 753.25, "y": 175.6875},
-	{"image":"images/Ores/Bloodsteel335.png","x": 332.5625, "y": 136.0625}
-      ]
+             ]
     },
 
 	{
@@ -364,6 +361,7 @@
       "desc": "Search this area for possible spawn of: Wood Saw,Simple Scissors,Crude Awl,Dried Herbs,Ogre Fat,Tree Resin,Paper,Heavy Thread,Simple Buckle,Metal Hinge,Wax Candle,Sewing Needles,Iron Nails,Simple Vial,Simple Rope,Waxed Rope,Fire Powder,Bone Hammer,Splintered Bone,Massive Femur",
       "url": "images/Icons/tools.png",
       "points": [
+	{"x": 858.4375, "y": 529.5},
 	{"x": 857.90625, "y": 397.0625},
 	{"x": 868.25, "y": 535.125},
 	{"x": 751.8125, "y": 516.40625},
@@ -767,7 +765,7 @@
       "points":[
 	{"desc": "Complete the Lion switch puzzle to open the gates","x": 867, "y": 376.9375},
 	{"desc": "Requires Treasure Room Key to enter","x": 860.34375, "y": 525.75},
-	{"desc": "Requires Crypt Extraction Key to enter","x": 586.71875, "y": 362.84375},
+	{"desc": "Requires Crypt Extraction Key to open the gate","x": 586.71875, "y": 362.84375},
 	{"desc": "Requires Treasure Room Key to enter","x": 656.96875, "y": 294.84375}
 	  ]
     },
@@ -779,7 +777,7 @@
       "desc": "Exit",
       "url": "images/Icons/exit.png",
       "points": [
-        {"desc": "Crypt Key is needed to open the gate","image":"images/Exit/keyCrypt12412.png", "x": 586.65625, "y": 361.84375}
+        {"desc": "Crypt Key is needed to open the gate","image":"images/Exit/keyCrypt12412.png", "x": 590.09375, "y": 358.46875}
       ]
     }
 

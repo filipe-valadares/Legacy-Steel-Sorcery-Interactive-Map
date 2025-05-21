@@ -7,9 +7,12 @@
       "desc": "Skeleton Spawn",
       "url": "images/Icons/mob-default.png",
       "points": [
+	{"x": 866.8125, "y": 560.40625},
+	{"x": 551.78125, "y": 520.28125},
+	{"x": 572.0625, "y": 533.78125},
 	{"x": 610.15625, "y": 283.21875},
 	{"x": 613.59375, "y": 275.625},
-		{"x": 591.75, "y": 265.75},
+	{"x": 591.75, "y": 265.75},
 	{"x": 594.375, "y": 259.75},
 	{"x": 646.5, "y": 264.4375},
 	{"x": 641.8125, "y": 264.21875},
@@ -18,9 +21,45 @@
 	{"desc":"Armored Skeleton Archer on top of wall","x": 599.5, "y": 331.875},
 	{"desc":"Armored Skeleton Archer on top of wall","x": 630.15625, "y": 287.84375},
 	{"desc":"Armored Skeleton Archer on top of wall","x": 648.25, "y": 289.28125}
-
       ]
     },
+	{
+      "name": "Elite Skeletons",
+      "color": "#f5fced",
+      "category": "Enemies",
+      "url": "images/Icons/mob-stronger.png",
+      "desc": "Elite Skeleton Spawn",
+      "points": [
+	{ "desc": "Skeleton Swordsman","x": 610.53125, "y": 279.9375},
+	{"x": 570.84375, "y": 354.625},
+	{ "desc": "Skeleton Mage","x": 451.15625, "y": 335.8125},
+	{ "desc": "Skeleton Mage","x": 641.46875, "y": 336.90625}
+      ]
+    },
+	 {
+      "name": "Wolves",
+      "color": "#000000",
+      "category": "Enemies",
+      "url": "images/Icons/mob-wolf.png",
+      "desc": "Wolf",
+      "points": [
+	
+	]
+    },
+    {
+      "name": "White Wolves",
+      "color": "#7c8079",
+      "category": "Enemies",
+      "url": "images/Icons/mob-wolf-elite.png",
+      "desc": "White Wolves",
+      "points": [
+        {"x": 311.34375, "y": 512.71875},
+	{"x": 313.15625, "y": 512.3125},
+	{"x": 475.5, "y": 319.8125},
+	{"x": 456.614203951213, "y": 294.775139407142}
+       ]
+    },
+
 	 {
       "name": "Goblins",
       "color": "#4e9100",
@@ -28,14 +67,31 @@
       "desc": "Goblin Spawn",
       "url": "images/Icons/mob-goblin.png",
       "points": [
-	{"x": 519.875, "y": 234.0625},
-	{"x": 361.28125, "y": 596.6875},
-	{"x": 367.8125, "y": 595.09375},
-	{"x": 349.34375, "y": 607.84375},
-	{"x": 338.0625, "y": 584.90625}
+	{"x": 358.875, "y": 710},
+	{"x": 772.8125, "y": 356.125},
+	{"x": 774.625, "y": 345.8125},
+	{"x": 479.90625, "y": 776.28125},
+	{"x": 484.21875, "y": 781.4375},
+	{"x": 500.78125, "y": 776.65625},
+	{"x": 489.5, "y": 343.28125},
+	{"x": 473.78125, "y": 334.03125},
+	{"x": 478.96875, "y": 345.71875},
+	{"x": 503.46875, "y": 277.53125},
+	{"x": 518.65625, "y": 251.96875}
+      ]
+    },	
+		{
+      "name": "Elite Goblins",
+      "color": "#f5fced",
+      "category": "Enemies",
+      "url": "images/Icons/mob-goblin-elite.png",
+      "desc": "Elite Goblins Spawn",
+      "points": [
+	{"x": 466.875, "y": 774.1875},
+	{"x": 493.5, "y": 337.9375}
+
       ]
     },
-
 	 {
       "name": "Bandit",
       "color": "#f5fced",
@@ -43,7 +99,10 @@
       "desc": "Bandit Spawn",
       "url": "images/Icons/bandit.png",
       "points": [
-	{"x": 302.4375, "y": 617.0625}
+	{"x": 302.4375, "y": 617.0625},
+	{"x": 342.5625, "y": 322.9375},
+	{"desc":"2nd floor","x": 474.53125, "y": 352.46875},
+	{"x": 474.34375, "y": 221.78125}
 
       ]
     },
@@ -54,11 +113,15 @@
       "desc": "Elite Bandit Spawn",
       "url": "images/Icons/bandit-elite.png",
       "points": [
+	{"x": 343.8125, "y": 710.15625},
 	{"x": 332.375, "y": 318.875},
 	{"x": 532.53125, "y": 549.8125},
 	{"x": 372, "y": 603.59375},
-	{"x": 321.4375, "y": 632.6875}
-
+	{"x": 321.4375, "y": 632.6875},
+	{"x": 342.5625, "y": 322.9375},
+	{"x": 842.5625, "y": 397},
+	{"x": 667.1875, "y": 463.53125},
+	{"x": 517.15625, "y": 234.84375}
       ]
     },
 	{
@@ -74,18 +137,7 @@
 	{"x": 335.8125, "y": 505.5},
 	{"x": 439.71875, "y": 597.78125}
        ]
-    },
-
-	{
-      "name": "Elite Skeletons",
-      "color": "#f5fced",
-      "category": "Enemies",
-      "url": "images/Icons/mob-stronger.png",
-      "desc": "Elite Skeleton Spawn",
-      "points": [
-	{ "desc": "Skeleton Swordsman","x": 610.53125, "y": 279.9375}
-      ]
-    },
+    },	
 	{
       "name": "Skeleton Spearman",
       "color": "#f5fced",
@@ -94,7 +146,8 @@
       "url": "images/Icons/mob-spearman.png",
       "points": [
 	{"x": 328.90625, "y": 685.59375},
-	{"x": 347.5, "y": 673.375}
+	{"x": 347.5, "y": 673.375},
+	{"x": 896.09375, "y": 595.34375}
    ]
     },
 
@@ -110,9 +163,21 @@
 	{"x": 338.84375, "y": 321.59375},
 	{"x": 463.1875, "y": 623.78125},
 	{"x": 542.875, "y": 580.71875},
-	{"x": 643.375, "y": 563.71875}
+	{"x": 643.375, "y": 563.71875},
+	{"x": 892.875, "y": 580.34375}
 	]
     },
+	{
+      "name": "Banshee",
+      "color": "#f5fced",
+      "category": "Enemies",
+      "url": "images/Icons/banshee.png",
+      "desc": "Banshee",
+      "points": [
+	{"x": 860.1875, "y": 549.09375}
+      ]
+    },
+
 	{
       "name": "Elite Banshee",
       "color": "#f5fced",
@@ -120,8 +185,12 @@
       "url": "images/Icons/banshee-elite.png",
       "desc": "Elite Banshee (drops Transmutation Recipes, Spirit Essence, Wizard Scrolls)",
       "points": [
+	{"x": 655.75, "y": 432.59375},
+	{"x": 649.71875, "y": 428.9375},
      	{"x": 349.5625, "y": 372.84375},
-	{"x": 857.8125, "y": 574.5}
+	{"x": 857.8125, "y": 574.5},
+	{"desc":"On top of the tower","x": 849.78125, "y": 553.3125},
+	{"x": 592.53125, "y": 327.53125}
       ]
     },
 
@@ -132,6 +201,7 @@
       "url": "images/Icons/mob-boss-wraith.png",
       "desc": "Wraith",
       "points": [
+	{"x": 553.09375, "y": 400.09375},
 		{"x": 590.84375, "y": 274.5625}
             ]
     },
@@ -163,18 +233,27 @@
       "desc": "Minecart",
       "url": "images/Icons/chest-minecart.png",
       "points": [     
-	{ "desc": "Underground", "image":"images/Ores/MineCart378.png","x": 378.0, "y": 635.875},
         {"image":"images/Ores/MineCart715.png", "x": 715.0, "y": 606.5625},
         {"image":"images/Ores/MineCart480.png", "x": 480.0, "y": 794.875},
         {"image":"images/Ores/MineCart484.png","x": 484.0, "y": 846},
 	{"image":"images/Ores/MineCart488.png","x": 488.0, "y": 842.0625},
 	{"image":"images/Ores/MineCart365.png", "x": 365.0, "y": 155.875},
 	{"image":"images/Ores/MineCart351.png","x": 340.25, "y": 150.625},
-	{ "desc": "Underground in tiny cave", "x": 731.1875, "y": 202},
-	{"image":"images/Ores/MineCart700.png","x": 700.0, "y": 635.8125},
-	{"image":"images/Ores/MineCart690.png","x": 690.0, "y": 680.6875}	
+	{"image":"images/Ores/MineCart700.png","x": 700.0, "y": 635.8125}	
       ]
     },
+	{
+      "name": "Animated Armor",
+      "color": "#7c8079",
+      "category": "Bosses",
+      "url": "images/Icons/mob-boss-living.png",
+      "desc": "Animated Armor",
+      "points": [
+       {"x": 590.5, "y": 524.71875},
+	{"x": 637.25, "y": 460.34375}
+       ]
+    },
+
 	{
       "name": "Big Spider Elite",
       "color": "#f5fced",
@@ -194,7 +273,9 @@
       "desc": "Necromancer (drops Transmutation Recipes, Gear, Keys, Mats)",
       "points": [
 	{"x": 583.1875, "y": 231.4375},
-	{"x": 327.34375, "y": 347.84375}
+	{"x": 327.34375, "y": 347.84375},
+	{"x": 686, "y": 528.25},
+	{"x": 839.09375, "y": 422.125}
       ]
     },
 
@@ -205,9 +286,14 @@
       "url": "images/Icons/necromancer-elite.png",
       "desc": "Elite Necromancer (drops Transmutation Recipes, Gear, Keys, Mats)",
       "points": [
+	{"x": 868.59375, "y": 557.4375},
      	{"x": 622.90625, "y": 303.78125},
 	{"x": 603.03125, "y": 268.125},
-	{"x": 321.9375, "y": 341.78125}
+	{"x": 321.9375, "y": 341.78125},
+	{"x": 686, "y": 528.25},
+	{"x": 842.15625, "y": 408.96875},
+	{"x": 673.25, "y": 445.90625},
+	{"x": 564.15625, "y": 333.90625}
       ]
     },
 
@@ -260,7 +346,6 @@
         {"x": 856.75, "y": 555.8125},
         {"x": 859.25, "y": 471},
         {"x": 878.125, "y": 604.5},
-        {"x": 693.5625, "y": 679.375},
         {"x": 700.4375, "y": 600.375},
         {"x": 578.65625, "y": 648.0625},
         {"x": 773, "y": 348},
@@ -437,7 +522,7 @@
       "desc": "Adventurer Bag",
       "url": "images/Icons/chest-herb.png",
       "points": [
-	{"desc": "In a corner inside the mine","x": 688.65625, "y": 679},
+
 	{"desc": "In a corner next to the armored archer skeleton","x": 618.1875, "y": 457.71875},
 	{"x": 239, "y": 446.75},
 	{"x": 348.25, "y": 375.25},
@@ -461,7 +546,7 @@
 	{"desc": "On first floor","x": 653.5625, "y": 458.28125},
 	{"x": 652.61, "y": 446.0},
 	{"x": 587.625, "y": 296.28125},
-	{"x": 714.375, "y": 377.25},
+	{"x": 728.1875, "y": 378.9375},
 	{"x": 707.03125, "y": 371.6875},
 	{"x": 640.71875, "y": 437.59375},
 	{"x": 648.78125, "y": 434.84375},
@@ -510,7 +595,7 @@
 	{"x": 547.1875, "y": 509.25},
 	{"x": 654.3125, "y": 355.25},
 	{"x": 634.375, "y": 246.4375},
-	{"x": 717.125, "y": 376.9375},
+	{"x": 732.53125, "y": 379.96875},
 	{"x": 460.6875, "y": 607.515625},
         { "x": 585.71, "y": 644.85 },
         {"x": 582.625, "y": 641.9375},
@@ -556,6 +641,7 @@
       "url": "images/Icons/big-resure.png",
       "desc": "Always contains at least 1 Uncommon treasure",
       "points": [
+	{"desc": "2nd floor","x": 472.875, "y": 345.90625},
 	{"desc": "2nd floor, requires Skull Key to open","image":"images/Chests/treasureChest706.png","x": 706.0, "y": 371.53125},
 	{"desc": "On top floor, requires Skull Key to open", "image": "images/Chests/treasureChest480.png","x": 480.0, "y": 341.1875},
         {"desc": "Requires Skull Key to open", "image": "images/Chests/treasureChest834.png" ,"x": 834.0, "y": 554.125},
@@ -645,8 +731,8 @@
 	{"x": 329.9375, "y": 137.8125},
 	{"x": 648.125, "y": 371.0625},
 	{"desc": "2nd floor inside","image":"images/Chests/armorChest735.png","x": 736.0, "y": 344.5},
-	{"x": 719.875, "y": 372.6875},
-	{"x": 715.8125, "y": 372.75},
+	{"x": 734.8125, "y": 374},
+	{"x": 729.875, "y": 373.875},
 	{"image":"images/Chests/armorChest760.png", "x": 760.234375, "y": 361.890625},
 	{"image":"images/Chests/armorChest762.png", "x": 762.203125, "y": 353.78125},
 	{"desc": "Top of Tower","image":"images/Chests/armorChest766.png", "x": 766.5, "y": 348.59375},
@@ -692,7 +778,7 @@
         {"x": 621.5, "y": 504.75},
         {"x": 314.625, "y": 632.59375},
         {"x": 349.71875, "y": 498.9375},
-	{"x": 298.75, "y": 513.1875},
+	{"x": 298.25, "y": 513.9375},
 	{"x": 889.4375, "y": 607.75},
 	{"x": 382.5, "y": 282.09375},
 	{"x": 740.28125, "y": 345.875},
@@ -738,6 +824,7 @@
       "desc": "Books",
       "url": "images/Icons/drop-book.png",
       "points": [
+	{"x": 470.15625, "y": 702.40625},
 	{"x": 803.3125, "y": 253.65625},
 	{"desc": "Book can drop under bridge","image":"images/Tools/bookUnder520.png","x": 520.843, "y": 431.5},
 	{"desc": "Book can drop on shelf","image":"images/Tools/bookUnder312.png","x": 312.0, "y": 633.0625},
@@ -780,7 +867,7 @@
 	{"image":"images/Tools/lodge706.png","x": 706.5625, "y": 371.46875},
 	{"image":"images/Tools/lodge888.png","x": 888.0, "y": 608.375},
 	{"image":"images/Tools/lodge801.png","x": 801.5625, "y": 266.875},
-	{"image":"images/Tools/lodge723.png","x": 723.0, "y": 377.96875},
+	{"image":"images/Tools/lodge723.png","x": 740.25, "y": 380.375},
 	{"image":"images/Tools/lodge603.png","x": 603.0, "y": 530.9375},
 	{"image":"images/Tools/lodge483.png","x": 483.0, "y": 406.4375},
 	{"image":"images/Tools/lodge585.png","x": 585.0, "y": 224.328125},
@@ -836,6 +923,7 @@
       "desc": "Locked door that requires a certain key to enter",
       "url": "images/Icons/lockeddoor.png",
       "points":[
+	{"desc": "Requires Farmhouse Key","x": 876.59375, "y": 603.46875},
 	{"desc": "Requires Farmhouse Key","x": 366.875, "y": 582.15625},
 	{"desc": "Requires Farmhouse Key","x": 261.84375, "y": 447.5},
 	{"desc": "Requires Farmhouse Key","x": 260.3125, "y": 230.6875},
@@ -962,24 +1050,6 @@
 	{"x": 392.1875, "y": 357.875},
 	{"x": 725.0, "y": 140.8125}      ]
     },
-
-    {
-      "name": "Medical Drops",
-      "color": "#f7d97e",
-      "category": "Dropped Items",
-      "desc": "Medical Drops",
-      "url": "images/Icons/drop-med.png",
-      "points": [
-	{"x": 833.640625, "y": 556.90625},
-	{"x": 756.9375, "y": 528.875},
-        { "x": 597.5625, "y": 511.1875 },
-        { "x": 471.5, "y": 376 },
-        {"x": 840.375, "y": 550.375},
-        {"x": 461.21875, "y": 435.90625},
-        {"x": 319.25, "y": 448.375},
-        {"x": 595.8125, "y": 367.3125}
-      ]
-    },
     {
         "name": "Food",
         "color": "#f7d97e",
@@ -988,7 +1058,7 @@
         "url": "images/Icons/food.png",
         "points": [
 		{ "desc": "Food/Ingredients around the whole room","x": 725.875, "y": 350},
-		{ "desc": "Food/Ingredients around the whole room","x": 720.6875, "y": 375.3125},
+		{ "desc": "Food/Ingredients around the whole room","x": 739.625, "y": 377.46875},
 		{ "desc": "Food/Ingredients around the whole house","x": 394.625, "y": 289.875},
 	    { "desc": "Food/Ingredients throughout the house","x": 462.953125, "y": 603.65625},
             { "desc": "Apples", "x": 343, "y": 264 },
@@ -1013,7 +1083,13 @@
       "url": "images/Icons/tree-oak.png",
       "category": "Trees",
       "desc": "Birch and Oak",
-      "points": [
+      "points": [	
+	{"x": 453.84375, "y": 338.15625},
+	{"x": 680.25, "y": 204.6875},
+	{"x": 295.53125, "y": 550.9375},
+	{"x": 663.9375, "y": 499.78125},
+	{"x": 716.6875, "y": 512.375},
+	{"x": 696.59375, "y": 474.5},
 	{"x": 783.0, "y": 194.5625},
         { "x": 630.34, "y": 514.82 },
         { "x": 241.75, "y": 435.75},
@@ -1022,7 +1098,6 @@
         { "x": 520.5, "y": 265.75},
        {"x": 489.6875, "y": 330.125},
         { "x": 456, "y": 289},
-        { "x": 656, "y": 175.75},
         { "x": 562.5, "y": 722.75},
         { "x": 425.75, "y": 530.25},
         { "x": 578, "y": 345},
@@ -1030,7 +1105,6 @@
         { "x": 255.35, "y": 261.27 },
         { "x": 235.20, "y": 298.57 },
         { "x": 288.77, "y": 504.90 },
-        { "x": 273.47, "y": 546.64 },
         { "x": 267.35, "y": 607.00 },
         {"x": 320.5625, "y": 467.3125},
         { "x": 411.5, "y": 508.5},
@@ -1053,7 +1127,8 @@
         { "x": 618.87, "y": 559.34 },
         { "x": 722.19, "y": 527.13 },
         { "x": 790.00, "y": 447.28 },
-        { "x": 717.55, "y": 368.86 },
+	{"x": 700, "y": 352.5},
+	{"x": 709.03125, "y": 339.65625},
         { "x": 387.76, "y": 256.95 },
         { "x": 295, "y": 685.25 },
         { "x": 312.5, "y": 514.25 },
@@ -1102,7 +1177,7 @@
         {"image":"images/Plants/IronwoodTree874.png", "x": 874.0, "y": 581.25 },
 	{"image":"images/Plants/IronwoodTree578.png", "x": 578.0, "y": 347.875},
         {"image":"images/Plants/IronwoodTree573.png","x": 573.0, "y": 358},
-	        { "x": 670.03, "y": 180.48 },
+	        { "x": 656, "y": 175.75},
         { "x": 274.5, "y": 641.5 },
         { "x": 805.78, "y": 545.47 },
 	{"x": 444.25, "y": 697.75}
@@ -1118,7 +1193,6 @@
 	{"x": 679.1875, "y": 523.75},
 	{"x": 480.6875, "y": 398.875},
 	{"desc": "Inside cave below","x": 701.0625, "y": 247.875},
-	{"x": 696.4375, "y": 156.5},
         {"x": 507.5, "y": 828.125},
 	{"x": 488.0625, "y": 842.0625},
 	{"x": 500.875, "y": 817.25},
@@ -1126,14 +1200,12 @@
 	{"x": 448.5, "y": 772.5625},
 	{"x": 470.75, "y": 769.75},
 	{"x": 435.375, "y": 721.375},
-	{"x": 397.25, "y": 715.375},
 	{"x": 391, "y": 727.875},
 	{"x": 354.5, "y": 732.75},
 	{"x": 337.625, "y": 714.375},
 	{"x": 510.25, "y": 713.375},
 	{"x": 568.25, "y": 714.25},
 	{"x": 615.6875, "y": 723.9375},
-	{"x": 688.75, "y": 680.875},
 	{"x": 854.25, "y": 666},
 	{"x": 801.25, "y": 579},
 	{"x": 749.625, "y": 554.375},
@@ -1202,7 +1274,6 @@
 	{"x": 707.6875, "y": 353.625},
 	{"x": 766.375, "y": 205.1875},
 	{"x": 378, "y": 152.625},
-	{"x": 345.25, "y": 163.125},
 	{"x": 719.375, "y": 598.375},
 	{"x": 682, "y": 566}
       ]
@@ -1214,10 +1285,18 @@
       "category": "Ores",
       "desc": "Bloodsteel Ore",
       "points": [
-        {"image":"images/Ores/Bloodsteel669.png","x": 669, "y": 593},
-            {"image":"images/Ores/Bloodsteel483.png","x": 490.3125, "y": 852.375},
-        {"image":"images/Ores/Bloodsteel736.png","x": 736.0, "y": 234},
-	{"image":"images/Ores/Bloodsteel335.png","x": 332.5625, "y": 136.0625}
+        {"x": 695.90625, "y": 155.59375},
+		{"x": 345.25, "y": 163.125}
+      ]
+    },
+	 {
+      "name": "Mithril Ore",
+      "color": "#c44b00",
+      "url": "images/Icons/ore-blood.png",
+      "category": "Ores",
+      "desc": "Mithril Ore",
+      "points": [
+       {"x": 397.25, "y": 715.375}
       ]
     },
     {
@@ -1324,7 +1403,10 @@
       "desc": "Moon Lotus (sells for vendor reputation)",
       "url": "images/Icons/moonlotus.png",
       "points": [
-	{"x": 319.5, "y": 307.6875}
+	{"x": 319.5, "y": 307.6875},
+	{"x": 576.25, "y": 467.125},
+	{"x": 676.65625, "y": 193.84375},
+	{"x": 274.15625, "y": 537.5625}
       ]
     },
 
@@ -1356,7 +1438,8 @@
 	{"x": 446.21875, "y": 357.78125},
 	{"x": 403.375, "y": 364.03125},
 	{"x": 729.53125, "y": 453.4375},
-	{"x": 732.15625, "y": 450.6875}
+	{"x": 732.15625, "y": 450.6875},
+	{"x": 342.5625, "y": 322.9375}
       ]
     },
 
@@ -1367,6 +1450,7 @@
       "desc": "King's Mint",
       "url": "images/Icons/flower-blue.png",
       "points": [
+	{"x": 592.40625, "y": 488.34375},
 	{"image":"images/Plants/KingsMint599.png","x": 599, "y": 501.7},
 	{"image":"images/Plants/KingsMint735.png","x": 735.8, "y": 259.3},
 	{"image":"images/Plants/KingsMint582.png","x": 582.0, "y": 531.8},
@@ -1520,6 +1604,7 @@
       "desc": "Glowgrub",
       "url": "images/Icons/worm.png",
       "points": [	
+		{"x": 696.4375, "y": 156.5},
 	{"x": 391.6875, "y": 769.8125},
 	{"x": 398, "y": 664.5625},
 	{"x": 366.8125, "y": 638.4375},
@@ -1684,13 +1769,14 @@
       "category": "Misc",
       "desc": "Spawn Point",
       "points": [
+	{"x": 724.25, "y": 121.625},
         { "x": 580.60, "y": 738.51 },
         { "x": 546.94, "y": 246.15 },
         { "x": 262.50, "y": 252.47 },
         { "x": 661.75, "y": 182.5 },
         { "x": 698.75, "y": 579.5 },
         {"x": 332.75, "y": 762.75},
-        {"x": 275.25, "y": 684.25},
+        {"x": 269.25, "y": 668.0625},
         {"x": 282, "y": 541.5},
         {"x": 227, "y": 396.25},
         {"x": 474.5, "y": 561},
@@ -1709,10 +1795,11 @@
       "desc": "Exit",
       "url": "images/Icons/exit.png",
       "points": [
-        {"desc": "To exit from here, you need to pay 100 Gold coins from your inventory","x": 223.75, "y": 285.25},
-        {"desc": "One of the 2 random free extracts", "x": 311.5, "y": 777.25},
-        {"desc": "One of the 2 random free extracts","x": 850.5, "y": 431},
-        {"desc": "To exit from here, you need to lower the bridge with Goblin Lever that can drop from any Goblin","x": 723.5, "y": 126.75},
+        {"desc": "To exit from here, you need to pay 100 Gold coins from your inventory","x": 815.875, "y": 196.15625},
+	{"desc": "You need Root Cellar Extraction Key to exit from here","x": 277.65625, "y": 683.25},
+        {"desc": "One of the 2 random free extracts","x": 352.65625, "y": 154.59375},
+        {"desc": "One of the 2 random free extracts","x": 754.03125, "y": 633.78125},
+        {"desc": "Grim Exchange exit","x": 585.84375, "y": 655.96875},
 	{"desc": "On the top of the highest Castle tower, Castle Key is needed to open the gate","x": 673, "y": 450}
       ]
     },
