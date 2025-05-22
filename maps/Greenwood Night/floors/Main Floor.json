@@ -17,10 +17,13 @@
 	{"x": 646.5, "y": 264.4375},
 	{"x": 641.8125, "y": 264.21875},
 	{"x": 643.75, "y": 257.6875},
+	{"x": 593.59375, "y": 437.375},
+	{"desc":"Armored Skeleton Archer on top of wall","x": 750.5, "y": 537.09375},
 	{"desc":"Armored Skeleton Archer on top of wall","x": 620.375, "y": 353.375},
 	{"desc":"Armored Skeleton Archer on top of wall","x": 599.5, "y": 331.875},
 	{"desc":"Armored Skeleton Archer on top of wall","x": 630.15625, "y": 287.84375},
-	{"desc":"Armored Skeleton Archer on top of wall","x": 648.25, "y": 289.28125}
+	{"desc":"Armored Skeleton Archer on top of wall","x": 648.25, "y": 289.28125},
+	{"x": 593.8125, "y": 502.71875}
       ]
     },
 	{
@@ -30,10 +33,17 @@
       "url": "images/Icons/mob-stronger.png",
       "desc": "Elite Skeleton Spawn",
       "points": [
+	{ "desc": "Skeleton Swordsman","x": 575.96875, "y": 493.3125},
+	{ "desc": "Armored Skeleton Archer","x": 548.75, "y": 508.46875},
+	{ "desc": "Skeleton Mage","x": 566.4375, "y": 498.96875},
+	{ "desc": "Skeleton Mage","x": 747.8125, "y": 549.09375},
+	{ "desc": "Skeleton Mage","x": 396.5625, "y": 423.78125},
 	{ "desc": "Skeleton Swordsman","x": 610.53125, "y": 279.9375},
 	{"x": 570.84375, "y": 354.625},
 	{ "desc": "Skeleton Mage","x": 451.15625, "y": 335.8125},
-	{ "desc": "Skeleton Mage","x": 641.46875, "y": 336.90625}
+	{ "desc": "Skeleton Mage","x": 641.46875, "y": 336.90625},
+	{ "desc": "Skeleton Mage","x": 599.5, "y": 439},
+	{ "desc": "Skeleton Mage","x": 593.5, "y": 442.3125}
       ]
     },
 	 {
@@ -43,7 +53,20 @@
       "url": "images/Icons/mob-wolf.png",
       "desc": "Wolf",
       "points": [
-	
+	{"x": 340.59375, "y": 654.09375},
+	{"x": 880.15625, "y": 491.34375},
+	{"x": 886.34375, "y": 495.625},
+	{"x": 310, "y": 654.78125},
+	{"x": 311.34375, "y": 512.71875},
+	{"x": 313.15625, "y": 512.3125},
+	{"x": 310.53125, "y": 555.71875},
+	{"x": 312.25, "y": 547.59375},
+	{"x": 444.125, "y": 550.1875},
+	{"x": 418.125, "y": 595.53125},
+	{"x": 426.65625, "y": 592.0625},
+	{"x": 428.25, "y": 578.78125},
+	{"x": 466.78125, "y": 299.03125},
+	{"x": 467.625, "y": 296.46875}
 	]
     },
     {
@@ -53,13 +76,36 @@
       "url": "images/Icons/mob-wolf-elite.png",
       "desc": "White Wolves",
       "points": [
-        {"x": 311.34375, "y": 512.71875},
-	{"x": 313.15625, "y": 512.3125},
+	{"x": 449.84375, "y": 530.9375},
+	{"x": 455.59375, "y": 527.46875},
 	{"x": 475.5, "y": 319.8125},
-	{"x": 456.614203951213, "y": 294.775139407142}
+	{"x": 456.6142, "y": 294.742},
+	{"x": 473.8494, "y": 587.633},
+	{"x": 456.15625, "y": 471.53125},
+	{"x": 720.4375, "y": 495.75},
+	{"x": 707.8125, "y": 553.46875},
+	{"x": 739.90625, "y": 310.34375},
+	{"x": 449.1875, "y": 555.25}
        ]
     },
-
+		{
+      "name": "Big Elite Wolf",
+      "color": "#f5fced",
+      "category": "Enemies",
+      "url": "images/Icons/mob-wolf-giant.png",
+      "desc": "White Giant Wolf",
+      "points": [
+       {"x": 307.9375, "y": 572.03125},
+	{"x": 423.8125, "y": 582.96875},
+	{"x": 348.5, "y": 651.3125},
+	{"x": 335.8125, "y": 505.5},
+	{"x": 439.71875, "y": 597.78125},
+	{"x": 474.40625, "y": 596.9375},
+	{"x": 893.71875, "y": 510.875},
+	{"x": 765, "y": 328.375},
+	{"x": 407, "y": 550.25}
+       ]
+    },	
 	 {
       "name": "Goblins",
       "color": "#4e9100",
@@ -67,6 +113,10 @@
       "desc": "Goblin Spawn",
       "url": "images/Icons/mob-goblin.png",
       "points": [
+	{"x": 832.3125, "y": 439.84375},
+	{"x": 830.96875, "y": 430.84375},
+	{"x": 505.65625, "y": 826.71875},
+	{"x": 462.25, "y": 805.53125},
 	{"x": 358.875, "y": 710},
 	{"x": 772.8125, "y": 356.125},
 	{"x": 774.625, "y": 345.8125},
@@ -77,7 +127,8 @@
 	{"x": 473.78125, "y": 334.03125},
 	{"x": 478.96875, "y": 345.71875},
 	{"x": 503.46875, "y": 277.53125},
-	{"x": 518.65625, "y": 251.96875}
+	{"x": 518.65625, "y": 251.96875},
+	{"x": 364.65625, "y": 739.8125}
       ]
     },	
 		{
@@ -87,6 +138,7 @@
       "url": "images/Icons/mob-goblin-elite.png",
       "desc": "Elite Goblins Spawn",
       "points": [
+	{"x": 443.46875, "y": 795.59375},
 	{"x": 466.875, "y": 774.1875},
 	{"x": 493.5, "y": 337.9375}
 
@@ -99,6 +151,7 @@
       "desc": "Bandit Spawn",
       "url": "images/Icons/bandit.png",
       "points": [
+	{"x": 823.96875, "y": 353.03125},
 	{"x": 302.4375, "y": 617.0625},
 	{"x": 342.5625, "y": 322.9375},
 	{"desc":"2nd floor","x": 474.53125, "y": 352.46875},
@@ -113,6 +166,9 @@
       "desc": "Elite Bandit Spawn",
       "url": "images/Icons/bandit-elite.png",
       "points": [
+	{"x": 839.625, "y": 273.375},
+	{"x": 593.59375, "y": 437.375},
+	{"x": 419.25, "y": 457},
 	{"x": 343.8125, "y": 710.15625},
 	{"x": 332.375, "y": 318.875},
 	{"x": 532.53125, "y": 549.8125},
@@ -121,23 +177,11 @@
 	{"x": 342.5625, "y": 322.9375},
 	{"x": 842.5625, "y": 397},
 	{"x": 667.1875, "y": 463.53125},
-	{"x": 517.15625, "y": 234.84375}
+	{"x": 517.15625, "y": 234.84375},
+	{"x": 334.4375, "y": 755.5625}
       ]
     },
-	{
-      "name": "Big Wolf Elite",
-      "color": "#f5fced",
-      "category": "Enemies",
-      "url": "images/Icons/mob-wolf-giant.png",
-      "desc": "White Giant Wolf",
-      "points": [
-       {"x": 307.9375, "y": 572.03125},
-	{"x": 423.8125, "y": 582.96875},
-	{"x": 348.5, "y": 651.3125},
-	{"x": 335.8125, "y": 505.5},
-	{"x": 439.71875, "y": 597.78125}
-       ]
-    },	
+
 	{
       "name": "Skeleton Spearman",
       "color": "#f5fced",
@@ -186,7 +230,7 @@
       "desc": "Elite Banshee (drops Transmutation Recipes, Spirit Essence, Wizard Scrolls)",
       "points": [
 	{"x": 655.75, "y": 432.59375},
-	{"x": 649.71875, "y": 428.9375},
+	{"x": 665.298, "y": 442.8},
      	{"x": 349.5625, "y": 372.84375},
 	{"x": 857.8125, "y": 574.5},
 	{"desc":"On top of the tower","x": 849.78125, "y": 553.3125},
@@ -222,9 +266,37 @@
       "url": "images/Icons/mob-spider.png",
       "desc": "Spiders",
       "points": [
+	{"x": 606.71875, "y": 437.1875},
 	{"x": 260.75, "y": 310.09375},
-	{"x": 266.84375, "y": 305.125}
+	{"x": 266.84375, "y": 305.125},
+	{"x": 513.71875, "y": 492.5},
+	{"x": 487.8125, "y": 514.34375}
       ]	
+    },
+	{
+      "name": "Elite Spider",
+      "color": "#f5fced",
+      "category": "Enemies",
+      "url": "images/Icons/mob-spider-elite.png",
+      "desc": "Big Spider",
+      "points": [
+	{"x": 510.25, "y": 533.375},
+	{"x": 510.78125, "y": 520.96875},
+	{"x": 511.65625, "y": 507},
+	{"x": 481.125, "y": 507.21875},
+	{"x": 465.84375, "y": 467.5625}
+      ]
+    },
+	{
+      "name": "Big Elite Spider",
+      "color": "#f5fced",
+      "category": "Enemies",
+      "url": "images/Icons/mob-spider-giant.png",
+      "desc": "Giant Spider Elite",
+      "points": [
+	{"x": 374.28125, "y": 262.25},
+	{"x": 642.375, "y": 260.65625}
+      ]
     },
         {
       "name": "Minecart",
@@ -252,17 +324,6 @@
        {"x": 590.5, "y": 524.71875},
 	{"x": 637.25, "y": 460.34375}
        ]
-    },
-
-	{
-      "name": "Big Spider Elite",
-      "color": "#f5fced",
-      "category": "Enemies",
-      "url": "images/Icons/mob-spider-giant.png",
-      "desc": "Giant Spider Elite",
-      "points": [
-         {"x": 642.375, "y": 260.65625}
-      ]
     },
 
  {
@@ -858,14 +919,14 @@
       "name": "Lodge Items",
       "color": "#f7d97e",
       "category": "Dropped Items",
-      "desc": "Possible spawns for Dream Pillow/Artisan's Tool Kit/Copper Pot/Crumbling Skull",
+      "desc": "Possible spawns for Lodge upgrade items such as Artisan's Tool Kit,Iron Gear,Steel Tongs,Copper Pot,Master Hammer,Anvil etc.",
       "url": "images/Icons/lodge.png",
       "points":[
+	{"x": 320.03125, "y": 451.78125},
 	{"image":"images/Tools/lodge335.png","x": 335.84375, "y": 318.96875},
 	{"image":"images/Tools/lodge334.png","x": 334.6, "y": 361.8},
 	{"image":"images/Tools/lodge253.png","x": 253.15, "y": 235.9},
 	{"image":"images/Tools/lodge706.png","x": 706.5625, "y": 371.46875},
-	{"image":"images/Tools/lodge888.png","x": 888.0, "y": 608.375},
 	{"image":"images/Tools/lodge801.png","x": 801.5625, "y": 266.875},
 	{"image":"images/Tools/lodge723.png","x": 740.25, "y": 380.375},
 	{"image":"images/Tools/lodge603.png","x": 603.0, "y": 530.9375},
@@ -1088,7 +1149,6 @@
 	{"x": 680.25, "y": 204.6875},
 	{"x": 295.53125, "y": 550.9375},
 	{"x": 663.9375, "y": 499.78125},
-	{"x": 716.6875, "y": 512.375},
 	{"x": 696.59375, "y": 474.5},
 	{"x": 783.0, "y": 194.5625},
         { "x": 630.34, "y": 514.82 },
@@ -1118,7 +1178,6 @@
         { "x": 366.33, "y": 743.08 },
         { "x": 393.37, "y": 796.70 },
         { "x": 461.25, "y": 686.75},
-        { "x": 295.75, "y": 613.25},
         { "x": 475.51, "y": 643.24 },
         { "x": 460.96, "y": 610.57 },
         { "x": 414.79, "y": 622.40 },
@@ -1149,7 +1208,9 @@
       "url": "images/Icons/tree-mapple.png",
       "category": "Trees",
       "desc": "Birch, Oak and Maple",
-      "points": [     
+      "points": [
+	{"x": 294.84375, "y": 615.9375},
+	{"x": 716.6875, "y": 512.375},
 	{"image":"images/Plants/MapleTree765.png","x": 765, "y": 193},
         {"image":"images/Plants/MapleTree299.png","x": 299.0, "y": 617.625},
         {"image":"images/Plants/MapleTree790.png","x": 790.0, "y": 338.125},
@@ -1246,14 +1307,13 @@
       ]
     },
    {
-      "name": "Iron Ore",
+      "name": "Iron Ore or lower",
       "color": "#c44b00",
       "url": "images/Icons/ore-iron.png",
       "category": "Ores",
-      "desc": "Iron Ore",
+      "desc": "Iron or Copper",
       "points": [
 	{"x": 661.90625, "y": 477.1875},
-	{"x": 595.25, "y": 448.125},
 	{"x": 735.9375, "y": 340.125},
 	{"x": 699, "y": 140.375},
 	{"x": 734.25, "y": 158.75},
@@ -1279,22 +1339,25 @@
       ]
     },
     {
-      "name": "Bloodsteel Ore",
+      "name": "Bloodsteel Ore or lower",
       "color": "#c44b00",
       "url": "images/Icons/ore-blood.png",
       "category": "Ores",
-      "desc": "Bloodsteel Ore",
+      "desc": "Bloodsteel, Iron or Copper",
       "points": [
+	{"x": 651.875, "y": 200.25},
+	{"x": 595.25, "y": 448.125},
         {"x": 695.90625, "y": 155.59375},
-		{"x": 345.25, "y": 163.125}
+	{"x": 345.25, "y": 163.125},
+	{"x": 689.375, "y": 139.78125}
       ]
     },
 	 {
-      "name": "Mithril Ore",
+      "name": "Mithril Ore or lower",
       "color": "#c44b00",
-      "url": "images/Icons/ore-blood.png",
+      "url": "images/Icons/ore-mithril.png",
       "category": "Ores",
-      "desc": "Mithril Ore",
+      "desc": "Mithril, Bloodsteel, Iron or Copper",
       "points": [
        {"x": 397.25, "y": 715.375}
       ]
@@ -1396,6 +1459,35 @@
 	{"x": 476.75, "y": 778.5}
       ]
     },
+	   {
+      "name": "Glowing Pustule",
+      "color": "#f7d97e",
+      "category": "Collectables",
+      "desc": "Glowing Pustule",
+      "url": "images/Icons/pustule.png",
+      "points": [
+	{"x": 558, "y": 456.53125},
+	{"x": 359.53125, "y": 444.9375},
+	{"x": 242.75, "y": 457.09375},
+	{"x": 196.21875, "y": 437.78125},
+	{"x": 245.375, "y": 290},
+	{"x": 268.5625, "y": 224.78125},
+	{"x": 294.9375, "y": 185.25},
+	{"x": 335.28125, "y": 181.6875},
+	{"x": 395.09375, "y": 212.53125},
+	{"x": 427.3125, "y": 277.0625},
+	{"x": 432.03125, "y": 286.78125},
+	{"x": 265.96875, "y": 434.28125},
+	{"x": 314.09375, "y": 434.75},
+	{"x": 305.375, "y": 658.40625},
+	{"x": 302.65625, "y": 654.1875},
+	{"x": 434.96875, "y": 819.4375},
+	{"x": 454.09375, "y": 736.84375},
+	{"x": 593.6875, "y": 704.1875},
+	{"x": 643.28125, "y": 624.09375}
+      ]
+    },
+
 {
       "name": "Moon Lotus",
       "color": "#f7d97e",
@@ -1403,6 +1495,8 @@
       "desc": "Moon Lotus (sells for vendor reputation)",
       "url": "images/Icons/moonlotus.png",
       "points": [
+	{"x": 853.15625, "y": 638.78125},
+	{"x": 575.21875, "y": 477.9375},
 	{"x": 319.5, "y": 307.6875},
 	{"x": 576.25, "y": 467.125},
 	{"x": 676.65625, "y": 193.84375},
@@ -1433,7 +1527,8 @@
       "desc": "Lunar Stone",
       "url": "images/Icons/lunarstone.png",
       "points": [
-		{"x": 573.53125, "y": 463.59375},
+	{"x": 706.21875, "y": 466.53125},
+	{"x": 573.53125, "y": 463.59375},
 	{"x": 528.71875, "y": 430.28125},
 	{"x": 446.21875, "y": 357.78125},
 	{"x": 403.375, "y": 364.03125},
@@ -1450,6 +1545,8 @@
       "desc": "King's Mint",
       "url": "images/Icons/flower-blue.png",
       "points": [
+	{"x": 579.71875, "y": 472.28125},
+	{"x": 570.375, "y": 451.03125},
 	{"x": 592.40625, "y": 488.34375},
 	{"image":"images/Plants/KingsMint599.png","x": 599, "y": 501.7},
 	{"image":"images/Plants/KingsMint735.png","x": 735.8, "y": 259.3},
@@ -1604,6 +1701,11 @@
       "desc": "Glowgrub",
       "url": "images/Icons/worm.png",
       "points": [	
+	{"x": 801, "y": 241.5},
+	{"x": 845.5, "y": 250.25},
+	{"x": 617.96875, "y": 385.4375},
+	{"x": 636.5625, "y": 371.28125},
+	{"x": 655.96875, "y": 300.09375},
 		{"x": 696.4375, "y": 156.5},
 	{"x": 391.6875, "y": 769.8125},
 	{"x": 398, "y": 664.5625},

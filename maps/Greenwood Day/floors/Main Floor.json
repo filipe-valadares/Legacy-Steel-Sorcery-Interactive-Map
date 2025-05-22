@@ -574,7 +574,7 @@
        ]
     },
     {
-      "name": "Big Wolf Elite",
+      "name": "Big Elite Wolf",
       "color": "#f5fced",
       "category": "Enemies",
       "url": "images/Icons/mob-wolf-giant.png",
@@ -1221,11 +1221,11 @@
       "desc": "Possible spawns for Lodge upgrade items such as Artisan's Tool Kit,Iron Gear,Steel Tongs,Copper Pot,Master Hammer,Anvil etc.",
       "url": "images/Icons/lodge.png",
       "points":[
+	{"x": 320.03125, "y": 451.78125},
 	{"image":"images/Tools/lodge335.png","x": 335.84375, "y": 318.96875},
 	{"image":"images/Tools/lodge334.png","x": 334.6, "y": 361.8},
 	{"image":"images/Tools/lodge253.png","x": 253.15, "y": 235.9},
 	{"image":"images/Tools/lodge706.png","x": 706.5625, "y": 371.46875},
-	{"image":"images/Tools/lodge888.png","x": 888.0, "y": 608.375},
 	{"image":"images/Tools/lodge801.png","x": 801.5625, "y": 266.875},
 	{"image":"images/Tools/lodge723.png","x": 723.0, "y": 377.96875},
 	{"image":"images/Tools/lodge603.png","x": 603.0, "y": 530.9375},
@@ -1592,11 +1592,11 @@
       ]
     },
    {
-      "name": "Iron Ore",
+      "name": "Iron Ore or lower",
       "color": "#c44b00",
       "url": "images/Icons/ore-iron.png",
       "category": "Ores",
-      "desc": "Iron Ore",
+      "desc": "Iron or Copper Ore",
       "points": [
 	{"x": 661.90625, "y": 477.1875},
 	{"x": 595.25, "y": 448.125},
@@ -1625,11 +1625,11 @@
       ]
     },
     {
-      "name": "Bloodsteel Ore",
+      "name": "Bloodsteel Ore or lower",
       "color": "#c44b00",
       "url": "images/Icons/ore-blood.png",
       "category": "Ores",
-      "desc": "Bloodsteel Ore",
+      "desc": "Bloodsteel, Iron or Copper Ore",
       "points": [
              ]
     },
@@ -1889,7 +1889,9 @@
       "category": "Collectables",
       "desc": "Glowgrub",
       "url": "images/Icons/worm.png",
-      "points": [		
+      "points": [	
+		{"x": 659.21875, "y": 260.0625},
+	{"x": 663, "y": 255.34375},	
 	{"x": 397.25, "y": 433.9375},
 	{"x": 391.6875, "y": 769.8125},
 	{"x": 398, "y": 664.5625},
