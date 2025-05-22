@@ -30,17 +30,7 @@
 	{"x": 710.40625, "y": 363.125}
       ]
     },
-	{
-      "name": "Mor'thog",
-      "color": "#7c8079",
-      "category": "Bosses",
-      "url": "images/Icons/mob-morthog.png",
-      "desc": "Interact with fireplace inside cave to summon Mor'thog Boss",
-      "points": [
-    	 {"x": 759.1875, "y": 181.4375}
-       ]
-    },
-	    {
+    {
       "name": "Wraith",
       "color": "#7c8079",
       "category": "Bosses",
@@ -188,7 +178,7 @@
       ]
     },
 	{
-      "name": "Big Spider Elite",
+      "name": "Big Elite Spider",
       "color": "#f5fced",
       "category": "Enemies",
       "url": "images/Icons/mob-spider-giant.png",
@@ -220,7 +210,7 @@
        ]
     },
  {
-      "name": "Big Wolf Elite",
+      "name": "Big Elite Wolf",
       "color": "#f5fced",
       "category": "Enemies",
       "url": "images/Icons/mob-wolf-giant.png",
@@ -340,6 +330,8 @@
       "desc": "Possible spawns for Dream Pillow/Artisan's Tool Kit/Copper Pot/Crumbling Skull",
       "url": "images/Icons/lodge.png",
       "points":[
+		{"x": 659.21875, "y": 260.0625},
+	{"x": 663, "y": 255.34375},
 	{"x": 619.9375, "y": 255.96875},
 	{"image":"images/Tools/lodge820.png","x": 820.8125, "y": 420},
 	{"x": 578.21875, "y": 239.03125},

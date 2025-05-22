@@ -206,6 +206,7 @@
       "url": "images/Icons/chest-alchemist.png",
       "desc": "Alchemy Chest",
       "points": [
+	{"x": 350.1875, "y": 471.5},
 	{"x": 242.78125, "y": 397.5625},
 	{"desc":"On the bottom floor","x": 502.5625, "y": 609.75},
 	{"x": 242.90625, "y": 534.96875},
@@ -244,6 +245,7 @@
       "desc": "Coffins",
       "url": "images/Icons/chest-coffin.png",
       "points": [ 
+	{"x": 742.375, "y": 582.21875},
 	{"x": 170, "y": 478.71875},
 	{"desc":"Requires Skull Key","x": 169.34375, "y": 542.3125},
 	{"desc":"On the bottom floor","x": 326.21875, "y": 460.53125},
@@ -281,6 +283,7 @@
       "url": "images/Icons/armor-chest.png",
       "desc": "Armor & Weapons",
       "points": [
+	{"x": 761, "y": 577.0625},
 	{"x": 686, "y": 528.25},
 	{"x": 557.25, "y": 622.625},
 	{"x": 167.125, "y": 387.1875},
@@ -380,6 +383,7 @@
       "desc": "Skeletal Remains (Armor, Weapons, Resources)",
       "url": "images/Icons/skeletal-remains.png",
       "points": [ 
+	{"desc":"On the top floor","x": 329.75, "y": 479.84375},
 	{"x": 289.21875, "y": 611.71875},
 	{"desc":"On the top floor","x": 440.21875, "y": 553.59375},
 	{"desc":"On the top floor","x": 485.34375, "y": 560.625},
@@ -413,7 +417,9 @@
       "category": "Collectables",
       "url": "images/Icons/coins.png",
       "desc":"Pile of Gold Coins",
-      "points": [	
+      "points": [
+	{"x": 742.9375, "y": 587.71875},	
+	{"x": 586.53125, "y": 602.03125},
 	{"x": 686, "y": 528.25},
 	{"x": 135.46875, "y": 442.25},
 	{"x": 142.5, "y": 442.125},
@@ -458,6 +464,7 @@
       "desc": "Search this area for possible spawn of: Wood Saw,Simple Scissors,Crude Awl,Dried Herbs,Ogre Fat,Tree Resin,Paper,Heavy Thread,Simple Buckle,Metal Hinge,Wax Candle,Sewing Needles,Iron Nails,Simple Vial,Simple Rope,Waxed Rope,Fire Powder,Bone Hammer,Splintered Bone,Massive Femur",
       "url": "images/Icons/tools.png",
       "points": [
+	{"x": 289.4375, "y": 324.125},
 	{"x": 331.46875, "y": 594.8125},
 	{"x": 404.90625, "y": 562.46875},
 	{"x": 541.03125, "y": 645.84375},
@@ -491,6 +498,7 @@
       "url": "images/Icons/chest-medic.png",
       "desc": "Healing items, Dried Herbs",
       "points": [
+	{"x": 576.78125, "y": 614.46875},
 	{"x": 452.4375, "y": 575.5625},
 	{"x": 385.0625, "y": 334.9375},
 	{"desc":"On the bottom floor","x": 453.9375, "y": 525.3125}
@@ -503,6 +511,7 @@
       "desc": "Books",
       "url": "images/Icons/drop-book.png",
       "points": [
+	{"x": 379.28125, "y": 362.90625},
 	{"desc": "Book can spawn on wooden shelf on the top floor","image":"images/Tools/book443.png","x": 443.78125, "y": 544.71875}
 
       ]
@@ -514,6 +523,8 @@
       "desc": "Crypt Stone or can sometimes also be Cipher Stone",
       "url": "images/Icons/crypt-stone.png",
       "points": [
+	{"x": 677.65625, "y": 767.28125},
+	{"x": 627.21875, "y": 565.15625},
 	{"x": 321.15625, "y": 625.03125},
 	{"x": 104.25, "y": 514.75},
 	{"desc":"On the bottom floor","x": 279.4375, "y": 571.5},
@@ -527,7 +538,7 @@
 	{"x": 241.125, "y": 531},
 	{"x": 396.21875, "y": 404.3125},
 	{"desc":"Middle floor green corridor","x": 540.8125, "y": 560.625},
-	{"x": 540.40625, "y": 563.125},
+	{"desc":"Top floor","x": 540.40625, "y": 563.125},
 	{"x": 119.1875, "y": 593.03125},
 	{"x": 618.84375, "y": 647.40625},
 	{"x": 633.25, "y": 590.5},
@@ -543,9 +554,13 @@
       "desc": "King's Mint",
       "url": "images/Icons/flower-blue.png",
       "points": [
+	{"x": 571.3125, "y": 598.5625},
+	{"x": 305.6875, "y": 378.4375},
+	{"x": 318.5625, "y": 356.15625},
 	{"x": 427.75, "y": 358.5},
 	{"x": 417.25, "y": 354.25},
-	{"x": 478.5, "y": 359.75}
+	{"x": 478.5, "y": 359.75},
+	{"x": 789.25, "y": 647.125}
       ]
     },
 	 {
@@ -555,6 +570,7 @@
       "desc": "Gravemarrow Root",
       "url": "images/Icons/gravemarrow.png",
       "points": [
+	{"x": 574.28125, "y": 601.5625},
 	  {"x": 157.32, "y": 503.46},
 	  {"x": 130.78125, "y": 333.25},
 	  {"x": 240.53125, "y": 612.28125},
@@ -574,6 +590,10 @@
       "desc": "Gemstones (Topaz, Sapphire, Emerald, Ruby)",
       "url": "images/Icons/gemstone.png",
       "points": [
+	{"x": 586.9375, "y": 556.90625},
+	{"x": 345.3125, "y": 472.53125},
+	{"x": 318.5625, "y": 337.15625},
+	{"x": 316.5625, "y": 305.0625},
 	{"x": 133, "y": 390.5},
 	{"x": 151.09375, "y": 330.525},
 	{"x": 132.0, "y": 345.5},
