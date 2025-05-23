@@ -222,7 +222,8 @@
       "points": [	
 	{"x": 202.625, "y": 534.1875},
 	{"x": 270.5, "y": 545.25},
-	{"x": 766.875, "y": 416.28125}
+	{"x": 766.875, "y": 416.28125},
+	{"desc":"Bottom floor","x": 808.875, "y": 366.875}
       ]
     },
 	 {
@@ -233,7 +234,8 @@
       "desc": "Always contains at least 1 Uncommon treasure",
       "points": [
 	{"x": 509.8125, "y": 510.5},
-	{"x": 288.5, "y": 510.90625}
+	{"x": 288.5, "y": 510.90625},
+	{"x": 728.71875, "y": 356.65625}
 
       ]
     },
@@ -245,6 +247,7 @@
       "desc": "Coffins",
       "url": "images/Icons/chest-coffin.png",
       "points": [ 
+	{"desc":"On the bottom floor","x": 836.75, "y": 356.28125},
 	{"x": 742.375, "y": 582.21875},
 	{"x": 170, "y": 478.71875},
 	{"desc":"Requires Skull Key","x": 169.34375, "y": 542.3125},
@@ -283,6 +286,8 @@
       "url": "images/Icons/armor-chest.png",
       "desc": "Armor & Weapons",
       "points": [
+	{"x": 308.03125, "y": 431.625},
+	{"x": 503.875, "y": 404.71875},
 	{"x": 761, "y": 577.0625},
 	{"x": 686, "y": 528.25},
 	{"x": 557.25, "y": 622.625},
@@ -319,6 +324,28 @@
 	{"desc":"Inside Crypt Key extract","x": 404.5, "y": 341.6875}
       ]
     },
+ {
+      "name": "Iron Ore or lower",
+      "color": "#c44b00",
+      "url": "images/Icons/ore-iron.png",
+      "category": "Ores",
+      "desc": "Iron or Copper Ore",
+      "points": [
+	{"x": 810.21875, "y": 530.46875}
+      ]
+    },
+    {
+      "name": "Bloodsteel Ore or lower",
+      "color": "#c44b00",
+      "url": "images/Icons/ore-blood.png",
+      "category": "Ores",
+      "desc": "Bloodsteel, Iron or Copper Ore",
+      "points": [
+	
+		{"image":"images/Ores/bloodsteel255.png","x": 255.0, "y": 426.3125},
+		{"x": 412.03125, "y": 351.71875}
+             ]
+    },
 	 {
       "name": "Maple or below",
       "color": "#228B22",
@@ -347,6 +374,7 @@
       "desc": "Barrels",
       "url": "images/Icons/chest-barrel.png",
       "points": [ 
+	{"x": 748.4375, "y": 366.25},
 	{"x": 258.15625, "y": 455.125},
 	{"x": 277.28125, "y": 613.34375},
 	{"desc":"On the top floor","x": 395.90625, "y": 589.78125},
@@ -383,6 +411,9 @@
       "desc": "Skeletal Remains (Armor, Weapons, Resources)",
       "url": "images/Icons/skeletal-remains.png",
       "points": [ 
+	{"x": 689.40625, "y": 393.4375},
+	{"desc":"Top floor","x": 788.125, "y": 400.9375},
+	{"x": 729.78125, "y": 404.125},
 	{"desc":"On the top floor","x": 329.75, "y": 479.84375},
 	{"x": 289.21875, "y": 611.71875},
 	{"desc":"On the top floor","x": 440.21875, "y": 553.59375},
@@ -409,8 +440,16 @@
 	{"desc":"Inside Sewer Key Extract","x": 401.5, "y": 372.6875}
       ]
     },
-
-
+	{
+      "name": "Toolbelts",
+      "color": "#f7d97e",
+      "category": "Dropped Items",
+      "desc": "Toolbelts",
+      "url": "images/Icons/toolbelts.png",
+      "points": [
+	{"x": 669.09375, "y": 365.125}
+      ]
+    },
 	 {
       "name": "Gold Coins",
       "color": "#f7d97e",
@@ -418,6 +457,7 @@
       "url": "images/Icons/coins.png",
       "desc":"Pile of Gold Coins",
       "points": [
+	{"desc":"Top floor","x": 825.15625, "y": 371.71875},
 	{"x": 742.9375, "y": 587.71875},	
 	{"x": 586.53125, "y": 602.03125},
 	{"x": 686, "y": 528.25},
@@ -464,6 +504,7 @@
       "desc": "Search this area for possible spawn of: Wood Saw,Simple Scissors,Crude Awl,Dried Herbs,Ogre Fat,Tree Resin,Paper,Heavy Thread,Simple Buckle,Metal Hinge,Wax Candle,Sewing Needles,Iron Nails,Simple Vial,Simple Rope,Waxed Rope,Fire Powder,Bone Hammer,Splintered Bone,Massive Femur",
       "url": "images/Icons/tools.png",
       "points": [
+	{"desc":"On the bottom floor","x": 818.46875, "y": 400.84375},
 	{"x": 289.4375, "y": 324.125},
 	{"x": 331.46875, "y": 594.8125},
 	{"x": 404.90625, "y": 562.46875},
@@ -498,6 +539,7 @@
       "url": "images/Icons/chest-medic.png",
       "desc": "Healing items, Dried Herbs",
       "points": [
+	{"desc":"On the top floor","x": 822.21875, "y": 367.625},
 	{"x": 576.78125, "y": 614.46875},
 	{"x": 452.4375, "y": 575.5625},
 	{"x": 385.0625, "y": 334.9375},
@@ -523,6 +565,13 @@
       "desc": "Crypt Stone or can sometimes also be Cipher Stone",
       "url": "images/Icons/crypt-stone.png",
       "points": [
+	{"image":"images/Collectables/cryptstone330.png","x": 330.0, "y": 475.5625},
+	{"image":"images/Collectables/cryptstone287.png","x": 287.0, "y": 468.75},
+	{"x": 281.71875, "y": 472.09375},
+	{"x": 288.03125, "y": 304.125},
+	{"image":"images/Collectables/cryptstone292.png","x": 292.0, "y": 320.8125},
+	{"x": 378.34375, "y": 347.34375},
+	{"image":"images/Collectables/cryptstone695.png","x": 695.0, "y": 354.03125},
 	{"x": 677.65625, "y": 767.28125},
 	{"x": 627.21875, "y": 565.15625},
 	{"x": 321.15625, "y": 625.03125},
@@ -531,9 +580,9 @@
 	{"desc":"On the top floor","x": 345.6875, "y": 595.21875},
 	{"desc":"On the top floor","x": 420.875, "y": 591.375},
 	{"desc":"In the tiny room with a treasure chest","x": 213.40625, "y": 529.0625},	
-	{"x": 238.28125, "y": 612.21875},
+	{"image":"images/Collectables/cryptstone239.png","x": 239.0, "y": 613.875},
 	{"x": 637.8125, "y": 317.09375},
-	{"desc":"On the bottom floor","x": 551.34375, "y": 367.21875},
+	{"image":"images/Collectables/cryptstone565.png","desc":"On the bottom floor","x": 565.0, "y": 367.8125},
 	{"x": 180.28125, "y": 605.84375},
 	{"x": 241.125, "y": 531},
 	{"x": 396.21875, "y": 404.3125},
@@ -573,7 +622,7 @@
 	{"x": 574.28125, "y": 601.5625},
 	  {"x": 157.32, "y": 503.46},
 	  {"x": 130.78125, "y": 333.25},
-	  {"x": 240.53125, "y": 612.28125},
+	  {"image":"images/Collectables/gravemarrow240.png","x": 240.5, "y": 612.28125},
 	 {"x": 734.03125, "y": 652.1875},
 	{"x": 459.84375, "y": 571.09375},
 	{"desc":"On the bottom floor next to stairs","x": 461.53125, "y": 606.9375},
@@ -590,6 +639,10 @@
       "desc": "Gemstones (Topaz, Sapphire, Emerald, Ruby)",
       "url": "images/Icons/gemstone.png",
       "points": [
+	{"x": 379.84375, "y": 364.71875},
+	{"x": 505.21875, "y": 417.65625},
+	{"x": 569.03125, "y": 427.59375},
+	{"x": 628, "y": 357.875},
 	{"x": 586.9375, "y": 556.90625},
 	{"x": 345.3125, "y": 472.53125},
 	{"x": 318.5625, "y": 337.15625},
@@ -619,6 +672,8 @@
       "desc": "Glowmoss",
       "url": "images/Icons/glowmoss.png",
       "points": [
+	{"x": 455.625, "y": 376.1875},
+	{"x": 443.3125, "y": 395.25},
 	{"x": 433.28125, "y": 582.375},
 	{"desc": "On the bottom floor","x": 572.875, "y": 657.3125},
 	{"x": 520.53125, "y": 587.375},
@@ -627,20 +682,20 @@
 	{"desc": "On the bottom floor","x": 459.28125, "y": 517.625}
       ]
     },
-
-
-
 	{
       "name": "Spawn",
       "color": "#ffc0cb",
       "category": "Misc",
       "desc": "Spawn Point",
       "points": [
+	{"x": 313.778, "y": 646.118},
        {"x": 105.28125, "y": 496.1875},
 	{"x": 825.125, "y": 512.345},
-	{"x": 300.21875, "y": 286.9375}
+	{"x": 300.21875, "y": 286.9375},
+	{"x": 790.15625, "y": 757.6875}
       ]
     },
+
 	{
       "name": "Priest Altar",
       "color": "#ffc0cb",
@@ -652,7 +707,6 @@
 	{"x": 663.875, "y": 658.5625}
       ]
     },
-
 	{
         "name": "Food",
         "color": "#f7d97e",
@@ -663,8 +717,18 @@
 		{ "desc": "Food/Ingredients on the shelves","x": 273.5, "y": 547.875}
         ]
       },
-
 	 {
+      "name": "Priest Chest",
+      "color": "#c49300",
+      "category": "Containers",
+      "desc": "Priest Chest",
+      "url": "images/Icons/chest-priest.png",
+      "points": [
+	{"x": 179.78125, "y": 514.78125},
+	{"x": 517.78125, "y": 483.1875}
+      ]
+    },
+		 {
       "name": "Exit",
       "color": "#ffc0cb",
       "category": "Misc",
