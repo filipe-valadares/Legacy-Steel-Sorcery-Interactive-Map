@@ -8,12 +8,16 @@
       "desc": "Goblin Spawn",
       "url": "images/Icons/mob-goblin.png",
       "points": [
+	{"x": 768.84375, "y": 192.8125},
+	{"x": 762.8125, "y": 183.53125},
+	{"x": 746.21875, "y": 193.6875},
+	{"x": 744.15625, "y": 191.34375},
 	 { "desc": "Goblin Bomber","x": 493.6875, "y": 818.125},
         { "desc": "Goblin Bruiser","x": 308.25, "y": 192.25},
 	{ "desc": "Goblin Bruiser","x": 361.25, "y": 585.25},
 	{ "desc": "Goblin Bruiser","x": 367.4375, "y": 585.375},
 	{ "desc": "Goblin Bruiser","x": 380.796875, "y": 629.296875},
-	{"x": 694.75, "y": 674.390625},
+	{"x": 691.40625, "y": 677},
 	{"x": 701.5, "y": 247.421875},
 	{"x": 703.421875, "y": 248.8125},
 	{ "desc": "Goblin Bomber","x": 333.375, "y": 140.3125}
@@ -26,8 +30,9 @@
       "url": "images/Icons/mob-goblin-elite.png",
       "desc": "Elite Goblins Spawn",
       "points": [
-	{"x": 695.40625, "y": 675.0625},
-	{"x": 710.40625, "y": 363.125}
+	{"x": 692.75, "y": 678.0625},
+	{"x": 710.40625, "y": 363.125},
+	{"x": 751.09375, "y": 349.8125}
       ]
     },
     {
@@ -60,7 +65,7 @@
       "url": "images/Icons/mob-default.png",
       "points": [
 	{"x": 872.84375, "y": 542.34375},
-	{"x": 771, "y": 513.8125},
+	{"x": 770.0625, "y": 510.1875},
 	{"x": 889.40625, "y": 537.125},
 	{ "desc": "Shield Skeleton in underpass","x": 689.6875, "y": 526.6875},
 	{ "desc": "Skeleton in underpass","x": 692.0625, "y": 526.8125},
@@ -106,13 +111,13 @@
 	{"desc": "Shield Skeleton in ground","x": 861.5625, "y": 528.125},
 	{"desc": "Armored Shield Skeleton","x": 858.5, "y": 528.6875},
 	{"desc": "Shield Skeleton","x": 859.875, "y": 543.9375},
-	{"desc": "Shield Skeleton","x": 752.75, "y": 513.0625},
-	{"desc": "Skeleton Archer","x": 756.6875, "y": 490.625},
+	{"desc": "Shield Skeleton","x": 754.125, "y": 508.59375},
+	{"desc": "Skeleton Archer","x": 757.0, "y": 475.79},
 	{"desc": "Armored Sword Skeleton","x": 594.8125, "y": 265.875},
 	{"desc": "Skeleton","x": 593.9375, "y": 271.25},
 	{"desc": "Skeleton","x": 594.4375, "y": 274.5625},
-	{"desc": "Skeleton with green cape in ground","x": 577.65625, "y": 260.53125},
-	{"desc": "Sword Skeleton","x": 582.59375, "y": 253.75},
+	{"desc": "Skeleton with green cape in ground","x": 575.71875, "y": 258.15625},
+	{"desc": "Sword Skeleton","x": 582.625, "y": 248.8125},
 	{"desc": "Armored Sword Skeleton","x": 596, "y": 258.3125},
 	{"desc": "Sword Skeleton in Cursed Vault","x": 477.1875, "y": 555.875},
 	{"desc": "Skeleton with green cape in Cursed Vault","x": 499.25, "y": 531.5},
@@ -135,7 +140,7 @@
 	{"desc": "Skeleton Mage","x": 593.25, "y": 265.75},
 	{"desc": "Skeleton Mage","x": 581, "y": 265.5},
 	{"desc": "Skeleton Armored Sword","x": 561.5, "y": 507.25},
-	{"desc": "Skeleton Archer","x": 578.375, "y": 240.625}
+	{"desc": "Skeleton Archer","x": 578.65625, "y": 237.125}
       ]
     },
 	    {
@@ -145,16 +150,14 @@
       "url": "images/Icons/mob-spider.png",
       "desc": "Spiders",
       "points": [
-        { "desc": "In the basement","x": 257.375, "y": 448.75},
+        { "desc": "In the basement","x": 253.375, "y": 447.5625},
         { "desc": "In the basement", "x": 377.875, "y": 392.375},
         { "desc": "Underground","x": 878.3125, "y": 536.9375},
 	{ "desc": "Underground","x": 856.90625, "y": 534.1875},
-
         { "desc": "Underground", "x": 828.5625, "y": 415.4375},
 	{ "desc": "Underground", "x": 822.25, "y": 408},
 	{ "desc": "Underground", "x": 844.3125, "y": 402.625},
 	{ "desc": "Underground","x": 854.4375, "y": 397.1875},
-
 	{ "desc": "Underground", "x": 769.34375, "y": 532.75},
 	{ "desc": "Underground","x": 759, "y": 526.5},
 	{ "desc": "Underground","x": 782.8125, "y": 533.875},
@@ -226,11 +229,12 @@
       "desc": "Barrels",
       "url": "images/Icons/chest-barrel.png",
       "points": [  
+	{"x": 703.84375, "y": 615.40625},
 	{"x": 593.125, "y": 354.78125},
-	{"x": 855.78125, "y": 521.40625},
+	{"x": 854.90625, "y": 515.9375},
 	{"x": 800.265625, "y": 267.46875},
 	{"x": 684.875, "y": 528.6875},
-	{"x": 695.5625, "y": 526.3125},
+	{"x": 695.96875, "y": 679.71875},
 	{"x": 251.5625, "y": 511.75},
 	{"x": 376.84375, "y": 622.03125},
 	{"x": 375.09375, "y": 389.5},
@@ -239,18 +243,18 @@
 	{"x": 482.0625, "y": 533.0625},
 	{"x": 493, "y": 519.6875},
 	{"x": 327.0625, "y": 273.125},
-	{"x": 250.25, "y": 447.125},
+	{"x": 248.1875, "y": 443.21875},
 	{"x": 362.875, "y": 584.078125},
         {"x": 359.109375, "y": 584.71875},
 	{"x": 606.40625, "y": 372.265625},  
 	{"x": 793, "y": 268.4375},
 	{"x": 793.75, "y": 532.75},   
-	{"x": 750.9375, "y": 520.953125},
-	{"x": 755.25, "y": 490.25},
+	{"x": 753.28125, "y": 521.09375},
+	{"x": 755.0625, "y": 475.84375},
 	{"x": 699.890625, "y": 674.515625},
 	{"x": 397.75, "y": 621.3125},
-	{"x": 762.109375, "y": 510.875},
-	{"x": 892.3125, "y": 557.3125}
+	{"x": 761.6875, "y": 504.875},
+	{"x": 893.78125, "y": 562.9375}
       ]
     },
 	 {
@@ -260,6 +264,8 @@
         "desc": "Food",
         "url": "images/Icons/food.png",
         "points": [
+	{ "desc": "Food/Ingredients throughout basement","x": 277.03125, "y": 706.3125},
+	{ "desc": "Food/Ingredients throughout basement","x": 776.3125, "y": 158.9375},
 	{ "desc": "Food/Ingredients throughout cave","x": 417.25, "y": 689.4375},
 	{ "desc": "Food/Ingredients throughout basement","x": 304.25, "y": 203.5},
 	{ "desc": "Food/Ingredients throughout basement","x": 246.4375, "y": 507.1875},
@@ -274,6 +280,7 @@
       "desc": "Toolbelts",
       "url": "images/Icons/toolbelts.png",
       "points": [
+	{"x": 395.875, "y": 620.71875},
 	{"image": "images/Tools/toolbelt372.png","x": 372.84, "y": 783.95},
 	{"image": "images/Tools/toolbelt847.png","x": 847.06, "y": 402.7}
 
@@ -292,17 +299,17 @@
 	{"x": 502.5625, "y": 817.6875},
 	{"x": 747.875, "y": 233.1875},
 	{"x": 701.0625, "y": 247.875},
-	{"x": 692.0625, "y": 672.625},
+	{"x": 688.40625, "y": 677.125},
 	{"x": 729.0625, "y": 345.25}
       ]
     },
 
 	 {
-      "name": "Iron Ore",
+      "name": "Iron or Copper",
       "color": "#c44b00",
       "url": "images/Icons/ore-iron.png",
       "category": "Ores",
-      "desc": "Iron Ore",
+      "desc": "Iron or Copper Ore",
       "points": [
 	{"x": 776.09, "y": 198.2},
 	{"x": 769, "y": 199.75},
@@ -310,11 +317,12 @@
 	{"x": 324.1875, "y": 797.4375},
 	{"x": 729.0625, "y": 345.25},
 	{"x": 759.1875, "y": 230.8125},
-	{"x": 498.75, "y": 848}
+	{"x": 498.75, "y": 848},
+	{"x": 753.14, "y": 174.65}
       ]
     },
 {
-      "name": "Bloodsteel Ore",
+      "name": "Bloodsteel Ore or lower",
       "color": "#c44b00",
       "url": "images/Icons/ore-blood.png",
       "category": "Ores",
@@ -327,19 +335,25 @@
       "name": "Lodge Items",
       "color": "#f7d97e",
       "category": "Dropped Items",
-      "desc": "Possible spawns for Dream Pillow/Artisan's Tool Kit/Copper Pot/Crumbling Skull",
+      "desc": "Possible spawns for Lodge upgrade items such as Artisan's Tool Kit,Iron Gear,Steel Tongs,Copper Pot,Master Hammer,Anvil etc.",
       "url": "images/Icons/lodge.png",
       "points":[
-		{"x": 659.21875, "y": 260.0625},
+	{"x": 462.15625, "y": 427.6875},
+	{"x": 575.625, "y": 283},
+	{"x": 623.15625, "y": 305.53125},
+	{"x": 655.65625, "y": 299.65625},
+	{"x": 639.03125, "y": 206},
+	{"x": 646.65625, "y": 206.375},
+	{"x": 659.21875, "y": 260.0625},
 	{"x": 663, "y": 255.34375},
 	{"x": 619.9375, "y": 255.96875},
 	{"image":"images/Tools/lodge820.png","x": 820.8125, "y": 420},
-	{"x": 578.21875, "y": 239.03125},
+	{"x": 578.65625, "y": 235.125},
 	{"image":"images/Tools/lodge368.png","x": 368.0, "y": 583.1875},
 	{"x": 883.3125, "y": 383.625},
 	{"image":"images/Tools/lodge249.png","x": 249.0, "y": 515.90625},
 	{"image":"images/Tools/rarelodge377.png","x": 377.0, "y": 635},
-	{"image":"images/Tools/rarelodge859.png","x": 859.0, "y": 516.25},
+	{"image":"images/Tools/rarelodge859.png","x": 859.5625, "y": 507.28125},
 	{"image":"images/Tools/rarelodge375.png","x": 374.0, "y": 784.015625},
 	{"image":"images/Tools/rarelodge404.png","x": 404.0, "y": 779.1875},
 	{"image":"images/Tools/rarelodge857.png","x": 857.0, "y": 398.234375}
@@ -353,16 +367,21 @@
       "desc": "Search this area for possible spawn of: Wood Saw,Simple Scissors,Crude Awl,Dried Herbs,Ogre Fat,Tree Resin,Paper,Heavy Thread,Simple Buckle,Metal Hinge,Wax Candle,Sewing Needles,Iron Nails,Simple Vial,Simple Rope,Waxed Rope,Fire Powder,Bone Hammer,Splintered Bone,Massive Femur",
       "url": "images/Icons/tools.png",
       "points": [
-	{"x": 858.4375, "y": 529.5},
+	{"x": 276.34375, "y": 698.3125},	
+	{"x": 613.9375, "y": 257.78125},
+	{"x": 765.90625, "y": 162.125},
+	{"x": 774.28125, "y": 157.03125},
+	{"x": 466.5, "y": 428.21875},
+	{"x": 857.96875, "y": 525.4375},
 	{"x": 857.90625, "y": 397.0625},
-	{"x": 868.25, "y": 535.125},
+	{"x": 868.25, "y": 533.8125},
 	{"x": 751.8125, "y": 516.40625},
 	{"x": 586.90625, "y": 640.625},
 	{"x": 588.40625, "y": 645.8125},
 	{"x": 405.71875, "y": 779.4375},
 	{"x": 393.96875, "y": 779.625},
 	{"x": 377.59375, "y": 749.25},
-	{"x": 860.125, "y": 515.84375},
+	{"x": 858.875, "y": 506.0625},
 	{"x": 304.625, "y": 192.34375},
 	{"x": 381.96875, "y": 394.46875},
 	{"x": 242.84375, "y": 508.625},
@@ -371,7 +390,8 @@
 	{"x": 609.84375, "y": 470.90625},
 	{"x": 605.46875, "y": 480.65625},
 	{"x": 803, "y": 253.3125},
-	{"x": 585.03125, "y": 257.375},
+	{"x": 640.46875, "y": 206.46875},
+	{"x": 586.53125, "y": 254.8125},
 	{"x": 477, "y": 371.78125}
 
       ]
@@ -383,8 +403,9 @@
       "url": "images/Icons/chest-medic.png",
       "desc": "Recovery",
       "points": [
+	{"x": 767.9375, "y": 159.625},
 	{"x": 706.15625, "y": 366.375},
-	{"x": 762.265625, "y": 500.75},
+	{"x": 763.09375, "y": 486.0625},
 	{"x": 331.546875, "y": 282.21875},
 	{"x": 331.828125, "y": 279.3125},
 	{"x": 488.125, "y": 556.1875},
@@ -395,6 +416,16 @@
 	{"x": 610.25, "y": 375.8125}
       ]
     },
+	 {
+      "name": "Herbalist Pouch",
+      "color": "#f7d97e",
+      "category": "Containers",
+      "desc": "Herbalist Pouch",
+      "url": "images/Icons/chest-herb.png",
+      "points": [
+	{"x": 769.0625, "y": 167.75}
+      ]
+    },
 
 	{
 	"name": "Breakables",
@@ -403,15 +434,25 @@
 	"desc": "Boxes and barrels you can break",
 	"url": "images/Icons/crate.png",
 	"points": [
+	{"x": 752.84375, "y": 492.625},
+	{"x": 754.40625, "y": 485.78125},
+		{"x": 279.3125, "y": 699.625},
+	{"x": 279.71875, "y": 701.03125},
+	{"x": 280.90625, "y": 700.34375},
+	{"x": 280.0625, "y": 698.8125},	
+	{"x": 285.125, "y": 704.28125},
+	{"x": 286.6875, "y": 700.875},
+	{"x": 719.84375, "y": 611.1875},
+	{"x": 716.3125, "y": 614.4375},	
 	{"x": 559.46875, "y": 510.0625},
 	{"x": 752.125, "y": 520.828125},
 	{"x": 752.25, "y": 510.375},
-	{"x": 761.125, "y": 510.25},
+	{"x": 760.3125, "y": 502.59375},
 	{"x": 752.375, "y": 505.125},
 	{"x": 753, "y": 522},
-	{"x": 773.1875, "y": 515.625},
-	{"x": 778.6875, "y": 511.9375},
-	{"x": 758.375, "y": 490.6875},
+	{"x": 775.8125, "y": 514.4375},
+	{"x": 783.6875, "y": 506.34375},
+	{"x": 760.4375, "y": 476.03125},
 	{"x": 770, "y": 531.375},
 	{"x": 770, "y": 531.375},
 	{"x": 770, "y": 531.375},
@@ -432,17 +473,21 @@
       "url": "images/Icons/tresure.png",
       "desc": "Treasure",
       "points": [
+	{"x": 277.21875, "y": 707.25},
+	{"x": 747.125, "y": 192.125},
+	{"x": 399.625, "y": 621.46875},
+	{"x": 783.09375, "y": 164},
 	{"x": 365.171875, "y": 786},
 	{"x": 371.96875, "y": 778.96875},
-	{"x": 260.5625, "y": 448.75},
+	{"x": 256.71875, "y": 447.78125},
 	{"x": 575.828125, "y": 516.296875},
-	{"x": 744.5625, "y": 358.96875},
+	{"x": 749.21875, "y": 358.8125},
 	{"x": 769.984375, "y": 357.421875},
 	{"image":"images/Chests/treasureChest594.png","x": 594.0, "y": 245.125},
 	{"x": 859.59375, "y": 546.765625},
 	{"x": 598.5, "y": 250.96875},
 	{"x": 759, "y": 213.1875},
-	{"x": 581.4375, "y": 246.6875},
+	{"x": 581.4375, "y": 243.96875},
 	{"x": 606.5625, "y": 260.375},
 	{"x": 245.6875, "y": 514.625},
 	{"x": 660.71875, "y": 289.59375}
@@ -455,12 +500,15 @@
       "url": "images/Icons/coins.png",
       "desc":"Pile of Gold Coins",
       "points": [	
-	{"x": 861.75, "y": 521},
-	{"x": 856.90625, "y": 521.6875},
-	{"x": 861.8125, "y": 518},
-	{"x": 856.75, "y": 522.875},
-	{"x": 861.40625, "y": 523.71875},
-	{"x": 658.9375, "y": 264.09375}
+	{"x": 783.90625, "y": 164.5625},
+	{"x": 861.375, "y": 519.15625},
+	{"x": 862.59375, "y": 515.6875},
+	{"x": 859.875, "y": 512.84375},
+	{"x": 862.65625, "y": 509.6875},
+	{"x": 855.9375, "y": 511.40625},
+	{"x": 855.875, "y": 516.75},
+	{"x": 658.9375, "y": 264.09375},
+	{"x": 617.84375, "y": 247.875}
       ]
     },
 	 {
@@ -487,7 +535,7 @@
       "desc": "Priest Altar",
       "points": [
 	{"x": 391.1875, "y": 778.1875},
-	{"x": 582.671875, "y": 255.171875}
+	{"x": 582.375, "y": 250.28125}
       ]
     },
 	 {
@@ -497,9 +545,10 @@
       "url": "images/Icons/big-resure.png",
       "desc": "Always contains at least 1 Uncommon treasure",
       "points": [
+	{"x": 740.5, "y": 230.21875},
 	{"x": 583.75, "y": 356.40625},
-       {"x": 856.9375, "y": 516.8125},
-	{"x": 862.375, "y": 516.875},
+        {"x": 855.625, "y": 506.65625},
+	{"x": 862.875, "y": 507.40625},
 	{"x": 862.125, "y": 368.625},
 	{"x": 666.875, "y": 295.25}
       ]
@@ -522,10 +571,14 @@
       "url": "images/Icons/armor-chest.png",
       "desc": "Armor & Weapons",
       "points": [
+	{"x": 757.75, "y": 535.625},
+	{"x": 280.4375, "y": 710.59375},
+		{"x": 331.75, "y": 144.3125},
+	{"x": 329.9375, "y": 137.8125},
+	{"x": 646.65625, "y": 197.53125},
 	{"x": 626.84375, "y": 285.1875},
-	{"x": 710.5, "y": 605.09375},
 	{"x": 590.96875, "y": 361.65625},
-	{"x": 888.0625, "y": 561.03125},
+	{"x": 888.84375, "y": 566.96875},
 	{"x": 574.5625, "y": 381.5},
 	{"desc": "Requires Skull Key","x": 510.4375, "y": 527.75},
 	{"x": 582.375, "y": 633.328125},
@@ -545,14 +598,14 @@
 	{"x": 650.9375, "y": 289.875},
 	{"x": 732.0625, "y": 350.1875},
 	{"x": 314.875, "y": 194.5625},
-	{"x": 883.8125, "y": 549.875},
+	{"x": 884.1875, "y": 553.59375},
 	{"x": 776.1875, "y": 530.75},
-	{"desc": "Often contains green/blue weapons","x": 740.5625, "y": 353.125},
+	{"desc": "Often contains green/blue weapons","x": 743.78125, "y": 350.5625},
 	{"image":"images/Chests/armorChest752.png", "x": 752.0, "y": 221.0625},
         {"image":"images/Tools/bookUnder600.png", "x": 600, "y": 483.75},
         {"image":"images/Chests/armorChest594.png","x": 594.0, "y": 264.5},
         {"image":"images/Chests/armorChest598.png", "x": 598.0, "y": 247.375},
-	{"image":"images/Chests/armorChest576.png", "x": 576.0, "y": 239},
+	{"image":"images/Chests/armorChest576.png", "x": 575.65625, "y": 235.28125},
 	{"x": 613.109375, "y": 475.25}
       ]
     },
@@ -563,7 +616,8 @@
       "url": "images/Icons/coin-safe.png",
       "desc": "Coin Safe",
       "points": [
-	{"x": 856.84375, "y": 518.09375},
+	{"x": 772.34375, "y": 155.46875},
+{"x": 855.03125, "y": 508.09375},
 	{"x": 649.875, "y": 274.75}
       ]
     },
@@ -591,20 +645,20 @@
       "desc": "Books",
       "url": "images/Icons/drop-book.png",
       "points": [
-	{"image":"images/Tools/bookUnder883.png","x": 883.15625, "y": 553.765625},
+	{"image":"images/Tools/bookUnder883.png","x": 882.96875, "y": 556.75},
 	 {"image":"images/Tools/bookUnder313.png","x": 313.0, "y": 203.125},
 	{"desc": "Books can spawn on the shelves/ledges in Oakheart's Vigil dungeon","image":"images/Tools/bookUnder836.png","x": 855.375, "y": 399.75},
 	 {"image":"images/Tools/bookUnder866.png","x": 866.0, "y": 534.5625},
 	 {"image":"images/Tools/bookUnder610.png","x": 607.90625, "y": 372.328125},
 	{"desc": "Books can spawn in the basement of the tower","image":"images/Tools/bookUnder462.png","x": 462.0, "y": 428.5625},
 	  {"desc": "Book can spawn on the window ledge next to river", "image":"images/Tools/bookUnder600.png", "x": 600.0, "y": 488.5625},
-	{"desc": "Book can spawn on the altar","image":"images/Tools/bookUnder892.png","x": 892.0, "y": 536.6875},
+	{"desc": "Book can spawn on the altar","image":"images/Tools/bookUnder892.png","x": 894.5625, "y": 536.4375},
 	{"desc": "Book can spawn on the altar","image":"images/Tools/bookUnder595.png","x": 590.125, "y": 271.75},
 	{"desc": "Go to the basement, other lodge items can spawn here too","image":"images/Tools/bookUnder240.png","x": 240.375, "y": 510.1875},
 	{"desc": "Book can spawn in the cave below North Tower","image":"images/Tools/bookUnder354.png","x": 351.875, "y": 702.0625},
 	{"desc": "Jump down in the hole in forest and explore the basement","image":"images/Tools/bookUnder398.png","x": 386.5, "y": 760.75},
 	{"desc": "Jump down in the hole in forest and explore the basement","image":"images/Tools/bookUnder372.png","x": 375, "y": 783.9375},
-	{"desc": "Other lodge items can spawn here too","image":"images/Tools/bookUnder759.png","x": 759.0, "y": 489.5}
+	{"desc": "Other lodge items can spawn here too","image":"images/Tools/bookUnder759.png","x": 759.96875, "y": 474.8125}
       ]
     },
 
@@ -616,14 +670,15 @@
       "desc": "Possible spawns for Keys",
       "url": "images/Icons/keys.png",
       "points": [
+	{"x": 780.3125, "y": 161.90625},
 	{"image":"images/Tools/key609.png","x": 609.9375, "y": 482.1875},
 	{"image":"images/Tools/key355.png","x": 355.0, "y": 700.78125},
-	{"desc": "Key can be in skeleton's hand","image":"images/Tools/key763.png","x": 763.0, "y": 498.375},
+	{"desc": "Key can be in skeleton's hand","image":"images/Tools/key763.png","x": 764.65625, "y": 483.125},
 	{"image":"images/Tools/key240.png","x": 240.0, "y": 504.953125},
 	{"image":"images/Tools/key376.png","x": 376.0, "y": 395.015625},
-	 {"image":"images/Tools/bookUnder892.png","x": 892.0, "y": 537.375},
-	 {"image":"images/Tools/key882.png","x": 882.0, "y": 557.03125},
-	{"desc": "Key can be in skeleton's hand","image":"images/Tools/keySkeletonhand.png","x": 871.4375, "y": 535.234375},
+	 {"image":"images/Tools/bookUnder892.png","x": 894.34375, "y": 537.59375},
+	 {"image":"images/Tools/key882.png","x": 883.0625, "y": 562.53125},
+	{"desc": "Key can be in skeleton's hand","image":"images/Tools/keySkeletonhand.png","x": 872.03125, "y": 533.625},
 	{"image":"images/Tools/key378.png","x": 378.0, "y": 772.5625},
 	{"image":"images/Tools/key611.png","x": 611.0, "y": 281.0},
 	{"desc": "Key can be in skeleton's hand","image":"images/Tools/keySkeletonhand.png","x": 849.3125, "y": 401.5625},
@@ -645,11 +700,11 @@
 	{"x": 579.609375, "y": 343.015625},
 	{"desc": "Requires Skull Key to open","x": 661.125, "y": 266.375},
 	{"desc": "Requires Skull Key to open","x": 583, "y": 378.875},
-	{"desc": "Requires Skull Key to open","x": 744.125, "y": 351.25},
+	{"desc": "Requires Skull Key to open","x": 749.09375, "y": 348.75},
         {"x": 594.0, "y": 280.125},
 	{"x": 580.125, "y": 286.5625},
 	{"x": 606.9375, "y": 284.953125},
-	{"x": 616.9375, "y": 257.75},
+	{"x": 616.8125, "y": 260.3125},
 	{"x": 616.6875, "y": 250.375},
 	{"x": 656.71875, "y": 260.234375},
 	{"x": 661.6875, "y": 254.96875}
@@ -662,27 +717,45 @@
       "desc": "Adventurer Bag",
       "url": "images/Icons/chest-herb.png",
       "points": [
-	{"desc": "In a corner inside the mine","x": 693.0625, "y": 671.625}
+	{"x": 731.21875, "y": 199.28125},
+	{"desc": "In a corner inside the mine","x": 689.59375, "y": 675.0625}
       ]
     },
+	 {
+      "name": "Glowgrubs",
+      "color": "#f7d97e",
+      "category": "Collectables",
+      "desc": "Glowgrub",
+      "url": "images/Icons/worm.png",
+      "points": [		
+        {"x": 341.6875, "y": 143.5625}
+      ]
+    },
+
 	{
       "name": "Gemstones",
       "color": "#f7d97e",
       "category": "Dropped Items",
       "desc": "Gemstones (Topaz, Sapphire, Emerald, Ruby)",
       "url": "images/Icons/gemstone.png",
-      "points": [
-	{"x": 762.578125, "y": 499.078125},
-	{"x": 859.765625, "y": 519.78125},
+      "points": [	
+	{"x": 459.15625, "y": 434.96875},
+	{"x": 765.1875, "y": 483.34375},
+	{"x": 769.5625, "y": 168.9375},
+	{"x": 636.71875, "y": 302.125},
+	{"x": 779.6875, "y": 159.625},
+	{"x": 762.9375, "y": 486.1875},
+	{"x": 859.03125, "y": 508.53125},
 	{"x": 663.296875, "y": 291.65625},
 	{"x": 660.09375, "y": 296.765625},
-	{"x": 861.921875, "y": 523.203125},
-	{"x": 857.421875, "y": 524.578125},
-	{"x": 856.078125, "y": 520.296875},
-	{"x": 859.5625, "y": 517.359375},
+	{"x": 862.25, "y": 517.9375},
+	{"x": 856.78125, "y": 520.21875},
+	{"x": 854.75, "y": 512.78125},
+	{"x": 859.03125, "y": 508.53125},
 	{"x": 457.765625, "y": 429.53125},
 	{"x": 497.0625, "y": 851},
 	{"x": 548.65, "y": 542.88},
+	{"x": 640.46875, "y": 200.1875},
 	{"image":"images/Tools/gemstone653.png","x": 653.5625, "y": 314.84375},
 	{"image":"images/Tools/gemstone656.png","x": 656.34375, "y": 289.59375},
 	{"image":"images/Tools/gemstone612.png","x": 612, "y": 483.9375},
@@ -701,17 +774,17 @@
 	{"image":"images/Tools/gemstone508.png","x": 508.0, "y": 540.6875},
 	{"image":"images/Tools/gemstone638.png","x": 638.0, "y": 305.125},
 	{"image":"images/Tools/gemstone640.png","x": 640.0, "y": 283.75},
-	{"image":"images/Tools/gemstone744.png","x": 744.0, "y": 360},
+	{"image":"images/Tools/gemstone744.png","x": 748, "y": 360.8125},
 	{"image":"images/Tools/gemstone470.png","x": 470.0, "y": 342.375},
 	{"image":"images/Tools/gemstone492.png","x": 492.0, "y": 267.125},
 	{"image":"images/Tools/gemstone495.png","x": 495.0, "y": 264.875},
-	{"image":"images/Tools/gemstone704.png","x": 704.0, "y": 660},
+	{"image":"images/Tools/gemstone704.png","x": 696.75, "y": 667.25},
 	{"image":"images/Tools/gemstone801.png","x": 802.109375, "y": 267.3125},
 	{"image":"images/Tools/gemstone594.png","x": 595.0, "y": 280.140625},
 	{"image":"images/Tools/gemstone382.png","x": 382.0, "y": 629.9375},
-	{"image":"images/Tools/gemstone872.png","x": 872.0, "y": 535.125},
+	{"image":"images/Tools/gemstone872.png","x": 872.59375, "y": 533.125},
 	{"image":"images/Tools/gemstone876.png","x": 876, "y": 534.75},
-	{"image":"images/Tools/key882.png","x": 883.0, "y": 558.21875},
+	{"image":"images/Tools/key882.png","x": 883.09375, "y": 561.78125},
 	{"image":"images/Tools/gemstone354.png","x": 354.0, "y": 699.5625},
 	{"image":"images/Tools/gemstone593.png","x": 593.0, "y": 248.375},
 	{"image":"images/Tools/gemstone821.png","x": 821.0, "y": 404.75}
@@ -728,7 +801,7 @@
 	{"image":"images/Ores/MineCart378.png","x": 378.0, "y": 635.875},
 	{"image":"images/Ores/MineCart351.png","x": 340.375, "y": 151.625},
 	{"image":"images/Ores/MineCart488.png","x": 500, "y": 835.625},
-	{"image":"images/Ores/MineCart690.png","x": 694.3125, "y": 675.875},
+	{"image":"images/Ores/MineCart690.png","x": 690.5, "y": 680.6875},
         {"image":"images/Ores/MineCart484.png","x": 492.625, "y": 854.25},
 	{ "desc": "Underground in tiny cave", "x": 731.1875, "y": 202}	
       ]
@@ -756,7 +829,7 @@
       "url": "images/Icons/lockeddoor.png",
       "points":[
 	{"desc": "Complete the Lion switch puzzle to open the gates","x": 867, "y": 376.9375},
-	{"desc": "Requires Treasure Room Key to enter","x": 860.34375, "y": 525.75},
+	{"desc": "Requires Treasure Room Key to enter","x": 859.9375, "y": 521.5625},
 	{"desc": "Requires Crypt Extraction Key to open the gate","x": 586.71875, "y": 362.84375},
 	{"desc": "Requires Treasure Room Key to enter","x": 656.96875, "y": 294.84375}
 	  ]
