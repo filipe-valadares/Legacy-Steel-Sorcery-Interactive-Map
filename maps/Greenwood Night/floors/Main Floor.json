@@ -7,6 +7,9 @@
       "desc": "Skeleton Spawn",
       "url": "images/Icons/mob-default.png",
       "points": [
+	{"x": 700.40625, "y": 515.5625},
+	{"x": 695.21875, "y": 517.03125},
+	{"x": 675.78125, "y": 514.625},
 	{"x": 866.8125, "y": 560.40625},
 	{"x": 551.78125, "y": 520.28125},
 	{"x": 572.0625, "y": 533.78125},
@@ -33,6 +36,7 @@
       "url": "images/Icons/mob-stronger.png",
       "desc": "Elite Skeleton Spawn",
       "points": [
+	{"x": 686.21875, "y": 511},
 	{ "desc": "Skeleton Swordsman","x": 575.96875, "y": 493.3125},
 	{ "desc": "Armored Skeleton Archer","x": 548.75, "y": 508.46875},
 	{ "desc": "Skeleton Mage","x": 566.4375, "y": 498.96875},
@@ -114,6 +118,14 @@
       "desc": "Goblin Spawn",
       "url": "images/Icons/mob-goblin.png",
       "points": [
+	{"x": 363.84375, "y": 597.28125},
+	{"x": 751.90625, "y": 227.71875},
+	{"x": 754.625, "y": 223.65625},
+	{"x": 736.34375, "y": 219.96875},
+	{"x": 514.0625, "y": 751.78125},
+	{"x": 518.78125, "y": 757.1875},	
+	{"x": 518.96875, "y": 743.28125},
+	{"x": 788.28125, "y": 175.40625},
 	{"x": 832.3125, "y": 439.84375},
 	{"x": 830.96875, "y": 430.84375},
 	{"x": 505.65625, "y": 826.71875},
@@ -139,6 +151,7 @@
       "url": "images/Icons/mob-goblin-elite.png",
       "desc": "Elite Goblins Spawn",
       "points": [
+	{"x": 733.125, "y": 200.9375},
 	{"x": 443.46875, "y": 795.59375},
 	{"x": 466.875, "y": 774.1875},
 	{"x": 493.5, "y": 337.9375}
@@ -192,7 +205,8 @@
       "points": [
 	{"x": 328.90625, "y": 685.59375},
 	{"x": 347.5, "y": 673.375},
-	{"x": 896.09375, "y": 595.34375}
+	{"x": 896.09375, "y": 595.34375},
+	{"x": 659.6875, "y": 507.4375}
    ]
     },
 
@@ -203,6 +217,7 @@
       "desc": "Elite Skeleton Spearman",
       "url": "images/Icons/mob-spearman-elite.png",
       "points": [
+	{"x": 662.84375, "y": 522.78125},
 	{"desc":"In the ceiling of the church","x": 605.25, "y": 277.25},
 	{"desc":"In the ceiling of the church","x": 687.5, "y": 521.21875},
 	{"x": 338.84375, "y": 321.59375},
@@ -218,7 +233,7 @@
       "category": "Enemies",
       "url": "images/Icons/banshee.png",
       "desc": "Banshee",
-      "points": [
+      "points": [	
 	{"x": 860.1875, "y": 549.09375}
       ]
     },
@@ -230,6 +245,7 @@
       "url": "images/Icons/banshee-elite.png",
       "desc": "Elite Banshee (drops Transmutation Recipes, Spirit Essence, Wizard Scrolls)",
       "points": [
+	{"x": 616.4375, "y": 447.03125},
 	{"x": 655.75, "y": 432.59375},
 	{"x": 665.298, "y": 442.8},
      	{"x": 349.5625, "y": 372.84375},
@@ -275,7 +291,12 @@
 	{"x": 513.71875, "y": 492.5},
 	{"x": 487.8125, "y": 514.34375},
 	{"x": 250.15625, "y": 213.21875},
-	{"x": 373.59375, "y": 254.25}
+	{"x": 373.59375, "y": 254.25},
+	{"x": 200.78125, "y": 415.40625},
+	{"x": 193.25, "y": 375.03125},
+	{"x": 234.75, "y": 333.625},
+	{"x": 233.1875, "y": 368.3125}
+	
       ]	
     },
 	{
@@ -285,11 +306,16 @@
       "url": "images/Icons/mob-spider-elite.png",
       "desc": "Big Spider",
       "points": [
+	{"x": 231.25, "y": 327.59375},
 	{"x": 510.25, "y": 533.375},
 	{"x": 510.78125, "y": 520.96875},
 	{"x": 511.65625, "y": 507},
 	{"x": 481.125, "y": 507.21875},
-	{"x": 465.84375, "y": 467.5625}
+	{"x": 465.84375, "y": 467.5625},
+	{"x": 253.71875, "y": 412.9375},
+	{"x": 234.4375, "y": 424.6875},
+	{"x": 251.75, "y": 475.28125},
+	{"x": 288.4375, "y": 433.375}
       ]
     },
 	{
@@ -315,7 +341,6 @@
         {"image":"images/Ores/MineCart484.png","x": 484.0, "y": 846},
 	{"image":"images/Ores/MineCart488.png","x": 488.0, "y": 842.0625},
 	{"image":"images/Ores/MineCart365.png", "x": 365.0, "y": 155.875},
-	{"image":"images/Ores/MineCart351.png","x": 340.25, "y": 150.625},
 	{"image":"images/Ores/MineCart700.png","x": 700.0, "y": 635.8125}	
       ]
     },
@@ -338,6 +363,7 @@
       "url": "images/Icons/necromancer.png",
       "desc": "Necromancer (drops Transmutation Recipes, Gear, Keys, Mats)",
       "points": [
+	{"x": 694.46875, "y": 509.9375},
 	{"x": 583.1875, "y": 231.4375},
 	{"x": 327.34375, "y": 347.84375},
 	{"x": 686, "y": 528.25},
@@ -587,8 +613,8 @@
       "category": "Containers",
       "desc": "Adventurer Bag",
       "url": "images/Icons/chest-herb.png",
-      "points": [
-
+      "points": [	
+	{"x": 730.4375, "y": 199.25},
 	{"desc": "In a corner next to the armored archer skeleton","x": 618.1875, "y": 457.71875},
 	{"x": 239, "y": 446.75},
 	{"x": 348.25, "y": 375.25},
@@ -707,6 +733,8 @@
       "url": "images/Icons/big-resure.png",
       "desc": "Always contains at least 1 Uncommon treasure",
       "points": [
+	{"desc": "Requires Skull Key to open","x": 642.5, "y": 459.3125},
+	{"x": 257.71875, "y": 462.6875},
 	{"desc": "2nd floor","x": 472.875, "y": 345.90625},
 	{"desc": "2nd floor, requires Skull Key to open","image":"images/Chests/treasureChest706.png","x": 706.0, "y": 371.53125},
 	{"desc": "On top floor, requires Skull Key to open", "image": "images/Chests/treasureChest480.png","x": 480.0, "y": 341.1875},
@@ -737,6 +765,7 @@
       "url": "images/Icons/armor-chest.png",
       "desc": "Armor & Weapons",
       "points": [
+	{"x": 261.84375, "y": 458.75},
 	{"x": 637.25, "y": 246.375},
 	{"image":"images/Chests/armorChest732.png","x": 732.96875, "y": 340.78125},
 	{"desc": "On roof","image":"images/Chests/armorChest663.png","x": 663, "y": 441.28125},
@@ -793,8 +822,6 @@
 	{"image":"images/Chests/armorChest548.png","x": 548.328125, "y": 511.515625},
 	{"image":"images/Chests/armorChest613.png","x": 613.703125, "y": 480.625},
 	{"x": 362.375, "y": 397.375},
-	{"x": 331.75, "y": 144.3125},
-	{"x": 329.9375, "y": 137.8125},
 	{"x": 648.125, "y": 371.0625},
 	{"desc": "2nd floor inside","image":"images/Chests/armorChest735.png","x": 736.0, "y": 344.5},
 	{"x": 734.8125, "y": 374},
@@ -831,6 +858,7 @@
       "desc": "Search this area for possible spawn of: Wood Saw,Simple Scissors,Crude Awl,Dried Herbs,Ogre Fat,Tree Resin,Paper,Heavy Thread,Simple Buckle,Metal Hinge,Wax Candle,Sewing Needles,Iron Nails,Simple Vial,Simple Rope,Waxed Rope,Fire Powder,Bone Hammer,Splintered Bone,Massive Femur",
       "url": "images/Icons/tools.png",
       "points": [
+	{"x": 246.625, "y": 446.53125},
 	{"x": 725.4375, "y": 350.875},
         {"x": 254.46875, "y": 234.78125},
         {"x": 234.25, "y": 408.5},
@@ -913,7 +941,6 @@
 	{"desc": "Go left from the entrance and go to the small square room after 2 spiders, other lodge items can spawn here too","image":"images/Tools/bookUnder830.png","x": 815.875, "y": 416},
 	{"desc": "On wooden shelves next to a goblin house","image":"images/Tools/bookUnder299.png","x": 299, "y": 514.75},
 	{"desc": "Inside a fountain at the Southern part of the Castle, on top of the stairs","image":"images/Tools/bookUnder632.png","x": 632.0, "y": 418.5},
-	{"desc": "Go to the basement, other lodge items can spawn here too","image":"images/Tools/bookUnder240.png","x": 240.375, "y": 510.1875},
 	{"desc": "Books can spawn on the 2nd floor here","image":"images/Tools/bookUnder319.png","x": 322.0625, "y": 451.984375},
 	{"desc": "Books can spawn on the altar underground","image":"images/Tools/bookUnder892.png","x": 892.0, "y": 536.6875},
 	{"desc": "Books can spawn near the boxes","image":"images/Tools/bookUnder326.png","x": 326.0, "y": 747.875},
@@ -927,6 +954,7 @@
       "desc": "Possible spawns for Lodge upgrade items such as Artisan's Tool Kit,Iron Gear,Steel Tongs,Copper Pot,Master Hammer,Anvil etc.",
       "url": "images/Icons/lodge.png",
       "points":[
+	{"x": 364.96875, "y": 598.5625},
 	{"x": 320.03125, "y": 451.78125},
 	{"image":"images/Tools/lodge335.png","x": 335.84375, "y": 318.96875},
 	{"image":"images/Tools/lodge334.png","x": 334.6, "y": 361.8},
@@ -1154,7 +1182,13 @@
 	{"x": 680.25, "y": 204.6875},
 	{"x": 295.53125, "y": 550.9375},
 	{"x": 663.9375, "y": 499.78125},
+	{"x": 746.8125, "y": 175.75},
+	{"x": 781.03125, "y": 180.40625},
+	{"x": 777.65625, "y": 179.59375},
+	{"x": 685.625, "y": 492.9375},
+	{"x": 716.6875, "y": 512.375},
 	{"x": 696.59375, "y": 474.5},
+	{"x": 411.34375, "y": 546.375},
 	{"x": 783.0, "y": 194.5625},
         { "x": 630.34, "y": 514.82 },
         { "x": 241.75, "y": 435.75},
@@ -1260,7 +1294,6 @@
 	{"x": 480.6875, "y": 398.875},
 	{"desc": "Inside cave below","x": 701.0625, "y": 247.875},
         {"x": 507.5, "y": 828.125},
-	{"x": 488.0625, "y": 842.0625},
 	{"x": 500.875, "y": 817.25},
 	{"x": 328.875, "y": 808.625},
 	{"x": 448.5, "y": 772.5625},
@@ -1306,7 +1339,6 @@
 	{"x": 659.25, "y": 505.75},
 	{"x": 695.25, "y": 506.75},
 	{"x": 703, "y": 525.5},
-	{"x": 673.5, "y": 541.75},
 	{"x": 649.25, "y": 545.5},
 	{"x": 436, "y": 386.25}
       ]
@@ -1318,6 +1350,7 @@
       "category": "Ores",
       "desc": "Iron or Copper",
       "points": [
+	{"x": 477.96875, "y": 609.78125},
 	{"x": 661.90625, "y": 477.1875},
 	{"x": 735.9375, "y": 340.125},
 	{"x": 699, "y": 140.375},
@@ -1339,7 +1372,6 @@
 	{"x": 707.6875, "y": 353.625},
 	{"x": 766.375, "y": 205.1875},
 	{"x": 378, "y": 152.625},
-	{"x": 719.375, "y": 598.375},
 	{"x": 682, "y": 566}
       ]
     },
@@ -1348,13 +1380,15 @@
       "color": "#c44b00",
       "url": "images/Icons/ore-blood.png",
       "category": "Ores",
-      "desc": "Bloodsteel, Iron or Copper",
+      "desc": "Bloodsteel, Iron or Copper Ore",
       "points": [
+	{"x": 488.0625, "y": 842.0625},
 	{"x": 651.875, "y": 200.25},
 	{"x": 595.25, "y": 448.125},
         {"x": 695.90625, "y": 155.59375},
 	{"x": 345.25, "y": 163.125},
-	{"x": 689.375, "y": 139.78125}
+	{"x": 689.375, "y": 139.78125},
+	{"x": 738.25, "y": 235.21875}
       ]
     },
 	 {
@@ -1364,8 +1398,9 @@
       "category": "Ores",
       "desc": "Mithril, Bloodsteel, Iron or Copper",
       "points": [
-       {"x": 397.25, "y": 715.375}
-      ]
+       {"x": 397.25, "y": 715.375},
+	{"x": 719.375, "y": 598.375},
+	{"x": 673.5, "y": 541.75}      ]
     },
     {
       "name": "Night Jasmine",
@@ -1430,6 +1465,7 @@
       "desc": "Cloudstem",
       "url": "images/Icons/flower-green.png",
       "points": [
+	{"x": 806.1875, "y": 186.8125},
 	{"x": 455.0625, "y": 760.828125},
 	{"x": 906.0625, "y": 610.375},
 	{"x": 213.9375, "y": 347.1875},
@@ -1471,6 +1507,7 @@
       "desc": "Glowing Pustule",
       "url": "images/Icons/pustule.png",
       "points": [
+	{"x": 215, "y": 396.5625},
 	{"x": 558, "y": 456.53125},
 	{"x": 359.53125, "y": 444.9375},
 	{"x": 242.75, "y": 457.09375},
@@ -1533,6 +1570,7 @@
       "desc": "Lunar Stone",
       "url": "images/Icons/lunarstone.png",
       "points": [
+	{"x": 477.34375, "y": 790.21875},
 	{"x": 587.96875, "y": 484.1875},
 	{"x": 646.9375, "y": 501.125},
 	{"x": 706.21875, "y": 466.53125},
@@ -1733,7 +1771,6 @@
         {"x": 851, "y": 482.5},
         {"x": 788.5, "y": 283},
         {"x": 730.5, "y": 263.5},
-        {"x": 341.6875, "y": 143.5625},
         {"x": 401.5, "y": 657.5},
         {"x": 451.25, "y": 262.75},
         {"x": 430, "y": 219},
@@ -1778,6 +1815,13 @@
 	"desc": "Boxes and barrels you can break",
 	"url": "images/Icons/crate.png",
 	"points": [
+	{"x": 250.375, "y": 447.53125},
+	{"x": 253.78125, "y": 446.75},
+	{"x": 261.65625, "y": 452.125},
+	{"x": 260.15625, "y": 455.4375},
+	{"x": 255.78125, "y": 462.1875},
+		{"x": 365.0625, "y": 600.1875},
+	{"x": 362.25, "y": 600.78125},
 	{"x": 712.84375, "y": 376.875},
 	{"x": 601.75, "y": 297},
 	{"x": 585.6875, "y": 309.75},
