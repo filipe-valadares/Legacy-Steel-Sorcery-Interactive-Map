@@ -28,6 +28,7 @@
       "url": "images/Icons/mob-stronger.png",
       "desc": "Elite Skeleton Spawn",
       "points": [
+	{ "desc": "Skeleton Mage","x": 715.94, "y": 607.31},	
 	{ "desc": "Skeleton Swordsman","x": 610.53125, "y": 279.9375},
 	{"x": 570.84375, "y": 354.625},
 	{ "desc": "Skeleton Swordsman","x": 569.8125, "y": 510.6875},
@@ -172,7 +173,9 @@
 	{"x": 380.34375, "y": 758.25},
 	{"x": 499.3125, "y": 537.71875},
 	{"x": 475.375, "y": 535.875},
-	{"x": 350.34375, "y": 791.65625}
+	{"x": 350.34375, "y": 791.65625},
+	{"x": 770.25, "y": 510.0625},
+	{"x": 784.8125, "y": 534.03125}
       ]
     },
 	{
@@ -207,6 +210,7 @@
       "desc": "Barrels",
       "url": "images/Icons/chest-barrel.png",
       "points": [  
+	{"x": 703.21875, "y": 615.625},
 	{"x": 357.15625, "y": 595.4375},
 	{"x": 359, "y": 597.125},
 	{"x": 593.125, "y": 354.78125},
@@ -230,7 +234,7 @@
 	{"x": 793.75, "y": 532.75},   
 	{"x": 753.28125, "y": 521.09375},
 	{"x": 755.125, "y": 476.53125},
-	{"x": 699.890625, "y": 674.515625},
+	{"x": 697.4375, "y": 679.375},
 	{"x": 397.75, "y": 621.3125},
 	{"x": 761.875, "y": 505.25}
       ]
@@ -242,6 +246,7 @@
         "desc": "Food",
         "url": "images/Icons/food.png",
         "points": [
+	{"x": 706.34375, "y": 612.03125},
 	{ "desc": "Food/Ingredients throughout cave","x": 417.25, "y": 689.4375},
 	{ "desc": "Food/Ingredients throughout basement","x": 304.25, "y": 203.5},
 	{ "desc": "Food/Ingredients throughout basement","x": 246.4375, "y": 507.1875},
@@ -261,23 +266,6 @@
 
       ]
     },
-	 {
-      "name": "Copper Ore",
-      "color": "#c44b00",
-      "url": "images/Icons/ore-copper.png",
-      "category": "Ores",
-      "desc": "Copper Ore",
-      "points": [	
-	{"x": 328.5625, "y": 804.375},
-	{"x": 510.0625, "y": 830.625},
-	{"x": 488.75, "y": 829.3125},
-	{"x": 502.5625, "y": 817.6875},
-	{"x": 747.875, "y": 233.1875},
-	{"x": 701.0625, "y": 247.875},
-	{"x": 692.0625, "y": 672.625},
-	{"x": 729.0625, "y": 345.25}
-      ]
-    },
 
 	 {
       "name": "Iron or Copper",
@@ -286,6 +274,12 @@
       "category": "Ores",
       "desc": "Iron or Copper Ore",
       "points": [
+	{"x": 328.5625, "y": 804.375},
+	{"x": 510.0625, "y": 830.625},
+	{"x": 488.75, "y": 829.3125},
+	{"x": 502.5625, "y": 817.6875},
+	{"x": 747.875, "y": 233.1875},
+	{"x": 729.0625, "y": 345.25},
 	{"x": 408.84375, "y": 687.75},
 	{"x": 776.09, "y": 198.2},
 	{"x": 769, "y": 199.75},
@@ -303,7 +297,9 @@
       "category": "Ores",
      "desc": "Bloodsteel, Iron or Copper Ore",
       "points": [
-
+	{"x": 333.4375, "y": 135.5625},
+	{"x": 701.0625, "y": 247.875},
+	{"x": 689, "y": 677.84375}
       ]
     },
 	 {
@@ -324,6 +320,7 @@
       "desc": "Possible spawns for Lodge upgrade items such as Artisan's Tool Kit,Iron Gear,Steel Tongs,Copper Pot,Master Hammer,Anvil etc.",
       "url": "images/Icons/lodge.png",
       "points":[
+	{"x": 711.96875, "y": 605.9375},
 	{"x": 462.15625, "y": 427.6875},
 	{"x": 575.625, "y": 283},
 	{"x": 654.4375, "y": 260.0625},
@@ -361,6 +358,8 @@
       "desc": "Search this area for possible spawn of: Wood Saw,Simple Scissors,Crude Awl,Dried Herbs,Ogre Fat,Tree Resin,Paper,Heavy Thread,Simple Buckle,Metal Hinge,Wax Candle,Sewing Needles,Iron Nails,Simple Vial,Simple Rope,Waxed Rope,Fire Powder,Bone Hammer,Splintered Bone,Massive Femur",
       "url": "images/Icons/tools.png",
       "points": [
+	{"x": 702.75, "y": 613.8125},
+	{"x": 713.28125, "y": 604.03125},
 	{"x": 466.625, "y": 428.1875},
 	{"x": 867.8125, "y": 533.5},
 	{"x": 857.59375, "y": 524.71875},
@@ -396,6 +395,7 @@
       "url": "images/Icons/chest-medic.png",
       "desc": "Recovery",
       "points": [
+	{"x": 708.0625, "y": 620.21875},
 	{"x": 706.15625, "y": 366.375},
 	{"x": 762.9375, "y": 486.6875},
 	{"x": 331.546875, "y": 282.21875},
@@ -416,8 +416,12 @@
 	"desc": "Boxes and barrels you can break",
 	"url": "images/Icons/crate.png",
 	"points": [
+	{"x": 718.40625, "y": 611.375},
+	{"x": 721.09375, "y": 609.09375},
+	{"x": 705.8125, "y": 614.8125},
+	{"x": 709.40625, "y": 607.5},
 	{"x": 251.1875, "y": 447.46875},
-	{"x": 754.53125, "y": 482.9375},
+	{"x": 754.40625, "y": 487.65625},
 	{"x": 252.46875, "y": 445.9375},
 	{"x": 246.125, "y": 449.71875},
 	{"x": 248.8125, "y": 453.15625},
@@ -480,6 +484,8 @@
       "url": "images/Icons/chest-alchemist.png",
       "desc": "Alchemy Chest",
       "points": [
+	{"x": 709.03125, "y": 621.40625},
+	{"x": 720.625, "y": 613.96875},
 	{"x": 479.8125, "y": 338.4375},
 	{"x": 663.625, "y": 257.875},
 	{"x": 884.25, "y": 382.5625},
@@ -616,6 +622,7 @@
       "url": "images/Icons/coins.png",
       "desc":"Pile of Gold Coins",
       "points": [
+	{"x": 710.5625, "y": 622.09375},
 	{"x": 477.15625, "y": 560.5625},
 	{"x": 476.625, "y": 561.71875},
 	{"x": 477.4375, "y": 560.09375},
@@ -728,7 +735,7 @@
       "desc": "Adventurer Bag",
       "url": "images/Icons/chest-herb.png",
       "points": [
-	{"desc": "In a corner inside the mine","x": 693.0625, "y": 671.625}
+	{"desc": "In a corner inside the mine","x": 689.40625, "y": 675.8125}
       ]
     },
 {
@@ -814,7 +821,7 @@
 	{"image":"images/Ores/MineCart378.png","x": 378.0, "y": 635.875},
 	{"image":"images/Ores/MineCart351.png","x": 340.375, "y": 151.625},
 	{"image":"images/Ores/MineCart488.png","x": 500, "y": 835.625},
-	{"image":"images/Ores/MineCart690.png","x": 694.3125, "y": 675.875},
+	{"image":"images/Ores/MineCart690.png","x": 690.90625, "y": 680.46875},
         {"image":"images/Ores/MineCart484.png","x": 492.625, "y": 854.25},
 	{ "desc": "Underground in tiny cave", "x": 731.1875, "y": 202}	
       ]
