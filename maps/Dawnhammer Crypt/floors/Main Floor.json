@@ -341,7 +341,7 @@
       "category": "Ores",
       "desc": "Bloodsteel, Iron or Copper Ore",
       "points": [
-	
+	{"desc":"On the bottom floor","x": 524.75, "y": 449.21875},
 		{"image":"images/Ores/bloodsteel255.png","x": 255.0, "y": 426.3125},
 		{"x": 412.03125, "y": 351.71875}
              ]
@@ -353,7 +353,8 @@
       "category": "Trees",
       "desc": "Birch, Oak and Maple",
       "points": [     
-	{"x": 417.5, "y": 351}
+	{"x": 417.5, "y": 351},
+	{"x": 489.31, "y": 349.22}
         
       ]
     },
@@ -436,6 +437,8 @@
       "url": "images/Icons/coin-safe.png",
       "desc": "Contains Gemstones, Treasures, Gold, Transmutation Recipes",
       "points": [
+	{"desc":"In tiny mausoleum in Catacombs of Consecration","image":"images/Chests/coinsafe734.png","x": 734.25, "y": 651},
+	{"desc":"On top of bookshelf in Hall of Tombs","image":"images/Chests/coinsafe587.png","x": 587.875, "y": 524.9375},
 	{"x": 734.1875, "y": 651.0625},
 	{"desc":"Inside Sewer Key Extract","x": 401.5, "y": 372.6875}
       ]
@@ -518,20 +521,6 @@
 	{"x": 425.8125, "y": 397.875}
       ]
     },
-	{
-      "name": "Lodge Items",
-      "color": "#f7d97e",
-      "category": "Dropped Items",
-      "desc": "Possible spawns for Lodge upgrade items such as Artisan's Tool Kit,Iron Gear,Steel Tongs,Copper Pot,Master Hammer,Anvil etc.",
-      "url": "images/Icons/lodge.png",
-      "points":[
-	{"x": 358.5625, "y": 606.125},
-	{"x": 657, "y": 361.375},
-	{"x": 645.5, "y": 735.8125},
-	{"x": 791.875, "y": 762.5}
-      ]
-    },
-
 	   {
       "name": "Recovery",
       "color": "#f7d97e",
@@ -546,6 +535,21 @@
 	{"desc":"On the bottom floor","x": 453.9375, "y": 525.3125}
       ]
     },
+	{
+      "name": "Lodge Items",
+      "color": "#f7d97e",
+      "category": "Dropped Items",
+      "desc": "Possible spawns for Lodge upgrade items such as Artisan's Tool Kit,Iron Gear,Steel Tongs,Copper Pot,Master Hammer,Anvil etc.",
+      "url": "images/Icons/lodge.png",
+      "points":[
+	{"desc":"Small room near spiders, top floor","image":"images/Collectables/lodge763.png","x": 763.1875, "y": 604.59375},
+	{"desc":"Middle floor near Cipher Stone extract","image":"images/Collectables/lodge622.png","x": 622.96875, "y": 651.8125},
+	{"x": 358.5625, "y": 606.125},
+	{"x": 657, "y": 361.375},
+	{"x": 645.5, "y": 735.8125},
+	{"image":"images/Collectables/lodge791.png","x": 791.875, "y": 762.5}
+      ]
+    },
 	 {
       "name": "Books",
       "color": "#f7d97e",
@@ -553,9 +557,10 @@
       "desc": "Books",
       "url": "images/Icons/drop-book.png",
       "points": [
+	{"desc": "Ledge above Hall of Tombs","image":"images/Collectables/book578.png","x": 578.59375, "y": 492.09375},
+	{"desc": "2 books can spawn in Catacombs of Consecration","image":"images/Collectables/book741.png","x": 741.65625, "y": 634.84375},
 	{"x": 379.28125, "y": 362.90625},
-	{"desc": "Book can spawn on wooden shelf on the top floor","image":"images/Tools/book443.png","x": 443.78125, "y": 544.71875}
-
+	{"desc": "Book can spawn on wooden shelf on the top floor","image":"images/Collectables/book443.png","x": 443.78125, "y": 544.71875}
       ]
     },
   {
@@ -565,51 +570,71 @@
       "desc": "Crypt Stone or can sometimes also be Cipher Stone",
       "url": "images/Icons/crypt-stone.png",
       "points": [
+	{"desc":"Bottom floor in Hall of Tombs","image":"images/Collectables/cryptstone586.png","x": 586.375, "y": 498.875},
+	{"image":"images/Collectables/cryptstone796.png","x": 796.28125, "y": 702.96875},
+	{"desc":"Top floor in room with Giant Red Spider","image":"images/Collectables/cryptstone627.png","x": 627.125, "y": 533},
+	{"image":"images/Collectables/cryptstone801.png","x": 801.03125, "y": 763.4375},
+	{"image":"images/Collectables/cryptstone771.png","x": 771.875, "y": 764.3125},
+	{"desc":"Tight corridor in Catacombs of Consecration","image":"images/Collectables/cryptstone691.png","x": 691.0625, "y": 605.8125},
+	{"desc":"Top floor","image":"images/Collectables/cryptstone496.png","x": 496.46875, "y": 379.84375},
+	{"image":"images/Collectables/cryptstone176.png","x": 176.75, "y": 395.875},
+	{"desc":"Bottom floor in Hall of Tombs","image":"images/Collectables/cryptstone650.png","x": 650.625, "y": 510.625},
+	{"desc":"Bottom floor in Hall of Tombs","image":"images/Collectables/cryptstone632.png","x": 632.05, "y": 488.09375},
+	{"image":"images/Collectables/cryptstone620.png","x": 620.6875, "y": 510.3125},
+	{"image":"images/Collectables/cryptstone669.png","x": 669.0625, "y": 482.09375},
+	{"desc":"In the Refectory","image":"images/Collectables/cryptstone326.png","x": 326.375, "y": 515.34375},
+	{"desc":"Middle floor","image":"images/Collectables/cryptstone510.png","x": 510.3125, "y": 427.71875},
+	{"desc":"Middle floor near Cipher Stone extract","image":"images/Collectables/cryptstone626.png","x": 626.4375, "y": 653},
+	{"desc":"Middle floor next to Cipher Stone extract","image":"images/Collectables/cryptstone648.png","x": 648.5625, "y": 621.0625},
+	{"desc":"Middle floor next to Banshee","image":"images/Collectables/cryptstone554.png","x": 554.01816305966, "y": 487.5501256281245},
+	{"desc":"In Resonant Sanctuary corner","image":"images/Collectables/cryptstone729.png","x": 729.125, "y": 402.03125},
+	{"desc":"Almost bottom floor, under Giant Red Spider","image":"images/Collectables/cryptstone236.png","x": 236.0625, "y": 472.53125},
+	{"desc":"Almost bottom floor","image":"images/Collectables/cryptstone241.png","x": 241.0, "y": 431.0625},
+	{"desc":"Middle floor, next to Grim Exchange altar","image":"images/Collectables/cryptstone398.png","x": 398.21875, "y": 563.28125},
+	{"desc":"In Chamber of the Lion","image":"images/Collectables/cryptstone505.png","x": 505.25, "y": 509.65625},
+	{"desc":"In Chamber of the Lion","image":"images/Collectables/cryptstone465.png","x": 465.75, "y": 510.46875},
+	{"desc":"In Chamber of the Lion","image":"images/Collectables/cryptstone429.png","x": 429.84375, "y": 492.21875},
+	{"desc":"In Chamber of the Lion","image":"images/Collectables/cryptstone460.png","x": 460.5, "y": 483.15625},
+	{"desc":"Upper corridor next to Chamber of the Lion","image":"images/Collectables/cryptstone474.png","x": 474.53125, "y": 560.1875},
+	{"desc":"Upper corridor next to Chamber of the Lion","image":"images/Collectables/cryptstone449.png","x": 449.375, "y": 544.96875},
+	{"image":"images/Collectables/cryptstone270.png","x": 270.90625, "y": 569.6875},
+	{"image":"images/Collectables/cryptstone177.png","x": 177.875, "y": 561.1875},
+	{"image":"images/Collectables/cryptstone686.png","x": 686.875, "y": 419.15625},
+	{"desc":"Staircase connecting top floor with middle floor","image":"images/Collectables/cryptstone509.png","x": 509.59375, "y": 417.0625},
+	{"desc":"Chamber of the Lion next to gate","image":"images/Collectables/cryptstone499.png","x": 499.46875, "y": 486.4375},
+	{"desc":"In bottom floor small cubby","image":"images/Collectables/cryptstone515.png","x": 515.1875, "y": 493.875},
+	{"desc":"In bottom floor room with 2 banshees","image":"images/Collectables/cryptstone311.png","x": 311.25, "y": 482.375},
 	{"image":"images/Collectables/cryptstone330.png","x": 330.0, "y": 475.5625},
 	{"image":"images/Collectables/cryptstone287.png","x": 287.0, "y": 468.75},
-	{"x": 281.71875, "y": 472.09375},
+	{"x": 323.46875, "y": 350.34375},
+	{"desc":"Refectory room","image":"images/Collectables/cryptstone280.png","x": 280.71875, "y": 472.09375},
 	{"x": 288.03125, "y": 304.125},
 	{"image":"images/Collectables/cryptstone292.png","x": 292.0, "y": 320.8125},
 	{"x": 378.34375, "y": 347.34375},
 	{"image":"images/Collectables/cryptstone695.png","x": 695.0, "y": 354.03125},
 	{"x": 677.65625, "y": 767.28125},
-	{"x": 627.21875, "y": 565.15625},
-	{"x": 321.15625, "y": 625.03125},
-	{"x": 104.25, "y": 514.75},
-	{"desc":"On the bottom floor","x": 279.4375, "y": 571.5},
+	{"desc":"Middle floor","image":"images/Collectables/cryptstone628.png","x": 628.65625, "y": 568.15625},
+	{"desc":"Bottom floor","image":"images/Collectables/cryptstone631.png","x": 631, "y": 573.53125},
+	{"image":"images/Collectables/cryptstone321.png","x": 321.15625, "y": 625.03125},
+	{"image":"images/Collectables/cryptstone104.png","x": 104.25, "y": 514.75},
+	{"desc":"On the bottom floor","image":"images/Collectables/cryptstone278.png","x": 278.625, "y": 605.25},
+	{"desc":"On the bottom floor","image":"images/Collectables/cryptstone279.png","x": 279.4375, "y": 571.5},
 	{"desc":"On the top floor","x": 345.6875, "y": 595.21875},
-	{"desc":"On the top floor","x": 420.875, "y": 591.375},
-	{"desc":"In the tiny room with a treasure chest","x": 213.40625, "y": 529.0625},	
+	{"image":"images/Collectables/cryptstone420.png","desc":"On the top floor","x": 420.875, "y": 591.375},
+	{"image":"images/Collectables/cryptstone213.png","desc":"In the tiny room with a treasure chest","x": 213.40625, "y": 529.0625},	
 	{"image":"images/Collectables/cryptstone239.png","x": 239.0, "y": 613.875},
-	{"x": 637.8125, "y": 317.09375},
+	{"image":"images/Collectables/cryptstone638.png","x": 638.0, "y": 317.09375},
 	{"image":"images/Collectables/cryptstone565.png","desc":"On the bottom floor","x": 565.0, "y": 367.8125},
-	{"x": 180.28125, "y": 605.84375},
-	{"x": 241.125, "y": 531},
+	{"image":"images/Collectables/cryptstone180.png","x": 180.28125, "y": 605.84375},
+	{"desc":"On the middle floor","image":"images/Collectables/cryptstone242.png","x": 242.33, "y": 519.90},
 	{"x": 396.21875, "y": 404.3125},
 	{"desc":"Middle floor green corridor","x": 540.8125, "y": 560.625},
-	{"desc":"Top floor","x": 540.40625, "y": 563.125},
+	{"desc":"Top floor","image":"images/Collectables/cryptstone540.png","x": 540.40625, "y": 563.125},
 	{"x": 119.1875, "y": 593.03125},
 	{"x": 618.84375, "y": 647.40625},
 	{"x": 633.25, "y": 590.5},
 	{"desc":"Bottom floor small cubby","x": 552.625, "y": 491.40625},
-	{"desc":"Tiny room next to Skeleton Mage and Elite Banshee","x": 293.78125, "y": 484.0625}
-      ]
-    },
-
-	  {
-      "name": "King's Mint",
-      "color": "#f7d97e",
-      "category": "Collectables",
-      "desc": "King's Mint",
-      "url": "images/Icons/flower-blue.png",
-      "points": [
-	{"x": 571.3125, "y": 598.5625},
-	{"x": 305.6875, "y": 378.4375},
-	{"x": 318.5625, "y": 356.15625},
-	{"x": 427.75, "y": 358.5},
-	{"x": 417.25, "y": 354.25},
-	{"x": 478.5, "y": 359.75},
-	{"x": 789.25, "y": 647.125}
+	{"desc":"Tiny room next to Skeleton Mage and Elite Banshee","image":"images/Collectables/cryptstone293.png","x": 293.78125, "y": 484.0625}
       ]
     },
 	 {
@@ -619,19 +644,40 @@
       "desc": "Gravemarrow Root",
       "url": "images/Icons/gravemarrow.png",
       "points": [
+	{"desc":"Tight corridor in Catacombs of Consecration","image":"images/Collectables/gravemarrow688.png","x": 688.40625, "y": 613.0625},
 	{"x": 574.28125, "y": 601.5625},
-	  {"x": 157.32, "y": 503.46},
-	  {"x": 130.78125, "y": 333.25},
-	  {"image":"images/Collectables/gravemarrow240.png","x": 240.5, "y": 612.28125},
-	 {"x": 734.03125, "y": 652.1875},
+	{"image":"images/Collectables/gravemarrow157.png","x": 157.32, "y": 503.46},
+	{"x": 130.78125, "y": 333.25},
+	{"image":"images/Collectables/gravemarrow240.png","x": 240.5, "y": 612.28125},
+	{"desc":"Small mausoleum in Catacombs of Consecration, next to coin safe","image":"images/Collectables/gravemarrow734.png","x": 734.03125, "y": 652.1875},
 	{"x": 459.84375, "y": 571.09375},
 	{"desc":"On the bottom floor next to stairs","x": 461.53125, "y": 606.9375},
-	{"x": 728.875, "y": 702.21875},
+	{"desc":"Corridor in Catacombs of Consecration","image":"images/Collectables/gravemarrow728.png","x": 728.875, "y": 702.21875},
 	{"desc":"On the bottom floor corridor","x": 455.84375, "y": 499.96875},
 	{"desc":"On the bottom floor","x": 500.625, "y": 607.46875},
 	{"desc":"Middle floor green corridor","x": 540.28125, "y": 559.625}
 	]
     },
+	  {
+      "name": "King's Mint",
+      "color": "#f7d97e",
+      "category": "Collectables",
+      "desc": "King's Mint",
+      "url": "images/Icons/flower-blue.png",
+      "points": [
+	{"image":"images/Plants/kingsmint540.png","x": 540.93, "y": 520.60},
+	{"image":"images/Plants/kingsmint625.png","x": 625.3125, "y": 515.1875},
+	{"image":"images/Plants/kingsmint729.png","x": 729.96875, "y": 653.71875},
+	{"x": 571.3125, "y": 598.5625},
+	{"x": 305.6875, "y": 378.4375},
+	{"x": 318.5625, "y": 356.15625},
+	{"image":"images/Plants/kingsmint427.png","x": 427.75, "y": 358.5},
+	{"x": 417.25, "y": 354.25},
+	{"x": 478.5, "y": 359.75},
+	{"x": 789.25, "y": 647.125}
+      ]
+    },
+	
 {
       "name": "Gemstones",
       "color": "#f7d97e",
@@ -653,7 +699,7 @@
 	{"x": 233.781, "y": 619.025},
 	{"x": 467.565, "y": 508.05},
 	{"x": 399.685, "y": 562},
-	{"x": 386.375, "y": 596.975},
+	{"x": 447.625, "y": 578.96875},
 	{"x": 713.925, "y": 376.315},
 	{"x": 717.893, "y": 379.535},
 	{"x": 539.875, "y": 361.405},
@@ -688,6 +734,8 @@
       "category": "Misc",
       "desc": "Spawn Point",
       "points": [
+	{"x": 842.75, "y": 370.5},
+	{"desc": "On the bottom floor","x": 507.09375, "y": 435.5625},
 	{"x": 313.778, "y": 646.118},
        {"x": 105.28125, "y": 496.1875},
 	{"x": 825.125, "y": 512.345},
