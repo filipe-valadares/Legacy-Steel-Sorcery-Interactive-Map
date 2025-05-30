@@ -152,6 +152,8 @@
       "desc": "Skeleton Spawn",
       "url": "images/Icons/mob-default.png",
       "points": [
+	{"x": 896.9375, "y": 542.53125},
+	{"x": 904.75, "y": 542},
 	{"desc": "Skeleton Archer","x": 691, "y": 679.1875},
 	{"desc": "Shield Skeleton","x": 653.0, "y": 423.1},
 	{"desc": "Shield Skeleton in ground","x": 796.9375, "y": 266.125},
@@ -189,7 +191,6 @@
         { "x": 607.39, "y": 736.05 },
  	 {"desc": "Skeleton Archer","x": 800.75, "y": 276.5625},
         {"x": 583.8125, "y": 360},
-        {"x": 844.5, "y": 545.125},
         {"x": 579.9375, "y": 366.625},
         {"x": 330.25, "y": 400},
         { "x": 616.06, "y": 726.38 },
@@ -357,7 +358,6 @@
 	{"desc": "Skeleton in ground","x": 721.625, "y": 340.5625},
 	{"desc": "Skeleton Archer","x": 716.0625, "y": 385.5625},
 	{"desc": "Skeleton in ground, spawns when timer <15 min","x": 384.875, "y": 687.25},
-	{"x": 842.875, "y": 528.375}, 
         {"x": 882.828125, "y": 608.46875},
         {"x": 624.25, "y": 351.25},
 	{"desc": "Armored Sword Skeleton on first floor","x": 602.5, "y": 475.84375},
@@ -549,7 +549,8 @@
 	{"x": 378, "y": 630},
 	{"x": 388.25, "y": 605},
 	{"x": 361.25, "y": 629.5},
-	{"x": 545.5, "y": 694}
+	{"x": 545.5, "y": 694},
+	{"x": 818.5, "y": 549.25}
 	]
     },
     {
@@ -568,7 +569,7 @@
 	{"x": 324.75, "y": 809},
 	{"x": 379.75, "y": 774.75},
 	{"x": 385, "y": 789.5},
-	{"x": 818.5, "y": 549.25},
+
 	{"x": 703.5, "y": 286.25},
 	{"x": 818.5, "y": 549.25}
        ]
@@ -632,8 +633,7 @@
       "url": "images/Icons/mob-goblin-boss.png",
       "desc": "Ogres",
       "points": [
-        { "desc": "Inside cave", "x": 502.375, "y": 823.125},
-        { "desc": "Underground", "x": 752.3125, "y": 216.9375}
+        { "desc": "Inside cave", "x": 502.375, "y": 823.125}
        ]
     },
     {
@@ -876,6 +876,9 @@
       "desc": "Usually contains a backpack, various foods and resources",
       "url": "images/Icons/chest-herb.png",
       "points": [
+	{"x": 316.09375, "y": 638.5625},
+	{"x": 615.9375, "y": 242.1875},
+	{"x": 475.8125, "y": 351.40625},
 	{"desc": "In a corner next to the armored archer skeleton","x": 618.1875, "y": 457.71875},
 	{"x": 239, "y": 446.75},
 	{"x": 348.25, "y": 375.25},
@@ -998,9 +1001,9 @@
       "url": "images/Icons/big-resure.png",
       "desc": "Always contains at least 1 Uncommon treasure",
       "points": [
+	{"x": 474.90625, "y": 353.03125},
 	{"desc": "Requires Skull Key to open","x": 642.5, "y": 459.3125},
 	{"desc": "2nd floor, requires Skull Key to open","image":"images/Chests/treasureChest706.png","x": 706.0, "y": 371.53125},
-	{"desc": "On top floor, requires Skull Key to open", "image": "images/Chests/treasureChest480.png","x": 480.0, "y": 341.1875},
         {"desc": "Requires Skull Key to open", "image": "images/Chests/treasureChest834.png" ,"x": 834.0, "y": 554.125},
         {"x": 310.875, "y": 337.25},
 	{"x": 660.09375, "y": 436.625},
@@ -1191,25 +1194,18 @@
 	{"desc": "Book can drop next to door","image":"images/Tools/bookUnder723.png","x": 723.0, "y": 349.1875},
 	{"desc": "Book can drop next to cart","image":"images/Tools/bookUnder585.png","x": 585.0, "y": 223.6875},
 	{"desc": "Book can spawn on a shelf","image":"images/Tools/bookUnder353.png","x": 353.0, "y": 504.5},
-	{"desc": "Book can spawn on a ledge underground","image":"images/Tools/bookUnder610.png","x": 610.0, "y": 373.625},
 	{"desc": "Book can spawn in a boat","image":"images/Tools/bookUnder856.png","x": 818.93, "y": 197.90},
         {"desc": "Book can spawn on top of the roof corner","image":"images/Tools/bookUnder564.png","x": 564.0, "y": 660.6875},
 	{"desc": "Book can spawn in the cave below North Tower","image":"images/Tools/bookUnder354.png","x": 351.875, "y": 702.0625},
-	{"desc": "Book can spawn in the basement","image":"images/Tools/bookUnder364.png","x": 364.0, "y": 583.4375},
         {"desc": "Book can spawn on the window ledge next to river", "image":"images/Tools/bookUnder600.png", "x": 600.0, "y": 488.5625},
 	{"desc": "Book can spawn next to coffin in an alcove in the Castle","image":"images/Tools/bookUnder666.png", "x": 666.0, "y": 445.125},
-	{"desc": "Books can spawn in the basement of the tower","image":"images/Tools/bookUnder462.png","x": 462.0, "y": 428.5625},
-	{"desc": "Jump down in the hole in forest and explore the basement","image":"images/Tools/bookUnder372.png","x": 375, "y": 783.9375},
-	{"desc": "Jump down in the hole in forest and explore the basement","image":"images/Tools/bookUnder398.png","x": 386.5, "y": 760.75},
 	{"desc": "On a wooden shelf behind the house, books and other rare items can spawn here","image":"images/Tools/bookUnder325.png","x": 325.0, "y": 635.5},
 	{"desc": "Big stairs go down into the crypt, explore until you reach this room, book can spawn on the altar","image":"images/Tools/bookUnder595.png","x": 590.125, "y": 271.75},
 	{"desc": "Books can spawn on the shelves/ledges in Oakheart's Vigil dungeon","image":"images/Tools/bookUnder836.png","x": 855.375, "y": 399.75},
 	{"desc": "Go left from the entrance and go to the small square room after 2 spiders, other lodge items can spawn here too","image":"images/Tools/bookUnder830.png","x": 815.875, "y": 416},
 	{"desc": "On wooden shelves next to a goblin house","image":"images/Tools/bookUnder299.png","x": 299, "y": 514.75},
 	{"desc": "Inside a fountain at the Southern part of the Castle, on top of the stairs","image":"images/Tools/bookUnder632.png","x": 632.0, "y": 418.5},
-	{"desc": "Go to the basement, other lodge items can spawn here too","image":"images/Tools/bookUnder240.png","x": 240.375, "y": 510.1875},
 	{"desc": "Books can spawn on the 2nd floor here","image":"images/Tools/bookUnder319.png","x": 322.0625, "y": 451.984375},
-	{"desc": "Books can spawn on the altar underground","image":"images/Tools/bookUnder892.png","x": 892.0, "y": 536.6875},
 	{"desc": "Books can spawn near the boxes","image":"images/Tools/bookUnder326.png","x": 326.0, "y": 747.875}
       ]
     },
@@ -1220,6 +1216,7 @@
       "desc": "Possible spawns for Lodge upgrade items such as Artisan's Tool Kit,Iron Gear,Steel Tongs,Copper Pot,Master Hammer,Anvil etc.",
       "url": "images/Icons/lodge.png",
       "points":[
+	{"desc": "Ground floor corner","x": 852.78125, "y": 555.375},
 	{"x": 320.03125, "y": 451.78125},
 	{"x": 711.34375, "y": 606.28125},
 	{"image":"images/Tools/lodge335.png","x": 335.84375, "y": 318.96875},
@@ -1234,7 +1231,6 @@
 	{"image":"images/Tools/lodge387.png","x": 387.0, "y": 759.5},
 	{"image":"images/Tools/lodge540.png","x": 540.0, "y": 577.3125},
 	{"image":"images/Tools/lodge460.png","x": 460.359375, "y": 606.953125},
-	{"image":"images/Tools/lodge867.png","x": 867.578125, "y": 534.625},
 	{"image":"images/Tools/lodge476.png","x": 476.0, "y": 371.4375},
 	{"image":"images/Tools/lodge393.png","x": 393.0, "y": 278.625},
 	{"image":"images/Tools/lodge247.png","x": 247.0, "y": 441.90625},
@@ -1262,6 +1258,7 @@
       "desc": "Possible spawns for Keys",
       "url": "images/Icons/keys.png",
       "points":[
+	{"desc":"On Hunter Altar","x": 483.125, "y": 326.4375},
 	{"x": 809.5625, "y": 179.75},
 	{"image":"images/Tools/key483.png","x": 483.40625, "y": 338.46875},
 	{"image":"images/Tools/key680.png","x": 680.13, "y": 504.16},
@@ -1358,7 +1355,6 @@
 	{"image":"images/Tools/gemstone674.png","x": 674.0, "y": 197.9375},
 	{"image":"images/Tools/gemstone694.png","x": 694.0, "y": 191.125},
 	{"image":"images/Tools/gemstone471.png","x": 471.0, "y": 348.6875},
-	{ "desc": "Basement floor window ledge","image":"images/Tools/gemstone470.png","x": 470.0, "y": 342.375},
 	{"x": 336.5, "y": 319.28125},
 	{"image":"images/Tools/gemstone472.png","x": 472.0, "y": 381.625},
 	{"image":"images/Tools/gemstone451.png","x": 451.0, "y": 367.0},
@@ -1411,7 +1407,6 @@
             {"desc": "Carrots", "x": 336.75, "y": 515 },
             {"x": 323.9375, "y": 454.5},
               { "desc": "Food/Ingredients throughout the house","x": 350.5625, "y": 502.75},
-
             {"desc": "Carrots", "x": 317.25, "y": 621.5 },
             { "desc": "Carrots","x": 338.25, "y": 554.25 },
             { "x": 279.5, "y": 681.75 },
@@ -1429,19 +1424,26 @@
       "category": "Trees",
       "desc": "Birch and Oak",
       "points": [
+	{"x": 241.625, "y": 285.90625},
+	{"x": 234.375, "y": 281.71875},
+	{"x": 233.4375, "y": 316.71875},
+	{"x": 699.1875, "y": 492.25},
+	{"x": 716.321, "y": 465.713},
+	{"x": 661.5, "y": 402.28125},
 	{"x": 746.8125, "y": 175.75},
 	{"x": 781.03125, "y": 180.40625},
 	{"x": 777.65625, "y": 179.59375},
 	{"x": 295.53125, "y": 550.9375},
 	{"x": 685.625, "y": 492.9375},
 	{"x": 663.9375, "y": 499.78125},
-		{"x": 716.6875, "y": 512.375},
+	{"x": 716.6875, "y": 512.375},
+	{"x": 702.77599, "y": 498.863},
 	{"x": 696.59375, "y": 474.5},
 	{"x": 411.34375, "y": 546.375},
 	{"x": 783.0, "y": 194.5625},
         { "x": 630.34, "y": 514.82 },
         { "x": 241.75, "y": 435.75},
-        { "x": 268.25, "y": 213.25},
+        {"x": 270.59375, "y": 223.6875},
         { "x": 390.25, "y": 183.75},
         { "x": 520.5, "y": 265.75},
        {"x": 489.6875, "y": 330.125},
@@ -1473,9 +1475,13 @@
         { "x": 414.79, "y": 622.40 },
         { "x": 418.37, "y": 657.26 },
         { "x": 396.18, "y": 541.71 },
+	{"x": 759.21875, "y": 502.15625},
+	{"x": 764.78125, "y": 505.53125},
+	{"x": 802.09375, "y": 465.1875},
+	{"x": 797.53125, "y": 466.09375},
+	{"x": 769.75, "y": 447.84375},
         { "x": 618.87, "y": 559.34 },
-        { "x": 722.19, "y": 527.13 },
-        { "x": 790.00, "y": 447.28 },
+        {"x": 713.47, "y": 526.083},
         { "x": 717.55, "y": 368.86 },
         { "x": 387.76, "y": 256.95 },
         { "x": 295, "y": 685.25 },
@@ -1522,12 +1528,12 @@
         {"image":"images/Plants/IronwoodTree683.png","x": 683.0, "y": 491.625},
         {"image":"images/Plants/IronwoodTree684.png","x": 684.0, "y": 465.69},
         {"image":"images/Plants/IronwoodTree283.png", "x": 283.0, "y": 520.75},
-        {"image":"images/Plants/IronwoodTree874.png", "x": 874.0, "y": 581.25 },
+        {"image":"images/Plants/IronwoodTree874.png", "x": 897.25, "y": 577.9375},
 	{"image":"images/Plants/IronwoodTree578.png", "x": 578.0, "y": 347.875},
         {"image":"images/Plants/IronwoodTree573.png","x": 573.0, "y": 358},
 	                { "x": 656, "y": 175.75},
         { "x": 274.5, "y": 641.5 },
-        { "x": 805.78, "y": 545.47 },
+    {"x": 825.4375, "y": 543.8125},
 	{"x": 444.25, "y": 697.75}
       ]
     },
@@ -2129,7 +2135,7 @@
       "desc": "Hunter Altar",
       "points": [
         {"x": 530.5, "y": 541.375},
-        {"x": 476, "y": 315.25},
+       {"x": 482.21875, "y": 326.875},
         {"x": 752.875, "y": 315.9375},
         {"x": 776, "y": 575},
 	{"x": 365.92, "y": 614.12}
