@@ -341,10 +341,11 @@
       "category": "Ores",
       "desc": "Bloodsteel, Iron or Copper Ore",
       "points": [
-	{"desc":"On the bottom floor","x": 524.75, "y": 449.21875},
+		{"image":"images/Ores/bloodsteel489.png","x": 489.03125, "y": 355.46875},
+		{"desc":"On the bottom floor","x": 524.75, "y": 449.21875},
 		{"image":"images/Ores/bloodsteel255.png","x": 255.0, "y": 426.3125},
 		{"x": 412.03125, "y": 351.71875}
-             ]
+            ]
     },
 	 {
       "name": "Maple or below",
@@ -353,8 +354,10 @@
       "category": "Trees",
       "desc": "Birch, Oak and Maple",
       "points": [     
+	{"x": 491.65625, "y": 357.59375},
 	{"x": 417.5, "y": 351},
-	{"x": 489.31, "y": 349.22}
+	{"x": 489.31, "y": 349.22},
+	{"x": 411.84375, "y": 356.53125}
         
       ]
     },
@@ -399,6 +402,7 @@
       "desc": "Herbalist's Pouch",
       "url": "images/Icons/chest-herb.png",
       "points": [
+	{"x": 493.4375, "y": 353.1875},
 	{"desc":"On the top floor","x": 371.58, "y": 571.87},
 	{"desc":"On the top floor","x": 440.9375, "y": 552.4375},
 	{"x": 589.8125, "y": 358.65625},
@@ -606,11 +610,12 @@
 	{"desc":"In bottom floor room with 2 banshees","image":"images/Collectables/cryptstone311.png","x": 311.25, "y": 482.375},
 	{"image":"images/Collectables/cryptstone330.png","x": 330.0, "y": 475.5625},
 	{"image":"images/Collectables/cryptstone287.png","x": 287.0, "y": 468.75},
+	{"image":"images/Collectables/cryptstone305.png","x": 305.03125, "y": 267.21875},
 	{"x": 323.46875, "y": 350.34375},
 	{"desc":"Refectory room","image":"images/Collectables/cryptstone280.png","x": 280.71875, "y": 472.09375},
-	{"x": 288.03125, "y": 304.125},
+	{"image":"images/Collectables/cryptstone288.png","x": 288.03125, "y": 304.125},
 	{"image":"images/Collectables/cryptstone292.png","x": 292.0, "y": 320.8125},
-	{"x": 378.34375, "y": 347.34375},
+	{"image":"images/Collectables/cryptstone378.png","x": 378.34375, "y": 347.34375},
 	{"image":"images/Collectables/cryptstone695.png","x": 695.0, "y": 354.03125},
 	{"x": 677.65625, "y": 767.28125},
 	{"desc":"Middle floor","image":"images/Collectables/cryptstone628.png","x": 628.65625, "y": 568.15625},
@@ -665,15 +670,19 @@
       "desc": "King's Mint",
       "url": "images/Icons/flower-blue.png",
       "points": [
+	{"image":"images/Plants/kingsmint364.png","x": 488.21875, "y": 364.3125},
+	{"image":"images/Plants/kingsmint364.png","x": 484.15625, "y": 364.625},
+	{"image":"images/Plants/kingsmint421.png","x": 421, "y": 358.34375},
 	{"image":"images/Plants/kingsmint540.png","x": 540.93, "y": 520.60},
 	{"image":"images/Plants/kingsmint625.png","x": 625.3125, "y": 515.1875},
 	{"image":"images/Plants/kingsmint729.png","x": 729.96875, "y": 653.71875},
 	{"x": 571.3125, "y": 598.5625},
-	{"x": 305.6875, "y": 378.4375},
+	{"image":"images/Plants/kingsmint305.png","x": 306.625, "y": 370.59375},
+	{"image":"images/Plants/kingsmint305.png","x": 305.6875, "y": 378.4375},
 	{"x": 318.5625, "y": 356.15625},
 	{"image":"images/Plants/kingsmint427.png","x": 427.75, "y": 358.5},
 	{"x": 417.25, "y": 354.25},
-	{"x": 478.5, "y": 359.75},
+	{"image":"images/Plants/kingsmint478.png","x": 478.5, "y": 359.75},
 	{"x": 789.25, "y": 647.125}
       ]
     },
