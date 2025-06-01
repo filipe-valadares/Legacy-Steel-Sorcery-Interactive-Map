@@ -721,7 +721,7 @@
         { "x": 329.75, "y": 287 },
         { "x": 345.4375, "y": 308.3125 },
         { "x": 385.25, "y": 372.75 },
-        { "x": 816, "y": 198.25 },
+        {"x": 831.0625, "y": 193.625},
         {"x": 806.75, "y": 417.25},
         { "desc": "Good Chance of finding scisscor", "x": 350.25, "y": 371.75 },
         { "x": 575, "y": 495.25 },
@@ -876,6 +876,8 @@
       "desc": "Usually contains a backpack, various foods and resources",
       "url": "images/Icons/chest-herb.png",
       "points": [
+	{"desc": "In circular room 1st floor next to wall","x": 668.4375, "y": 446.3125},
+	{"x": 592.46875, "y": 316.53125},
 	{"x": 316.09375, "y": 638.5625},
 	{"x": 615.9375, "y": 242.1875},
 	{"x": 475.8125, "y": 351.40625},
@@ -896,6 +898,7 @@
       "url": "images/Icons/chest-medic.png",
       "desc": "Healing items, Dried Herbs",
       "points": [
+	{"x": 837.71875, "y": 427.40625},
 	{"x": 716.28125, "y": 617.375},
 	{"x": 666.125, "y": 484.65625},
 	{"x": 258.90625, "y": 229.8125},
@@ -1127,6 +1130,7 @@
       "desc": "Search this area for possible spawn of: Wood Saw,Simple Scissors,Crude Awl,Dried Herbs,Ogre Fat,Tree Resin,Paper,Heavy Thread,Simple Buckle,Metal Hinge,Wax Candle,Sewing Needles,Iron Nails,Simple Vial,Simple Rope,Waxed Rope,Fire Powder,Bone Hammer,Splintered Bone,Massive Femur",
       "url": "images/Icons/tools.png",
       "points": [
+	{"x": 834.375, "y": 426},
 	{"x": 801.8125, "y": 185.25},
 	{"x": 725.4375, "y": 350.875},
         {"x": 254.46875, "y": 234.78125},
@@ -1177,7 +1181,7 @@
 	{"image": "images/Tools/toolbelt354.png","x": 354.1875, "y": 495.625},
 	{"image": "images/Tools/toolbelt850.png","x": 850.75, "y": 429},
 	{"image": "images/Tools/toolbelt725.png","x": 725.21, "y": 350.375},
-        {"image": "images/Tools/toolbelt817.png","x": 817.5, "y": 198.7}
+        {"image": "images/Tools/toolbelt817.png","x": 832.28125, "y": 192.34375}
       ]
     },
     {
@@ -1190,11 +1194,10 @@
 	{"x": 470.15625, "y": 702.40625},
 	{"x": 803.3125, "y": 253.65625},
 	{"desc": "Book can drop under bridge","image":"images/Tools/bookUnder520.png","x": 520.843, "y": 431.5},
-	{"desc": "Book can drop on shelf","image":"images/Tools/bookUnder312.png","x": 312.0, "y": 633.0625},
 	{"desc": "Book can drop next to door","image":"images/Tools/bookUnder723.png","x": 723.0, "y": 349.1875},
 	{"desc": "Book can drop next to cart","image":"images/Tools/bookUnder585.png","x": 585.0, "y": 223.6875},
 	{"desc": "Book can spawn on a shelf","image":"images/Tools/bookUnder353.png","x": 353.0, "y": 504.5},
-	{"desc": "Book can spawn in a boat","image":"images/Tools/bookUnder856.png","x": 818.93, "y": 197.90},
+	{"desc": "Book can spawn in a boat","image":"images/Tools/bookUnder856.png","x": 829.5625, "y": 192.5},
         {"desc": "Book can spawn on top of the roof corner","image":"images/Tools/bookUnder564.png","x": 564.0, "y": 660.6875},
 	{"desc": "Book can spawn in the cave below North Tower","image":"images/Tools/bookUnder354.png","x": 351.875, "y": 702.0625},
         {"desc": "Book can spawn on the window ledge next to river", "image":"images/Tools/bookUnder600.png", "x": 600.0, "y": 488.5625},
@@ -1216,6 +1219,7 @@
       "desc": "Possible spawns for Lodge upgrade items such as Artisan's Tool Kit,Iron Gear,Steel Tongs,Copper Pot,Master Hammer,Anvil etc.",
       "url": "images/Icons/lodge.png",
       "points":[
+{"x": 312.53125, "y": 632.125},
 	{"desc": "Ground floor corner","x": 852.78125, "y": 555.375},
 	{"x": 320.03125, "y": 451.78125},
 	{"x": 711.34375, "y": 606.28125},
@@ -1299,7 +1303,7 @@
 	{"image":"images/Tools/gemstone391.png","x": 391.0, "y": 719.5},
 	{"image":"images/Tools/gemstone372.png","x": 372.0, "y": 725.25},
 	{"image":"images/Tools/gemstone667.png","x": 667.0, "y": 454.03125},
-	{"image":"images/Tools/gemstone819.png","x": 819.0, "y": 199.125},
+	{"image":"images/Tools/gemstone819.png","x": 832.3125, "y": 191.09375},
 	{"image":"images/Tools/gemstone632.png","x": 632.0, "y": 416.75},
 	{"image":"images/Tools/gemstone487.png","x": 487.0, "y": 604.1875},
 	{"image":"images/Tools/gemstone490.png","x": 490.0, "y": 598.6875},
