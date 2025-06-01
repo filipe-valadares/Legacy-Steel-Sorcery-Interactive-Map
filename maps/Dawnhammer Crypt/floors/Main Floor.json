@@ -321,9 +321,21 @@
 	{"x": 242.78125, "y": 562.71875},
 	{"x": 291.3125, "y": 362.78125},
 	{"x": 448.90625, "y": 344.40625},
-	{"desc":"Inside Crypt Key extract","x": 404.5, "y": 341.6875}
+	{"desc":"Inside Sewer Key extract","x": 421.96875, "y": 394.5}
       ]
     },
+{
+      "name": "Locked Door",
+      "color": "#f7d97e",
+      "category": "Misc",
+      "desc": "Locked door that requires a certain key to enter",
+      "url": "images/Icons/lockeddoor.png",
+      "points":[
+	{"desc": "Requires Sewer Key","x": 440.15625, "y": 442.4375}
+	  ]
+
+    },
+
  {
       "name": "Iron Ore or lower",
       "color": "#c44b00",
@@ -430,8 +442,8 @@
 	{"desc":"On the middle floor","x": 392.65625, "y": 390.5625},
 	{"desc":"In the bottom next to Sewer Key gate","x": 457.15625, "y": 370.9375},
 	{"x": 548.3125, "y": 553.65625},
-	{"desc":"Inside Sewer Key Extract","x": 423.15625, "y": 368.375},
-	{"desc":"Inside Sewer Key Extract","x": 411.8125, "y": 369.625}
+	{"desc":"Inside Sewer Key Extract","x": 436.375, "y": 431.09375},
+	{"desc":"Inside Sewer Key Extract","x": 421.375, "y": 431.09375}
       ]
     },
 	{
@@ -444,7 +456,7 @@
 	{"desc":"In tiny mausoleum in Catacombs of Consecration","image":"images/Chests/coinsafe734.png","x": 734.25, "y": 651},
 	{"desc":"On top of bookshelf in Hall of Tombs","image":"images/Chests/coinsafe587.png","x": 587.875, "y": 524.9375},
 	{"x": 734.1875, "y": 651.0625},
-	{"desc":"Inside Sewer Key Extract","x": 401.5, "y": 372.6875}
+	{"desc":"Inside Sewer Key Extract","x": 411.625, "y": 433.46875}
       ]
     },
 	{
@@ -478,7 +490,10 @@
 	{"x": 529.46875, "y": 372.8125},
 	{"x": 732.5, "y": 713.5},
 	{"x": 737.53125, "y": 651.125},
-	{"desc":"Inside Sewer Key Extract","x": 426.6875, "y": 369.0625},
+	{"desc":"Inside Sewer Key Extract","x": 434.46875, "y": 430.65625},
+	{"desc":"Inside Sewer Key Extract","x": 418, "y": 431.875},
+	{"desc":"Inside Sewer Key Extract","x": 421.875, "y": 392.125},
+	{"desc":"Inside Sewer Key Extract","x": 427.40625, "y": 388.75},
 	{"x": 686, "y": 528.25}
       ]
     },
@@ -546,6 +561,7 @@
       "desc": "Possible spawns for Lodge upgrade items such as Artisan's Tool Kit,Iron Gear,Steel Tongs,Copper Pot,Master Hammer,Anvil etc.",
       "url": "images/Icons/lodge.png",
       "points":[
+	{"desc":"Inside Sewer Key extract","image":"images/Collectables/lodge417.png","x": 417.125, "y": 347.09375},
 	{"desc":"Small room near spiders, top floor","image":"images/Collectables/lodge763.png","x": 763.1875, "y": 604.59375},
 	{"desc":"Middle floor near Cipher Stone extract","image":"images/Collectables/lodge622.png","x": 622.96875, "y": 651.8125},
 	{"x": 358.5625, "y": 606.125},
@@ -624,7 +640,7 @@
 	{"image":"images/Collectables/cryptstone104.png","x": 104.25, "y": 514.75},
 	{"desc":"On the bottom floor","image":"images/Collectables/cryptstone278.png","x": 278.625, "y": 605.25},
 	{"desc":"On the bottom floor","image":"images/Collectables/cryptstone279.png","x": 279.4375, "y": 571.5},
-	{"desc":"On the top floor","x": 345.6875, "y": 595.21875},
+	{"desc":"On the top floor","image":"images/Collectables/cryptstone345.png","x": 345.6875, "y": 595.21875},
 	{"image":"images/Collectables/cryptstone420.png","desc":"On the top floor","x": 420.875, "y": 591.375},
 	{"image":"images/Collectables/cryptstone213.png","desc":"In the tiny room with a treasure chest","x": 213.40625, "y": 529.0625},	
 	{"image":"images/Collectables/cryptstone239.png","x": 239.0, "y": 613.875},
@@ -639,6 +655,7 @@
 	{"x": 618.84375, "y": 647.40625},
 	{"x": 633.25, "y": 590.5},
 	{"desc":"Bottom floor small cubby","x": 552.625, "y": 491.40625},
+	{"desc":"Middle floor corner","image":"images/Collectables/gravemarrow460.png","x": 498, "y": 574.90625},
 	{"desc":"Tiny room next to Skeleton Mage and Elite Banshee","image":"images/Collectables/cryptstone293.png","x": 293.78125, "y": 484.0625}
       ]
     },
@@ -648,19 +665,20 @@
       "category": "Collectables",
       "desc": "Gravemarrow Root",
       "url": "images/Icons/gravemarrow.png",
-      "points": [
-	{"desc":"Tight corridor in Catacombs of Consecration","image":"images/Collectables/gravemarrow688.png","x": 688.40625, "y": 613.0625},
-	{"x": 574.28125, "y": 601.5625},
+      "points": [	
+	{"image":"images/Collectables/gravemarrow688.png","desc":"Tight corridor in Catacombs of Consecration","x": 688.40625, "y": 613.0625},
+	{"image":"images/Collectables/gravemarrow574.png","x": 574.28125, "y": 601.5625},
 	{"image":"images/Collectables/gravemarrow157.png","x": 157.32, "y": 503.46},
-	{"x": 130.78125, "y": 333.25},
+	{"image":"images/Collectables/gravemarrow134.png","x": 134.25, "y": 336.6875},
 	{"image":"images/Collectables/gravemarrow240.png","x": 240.5, "y": 612.28125},
-	{"desc":"Small mausoleum in Catacombs of Consecration, next to coin safe","image":"images/Collectables/gravemarrow734.png","x": 734.03125, "y": 652.1875},
-	{"x": 459.84375, "y": 571.09375},
-	{"desc":"On the bottom floor next to stairs","x": 461.53125, "y": 606.9375},
-	{"desc":"Corridor in Catacombs of Consecration","image":"images/Collectables/gravemarrow728.png","x": 728.875, "y": 702.21875},
-	{"desc":"On the bottom floor corridor","x": 455.84375, "y": 499.96875},
-	{"desc":"On the bottom floor","x": 500.625, "y": 607.46875},
-	{"desc":"Middle floor green corridor","x": 540.28125, "y": 559.625}
+	{"image":"images/Collectables/gravemarrow734.png","desc":"Small mausoleum in Catacombs of Consecration, next to coin safe","x": 734.03125, "y": 652.1875},
+	{"image":"images/Collectables/gravemarrow460.png","x": 500.21875, "y": 572.3125},
+	{"image":"images/Collectables/gravemarrow461.png","desc":"On the bottom floor next to stairs","x": 461.53125, "y": 606.9375},
+	{"image":"images/Collectables/gravemarrow728.png","desc":"Corridor in Catacombs of Consecration","x": 728.875, "y": 702.21875},
+	{"image":"images/Collectables/gravemarrow455.png","desc":"On the bottom floor corridor","x": 455.84375, "y": 499.96875},
+	{"image":"images/Collectables/gravemarrow521.png","desc":"On the bottom floor","x": 521.18, "y": 602.0},
+	{"image":"images/Collectables/gravemarrow497.png","desc":"On the bottom floor","x": 497, "y": 612.90625},
+	{"image":"images/Collectables/gravemarrow540.png","desc":"Middle floor green corridor","x": 546.46875, "y": 551.34375}
 	]
     },
 	  {

@@ -7,6 +7,8 @@
       "desc": "Skeleton Spawn",
       "url": "images/Icons/mob-default.png",
       "points": [
+	{"x": 915.28125, "y": 619.6875},
+	{"x": 840.0625, "y": 420.34375},
 	{"x": 649.03125, "y": 450.34375},
 	{"x": 643.5625, "y": 444.75},
 	{"x": 669.03125, "y": 442.46875},
@@ -71,6 +73,7 @@
       "url": "images/Icons/mob-stronger.png",
       "desc": "Elite Skeleton Spawn",
       "points": [
+	{"x": 631.40625, "y": 359.53125},
 	{"x": 594.875, "y": 309.75},
 	{"x": 598.5, "y": 312.09375},
 	{"x": 662.84375, "y": 452.3125},
@@ -133,6 +136,9 @@
       "url": "images/Icons/mob-wolf-elite.png",
       "desc": "White Wolves",
       "points": [
+	{"x": 824.90625, "y": 464.21875},
+	{"x": 810.96875, "y": 486.71875},
+	{"x": 867.3125, "y": 517.53125},
 	{"x": 742.4375, "y": 475.03125},
 	{"x": 722.53125, "y": 410.09375},
 	{"x": 688.75, "y": 374.65625},
@@ -161,6 +167,8 @@
       "url": "images/Icons/mob-wolf-giant.png",
       "desc": "White Giant Wolf",
       "points": [
+	{"x": 852.34375, "y": 497.40625},
+	{"x": 804.03125, "y": 492.09375},
 	{"x": 437.4, "y": 596.97},
 	{"x": 358.587, "y": 305.205},
 	{"desc":"Patrolling this general area","x": 278.21875, "y": 577.875},
@@ -181,6 +189,10 @@
       "desc": "Goblin Spawn",
       "url": "images/Icons/mob-goblin.png",
       "points": [
+	{"x": 421.96875, "y": 353.0625},
+	{"x": 306.09375, "y": 781.375},
+	{"x": 307.40625, "y": 781.03125},
+	{"x": 809.0625, "y": 183.3125},
 	{"x": 464.40625, "y": 794.3125},
 	{"x": 469.0625, "y": 791.0625},
 	{"x": 480.90625, "y": 778.34375},
@@ -285,6 +297,8 @@
       "desc": "Elite Bandit Spawn",
       "url": "images/Icons/bandit-elite.png",
       "points": [
+	{"x": 421.96875, "y": 353.0625},
+	{"x": 421.96875, "y": 353.0625},
 	{"x": 731.25, "y": 323.90625},
 	{"x": 665.90625, "y": 559.0625},
 	{"x": 619.84375, "y": 257.0625},
@@ -316,6 +330,7 @@
       "desc": "Skeleton Spearman",
       "url": "images/Icons/mob-spearman.png",
       "points": [
+	{"x": 318.5, "y": 469.59375},
 	{"x": 258.09375, "y": 225.09375},
 	{"x": 328.90625, "y": 685.59375},
 	{"x": 347.5, "y": 673.375},
@@ -377,7 +392,7 @@
       "url": "images/Icons/mob-boss-wraith.png",
       "desc": "Wraith",
       "points": [
-	{"x": 636.15625, "y": 359.34375},
+	{"x": 639.09375, "y": 289.5625},
 	{"x": 553.09375, "y": 400.09375},
 		{"x": 590.84375, "y": 274.5625}
             ]
@@ -399,6 +414,8 @@
       "url": "images/Icons/mob-spider.png",
       "desc": "Spiders",
       "points": [
+	{"x": 782.9375, "y": 521.25},
+	{"x": 806.34375, "y": 503.96875},
 	{"x": 637.15625, "y": 264.8125},
 	{"x": 327.8125, "y": 412.28125},
 	{"x": 336.59375, "y": 390.8125},
@@ -508,6 +525,7 @@
       "url": "images/Icons/necromancer-elite.png",
       "desc": "Elite Necromancer (drops Transmutation Recipes, Gear, Keys, Mats)",
       "points": [
+	{"x": 589.75, "y": 400.78125},
 	{"x": 789.28125, "y": 558.59375},
 	{"x": 826.46875, "y": 652.84375},
 	{"x": 868.59375, "y": 557.4375},
@@ -591,7 +609,7 @@
         { "x": 329.75, "y": 287 },
         { "x": 345.4375, "y": 308.3125 },
         { "x": 385.25, "y": 372.75 },
-        { "x": 816, "y": 198.25 },
+     {"x": 830.71875, "y": 194.34375},
         {"x": 806.75, "y": 417.25},
         { "desc": "Good Chance of finding scisscor", "x": 350.25, "y": 371.75 },
         { "x": 575, "y": 495.25 },
@@ -649,7 +667,6 @@
 	{"desc": "On 2nd floor", "x": 649.59375, "y": 456.5},
 	{"desc": "On 2nd floor", "x": 651.15625, "y": 454.65625},
 	{"desc": "On 2nd floor", "x": 643.5, "y": 464.78125},
-	{"desc": "On 2nd floor, requires Skull Key to open","x": 652.5, "y": 466.21875},
 	{"x": 678.875, "y": 523.375},
 	{"x": 685.125, "y": 539.9375},
 	{"x": 696.25, "y": 535.9375},
@@ -682,6 +699,18 @@
 	{"x": 672.75, "y": 451.6875}
       ]
     },
+	{
+      "name": "Royal Sacrophagus",
+      "color": "#c49300",
+      "category": "Containers",
+      "desc": "Requires Greater Skull Key to open",
+      "url": "images/Icons/chest-royal-coffin.png",
+      "points": [ 
+	{"desc": "On 2nd floor, requires Greater Skull Key to open","x": 653.90625, "y": 466.875}
+      ]
+    },
+
+	
     {
       "name": "Tree Bag",
       "color": "#f7d97e",
@@ -744,7 +773,10 @@
       "category": "Containers",
       "desc": "Adventurer Bag",
       "url": "images/Icons/chest-herb.png",
-      "points": [	
+      "points": [
+	{"desc": "Inside Farmhouse","x": 247.90625, "y": 448.25},
+	{"desc": "In circular room 1st floor next to wall","x": 668.4375, "y": 446.3125},
+	{"x": 592.46875, "y": 316.53125},	
 	{"x": 615.9375, "y": 242.1875},
 	{"x": 730.4375, "y": 199.25},
 	{"desc": "In a corner next to the armored archer skeleton","x": 618.1875, "y": 457.71875},
@@ -764,6 +796,7 @@
       "url": "images/Icons/chest-medic.png",
       "desc": "Healing items, Dried Herbs",
       "points": [
+	{"x": 837.28125, "y": 426.8125},
 	{"x": 666.125, "y": 484.65625},
 	{"x": 258.90625, "y": 229.8125},
 	{"x": 251.9375, "y": 234.53125},
@@ -985,6 +1018,9 @@
       "desc": "Search this area for possible spawn of: Wood Saw,Simple Scissors,Crude Awl,Dried Herbs,Ogre Fat,Tree Resin,Paper,Heavy Thread,Simple Buckle,Metal Hinge,Wax Candle,Sewing Needles,Iron Nails,Simple Vial,Simple Rope,Waxed Rope,Fire Powder,Bone Hammer,Splintered Bone,Massive Femur",
       "url": "images/Icons/tools.png",
       "points": [
+	{"x": 834.375, "y": 426},
+	{"x": 802.4375, "y": 185.3125},
+	{"x": 810.53125, "y": 181.125},
 	{"x": 246.625, "y": 446.53125},
 	{"x": 725.4375, "y": 350.875},
         {"x": 254.46875, "y": 234.78125},
@@ -1035,7 +1071,7 @@
 	{"image": "images/Tools/toolbelt354.png","x": 354.1875, "y": 495.625},
 	{"image": "images/Tools/toolbelt850.png","x": 850.75, "y": 429},
 	{"image": "images/Tools/toolbelt725.png","x": 725.21, "y": 350.375},
-        {"image": "images/Tools/toolbelt817.png","x": 817.5, "y": 198.7}
+        {"image": "images/Tools/toolbelt817.png","x": 832.09375, "y": 191.46875}
       ]
     },
     {
@@ -1047,20 +1083,15 @@
       "points": [
 	{"x": 470.15625, "y": 702.40625},
 	{"desc": "Book can drop under bridge","image":"images/Tools/bookUnder520.png","x": 520.843, "y": 431.5},
-	{"desc": "Book can drop on shelf","image":"images/Tools/bookUnder312.png","x": 312.0, "y": 633.0625},
 	{"desc": "Book can drop next to door","image":"images/Tools/bookUnder723.png","x": 723.0, "y": 349.1875},
 	{"desc": "Book can drop next to cart","image":"images/Tools/bookUnder585.png","x": 585.0, "y": 223.6875},
 	{"desc": "Book can spawn on a shelf","image":"images/Tools/bookUnder353.png","x": 353.0, "y": 504.5},
 	{"desc": "Book can spawn on a ledge underground","image":"images/Tools/bookUnder610.png","x": 610.0, "y": 373.625},
-	{"desc": "Book can spawn in a boat","image":"images/Tools/bookUnder856.png","x": 818.93, "y": 197.90},
+	{"desc": "Book can spawn in a boat","image":"images/Tools/bookUnder856.png","x": 827.5, "y": 193.28125},
         {"desc": "Book can spawn on top of the roof corner","image":"images/Tools/bookUnder564.png","x": 564.0, "y": 660.6875},
 	{"desc": "Book can spawn in the cave below North Tower","image":"images/Tools/bookUnder354.png","x": 351.875, "y": 702.0625},
-	{"desc": "Book can spawn in the basement","image":"images/Tools/bookUnder364.png","x": 364.0, "y": 583.4375},
         {"desc": "Book can spawn on the window ledge next to river", "image":"images/Tools/bookUnder600.png", "x": 600.0, "y": 488.5625},
 	{"desc": "Book can spawn next to coffin in an alcove in the Castle","image":"images/Tools/bookUnder666.png", "x": 666.0, "y": 445.125},
-	{"desc": "Books can spawn in the basement of the tower","image":"images/Tools/bookUnder462.png","x": 462.0, "y": 428.5625},
-	{"desc": "Jump down in the hole in forest and explore the basement","image":"images/Tools/bookUnder372.png","x": 375, "y": 783.9375},
-	{"desc": "Jump down in the hole in forest and explore the basement","image":"images/Tools/bookUnder398.png","x": 386.5, "y": 760.75},
 	{"desc": "On a wooden shelf behind the house, books and other rare items can spawn here","image":"images/Tools/bookUnder325.png","x": 325.0, "y": 635.5},
 	{"desc": "Big stairs go down into the crypt, explore until you reach this room, book can spawn on the altar","image":"images/Tools/bookUnder595.png","x": 590.125, "y": 271.75},
 	{"desc": "Books can spawn on the shelves/ledges in Oakheart's Vigil dungeon","image":"images/Tools/bookUnder836.png","x": 855.375, "y": 399.75},
@@ -1080,6 +1111,7 @@
       "desc": "Possible spawns for Lodge upgrade items such as Artisan's Tool Kit,Iron Gear,Steel Tongs,Copper Pot,Master Hammer,Anvil etc.",
       "url": "images/Icons/lodge.png",
       "points":[
+	{"x": 312.53125, "y": 632.125},
 	{"x": 934.6875, "y": 556.96875},
 	{"x": 364.96875, "y": 598.5625},
 	{"x": 320.03125, "y": 451.78125},
@@ -1145,12 +1177,13 @@
       "desc": "Locked door that requires a certain key to enter",
       "url": "images/Icons/lockeddoor.png",
       "points":[
-	{"desc": "Requires Farmhouse Key","x": 876.59375, "y": 603.46875},
-	{"desc": "Requires Farmhouse Key","x": 366.875, "y": 582.15625},
-	{"desc": "Requires Farmhouse Key","x": 261.84375, "y": 447.5},
-	{"desc": "Requires Farmhouse Key","x": 260.3125, "y": 230.6875},
-	{"desc": "Requires Twilight Catacombs Key","x": 483.4375, "y": 408.625},
-	{"desc": "Requires Twilight Catacombs Key","x": 834.15625, "y": 374.9375}
+	{"desc": "You need Midnight Key to exit from here","x": 277.84375, "y": 681.71875},
+	{"desc": "Requires Farm Key","x": 876.59375, "y": 603.46875},
+	{"desc": "Requires Farm Key","x": 366.875, "y": 582.15625},
+	{"desc": "Requires Farm Key","x": 261.84375, "y": 447.5},
+	{"desc": "Requires Farm Key","x": 260.3125, "y": 230.6875},
+	{"desc": "Requires Twilight Key","x": 483.4375, "y": 408.625},
+	{"desc": "Requires Twilight Key","x": 834.15625, "y": 374.9375}
 	  ]
 
     },
@@ -1162,6 +1195,7 @@
       "desc": "Gemstones (Topaz, Sapphire, Emerald, Ruby)",
       "url": "images/Icons/gemstone.png",
       "points": [
+	{"x": 805.71875, "y": 180.3125},
 	{"x": 696.5625, "y": 139.3125},
 	{"x": 699.40625, "y": 134.6875},
 	{"x": 727.34375, "y": 136.96875},
@@ -1183,7 +1217,7 @@
 	{"image":"images/Tools/gemstone391.png","x": 391.0, "y": 719.5},
 	{"image":"images/Tools/gemstone372.png","x": 372.0, "y": 725.25},
 	{"image":"images/Tools/gemstone667.png","x": 667.0, "y": 454.03125},
-	{"image":"images/Tools/gemstone819.png","x": 819.0, "y": 199.125},
+	{"image":"images/Tools/gemstone819.png","x": 833.40625, "y": 191.03125},
 	{"image":"images/Tools/gemstone632.png","x": 632.0, "y": 416.75},
 	{"image":"images/Tools/gemstone487.png","x": 487.0, "y": 604.1875},
 	{"image":"images/Tools/gemstone490.png","x": 490.0, "y": 598.6875},
@@ -1282,6 +1316,7 @@
         "desc": "Food",
         "url": "images/Icons/food.png",
         "points": [
+		{ "desc": "Food/Ingredients around the whole room","x": 807.34375, "y": 187.96875},
 		{ "desc": "Food/Ingredients around the whole room","x": 725.875, "y": 350},
 		{ "desc": "Food/Ingredients around the whole room","x": 739.625, "y": 377.46875},
 		{ "desc": "Food/Ingredients around the whole house","x": 394.625, "y": 289.875},
@@ -1340,7 +1375,6 @@
         { "x": 255.35, "y": 261.27 },
       {"x": 232.125, "y": 312.78125},
         { "x": 267.35, "y": 607.00 },
-        {"x": 320.5625, "y": 467.3125},
         { "x": 411.5, "y": 508.5},
         { "x": 520.25, "y": 599.25},
         { "x": 520.25, "y": 599.25},
@@ -1384,7 +1418,6 @@
 	{"x": 272.03125, "y": 222.375},
 	{"x": 502.90625, "y": 543.65625},
 	{"x": 680.25, "y": 204.6875},
-	{"x": 662.5625, "y": 403.59375},
 	{"x": 758.71875, "y": 502.5},
 	        { "x": 722.19, "y": 527.13 },
 	{"x": 294.84375, "y": 615.9375},
@@ -1408,6 +1441,8 @@
       "category": "Trees",
       "desc": "Birch, Oak, Maple and Ironwood",
       "points": [
+	{"x": 318.5, "y": 469.59375},
+	{"x": 662.5625, "y": 403.59375},
 	{"x": 701.9375, "y": 375.15625},
 	{"image":"images/Plants/IronwoodTree511.png", "x": 511.22, "y": 520.37 },
         {"image":"images/Plants/IronwoodTree780.png","x": 780.0, "y": 360},
@@ -1640,6 +1675,8 @@
       "desc": "Glowing Pustule",
       "url": "images/Icons/pustule.png",
       "points": [
+	{"x": 569.3125, "y": 422.25},
+	{"x": 318.5, "y": 469.59375},
 	{"x": 513.0625, "y": 346.0625},
 	{"x": 639, "y": 524.3125},
 	{"x": 674.4375, "y": 620.375},
@@ -1676,6 +1713,7 @@
       "desc": "Moon Lotus (sells for vendor reputation)",
       "url": "images/Icons/moonlotus.png",
       "points": [	
+	{"x": 421.96875, "y": 353.0625},
 	{"x": 363.21875, "y": 342.03125},
 	{"x": 567.375, "y": 465.9375},
 	{"x": 683, "y": 188.3125},
@@ -1715,7 +1753,7 @@
       "desc": "Lunar Stone",
       "url": "images/Icons/lunarstone.png",
       "points": [
-
+	{"x": 391.15625, "y": 720.625},
 	{"x": 451.21875, "y": 738.21875},
 	{"x": 432.53125, "y": 721.25},
 	{"x": 477.34375, "y": 790.21875},
@@ -1739,6 +1777,7 @@
       "desc": "King's Mint",
       "url": "images/Icons/flower-blue.png",
       "points": [
+	{"image":"images/Plants/KingsMint588.png","x": 588.375, "y": 390.46875},
 	{"image":"images/Plants/KingsMint645.png","x": 645.90625, "y": 369.6875},	
 	{"x": 683.625, "y": 426.3125},
 	{"x": 680.0625, "y": 426.9375},
@@ -2106,8 +2145,8 @@
       "desc": "Exit",
       "url": "images/Icons/exit.png",
       "points": [
-        {"desc": "To exit from here, you need to pay 100 Gold coins from your inventory","x": 815.875, "y": 196.15625},
-	{"desc": "You need Root Cellar Extraction Key to exit from here","x": 277.65625, "y": 683.25},
+        {"desc": "To exit from here, you need to pay 100 Gold coins from your inventory","x": 829.15625, "y": 192.9375},
+	{"desc": "You need Midnight Key to exit from here","x": 277.65625, "y": 683.25},
         {"desc": "One of the 2 random free extracts","x": 352.65625, "y": 154.59375},
         {"desc": "One of the 2 random free extracts","x": 754.03125, "y": 633.78125},
         {"desc": "Grim Exchange exit","x": 585.84375, "y": 655.96875},
