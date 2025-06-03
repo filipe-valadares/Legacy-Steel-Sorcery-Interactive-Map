@@ -1,0 +1,828 @@
+{
+	"markers": [
+		{
+      "name": "Skeletons",
+      "color": "#f5fced",
+      "category": "Enemies",
+      "desc": "Skeleton Spawn",
+      "url": "images/Icons/mob-default.png",
+      "points": [
+	{"x": 154.75, "y": 513.5},
+	{"x": 145.125, "y": 428.0625},
+	{"x": 166.9375, "y": 570.34375},
+	{ "desc": "Skeleton Archer","x": 171, "y": 596.84375},
+	{"x": 250.28125, "y": 563.96875},
+	{ "desc": "Skeleton Archer in the bottom of the room","x": 237.625, "y": 470.1875},
+	{ "desc": "Skeleton Archer","x": 274.125, "y": 601.375},
+	{ "desc": "Skeleton Archer","x": 499.84375, "y": 503.21875},
+	{ "desc": "Skeleton Archer","x": 509.40625, "y": 475.3125},
+	{"x": 485.125, "y": 475.5},
+	{"x": 526.125, "y": 606.34375},
+	{"x": 580.875, "y": 556.75},
+	{"x": 745, "y": 511.1875},	
+	{"x": 324.65625, "y": 500.46875},
+	{"desc":"On the bottom floor","x": 630.59375, "y": 388.3125},
+	{"desc":"On the bottom floor","x": 609.6875, "y": 393.4375},
+	{"x": 684.5, "y": 764.46875},
+	{ "desc": "Skeleton Archer","x": 741.96875, "y": 640.59375},
+	{"x": 804.40625, "y": 655.40625}
+   ]
+    },
+	{
+      "name": "Elite Skeletons",
+      "color": "#f5fced",
+      "category": "Enemies",
+      "url": "images/Icons/mob-stronger.png",
+      "desc": "Elite Skeleton Spawn",
+      "points": [
+        { "desc": "Skeleton Mage on bottom floor","x": 291.9375, "y": 469.28125},
+	{ "desc": "Skeleton Swordsman","x": 499.4375, "y": 509.84375},
+	{ "desc": "Skeleton Swordsman","x": 410.90625, "y": 475},
+	{ "desc": "Skeleton Archer","x": 558.59375, "y": 578.125},
+	{ "desc": "Skeleton Mage","x": 774.46875, "y": 527.15625},
+	{ "desc": "Skeleton Mage in the ground on the bottom floor","x": 498.6875, "y": 608.6875},
+	{ "desc": "Skeleton Knight","x": 706, "y": 764.3125},
+	{ "desc": "Skeleton Mage","x": 745, "y": 678.9375}
+      ]
+    },
+{
+      "name": "Skeleton Spearman",
+      "color": "#f5fced",
+      "category": "Enemies",
+      "desc": "Skeleton Spearman",
+      "url": "images/Icons/mob-spearman.png",
+      "points": [
+	{"x": 148.84, "y": 535.27},
+	{"x": 130.46, "y": 433.45},
+	{"x": 229, "y": 545.46875},
+	{"x": 477.40625, "y": 466.3125},
+	{"x": 328.96875, "y": 527.875},
+	{ "desc": "In the ground on the bottom floor","x": 482.71875, "y": 611.875},
+	{"x": 375.78125, "y": 416}
+   ]
+    },
+	{
+      "name": "Elite Skeleton Spearman",
+      "color": "#f5fced",
+      "category": "Enemies",
+      "desc": "Elite Skeleton Spearman",
+      "url": "images/Icons/mob-spearman-elite.png",
+      "points": [
+	{ "desc": "In the bottom of the room","x": 252.40625, "y": 450.3125},
+	{"x": 506.03125, "y": 512.46875},
+	{"x": 464.65, "y": 536.69},
+	{"x": 438.5, "y": 613.21875},
+	{"x": 749.96875, "y": 487.90625},
+	{ "desc": "In the bottom next to Sewer Key gate","x": 463.25, "y": 436.25}
+   ]
+    },
+	 {
+      "name": "Spiders",
+      "color": "#808080",
+      "category": "Enemies",
+      "url": "images/Icons/mob-spider.png",
+      "desc": "Spiders",
+      "points": [
+	{"x": 418.625, "y": 353.25},
+	{"x": 484.125, "y": 357.6875},
+	{"x": 208.95, "y": 510.17},
+	{"x": 232.375, "y": 511.5},
+	{"x": 216.53125, "y": 535.375},
+	{"x": 283.90625, "y": 593.21875},
+	{"x": 293.375, "y": 576.4375},
+	{"x": 486.75, "y": 553.09375},
+	{"x": 503.15625, "y": 548.5625},
+	{"x": 410.90625, "y": 475},
+	{"x": 674.5, "y": 665.5},
+	{"x": 675.1875, "y": 381.15625},
+	{"x": 481.75, "y": 459.15625},
+	{"x": 482.8737, "y": 463.5967},
+	{"x": 477.1611, "y": 445.7484},
+	{"desc":"On the bottom floor","x": 463.1875, "y": 611.15625},
+	{"x": 780.1875, "y": 551.1875},
+	{"x": 806.34375, "y": 552.40625},
+	{"x": 327.75, "y": 348},
+	{"x": 299.875, "y": 367.21875},
+	{"x": 363.125, "y": 462.53125}
+      ]
+    },
+	  {
+      "name": "Elite Spider",
+      "color": "#f5fced",
+      "category": "Enemies",
+      "url": "images/Icons/mob-spider-elite.png",
+      "desc": "Big Spider",
+      "points": [
+      	{"x": 410.90625, "y": 475},
+	{"x": 671.125, "y": 640.25},
+	{"x": 750.46875, "y": 385.3125}
+      ]
+    },
+
+	 {
+      "name": "Arcane Eye",
+      "color": "#7c8079",
+      "category": "Enemies",
+      "url": "images/Icons/arcane-eye.png",
+      "desc": "Arcane Eye (drops Arcane Flux & Ash)",
+      "points": [
+	{"x": 168.5, "y": 427},
+	{"x": 321.15625, "y": 625.03125},
+	{"x": 758.8125, "y": 424.40625},
+	{"x": 711.40625, "y": 380.625},
+	{"x": 467.625, "y": 590.53125},
+	{"desc":"On the bottom floor","x": 613.75, "y": 636.65625},
+	{"x": 230.34375, "y": 399.21875},
+	{"x": 307.65625, "y": 374.46875},
+	{"x": 325.34375, "y": 359.78125}
+      ]
+    },
+	{
+      "name": "Elite Arcane Eye",
+      "color": "#f5fced",
+      "category": "Enemies",
+      "url": "images/Icons/arcane-eye-elite.png",
+      "desc": "Elite Arcane Eye (drops Arcane Flux & Ash)",
+      "points": [
+      	{"x": 307, "y": 509.25},
+	{"x": 575.84375, "y": 645.03125},
+	{"x": 493.78125, "y": 579.5625}
+      ]
+    },
+{
+      "name": "Banshee",
+      "color": "#f5fced",
+      "category": "Enemies",
+      "url": "images/Icons/banshee.png",
+      "desc": "Banshee",
+      "points": [
+	{"x": 466.90625, "y": 604.75},
+ 	{ "desc": "On the bottom floor","x": 316.625, "y": 460.1875},
+	{"desc":"On the bottom floor","x": 608.15625, "y": 365.6875}
+      ]
+    },
+
+	{
+      "name": "Elite Banshee",
+      "color": "#f5fced",
+      "category": "Bosses",
+      "url": "images/Icons/banshee-elite.png",
+      "desc": "Elite Banshee (drops Transmutation Recipes, Spirit Essence, Wizard Scrolls)",
+      "points": [
+     	{"x": 233.0625, "y": 611.9375},
+	 { "desc": "In the bottom of the room","x": 259.78125, "y": 459.3125},
+	{ "desc": "On the bottom floor","x": 301.59375, "y": 476.4375},
+	{"x": 357.59375, "y": 510.4375},
+	{"x": 567.9375, "y": 488.40625},
+	{"x": 650.09375, "y": 559.125}
+      ]
+    },
+	 {
+      "name": "Wraith",
+      "color": "#7c8079",
+      "category": "Bosses",
+      "url": "images/Icons/mob-boss-wraith.png",
+      "desc": "Wraith",
+      "points": [
+		{"x": 712.58, "y": 540.93}
+            ]
+    },
+	{
+      "name": "Big Spider Elite",
+      "color": "#f5fced",
+      "category": "Enemies",
+      "url": "images/Icons/mob-spider-giant.png",
+      "desc": "Giant Spider Elite",
+      "points": [
+          { "desc": "On the top of the room, on the ledge", "x": 251.28125, "y": 471.875},
+	  {"x": 533.90625, "y": 553.21875},
+	  { "desc": "On the top of the room, on the ledge","x": 648.5625, "y": 547.125}
+	]
+    },
+	 {
+      "name": "Alchemy Chests",
+      "color": "#f7d97e",
+      "category": "Containers",
+      "url": "images/Icons/chest-alchemist.png",
+      "desc": "Alchemy Chest",
+      "points": [
+	{"x": 350.1875, "y": 471.5},
+	{"x": 242.78125, "y": 397.5625},
+	{"desc":"On the bottom floor","x": 502.5625, "y": 609.75},
+	{"x": 242.90625, "y": 534.96875},
+	{"desc":"Middle floor green corridor","x": 525.34375, "y": 564}
+      ]
+    },
+ {
+      "name": "Treasure Chest",
+      "color": "#f7d97e",
+      "category": "Containers",
+      "url": "images/Icons/tresure.png",
+      "desc": "Treasure",
+      "points": [	
+	{"x": 202.625, "y": 534.1875},
+	{"x": 270.5, "y": 545.25},
+	{"x": 766.875, "y": 416.28125},
+	{"desc":"Bottom floor","x": 808.875, "y": 366.875}
+      ]
+    },
+	 {
+      "name": "Big Treasure",
+      "color": "#f7d97e",
+      "category": "Containers",
+      "url": "images/Icons/big-resure.png",
+      "desc": "Always contains at least 1 Uncommon treasure",
+      "points": [
+	{"x": 509.8125, "y": 510.5},
+	{"x": 288.5, "y": 510.90625},
+	{"x": 728.71875, "y": 356.65625}
+
+      ]
+    },
+
+	{
+      "name": "Coffins",
+      "color": "#c49300",
+      "category": "Containers",
+      "desc": "Coffins",
+      "url": "images/Icons/chest-coffin.png",
+      "points": [ 
+	{"desc":"On the bottom floor","x": 836.75, "y": 356.28125},
+	{"x": 742.375, "y": 582.21875},
+	{"x": 170, "y": 478.71875},
+	{"desc":"Requires Skull Key","x": 169.34375, "y": 542.3125},
+	{"desc":"On the bottom floor","x": 326.21875, "y": 460.53125},
+	{"x": 741.65625, "y": 622.5625},
+	{"desc":"On the bottom floor","x": 614.71875, "y": 385.75},
+	{"x": 586.90625, "y": 355.59375},
+	{"desc":"On the bottom floor","x": 501.15625, "y": 610.6875},
+	{"desc":"Requires Skull Key","x": 668.96875, "y": 675.84375},
+	{"x": 699.151, "y": 707.990},
+	{"desc":"Requires Skull Key","x": 732.46875, "y": 714.84375},
+	{"x": 776.40625, "y": 678.09375},
+	{"x": 775.40625, "y": 657.375},
+	{"x": 797.53125, "y": 682.125},
+	{"x": 796.6875, "y": 687.34375},
+	{"x": 780.71875, "y": 702.90625},
+	{"x": 769.5, "y": 415.34375}
+      ]
+    },
+	{
+      "name": "Royal Sacrophagus",
+      "color": "#c49300",
+      "category": "Containers",
+      "desc": "Requires Greater Skull Key to open",
+      "url": "images/Icons/chest-royal-coffin.png",
+      "points": [ 
+	{"x": 262.5625, "y": 600.21875},
+	{"x": 505.84375, "y": 509.6875},
+	{"desc": "Requires Skull Key to open","x": 313.78125, "y": 361.46875}
+      ]
+    },
+ {
+      "name": "Armor/Weapons",
+      "color": "#f7d97e",
+      "category": "Containers",
+      "url": "images/Icons/armor-chest.png",
+      "desc": "Armor & Weapons",
+      "points": [
+	{"x": 308.03125, "y": 431.625},
+	{"x": 503.875, "y": 404.71875},
+	{"x": 761, "y": 577.0625},
+	{"x": 686, "y": 528.25},
+	{"x": 557.25, "y": 622.625},
+	{"x": 167.125, "y": 387.1875},
+	{"x": 168.03125, "y": 597.65625},
+	{"x": 306.34375, "y": 621.15625},
+	{"x": 321.15625, "y": 625.03125},
+	{"x": 228.46875, "y": 611.875},
+	{"x": 331.46875, "y": 594.8125},
+	{"desc":"On the top floor","x": 384.96875, "y": 570.125},
+	{"desc":"On the top floor","x": 440.34375, "y": 547.125},
+	{"x": 506.03125, "y": 512.46875},
+	{"x": 448.9375, "y": 570.125},
+	{"x": 497.75, "y": 466.71875},
+	{"x": 279.75, "y": 552.25},
+	{"desc":"On the top floor above spiders","x": 278.21875, "y": 573.1875},
+	{"desc":"Middle floor corner","x": 653.65625, "y": 457.625},
+	{"x": 713.78125, "y": 432.53125},
+	{"x": 748.1875, "y": 615.90625},
+	{"x": 816.34375, "y": 485.125},
+	{"x": 813.46875, "y": 440.46875},
+	{"x": 801.75, "y": 413.75},
+	{"x": 448.1875, "y": 417.25},
+	{"x": 655.4375, "y": 344.96875},
+	{"desc":"On the bottom floor","x": 630.75, "y": 372.90625},
+	{"x": 539.875, "y": 367.71875},
+	{"x": 382.5625, "y": 345.25},
+	{"x": 698.03125, "y": 687.53125},
+	{"x": 738.4375, "y": 631.875},
+	{"x": 117.3125, "y": 585.9375},
+	{"x": 242.78125, "y": 562.71875},
+	{"x": 291.3125, "y": 362.78125},
+	{"x": 448.90625, "y": 344.40625},
+	{"desc":"Inside Sewer Key extract","x": 421.96875, "y": 394.5}
+      ]
+    },
+{
+      "name": "Locked Door",
+      "color": "#f7d97e",
+      "category": "Misc",
+      "desc": "Locked door that requires a certain key to enter",
+      "url": "images/Icons/lockeddoor.png",
+      "points":[
+	{"desc": "Requires Sewer Key","x": 440.15625, "y": 442.4375}
+	  ]
+
+    },
+
+ {
+      "name": "Iron Ore or lower",
+      "color": "#c44b00",
+      "url": "images/Icons/ore-iron.png",
+      "category": "Ores",
+      "desc": "Iron or Copper Ore",
+      "points": [
+	{"x": 810.21875, "y": 530.46875}
+      ]
+    },
+    {
+      "name": "Bloodsteel Ore or lower",
+      "color": "#c44b00",
+      "url": "images/Icons/ore-blood.png",
+      "category": "Ores",
+      "desc": "Bloodsteel, Iron or Copper Ore",
+      "points": [
+		{"image":"images/Ores/bloodsteel489.png","x": 489.03125, "y": 355.46875},
+		{"desc":"On the bottom floor","x": 524.75, "y": 449.21875},
+		{"image":"images/Ores/bloodsteel255.png","x": 255.0, "y": 426.3125},
+		{"x": 412.03125, "y": 351.71875}
+            ]
+    },
+	 {
+      "name": "Maple or below",
+      "color": "#228B22",
+      "url": "images/Icons/tree-mapple.png",
+      "category": "Trees",
+      "desc": "Birch, Oak and Maple",
+      "points": [     
+	{"x": 491.65625, "y": 357.59375},
+	{"x": 424.6875, "y": 344.9375},
+	{"x": 489.31, "y": 349.22},
+	{"x": 413.1875, "y": 354.9375}
+        
+      ]
+    },
+	{
+      "name": "Ironwood or below",
+      "color": "#228B22",
+      "url": "images/Icons/tree-iron.png",
+      "category": "Trees",
+      "desc": "Birch, Oak, Maple and Ironwood",
+      "points": [
+	{"x": 483.875, "y": 350.9375}
+      ]
+    },
+	 {
+      "name": "Barrels",
+      "color": "#c49300",
+      "category": "Containers",
+      "desc": "Barrels",
+      "url": "images/Icons/chest-barrel.png",
+      "points": [ 
+	{"x": 748.4375, "y": 366.25},
+	{"x": 258.15625, "y": 455.125},
+	{"x": 277.28125, "y": 613.34375},
+	{"desc":"On the top floor","x": 395.90625, "y": 589.78125},
+	{"x": 430.1875, "y": 477.34375},
+	{"x": 659.125, "y": 339.71875},
+	{"x": 734.03125, "y": 652.1875},
+	{"x": 483.375, "y": 370.84375},
+	{"x": 674.90625, "y": 676.28125},
+	{"x": 739.1875, "y": 653.0625},
+	{"x": 798.46875, "y": 484.875},
+	{"x": 645.21875, "y": 630},
+	{"x": 383.625, "y": 330.28125},
+	{"desc":"In the bottom next to Sewer Key gate","x": 452, "y": 427.25},
+	{"desc":"Middle floor green corridor","x": 526.84375, "y": 565}
+      ]
+    },
+	 {
+      "name": "Herbalist's Pouch",
+      "color": "#f7d97e",
+      "category": "Containers",
+      "desc": "Herbalist's Pouch",
+      "url": "images/Icons/chest-herb.png",
+      "points": [
+	{"x": 486.5625, "y": 348.4375},
+	{"desc":"On the top floor","x": 371.58, "y": 571.87},
+	{"desc":"On the top floor","x": 440.9375, "y": 552.4375},
+	{"x": 589.8125, "y": 358.65625},
+	{"desc":"Middle floor green corridor","x": 526.75, "y": 561.75}
+      ]
+    },
+ {
+      "name": "Skeletal Remains",
+      "color": "#c49300",
+      "category": "Containers",
+      "desc": "Skeletal Remains (Armor, Weapons, Resources)",
+      "url": "images/Icons/skeletal-remains.png",
+      "points": [ 
+	{"x": 689.40625, "y": 393.4375},
+	{"desc":"Top floor","x": 788.125, "y": 400.9375},
+	{"x": 729.78125, "y": 404.125},
+	{"desc":"On the top floor","x": 329.75, "y": 479.84375},
+	{"x": 289.21875, "y": 611.71875},
+	{"desc":"On the top floor","x": 440.21875, "y": 553.59375},
+	{"desc":"On the top floor","x": 485.34375, "y": 560.625},
+	{"x": 428.65625, "y": 499.59375},
+	{"x": 396.25, "y": 517.90625},
+	{"desc":"Inside the Cipher extract room","x": 666.78125, "y": 599.09375},
+	{"x": 683.78125, "y": 466.5},
+	{"desc":"On the middle floor","x": 392.65625, "y": 390.5625},
+	{"desc":"In the bottom next to Sewer Key gate","x": 460.125, "y": 426.25},
+	{"x": 548.3125, "y": 553.65625},
+	{"desc":"Inside Sewer Key Extract","x": 436.375, "y": 431.09375},
+	{"desc":"Inside Sewer Key Extract","x": 421.375, "y": 431.09375}
+      ]
+    },
+	{
+      "name": "Coin Safe",
+      "color": "#f7d97e",
+      "category": "Containers",
+      "url": "images/Icons/coin-safe.png",
+      "desc": "Contains Gemstones, Treasures, Gold, Transmutation Recipes",
+      "points": [
+	{"desc":"In tiny mausoleum in Catacombs of Consecration","image":"images/Chests/coinsafe734.png","x": 734.25, "y": 651},
+	{"desc":"On top of bookshelf in Hall of Tombs","image":"images/Chests/coinsafe587.png","x": 587.875, "y": 524.9375},
+	{"x": 734.1875, "y": 651.0625},
+	{"desc":"Inside Sewer Key Extract","x": 411.625, "y": 433.46875}
+      ]
+    },
+	{
+      "name": "Toolbelts",
+      "color": "#f7d97e",
+      "category": "Dropped Items",
+      "desc": "Toolbelts",
+      "url": "images/Icons/toolbelts.png",
+      "points": [
+	{"x": 669.09375, "y": 365.125}
+      ]
+    },
+	 {
+      "name": "Gold Coins",
+      "color": "#f7d97e",
+      "category": "Collectables",
+      "url": "images/Icons/coins.png",
+      "desc":"Pile of Gold Coins",
+      "points": [
+	{"desc":"Top floor","x": 825.15625, "y": 371.71875},
+	{"x": 742.9375, "y": 587.71875},	
+	{"x": 586.53125, "y": 602.03125},
+	{"x": 686, "y": 528.25},
+	{"x": 135.46875, "y": 442.25},
+	{"x": 142.5, "y": 442.125},
+	{"x": 260.96875, "y": 600.34375},
+	{"x": 504.71875, "y": 510.03125},
+	{"x": 200.71875, "y": 534.34375},
+	{"desc":"Inside the Cipher extract room","x": 670.59375, "y": 602.21875},
+	{"x": 732.53125, "y": 651.8125},
+	{"x": 529.46875, "y": 372.8125},
+	{"x": 732.5, "y": 713.5},
+	{"x": 737.53125, "y": 651.125},
+	{"desc":"Inside Sewer Key Extract","x": 434.46875, "y": 430.65625},
+	{"desc":"Inside Sewer Key Extract","x": 418, "y": 431.875},
+	{"desc":"Inside Sewer Key Extract","x": 421.875, "y": 392.125},
+	{"desc":"Inside Sewer Key Extract","x": 427.40625, "y": 388.75},
+	{"x": 686, "y": 528.25}
+      ]
+    },
+	{
+      "name": "Mushrooms",
+      "color": "#f7d97e",
+      "category": "Collectables",
+      "desc": "Mushroom",
+      "url": "images/Icons/mush.png",
+      "points": [
+	{"x": 427.5625, "y": 340.28125},
+	{"x": 483.03125, "y": 343.84375},
+	{"x": 393.5625, "y": 506.3125},
+	{"x": 279.4375, "y": 576.625},
+	{"x": 441.0625, "y": 589.875},
+	{"x": 356.0625, "y": 608.875},
+	{"x": 534.125, "y": 642.8125},
+	{"x": 647.71875, "y": 620.53125},
+	{"x": 316.15625, "y": 577.75},
+	{"x": 347.46875, "y": 591.9375},
+	{"x": 556.625, "y": 534.21875},
+	{"x": 494, "y": 359.28125},
+	{"x": 305.125, "y": 454.375},
+	{"x": 791.65625, "y": 763.21875}
+      ]
+    },
+
+	{
+      "name": "Tools & Mats",
+      "color": "#f7d97e",
+      "category": "Dropped Items",
+      "desc": "Search this area for possible spawn of: Wood Saw,Simple Scissors,Crude Awl,Dried Herbs,Ogre Fat,Tree Resin,Paper,Heavy Thread,Simple Buckle,Metal Hinge,Wax Candle,Sewing Needles,Iron Nails,Simple Vial,Simple Rope,Waxed Rope,Fire Powder,Bone Hammer,Splintered Bone,Massive Femur",
+      "url": "images/Icons/tools.png",
+      "points": [
+	{"desc":"On the bottom floor","x": 818.46875, "y": 400.84375},
+	{"x": 289.4375, "y": 324.125},
+	{"x": 331.46875, "y": 594.8125},
+	{"x": 404.90625, "y": 562.46875},
+	{"x": 541.03125, "y": 645.84375},
+	{"x": 585.625, "y": 658.15625},
+	{"x": 702.84375, "y": 767.34375},
+	{"x": 807.375, "y": 764.28125},
+	{"x": 136.78125, "y": 562.9375},
+	{"x": 321.375, "y": 286.53125},
+	{"x": 364.34375, "y": 339.34375},
+	{"x": 424.375, "y": 410.625}
+      ]
+    },
+	   {
+      "name": "Recovery",
+      "color": "#f7d97e",
+      "category": "Containers",
+      "url": "images/Icons/chest-medic.png",
+      "desc": "Healing items, Dried Herbs",
+      "points": [
+	{"desc":"On the top floor","x": 822.21875, "y": 367.625},
+	{"x": 576.78125, "y": 614.46875},
+	{"x": 452.4375, "y": 575.5625},
+	{"x": 385.0625, "y": 334.9375},
+	{"desc":"On the bottom floor","x": 453.9375, "y": 525.3125}
+      ]
+    },
+	{
+      "name": "Lodge Items",
+      "color": "#f7d97e",
+      "category": "Dropped Items",
+      "desc": "Possible spawns for Lodge upgrade items such as Artisan's Tool Kit,Iron Gear,Steel Tongs,Copper Pot,Master Hammer,Anvil etc.",
+      "url": "images/Icons/lodge.png",
+      "points":[
+	{"desc":"Inside Sewer Key extract","image":"images/Collectables/lodge417.png","x": 428.625, "y": 393.75},
+	{"desc":"Small room near spiders, top floor","image":"images/Collectables/lodge763.png","x": 763.1875, "y": 604.59375},
+	{"desc":"Middle floor near Cipher Stone extract","image":"images/Collectables/lodge622.png","x": 622.96875, "y": 651.8125},
+	{"x": 358.5625, "y": 606.125},
+	{"x": 657, "y": 361.375},
+	{"x": 645.5, "y": 735.8125},
+	{"image":"images/Collectables/lodge791.png","x": 791.875, "y": 762.5}
+      ]
+    },
+	 {
+      "name": "Books",
+      "color": "#f7d97e",
+      "category": "Dropped Items",
+      "desc": "Books",
+      "url": "images/Icons/drop-book.png",
+      "points": [
+	{"desc": "Ledge above Hall of Tombs","image":"images/Collectables/book578.png","x": 578.59375, "y": 492.09375},
+	{"desc": "2 books can spawn in Catacombs of Consecration","image":"images/Collectables/book741.png","x": 741.65625, "y": 634.84375},
+	{"x": 379.28125, "y": 362.90625},
+	{"desc": "Book can spawn on wooden shelf on the top floor","image":"images/Collectables/book443.png","x": 443.78125, "y": 544.71875}
+      ]
+    },
+  {
+      "name": "Crypt Stone",
+      "color": "#f7d97e",
+      "category": "Collectables",
+      "desc": "Crypt Stone or can sometimes also be Cipher Stone",
+      "url": "images/Icons/crypt-stone.png",
+      "points": [
+	{"image":"images/Collectables/cryptstone243.png","x": 243.3125, "y": 572.875},
+	{"desc":"Corner of the room","image":"images/Collectables/cryptstone128.png","x": 128.75, "y": 438.28125},
+	{"desc":"Bottom floor in Hall of Tombs","image":"images/Collectables/cryptstone586.png","x": 586.375, "y": 498.875},
+	{"image":"images/Collectables/cryptstone796.png","x": 796.28125, "y": 702.96875},
+	{"desc":"Top floor in room with Giant Red Spider","image":"images/Collectables/cryptstone627.png","x": 627.125, "y": 533},
+	{"image":"images/Collectables/cryptstone801.png","x": 801.03125, "y": 763.4375},
+	{"image":"images/Collectables/cryptstone771.png","x": 771.875, "y": 764.3125},
+	{"desc":"Tight corridor in Catacombs of Consecration","image":"images/Collectables/cryptstone691.png","x": 691.0625, "y": 605.8125},
+	{"desc":"Top floor","image":"images/Collectables/cryptstone496.png","x": 496.46875, "y": 379.84375},
+	{"image":"images/Collectables/cryptstone176.png","x": 176.75, "y": 395.875},
+	{"desc":"Bottom floor in Hall of Tombs","image":"images/Collectables/cryptstone650.png","x": 650.625, "y": 510.625},
+	{"desc":"Bottom floor in Hall of Tombs","image":"images/Collectables/cryptstone632.png","x": 632.05, "y": 488.09375},
+	{"image":"images/Collectables/cryptstone620.png","x": 620.6875, "y": 510.3125},
+	{"image":"images/Collectables/cryptstone669.png","x": 669.0625, "y": 482.09375},
+	{"desc":"In the Refectory","image":"images/Collectables/cryptstone326.png","x": 326.375, "y": 515.34375},
+	{"desc":"Middle floor","image":"images/Collectables/cryptstone510.png","x": 510.3125, "y": 427.71875},
+	{"desc":"Middle floor near Cipher Stone extract","image":"images/Collectables/cryptstone626.png","x": 626.4375, "y": 653},
+	{"desc":"Middle floor next to Cipher Stone extract","image":"images/Collectables/cryptstone648.png","x": 648.5625, "y": 621.0625},
+	{"desc":"Middle floor next to Banshee","image":"images/Collectables/cryptstone554.png","x": 554.01816305966, "y": 487.5501256281245},
+	{"desc":"In Resonant Sanctuary corner","image":"images/Collectables/cryptstone729.png","x": 729.125, "y": 402.03125},
+	{"desc":"Almost bottom floor, under Giant Red Spider","image":"images/Collectables/cryptstone236.png","x": 236.0625, "y": 472.53125},
+	{"desc":"Almost bottom floor","image":"images/Collectables/cryptstone241.png","x": 241.0, "y": 431.0625},
+	{"desc":"Middle floor, next to Grim Exchange altar","image":"images/Collectables/cryptstone398.png","x": 398.21875, "y": 563.28125},
+	{"desc":"In Chamber of the Lion","image":"images/Collectables/cryptstone505.png","x": 505.25, "y": 509.65625},
+	{"desc":"In Chamber of the Lion","image":"images/Collectables/cryptstone465.png","x": 465.75, "y": 510.46875},
+	{"desc":"In Chamber of the Lion","image":"images/Collectables/cryptstone429.png","x": 429.84375, "y": 492.21875},
+	{"desc":"In Chamber of the Lion","image":"images/Collectables/cryptstone460.png","x": 460.5, "y": 483.15625},
+	{"desc":"Upper corridor next to Chamber of the Lion","image":"images/Collectables/cryptstone474.png","x": 474.53125, "y": 560.1875},
+	{"desc":"Upper corridor next to Chamber of the Lion","image":"images/Collectables/cryptstone449.png","x": 449.375, "y": 544.96875},
+	{"image":"images/Collectables/cryptstone270.png","x": 270.90625, "y": 569.6875},
+	{"image":"images/Collectables/cryptstone177.png","x": 177.875, "y": 561.1875},
+	{"image":"images/Collectables/cryptstone686.png","x": 686.875, "y": 419.15625},
+	{"desc":"Staircase connecting top floor with middle floor","image":"images/Collectables/cryptstone509.png","x": 509.59375, "y": 417.0625},
+	{"desc":"Chamber of the Lion next to gate","image":"images/Collectables/cryptstone499.png","x": 499.46875, "y": 486.4375},
+	{"desc":"In bottom floor small cubby","image":"images/Collectables/cryptstone515.png","x": 515.1875, "y": 493.875},
+	{"desc":"In bottom floor room with 2 banshees","image":"images/Collectables/cryptstone311.png","x": 311.25, "y": 482.375},
+	{"image":"images/Collectables/cryptstone330.png","x": 330.0, "y": 475.5625},
+	{"image":"images/Collectables/cryptstone287.png","x": 287.0, "y": 468.75},
+	{"image":"images/Collectables/cryptstone305.png","x": 305.03125, "y": 267.21875},
+	{"x": 323.46875, "y": 350.34375},
+	{"x": 114.0625, "y": 364.78125},
+	{"desc":"Refectory room","image":"images/Collectables/cryptstone280.png","x": 280.71875, "y": 472.09375},
+	{"image":"images/Collectables/cryptstone288.png","x": 288.03125, "y": 304.125},
+	{"image":"images/Collectables/cryptstone292.png","x": 292.0, "y": 320.8125},
+	{"image":"images/Collectables/cryptstone378.png","x": 378.34375, "y": 347.34375},
+	{"image":"images/Collectables/cryptstone695.png","x": 695.0, "y": 354.03125},
+	{"x": 677.65625, "y": 767.28125},
+	{"desc":"Middle floor","image":"images/Collectables/cryptstone628.png","x": 628.65625, "y": 568.15625},
+	{"desc":"Bottom floor","image":"images/Collectables/cryptstone631.png","x": 631, "y": 573.53125},
+	{"image":"images/Collectables/cryptstone321.png","x": 321.15625, "y": 625.03125},
+	{"image":"images/Collectables/cryptstone104.png","x": 104.25, "y": 514.75},
+	{"desc":"On the bottom floor","image":"images/Collectables/cryptstone278.png","x": 278.625, "y": 605.25},
+	{"desc":"On the bottom floor","image":"images/Collectables/cryptstone279.png","x": 279.4375, "y": 571.5},
+	{"desc":"On the top floor","image":"images/Collectables/cryptstone345.png","x": 345.6875, "y": 595.21875},
+	{"image":"images/Collectables/cryptstone420.png","desc":"On the top floor","x": 420.875, "y": 591.375},
+	{"image":"images/Collectables/cryptstone213.png","desc":"In the tiny room with a treasure chest","x": 213.40625, "y": 529.0625},	
+	{"image":"images/Collectables/cryptstone239.png","x": 239.0, "y": 613.875},
+	{"image":"images/Collectables/cryptstone638.png","x": 638.0, "y": 317.09375},
+	{"image":"images/Collectables/cryptstone565.png","desc":"On the bottom floor","x": 565.0, "y": 367.8125},
+	{"image":"images/Collectables/cryptstone180.png","x": 180.28125, "y": 605.84375},
+	{"desc":"On the middle floor","image":"images/Collectables/cryptstone242.png","x": 242.33, "y": 519.90},
+	{"x": 396.21875, "y": 404.3125},
+	{"desc":"Middle floor green corridor","x": 540.8125, "y": 560.625},
+	{"desc":"Top floor","image":"images/Collectables/cryptstone540.png","x": 540.40625, "y": 563.125},
+	{"image":"images/Collectables/cryptstone119.png","x": 119.1875, "y": 593.03125},
+	{"x": 618.84375, "y": 647.40625},
+	{"x": 633.25, "y": 590.5},
+	{"desc":"Bottom floor small cubby","x": 552.625, "y": 491.40625},
+	{"desc":"Middle floor corner","image":"images/Collectables/gravemarrow460.png","x": 498, "y": 574.90625},
+	{"desc":"Tiny room next to Skeleton Mage and Elite Banshee","image":"images/Collectables/cryptstone293.png","x": 293.78125, "y": 484.0625}
+      ]
+    },
+	 {
+      "name": "Gravemarrow Root",
+      "color": "#f7d97e",
+      "category": "Collectables",
+      "desc": "Gravemarrow Root",
+      "url": "images/Icons/gravemarrow.png",
+      "points": [	
+	{"image":"images/Collectables/gravemarrow688.png","desc":"Tight corridor in Catacombs of Consecration","x": 688.40625, "y": 613.0625},
+	{"image":"images/Collectables/gravemarrow574.png","x": 574.28125, "y": 601.5625},
+	{"image":"images/Collectables/gravemarrow157.png","x": 157.32, "y": 503.46},
+	{"image":"images/Collectables/gravemarrow134.png","x": 134.25, "y": 336.6875},
+	{"image":"images/Collectables/gravemarrow240.png","x": 240.5, "y": 612.28125},
+	{"image":"images/Collectables/gravemarrow734.png","desc":"Small mausoleum in Catacombs of Consecration, next to coin safe","x": 734.03125, "y": 652.1875},
+	{"image":"images/Collectables/gravemarrow460.png","x": 500.21875, "y": 572.3125},
+	{"image":"images/Collectables/gravemarrow461.png","desc":"On the bottom floor next to stairs","x": 461.53125, "y": 606.9375},
+	{"image":"images/Collectables/gravemarrow728.png","desc":"Corridor in Catacombs of Consecration","x": 728.875, "y": 702.21875},
+	{"image":"images/Collectables/gravemarrow455.png","desc":"On the bottom floor corridor","x": 455.84375, "y": 499.96875},
+	{"image":"images/Collectables/gravemarrow521.png","desc":"On the bottom floor","x": 521.18, "y": 602.0},
+	{"image":"images/Collectables/gravemarrow497.png","desc":"On the bottom floor","x": 497, "y": 612.90625},
+	{"image":"images/Collectables/gravemarrow540.png","desc":"Middle floor green corridor","x": 546.46875, "y": 551.34375}
+	]
+    },
+	  {
+      "name": "King's Mint",
+      "color": "#f7d97e",
+      "category": "Collectables",
+      "desc": "King's Mint",
+      "url": "images/Icons/flower-blue.png",
+      "points": [
+	{"image":"images/Plants/kingsmint364.png","x": 482.25, "y": 364.75},
+	{"image":"images/Plants/kingsmint364.png","x": 477.875, "y": 364.5625},
+	{"image":"images/Plants/kingsmint421.png","x": 421, "y": 358.34375},
+	{"image":"images/Plants/kingsmint540.png","x": 540.93, "y": 520.60},
+	{"image":"images/Plants/kingsmint625.png","x": 625.3125, "y": 515.1875},
+	{"image":"images/Plants/kingsmint729.png","x": 729.96875, "y": 653.71875},
+	{"x": 571.3125, "y": 598.5625},
+	{"image":"images/Plants/kingsmint305.png","x": 306.625, "y": 370.59375},
+	{"image":"images/Plants/kingsmint305.png","x": 305.6875, "y": 378.4375},
+	{"x": 318.5625, "y": 356.15625},
+	{"image":"images/Plants/kingsmint427.png","x": 427.75, "y": 358.5},
+	{"image":"images/Plants/kingsmint415.png","x": 415.15625, "y": 358.71875},
+	{"image":"images/Plants/kingsmint478.png","x": 463.4375, "y": 361.375},
+	{"x": 789.25, "y": 647.125}
+      ]
+    },
+	
+{
+      "name": "Gemstones",
+      "color": "#f7d97e",
+      "category": "Dropped Items",
+      "desc": "Gemstones (Topaz, Sapphire, Emerald, Ruby)",
+      "url": "images/Icons/gemstone.png",
+      "points": [
+	{"x": 164.46875, "y": 502.8125},
+	{"x": 379.84375, "y": 364.71875},
+	{"x": 505.21875, "y": 417.65625},
+	{"x": 569.03125, "y": 427.59375},
+	{"x": 628, "y": 357.875},
+	{"x": 586.9375, "y": 556.90625},
+	{"x": 345.3125, "y": 472.53125},
+	{"x": 318.5625, "y": 337.15625},
+	{"x": 316.5625, "y": 305.0625},
+	{"x": 133, "y": 390.5},
+	{"x": 151.09375, "y": 330.525},
+	{"x": 132.0, "y": 345.5},
+	{"x": 233.781, "y": 619.025},
+	{"x": 467.565, "y": 508.05},
+	{"x": 399.685, "y": 562},
+	{"x": 447.625, "y": 578.96875},
+	{"x": 713.925, "y": 376.315},
+	{"x": 717.893, "y": 379.535},
+	{"x": 539.875, "y": 361.405},
+	{"x": 734.03125, "y": 652.1875},
+	{"x": 199.1875, "y": 502.15625},
+	{"x": 732.46875, "y": 719.65625},
+	{"x": 770.59375, "y": 415.71875},
+	{"x": 730.53125, "y": 631.5},
+	{"x": 649.21875, "y": 731.78125}
+ ]
+    },
+{
+      "name": "Glowmoss",
+      "color": "#f7d97e",
+      "category": "Collectables",
+      "desc": "Glowmoss",
+      "url": "images/Icons/glowmoss.png",
+      "points": [
+	{"x": 455.625, "y": 376.1875},
+	{"x": 443.3125, "y": 395.25},
+	{"x": 433.28125, "y": 582.375},
+	{"desc": "On the bottom floor","x": 572.875, "y": 657.3125},
+	{"x": 520.53125, "y": 587.375},
+	{"desc": "On the bottom floor","x": 498.09375, "y": 610.96875},
+	{"desc": "On the middle floor","x": 651.25, "y": 427.5},
+	{"desc": "On the bottom floor","x": 459.28125, "y": 517.625}
+      ]
+    },
+	{
+      "name": "Spawn",
+      "color": "#ffc0cb",
+      "category": "Misc",
+      "desc": "Spawn Point",
+      "points": [
+	{"x": 842.75, "y": 370.5},
+	{"desc": "On the bottom floor","x": 507.09375, "y": 435.5625},
+	{"x": 313.778, "y": 646.118},
+       {"x": 105.28125, "y": 496.1875},
+	{"x": 825.125, "y": 512.345},
+	{"x": 300.21875, "y": 286.9375},
+	{"x": 790.15625, "y": 757.6875}
+      ]
+    },
+
+	{
+      "name": "Priest Altar",
+      "color": "#ffc0cb",
+      "category": "Misc",
+      "url": "images/Icons/altar.png",
+      "desc": "Priest Altar",
+      "points": [
+     {"x": 312.15625, "y": 433.375},
+	{"x": 663.875, "y": 658.5625}
+      ]
+    },
+	{
+        "name": "Food",
+        "color": "#f7d97e",
+        "category": "Dropped Items",
+        "desc": "Food",
+        "url": "images/Icons/food.png",
+        "points": [
+		{ "desc": "Food/Ingredients on the shelves","x": 273.5, "y": 547.875}
+        ]
+      },
+	 {
+      "name": "Priest Chest",
+      "color": "#c49300",
+      "category": "Containers",
+      "desc": "Priest Chest",
+      "url": "images/Icons/chest-priest.png",
+      "points": [
+	{"x": 179.78125, "y": 514.78125},
+	{"x": 517.78125, "y": 483.1875}
+      ]
+    },
+		 {
+      "name": "Exit",
+      "color": "#ffc0cb",
+      "category": "Misc",
+      "desc": "Exit",
+      "url": "images/Icons/exit.png",
+      "points": [
+	{"x": 874.0625, "y": 517.5},
+	{"x": 97.34375, "y": 511.4375},
+	{"image":"images/Other/stonecipherexit.png","desc":"To exit from here, you need Stone Cipher","x": 658.1875, "y": 604.03125},
+		{"desc": "Gate in bottom floor, requires Sewer Key to open","x": 425.375, "y": 393.125}
+
+      ]
+    }
+
+]
+}

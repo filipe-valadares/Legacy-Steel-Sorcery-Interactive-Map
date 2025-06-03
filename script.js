@@ -16,6 +16,7 @@ let devMode = false;
 let timestamp = new Date().getTime();
 let currentMap = null;
 let mapsData = [];
+let allVisible = false;
 
 const mapButtonsContainer = document.getElementById("map-buttons-container");
 const layersContainer = document.getElementById("layers-container");
@@ -60,6 +61,7 @@ function loadFloorButtons() {
     layersContainer.appendChild(button);
   });
   loadFloor(currentMap.floors[0].name);
+  map.fitBounds(bounds); //only fit map on screen after changing the map, so it doesnt change position on floor change
 }
 
 function loadFloor(floorName) {
@@ -73,7 +75,8 @@ function loadFloor(floorName) {
 
   if (backgroundOverlay) map.removeLayer(backgroundOverlay);
   backgroundOverlay = L.imageOverlay(imagePath, bounds).addTo(map);
-  map.fitBounds(bounds);
+  //map.fitBounds(bounds); 
+  //if map fitbounds not used on every floor change, then it stays at same location and is much more comfortable to use
 
   fetch(dataPath)
     .then(res => res.json())
@@ -131,6 +134,7 @@ function loadMarkers(data) {
       filterMarkersByName(markerParam);
     }
   });
+	checkVisible();
 }
 
 function addMarker(markerData, point) {
@@ -186,6 +190,10 @@ function filterMarkersByName(targetName) {
   }
 }
 
+function toggleHideAll() {
+	document.getElementById('toggle-all').click();
+}
+
 document.getElementById("dev-mode-toggle").addEventListener("click", function () {
   devMode = !devMode;
   this.textContent = devMode ? "Dev Mode: ON" : "Dev Mode: OFF";
@@ -220,8 +228,17 @@ document.getElementById('search-bar').addEventListener('input', function(e) {
   });
 });
 
+function checkVisible() {
+  document.querySelectorAll('.marker-toggle').forEach(button => {
+    const name = button.dataset.markerName;
+    button.dataset.visible = allVisible ? "false" : "true";
+    button.classList.toggle("disabled", allVisible);
+    toggleMarkers(name, !allVisible);
+  });
+}
+
 document.getElementById('toggle-all').addEventListener('click', function () {
-  let allVisible = this.textContent.includes("Hide");
+  allVisible = this.textContent.includes("Hide");
   document.querySelectorAll('.marker-toggle').forEach(button => {
     const name = button.dataset.markerName;
     button.dataset.visible = allVisible ? "false" : "true";

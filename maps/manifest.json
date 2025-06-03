@@ -18,7 +18,11 @@
  {
         "name": "Dawnhammer Crypt",
         "floors": [
-            { "name": "Main Floor" }
+		{ "name": "All" },
+		{ "name": "Upper" },
+ 		{ "name": "Mid" },
+ 		{ "name": "Lower" }
+
         ]
       }
 
