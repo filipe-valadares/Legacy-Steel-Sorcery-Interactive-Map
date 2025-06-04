@@ -180,6 +180,7 @@
       "url": "images/Icons/tresure.png",
       "desc": "Treasure",
       "points": [	
+	{"x": 779.78125, "y": 602.90625},
 	{"x": 270.5, "y": 545.25}
       ]
     },
@@ -204,6 +205,7 @@
       "desc": "Coffins",
       "url": "images/Icons/chest-coffin.png",
       "points": [ 
+	{"x": 694.4375, "y": 599.5625},
 	{"x": 742.5, "y": 584.78125},
 	{"x": 170, "y": 478.71875},
 	{"desc":"Requires Skull Key","x": 169.34375, "y": 542.3125},
@@ -235,7 +237,14 @@
       "category": "Containers",
       "url": "images/Icons/armor-chest.png",
       "desc": "Armor & Weapons",
-      "points": [
+      "points": [		
+	{"x": 754.6875, "y": 467.4375},
+	{"x": 737.125, "y": 632.5},
+	{"x": 782.8555951211564, "y": 689.517500004532},
+{"x": 748.21875, "y": 616.8125},
+	{"x": 763.21875, "y": 580.5},
+	{"x": 817.5625, "y": 487.25},
+	{"x": 729.59375, "y": 457.75},
 		{"x": 180.3125, "y": 535.875},
 		{"x": 512.9375, "y": 382.84375},
 	{"x": 450.15625, "y": 348.0625},
@@ -321,6 +330,7 @@
       "desc": "Skeletal Remains (Armor, Weapons, Resources)",
       "url": "images/Icons/skeletal-remains.png",
       "points": [ 
+	{"x": 727.375, "y": 547.15625},
 	{"x": 397.5, "y": 390.125},
 	{"x": 689.40625, "y": 393.4375},
 	{"desc":"Top floor","x": 788.125, "y": 400.9375},
@@ -360,6 +370,9 @@
       "url": "images/Icons/coins.png",
       "desc":"Pile of Gold Coins",
       "points": [
+	{"x": 752.625, "y": 546.1875},
+	{"x": 732.21875, "y": 712.78125},
+	{"x": 719.53125, "y": 676.46875},
 	{"x": 173.875, "y": 478.625},
 	{"desc":"Top floor","x": 825.15, "y": 371.71},
 	{"x": 742.95, "y": 587.71},	
@@ -393,6 +406,16 @@
 	{"x": 791.65625, "y": 763.21875}
       ]
     },
+	{
+      "name": "Rogue Chest",
+      "color": "#c49300",
+      "category": "Containers",
+      "desc": "RogueChests",
+      "url": "images/Icons/chest-rogue.png",
+      "points": [
+	{"x": 803.4375, "y": 543.40625}
+      ]
+    },
 
 	{
       "name": "Tools & Mats",
@@ -401,6 +424,7 @@
       "desc": "Search this area for possible spawn of: Wood Saw,Simple Scissors,Crude Awl,Dried Herbs,Ogre Fat,Tree Resin,Paper,Heavy Thread,Simple Buckle,Metal Hinge,Wax Candle,Sewing Needles,Iron Nails,Simple Vial,Simple Rope,Waxed Rope,Fire Powder,Bone Hammer,Splintered Bone,Massive Femur",
       "url": "images/Icons/tools.png",
       "points": [
+	{"x": 689.03125, "y": 593.5},
 	{"x": 476.34375, "y": 369.03125},
 	{"x": 614.8125, "y": 482.0625},
 	{"x": 681.75, "y": 412.3125},
@@ -422,6 +446,7 @@
       "url": "images/Icons/chest-medic.png",
       "desc": "Healing items, Dried Herbs",
       "points": [
+{"x": 674, "y": 652.84375},
 	{"x": 647.9375, "y": 629.59375},
 	{"desc":"On the top floor","x": 822.21875, "y": 367.625},
 	{"x": 452.4375, "y": 575.5625}
@@ -446,6 +471,7 @@
       "desc": "Books",
       "url": "images/Icons/drop-book.png",
       "points": [
+	{"image":"images/Collectables/book305.png","x": 306.09375, "y": 516.34375},
 	{"desc": "Ledge above Hall of Tombs","image":"images/Collectables/book578.png","x": 581.5625, "y": 481.34375},
 	{"desc": "2 books can spawn in Catacombs of Consecration","image":"images/Collectables/book741.png","x": 741.65625, "y": 634.84375},
 	{"desc": "Book can spawn on wooden shelf on the top floor","image":"images/Collectables/book443.png","x": 443.78125, "y": 544.71875}
@@ -457,18 +483,21 @@
       "category": "Collectables",
       "desc": "Crypt Stone or can sometimes also be Cipher Stone",
       "url": "images/Icons/crypt-stone.png",
-      "points": [
+      "points": [	
+	{"image":"images/Collectables/cryptstone769.png","x": 769.3125, "y": 599.875},
+	{"image":"images/Collectables/cryptstone726.png","x": 726.6875, "y": 457.65625},
+	{"image":"images/Collectables/cryptstone757.png","x": 757.625, "y": 475.625},
 		{"desc":"Refectory room","image":"images/Collectables/cryptstone280.png","x": 280.71875, "y": 472.09375},
 	{"x": 180.03125, "y": 495.3125},
 	{"image":"images/Collectables/cryptstone796.png","x": 796.28125, "y": 702.96875},
 	{"desc":"Top floor in room with Giant Red Spider","image":"images/Collectables/cryptstone627.png","x": 627.125, "y": 533},
 	{"image":"images/Collectables/cryptstone801.png","x": 801.03125, "y": 763.4375},
 	{"image":"images/Collectables/cryptstone771.png","x": 771.875, "y": 764.3125},
-	{"desc":"Tight corridor in Catacombs of Consecration","image":"images/Collectables/cryptstone691.png","x": 691.0625, "y": 605.8125},
+	{"desc":"Tight corridor in Catacombs of Consecration","image":"images/Collectables/cryptstone691.png","x": 692.875, "y": 599.46875},
 	{"desc":"Top floor","image":"images/Collectables/cryptstone496.png","x": 496.46875, "y": 379.84375},
 	{"image":"images/Collectables/cryptstone620.png","x": 620.6875, "y": 510.3125},
 	{"image":"images/Collectables/cryptstone669.png","x": 669.0625, "y": 482.09375},
-	{"desc":"In the Refectory","image":"images/Collectables/cryptstone326.png","x": 326.375, "y": 515.34375},
+	{"desc":"In the Refectory","image":"images/Collectables/cryptstone326.png","x": 306.65625, "y": 499.6875},
 	{"desc":"In Resonant Sanctuary corner","image":"images/Collectables/cryptstone729.png","x": 731.375, "y": 403.40625},
 	{"desc":"In Chamber of the Lion","image":"images/Collectables/cryptstone505.png","x": 487.125, "y": 516.625},
 	{"desc":"In Chamber of the Lion","image":"images/Collectables/cryptstone465.png","x": 454.101, "y": 515.56},
@@ -496,6 +525,7 @@
       "desc": "Gravemarrow Root",
       "url": "images/Icons/gravemarrow.png",
       "points": [	
+	{"image":"images/Collectables/gravemarrow303.png","x": 303.625, "y": 511.1875},
 	{"image":"images/Collectables/gravemarrow688.png","desc":"Tight corridor in Catacombs of Consecration","x": 685.8051894033027, "y": 608.9073269492657},
 	{"image":"images/Collectables/gravemarrow157.png","x": 160.84375, "y": 505.03125},
 	{"image":"images/Collectables/gravemarrow734.png","desc":"Small mausoleum in Catacombs of Consecration, next to coin safe","x": 744.90625, "y": 659.46875},
@@ -529,6 +559,10 @@
       "desc": "Gemstones (Topaz, Sapphire, Emerald, Ruby)",
       "url": "images/Icons/gemstone.png",
       "points": [
+	{"x": 746.09375, "y": 550},
+	{"image":"images/Collectables/gemstones797.png","x": 796.75, "y": 590.3125},
+	{"image":"images/Collectables/gemstones797.png","x": 797.71875, "y": 584.0625},
+	{"image":"images/Collectables/gemstones797.png","x": 797.71875, "y": 582.34375},
 	{"x": 518.5625, "y": 383.53125},
 	{"x": 306.4375, "y": 645.34375},
 	{"x": 714.09375, "y": 380.0625},
@@ -563,6 +597,7 @@
       "desc": "Glowmoss",
       "url": "images/Icons/glowmoss.png",
       "points": [
+	{"x": 662.84375, "y": 429.96875},
 	{"x": 455.625, "y": 376.1875},
 	{"x": 443.3125, "y": 395.25}
       ]
