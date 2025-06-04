@@ -330,7 +330,8 @@
       "url": "images/Icons/lodge.png",
       "points":[
 	{"desc":"Middle floor near Cipher Stone extract","image":"images/Collectables/lodge622.png","x": 622.96875, "y": 651.8125},
-	{"x": 338.75, "y": 608.625}
+	{"image":"images/Collectables/lodge337.png","x": 338.75, "y": 608.625},
+	{"image":"images/Collectables/lodge337.png","x": 336.78125, "y": 608.71875}
       ]
     },
 	 {

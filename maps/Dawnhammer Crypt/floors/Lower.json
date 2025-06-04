@@ -152,6 +152,7 @@
       "desc": "Coffins",
       "url": "images/Icons/chest-coffin.png",
       "points": [ 
+	{"desc":"On the bottom floor","x": 586.71875, "y": 358.1875},
 	{"desc":"On the bottom floor","x": 347.28125, "y": 457.40625},
 	{"desc":"On the bottom floor","x": 519.5625, "y": 616.125},
 	{"desc":"On the bottom floor","x": 607.75, "y": 386.09375},
@@ -165,6 +166,8 @@
       "url": "images/Icons/armor-chest.png",
       "desc": "Armor & Weapons",
       "points": [
+	{"x": 636.28125, "y": 457.40625},
+	{"x": 655, "y": 344.5625},
 	{"x": 627.875, "y": 483.75},
 	{"x": 561.78125, "y": 462.03125},
 	{"desc":"Inside Sewer Key extract","x": 418.9375, "y": 388.21875},
@@ -213,6 +216,7 @@
       "desc": "Barrels",
       "url": "images/Icons/chest-barrel.png",
       "points": [ 
+	{"x": 582.40625, "y": 385.53125},
 	{"x": 452.09375, "y": 425.46875},
 	{"x": 425.59375, "y": 491.6875},
 	{"x": 659.125, "y": 340.625},
@@ -261,6 +265,7 @@
       "url": "images/Icons/coins.png",
       "desc":"Pile of Gold Coins",
       "points": [
+	{"x": 572.375, "y": 698.5},
 	{"desc":"Inside Sewer Key Extract","x": 433.6875, "y": 423.90625},
 	{"desc":"Inside Sewer Key Extract","x": 415.4375, "y": 425.625},
 	{"desc":"Inside Sewer Key Extract","x": 418.84375, "y": 385},
@@ -274,6 +279,7 @@
       "desc": "Mushroom",
       "url": "images/Icons/mush.png",
       "points": [
+	{"x": 577.9375, "y": 706.75}
 	      ]
     },
 
@@ -284,6 +290,7 @@
       "desc": "Search this area for possible spawn of: Wood Saw,Simple Scissors,Crude Awl,Dried Herbs,Ogre Fat,Tree Resin,Paper,Heavy Thread,Simple Buckle,Metal Hinge,Wax Candle,Sewing Needles,Iron Nails,Simple Vial,Simple Rope,Waxed Rope,Fire Powder,Bone Hammer,Splintered Bone,Massive Femur",
       "url": "images/Icons/tools.png",
       "points": [
+	{"x": 652.46875, "y": 306.46875},
 	{"x": 541.03125, "y": 645.84375},
 	{"x": 420.09375, "y": 411.65625}
       ]
@@ -309,6 +316,7 @@
       "desc": "Possible spawns for Lodge upgrade items such as Artisan's Tool Kit,Iron Gear,Steel Tongs,Copper Pot,Master Hammer,Anvil etc.",
       "url": "images/Icons/lodge.png",
       "points":[
+	{"x": 555.75, "y": 361.625},
 	{"desc":"Inside Sewer Key extract","image":"images/Collectables/lodge417.png","x": 435.84375, "y": 388.40625},
 	{"x": 657, "y": 361.375}
       ]
@@ -320,6 +328,7 @@
       "desc": "Crypt Stone or can sometimes also be Cipher Stone",
       "url": "images/Icons/crypt-stone.png",
       "points": [
+	{"image":"images/Collectables/gemstones600.png","x": 602.65625, "y": 392.84375},
 	{"desc":"Almost bottom floor, under Giant Red Spider","image":"images/Collectables/cryptstone236.png","x": 236.0625, "y": 472.53125},
 	{"image":"images/Collectables/cryptstone287.png","x": 287.0, "y": 468.75},
 	{"desc":"Almost bottom floor","image":"images/Collectables/cryptstone241.png","x": 241.0, "y": 431.0625},
@@ -329,7 +338,7 @@
 	{"desc":"Middle floor green corridor","x": 548.1875, "y": 553.5625},
 	{"desc":"In bottom floor small cubby","image":"images/Collectables/cryptstone515.png","x": 528.65, "y": 502.794},
 	{"desc":"Bottom floor","image":"images/Collectables/cryptstone631.png","x": 631.4375, "y": 574.34375},
-	{"x": 615.0625, "y": 650.4375},
+	{"image":"images/Collectables/cryptstone615.png","x": 615.0625, "y": 650.4375},
 	{"image":"images/Collectables/cryptstone638.png","x": 638.0, "y": 317.09375},
 		{"image":"images/Collectables/cryptstone565.png","desc":"On the bottom floor","x": 565.0, "y": 367.8125}
       ]
@@ -368,6 +377,11 @@
       "desc": "Gemstones (Topaz, Sapphire, Emerald, Ruby)",
       "url": "images/Icons/gemstone.png",
       "points": [
+	{"image":"images/Collectables/gemstones600.png","x": 623.0625, "y": 398.4375},
+	{"image":"images/Collectables/gemstones600.png","x": 608.8125, "y": 398.34375},
+	{"image":"images/Collectables/gemstones600.png","x": 606.3125, "y": 398.625},
+	{"x": 632.6875, "y": 371.40625},
+	
 	{"x": 367.78125, "y": 472.25},
 	{"x": 586.125, "y": 557.65625},
 	{"x": 540.25, "y": 362.75},
