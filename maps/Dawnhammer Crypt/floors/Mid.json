@@ -329,6 +329,7 @@
       "desc": "Possible spawns for Lodge upgrade items such as Artisan's Tool Kit,Iron Gear,Steel Tongs,Copper Pot,Master Hammer,Anvil etc.",
       "url": "images/Icons/lodge.png",
       "points":[
+	{"image":"images/Collectables/lodge614.png","x": 614.40625, "y": 526.5625},
 	{"desc":"Middle floor near Cipher Stone extract","image":"images/Collectables/lodge622.png","x": 622.96875, "y": 651.8125},
 	{"image":"images/Collectables/lodge337.png","x": 338.75, "y": 608.625},
 	{"image":"images/Collectables/lodge337.png","x": 336.78125, "y": 608.71875}
@@ -351,6 +352,7 @@
       "desc": "Crypt Stone or can sometimes also be Cipher Stone",
       "url": "images/Icons/crypt-stone.png",
       "points": [
+	{"image":"images/Collectables/cryptstone616.png","x": 616.59375, "y": 519.125},
 		{"desc":"Bottom floor in Hall of Tombs","image":"images/Collectables/cryptstone650.png","x": 653, "y": 515.875},
 	{"desc":"Bottom floor in Hall of Tombs","image":"images/Collectables/cryptstone632.png","x": 625.71875, "y": 494.4375},
 	{"desc":"Bottom floor in Hall of Tombs","image":"images/Collectables/cryptstone586.png","x": 585.84375, "y": 487.21875},
