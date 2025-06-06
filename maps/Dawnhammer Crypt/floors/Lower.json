@@ -328,6 +328,7 @@
       "desc": "Crypt Stone or can sometimes also be Cipher Stone",
       "url": "images/Icons/crypt-stone.png",
       "points": [
+	{"image":"images/Collectables/cryptstone594.png","x": 594.375, "y": 632.125},
 	{"image":"images/Collectables/gemstones600.png","x": 602.65625, "y": 392.84375},
 	{"desc":"Almost bottom floor, under Giant Red Spider","image":"images/Collectables/cryptstone236.png","x": 236.0625, "y": 472.53125},
 	{"image":"images/Collectables/cryptstone287.png","x": 287.0, "y": 468.75},
