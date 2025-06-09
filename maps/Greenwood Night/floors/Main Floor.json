@@ -1729,12 +1729,12 @@
       "desc": "Moon Lotus (sells for vendor reputation)",
       "url": "images/Icons/moonlotus.png",
       "points": [	
-	{"x": 270.25, "y": 648.25},
+	{"image":"images/Plants/MoonLotus270.png","x": 270.25, "y": 648.25},
 	{"x": 421.96875, "y": 353.0625},
 	{"x": 363.21875, "y": 342.03125},
-	{"x": 567.375, "y": 465.9375},
+	{"image":"images/Plants/MoonLotus567.png","x": 567.375, "y": 465.9375},
 	{"x": 683, "y": 188.3125},
-	{"x": 275.3125, "y": 523.96875},
+	{"image":"images/Plants/MoonLotus275.png","x": 275.3125, "y": 523.96875},
 	{"x": 646.90625, "y": 508.125},
 	{"x": 400.125, "y": 366.53125},
 	{"x": 853.15625, "y": 638.78125},
@@ -1742,7 +1742,10 @@
 	{"x": 319.5, "y": 307.6875},
 	{"x": 576.25, "y": 467.125},
 	{"x": 676.65625, "y": 193.84375},
-	{"x": 274.15625, "y": 537.5625}
+	{"x": 274.15625, "y": 537.5625},
+	{"image":"images/Plants/MoonLotus810.png","x": 810, "y": 191.375},
+	{"image":"images/Plants/MoonLotus272.png","x": 272.9375, "y": 671.40625},
+	{"image":"images/Plants/MoonLotus522.png","x": 522.125, "y": 430.28125}
       ]
     },
 
