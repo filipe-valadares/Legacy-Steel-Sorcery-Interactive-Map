@@ -205,7 +205,7 @@
       "category": "Ores",
       "desc": "Bloodsteel, Iron or Copper Ore",
       "points": [
-		{"desc":"On the bottom floor","x": 501.40625, "y": 465.8125},
+		{"image":"images/Ores/bloodsteel501.png","desc":"On the bottom floor","x": 501.40625, "y": 465.8125},
 		{"image":"images/Ores/bloodsteel255.png","x": 255.0, "y": 426.3125}
             ]
     },
@@ -302,6 +302,7 @@
       "url": "images/Icons/chest-medic.png",
       "desc": "Healing items, Dried Herbs",
       "points": [
+	{"x": 245.1875, "y": 459.71875},
 	{"x": 239.84375, "y": 457.9375},
 	{"x": 419.0625, "y": 469.1875},
 	{"desc":"On the bottom floor","x": 453.9375, "y": 525.3125},

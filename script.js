@@ -85,6 +85,7 @@ function loadFloor(floorName) {
 }
 
 function loadMarkers(data) {
+	checkVisible();
   data.markers.forEach(function (markerData) {
     var categoriesContainer = document.getElementById('categories-container');
 
@@ -134,7 +135,7 @@ function loadMarkers(data) {
       filterMarkersByName(markerParam);
     }
   });
-	checkVisible();
+
 }
 
 function addMarker(markerData, point) {
