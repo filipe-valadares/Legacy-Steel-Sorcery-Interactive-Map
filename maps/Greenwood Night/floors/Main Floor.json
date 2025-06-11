@@ -7,6 +7,7 @@
       "desc": "Skeleton Spawn",
       "url": "images/Icons/mob-default.png",
       "points": [
+	{"x": 648.84375, "y": 304.84375},
 	{"x": 722.5625, "y": 538.53125},
 	{"x": 731.90625, "y": 561.78125},
 	{"x": 838.25, "y": 630.6875},
@@ -79,13 +80,14 @@
       "url": "images/Icons/mob-stronger.png",
       "desc": "Elite Skeleton Spawn",
       "points": [
+	{"x": 353.53125, "y": 325.09375},
 	{"x": 851.312370374779, "y": 627.4246857815884},
 	{"x": 631.40625, "y": 359.53125},
 	{"x": 594.875, "y": 309.75},
 	{"x": 598.5, "y": 312.09375},
 	{"x": 662.84375, "y": 452.3125},
 	{"x": 849.65625, "y": 531.84375},
-	{"x": 639.25, "y": 282.59375},
+	{ "desc": "Armored Skeleton Archer","x": 639.25, "y": 282.59375},
 	{"x": 629.46875, "y": 278.4375},
 	{"x": 636.15625, "y": 359.34375},
 	{"x": 654.33, "y": 257.8},
@@ -143,6 +145,8 @@
       "url": "images/Icons/mob-wolf-elite.png",
       "desc": "White Wolves",
       "points": [
+	{"x": 315.15625, "y": 604},
+	{"x": 382.75, "y": 317.625},
 	{"x": 692.375, "y": 472.84375},
 	{"x": 824.90625, "y": 464.21875},
 	{"x": 810.96875, "y": 486.71875},
@@ -197,6 +201,9 @@
       "desc": "Goblin Spawn",
       "url": "images/Icons/mob-goblin.png",
       "points": [
+	{"x": 585.5728031701096, "y": 702.5989754564832},
+	{"x": 366.625, "y": 189.25},
+	{"x": 358.34375, "y": 183.65625},
 	{"x": 421.96875, "y": 353.0625},
 	{"x": 306.09375, "y": 781.375},
 	{"x": 307.40625, "y": 781.03125},
@@ -215,7 +222,7 @@
 	{"x": 343.71875, "y": 577.25},
 	{"x": 353.21875, "y": 609.6875},
 	{"x": 796.875, "y": 274.3125},
-	{"x": 381.25, "y": 178.78125},
+	{"x": 378.3125, "y": 169},
 	{"x": 375.875, "y": 186.125},
 	{"x": 506.34375, "y": 246.46875},
 	{"x": 492.28125, "y": 243.0625},
@@ -250,7 +257,10 @@
 	{"x": 761.6875, "y": 357.625},
 	{"x": 760, "y": 355.5},
 	{"x": 755.09375, "y": 349.71875},
-	{"x": 712.5, "y": 358.96875}
+	{"x": 712.5, "y": 358.96875},
+	{"x": 585.84375, "y": 651.25},
+	{"x": 587.8125, "y": 650.84375},
+	{"x": 564.28125, "y": 661.28125}
       ]
     },	
 		{
@@ -260,6 +270,8 @@
       "url": "images/Icons/mob-goblin-elite.png",
       "desc": "Elite Goblins Spawn",
       "points": [
+	{"x": 575.40625, "y": 636.03125},
+	{"x": 568.96875, "y": 666.8125},
 	{"x": 762.875, "y": 354.78125},
 	{"x": 766.96875, "y": 357.375},
 	{"x": 700.625, "y": 354.4375},
@@ -305,6 +317,7 @@
       "desc": "Elite Bandit Spawn",
       "url": "images/Icons/bandit-elite.png",
       "points": [
+	{"x": 497.25, "y": 356.125},
 	{"x": 385.125, "y": 419.78125},
 	{"x": 706.125, "y": 615},
 	{"x": 731.25, "y": 323.90625},
@@ -339,7 +352,8 @@
       "desc": "Skeleton Spearman",
       "url": "images/Icons/mob-spearman.png",
       "points": [
-	{"x": 865.9375, "y": 375.3125},
+	{"x": 575.46875, "y": 329.90625},
+	{"x": 574.09375, "y": 323.78125},
 	{"x": 318.5, "y": 469.59375},
 	{"x": 258.09375, "y": 225.09375},
 	{"x": 328.90625, "y": 685.59375},
@@ -424,7 +438,6 @@
       "url": "images/Icons/mob-spider.png",
       "desc": "Spiders",
       "points": [
-	{"x": 824.875, "y": 413.0625},
 	{"x": 782.9375, "y": 521.25},
 	{"x": 806.34375, "y": 503.96875},
 	{"x": 637.15625, "y": 264.8125},
@@ -1096,20 +1109,16 @@
 	{"desc": "Book can drop next to door","image":"images/Tools/bookUnder723.png","x": 723.0, "y": 349.1875},
 	{"desc": "Book can drop next to cart","image":"images/Tools/bookUnder585.png","x": 585.0, "y": 223.6875},
 	{"desc": "Book can spawn on a shelf","image":"images/Tools/bookUnder353.png","x": 353.0, "y": 504.5},
-	{"desc": "Book can spawn on a ledge underground","image":"images/Tools/bookUnder610.png","x": 610.0, "y": 373.625},
 	{"desc": "Book can spawn in a boat","image":"images/Tools/bookUnder856.png","x": 827.5, "y": 193.28125},
         {"desc": "Book can spawn on top of the roof corner","image":"images/Tools/bookUnder564.png","x": 564.0, "y": 660.6875},
 	{"desc": "Book can spawn in the cave below North Tower","image":"images/Tools/bookUnder354.png","x": 351.875, "y": 702.0625},
         {"desc": "Book can spawn on the window ledge next to river", "image":"images/Tools/bookUnder600.png", "x": 600.0, "y": 488.5625},
 	{"desc": "Book can spawn next to coffin in an alcove in the Castle","image":"images/Tools/bookUnder666.png", "x": 666.0, "y": 445.125},
 	{"desc": "On a wooden shelf behind the house, books and other rare items can spawn here","image":"images/Tools/bookUnder325.png","x": 325.0, "y": 635.5},
-	{"desc": "Big stairs go down into the crypt, explore until you reach this room, book can spawn on the altar","image":"images/Tools/bookUnder595.png","x": 590.125, "y": 271.75},
-	{"desc": "Books can spawn on the shelves/ledges in Oakheart's Vigil dungeon","image":"images/Tools/bookUnder836.png","x": 855.375, "y": 399.75},
 	{"desc": "Go left from the entrance and go to the small square room after 2 spiders, other lodge items can spawn here too","image":"images/Tools/bookUnder830.png","x": 815.875, "y": 416},
 	{"desc": "On wooden shelves next to a goblin house","image":"images/Tools/bookUnder299.png","x": 299, "y": 514.75},
 	{"desc": "Inside a fountain at the Southern part of the Castle, on top of the stairs","image":"images/Tools/bookUnder632.png","x": 632.0, "y": 418.5},
 	{"desc": "Books can spawn on the 2nd floor here","image":"images/Tools/bookUnder319.png","x": 322.0625, "y": 451.984375},
-	{"desc": "Books can spawn on the altar underground","image":"images/Tools/bookUnder892.png","x": 892.0, "y": 536.6875},
 	{"desc": "Books can spawn near the boxes","image":"images/Tools/bookUnder326.png","x": 326.0, "y": 747.875},
 	{"desc": "Books can spawn near the door","image":"images/Tools/bookUnder645.png","x": 645.0, "y": 202.4375}
       ]
@@ -1562,6 +1571,7 @@
       "category": "Ores",
       "desc": "Bloodsteel, Iron or Copper Ore",
       "points": [
+	{"x": 399.4375, "y": 601.15625},
 		{"x": 649.25, "y": 545.5},
 	{"x": 657.03125, "y": 420.75},
 	{"x": 488.0625, "y": 842.0625},
@@ -1729,6 +1739,7 @@
       "desc": "Moon Lotus (sells for vendor reputation)",
       "url": "images/Icons/moonlotus.png",
       "points": [	
+	{"image":"images/Plants/MoonLotus503.png","x": 503.625, "y": 394.25},
 	{"image":"images/Plants/MoonLotus270.png","x": 270.25, "y": 648.25},
 	{"x": 421.96875, "y": 353.0625},
 	{"x": 363.21875, "y": 342.03125},
@@ -1774,7 +1785,7 @@
       "url": "images/Icons/lunarstone.png",
       "points": [
 	{"x": 391.15625, "y": 720.625},
-	{"x": 451.21875, "y": 738.21875},
+	{"image":"images/Collectables/lunarstone451.png","x": 451.21875, "y": 738.21875},
 	{"x": 432.53125, "y": 721.25},
 	{"x": 477.34375, "y": 790.21875},
 	{"x": 587.96875, "y": 484.1875},
@@ -1782,11 +1793,11 @@
 	{"x": 706.21875, "y": 466.53125},
 	{"x": 573.53125, "y": 463.59375},
 	{"x": 528.71875, "y": 430.28125},
-	{"x": 446.21875, "y": 357.78125},
+	{"image":"images/Collectables/lunarstone446.png","x": 446.21875, "y": 357.78125},
 	{"x": 403.375, "y": 364.03125},
 	{"x": 729.53125, "y": 453.4375},
 	{"x": 732.15625, "y": 450.6875},
-	{"x": 342.5625, "y": 322.9375}
+	{"image":"images/Collectables/lunarstone342.png","x": 342.5625, "y": 322.9375}
       ]
     },
 
@@ -2183,7 +2194,6 @@
         {"x": 628, "y": 386},
         {"x": 318.1875, "y": 376.09375},
         {"x": 860.1875, "y": 545.375},
-        {"desc": "Underground","x": 391.1875, "y": 778.1875},
         {"x": 590.25, "y": 295.75},
         {"x": 599, "y": 480.9375}
       ]

@@ -197,7 +197,6 @@
 
       ]
     },
-
 	{
       "name": "Coffins",
       "color": "#c49300",
@@ -237,16 +236,20 @@
       "category": "Containers",
       "url": "images/Icons/armor-chest.png",
       "desc": "Armor & Weapons",
-      "points": [		
+      "points": [
+	{"x": 712.1875, "y": 438.96875},
+	{"x": 659.40625, "y": 453.90625},
+	{"x": 582.65625, "y": 470.0625},		
+	{"x": 449.78125, "y": 418.875},
 	{"x": 754.6875, "y": 467.4375},
 	{"x": 737.125, "y": 632.5},
-	{"x": 782.8555951211564, "y": 689.517500004532},
-{"x": 748.21875, "y": 616.8125},
+	{"x": 782.82164, "y": 689.32},
+	{"x": 748.21875, "y": 616.8125},
 	{"x": 763.21875, "y": 580.5},
 	{"x": 817.5625, "y": 487.25},
 	{"x": 729.59375, "y": 457.75},
-		{"x": 180.3125, "y": 535.875},
-		{"x": 512.9375, "y": 382.84375},
+	{"x": 180.3125, "y": 535.875},
+	{"x": 512.9375, "y": 382.84375},
 	{"x": 450.15625, "y": 348.0625},
 	{"x": 382.03125, "y": 572.21875},
 	{"x": 446.46875, "y": 569.1875},
@@ -264,8 +267,8 @@
       "category": "Ores",
       "desc": "Bloodsteel, Iron or Copper Ore",
       "points": [
-		{"image":"images/Ores/bloodsteel489.png","x": 489.03125, "y": 355.46875},
-		{"x": 412.03125, "y": 351.71875},
+	{"image":"images/Ores/bloodsteel489.png","x": 489.03125, "y": 355.46875},
+	{"x": 412.03125, "y": 351.71875},
 	{"x": 810.21875, "y": 530.46875}
             ]
     },
@@ -350,6 +353,7 @@
       "url": "images/Icons/coin-safe.png",
       "desc": "Contains Gemstones, Treasures, Gold, Transmutation Recipes",
       "points": [
+	{"x": 698.4447231170122, "y": 294.8635277547903},
 	{"desc":"In tiny mausoleum in Catacombs of Consecration","image":"images/Chests/coinsafe734.png","x": 746.9375, "y": 656.34375}
       ]
     },
@@ -424,6 +428,7 @@
       "desc": "Search this area for possible spawn of: Wood Saw,Simple Scissors,Crude Awl,Dried Herbs,Ogre Fat,Tree Resin,Paper,Heavy Thread,Simple Buckle,Metal Hinge,Wax Candle,Sewing Needles,Iron Nails,Simple Vial,Simple Rope,Waxed Rope,Fire Powder,Bone Hammer,Splintered Bone,Massive Femur",
       "url": "images/Icons/tools.png",
       "points": [
+	{"x": 644.75, "y": 658.9375},
 	{"x": 689.03125, "y": 593.5},
 	{"x": 476.34375, "y": 369.03125},
 	{"x": 614.8125, "y": 482.0625},
@@ -446,7 +451,7 @@
       "url": "images/Icons/chest-medic.png",
       "desc": "Healing items, Dried Herbs",
       "points": [
-{"x": 674, "y": 652.84375},
+	{"x": 674, "y": 652.84375},
 	{"x": 647.9375, "y": 629.59375},
 	{"desc":"On the top floor","x": 822.21875, "y": 367.625},
 	{"x": 452.4375, "y": 575.5625}
@@ -551,8 +556,7 @@
 	{"image":"images/Plants/kingsmint478.png","x": 463.46875, "y": 357.96875},
 	{"image":"images/Plants/kingsmint791.png","x": 791.40625, "y": 644.96875}
       ]
-    },
-	
+    },	
 {
       "name": "Gemstones",
       "color": "#f7d97e",
@@ -560,6 +564,8 @@
       "desc": "Gemstones (Topaz, Sapphire, Emerald, Ruby)",
       "url": "images/Icons/gemstone.png",
       "points": [
+	{"x": 745.09375, "y": 586.71875},
+	{"x": 740.15625, "y": 585.4375},
 	{"x": 786.78125, "y": 584.75},
 	{"x": 746.09375, "y": 550},
 	{"image":"images/Collectables/gemstones797.png","x": 796.75, "y": 590.3125},
@@ -591,7 +597,6 @@
 	{"x": 187.96875, "y": 559.03125}
       ]
     },
-
 {
       "name": "Glowmoss",
       "color": "#f7d97e",
@@ -645,7 +650,8 @@
       "url": "images/Icons/chest-priest.png",
       "points": [
 	{"x": 179.78125, "y": 514.78125},
-	{"x": 517.78125, "y": 483.1875}
+	{"x": 517.78125, "y": 483.1875},
+	{"x": 472.9375, "y": 483.71875}
       ]
     },
 		 {

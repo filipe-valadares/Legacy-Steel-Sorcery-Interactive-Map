@@ -59,14 +59,23 @@
       "url": "images/Icons/mob-spider.png",
       "desc": "Spiders",
       "points": [
-	{"x": 444.9375, "y": 523.78125},
-	{"x": 445.8308255381182, "y": 501.33870786126215},
-	{"x": 363.125, "y": 462.53125},
-	{"desc":"On the bottom floor","x": 446.15625, "y": 609.5625},
-	{"x": 570.03125, "y": 601.40625}
+	{"desc":"On the bottom floor","x": 446.125, "y": 609.565},
+	{"x": 444.935, "y": 523.785},
+	{"x": 445.832, "y": 501.338},
+	{"x": 363.125, "y": 462.535},
+	{"x": 570.025, "y": 601.405}
       ]
     },
-
+	{
+      "name": "Big Spider Elite",
+      "color": "#f5fced",
+      "category": "Enemies",
+      "url": "images/Icons/mob-spider-giant.png",
+      "desc": "Giant Spider Elite",
+      "points": [
+          {"x": 555.0625, "y": 638.34375}
+	]
+    },
 	{
       "name": "Small Arcane Eye",
       "color": "#7c8079",
@@ -74,7 +83,7 @@
       "url": "images/Icons/small-arcane-eye.png",
       "desc": "Small Arcane Eye (drops Arcane Flux & Ash)",
       "points": [
-		{"x": 368.75, "y": 465.25},
+	{"x": 368.75, "y": 465.25},
 	{"x": 499, "y": 596}
       ]
     },
@@ -120,20 +129,10 @@
       "url": "images/Icons/banshee-elite.png",
       "desc": "Elite Banshee (drops Transmutation Recipes, Spirit Essence, Wizard Scrolls)",
       "points": [
-		 { "desc": "In the bottom of the room","x": 259.78125, "y": 459.3125},
+	{ "desc": "In the bottom of the room","x": 259.78125, "y": 459.3125},
 	{ "desc": "On the bottom floor","x": 301.59375, "y": 476.4375}
       ]
-    },
-	{
-      "name": "Big Spider Elite",
-      "color": "#f5fced",
-      "category": "Enemies",
-      "url": "images/Icons/mob-spider-giant.png",
-      "desc": "Giant Spider Elite",
-      "points": [
-          {"x": 555.0625, "y": 638.34375}
-	]
-    },
+    },	
 	 {
       "name": "Alchemy Chests",
       "color": "#f7d97e",
@@ -270,7 +269,8 @@
 	{"desc":"Inside Sewer Key Extract","x": 415.4375, "y": 425.625},
 	{"desc":"Inside Sewer Key Extract","x": 418.84375, "y": 385},
 	{"desc":"Inside Sewer Key Extract","x": 433.71875, "y": 371.25},
-	{"x": 586.53125, "y": 602.03125}      ]
+	{"x": 586.53125, "y": 602.03125}      
+]
     },
 	{
       "name": "Mushrooms",
@@ -317,6 +317,7 @@
       "desc": "Possible spawns for Lodge upgrade items such as Artisan's Tool Kit,Iron Gear,Steel Tongs,Copper Pot,Master Hammer,Anvil etc.",
       "url": "images/Icons/lodge.png",
       "points":[
+	{"x": 420.78125, "y": 410.71875},
 	{"x": 555.75, "y": 361.625},
 	{"desc":"Inside Sewer Key extract","image":"images/Collectables/lodge417.png","x": 435.84375, "y": 388.40625},
 	{"x": 657, "y": 361.375}
@@ -371,7 +372,6 @@
 	{"x": 570.625, "y": 600.8125}
       ]
     },
-	
 {
       "name": "Gemstones",
       "color": "#f7d97e",
@@ -407,13 +407,13 @@
       "desc": "Glowmoss",
       "url": "images/Icons/glowmoss.png",
       "points": [
+	{"x": 617.09375, "y": 608.03125},
+	{"x": 630.34375, "y": 603.5},
 	{"x": 585.375, "y": 572.53125},
 	{"desc": "On the bottom floor","x": 572.875, "y": 657.3125},
 	{"x": 531, "y": 589.625},
 	{"desc": "On the bottom floor","x": 498.09375, "y": 610.96875},
 	{"desc": "On the bottom floor","x": 459.28125, "y": 517.625}
-
-	
       ]
     },
 {

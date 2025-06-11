@@ -77,7 +77,8 @@
       "url": "images/Icons/mob-spider-giant.png",
       "desc": "Giant Spider Elite",
       "points": [
-	  {"x": 596.96875, "y": 483.8125}
+	  {"x": 596.96875, "y": 483.8125},
+	{ "desc": "On the top of the room, on the ledge", "x": 251.28125, "y": 471.875}
 	]
     },
 	{
@@ -123,7 +124,6 @@
 	{"x": 466.90625, "y": 604.75}
       ]
     },
-
 	{
       "name": "Elite Banshee",
       "color": "#f5fced",
@@ -135,16 +135,6 @@
 	{"x": 548.459, "y": 489.316}
       ]
     },
-	{
-      "name": "Big Spider Elite",
-      "color": "#f5fced",
-      "category": "Enemies",
-      "url": "images/Icons/mob-spider-giant.png",
-      "desc": "Giant Spider Elite",
-      "points": [
-          { "desc": "On the top of the room, on the ledge", "x": 251.28125, "y": 471.875}
-	]
-    },
 	 {
       "name": "Alchemy Chests",
       "color": "#f7d97e",
@@ -152,6 +142,7 @@
       "url": "images/Icons/chest-alchemist.png",
       "desc": "Alchemy Chest",
       "points": [
+	{"x": 652.15625, "y": 488.09375},
 	{"x": 242.78125, "y": 397.5625},
 	{"x": 242.90625, "y": 534.96875}
       ]
@@ -197,6 +188,7 @@
       "url": "images/Icons/armor-chest.png",
       "desc": "Armor & Weapons",
       "points": [
+	{"x": 636.25, "y": 457.84375},
 	{"x": 456.25, "y": 570.75},
 	{"x": 308.03125, "y": 431.625},
 	{"x": 499.09375, "y": 410.59375},
@@ -208,7 +200,6 @@
 	{"x": 814.0625, "y": 449.78125},
 	{"x": 802.625, "y": 408.3125},
 	{"x": 382.5625, "y": 345.25},
-
 	{"x": 117.3125, "y": 585.9375},
 	{"x": 242.78125, "y": 562.71875},
 	{"x": 291.3125, "y": 362.78125}
@@ -449,6 +440,7 @@
       "category": "Misc",
       "desc": "Spawn Point",
       "points": [
+	{"x": 122.5625, "y": 294.21875},
 	{"x": 842.75, "y": 370.5},
 	{"x": 300.21875, "y": 286.9375}
       ]
@@ -464,7 +456,7 @@
      {"x": 312.15625, "y": 433.375}
       ]
     },
-	 		 {
+	  {
       "name": "Exit",
       "color": "#ffc0cb",
       "category": "Misc",
