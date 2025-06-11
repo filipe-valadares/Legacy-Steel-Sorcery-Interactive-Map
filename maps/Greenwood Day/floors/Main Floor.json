@@ -152,6 +152,7 @@
       "desc": "Skeleton Spawn",
       "url": "images/Icons/mob-default.png",
       "points": [
+	{"x": 467.96875, "y": 792.21875},
 	{"x": 896.9375, "y": 542.53125},
 	{"x": 904.75, "y": 542},
 	{"desc": "Skeleton Archer","x": 691, "y": 679.1875},
@@ -1024,7 +1025,7 @@
 	{"x": 619.25, "y": 466.9375},
 	{"x": 516.6875, "y": 230.875},
         {"desc": "Top of Tower","image":"images/Chests/armorChest356.png", "x": 354.0, "y": 700.140625},
-        {"x": 457.6875, "y": 780.6875},
+        {"x": 467.96875, "y": 792.21875},
         {"x": 499.25, "y": 832.4375}
       ]
     },
@@ -1646,6 +1647,7 @@
       "category": "Ores",
       "desc": "Bloodsteel, Iron or Copper Ore",
       "points": [
+	{"x": 391.96875, "y": 595.625}
              ]
     },
     {
