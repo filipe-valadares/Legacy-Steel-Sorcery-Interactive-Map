@@ -85,7 +85,7 @@ function loadFloor(floorName) {
 }
 
 function loadMarkers(data) {
-	checkVisible();
+	
   data.markers.forEach(function (markerData) {
     var categoriesContainer = document.getElementById('categories-container');
 
@@ -119,7 +119,7 @@ function loadMarkers(data) {
     button.addEventListener('click', function () {
       var isVisible = button.dataset.visible === "true";
       button.dataset.visible = isVisible ? "false" : "true";
-      button.classList.toggle("disabled", !isVisible);
+      button.classList.toggle("disabled", isVisible);
       toggleMarkers(markerData.name, !isVisible);
     });
 
@@ -133,8 +133,11 @@ function loadMarkers(data) {
     const markerParam = urlParams.get('marker');
     if (markerParam) {
       filterMarkersByName(markerParam);
-    }
+    }else{
+	checkVisible();	
+}
   });
+//
 
 }
 
