@@ -877,6 +877,10 @@
       "desc": "Usually contains a backpack, various foods and resources",
       "url": "images/Icons/chest-herb.png",
       "points": [
+	{"desc": "Inside Farmhouse","x": 247.90625, "y": 448.25},
+	{"desc": "In circular room 1st floor next to wall","x": 668.4375, "y": 446.3125},
+	{"desc":"Under the spiral staircase inside the tower","x": 354.21875, "y": 698.5625},
+	{"x": 700.6875, "y": 523.71875},
 	{"x": 368.8125, "y": 145.96875},
 	{"desc": "In circular room 1st floor next to wall","x": 668.4375, "y": 446.3125},
 	{"x": 592.46875, "y": 316.53125},
@@ -890,7 +894,8 @@
 	{"x": 325.75, "y": 744.3125},
 	{"x": 323.5, "y": 449.8125},
 	{"x": 650.75, "y": 366.21875},
-	{"x": 569, "y": 632.59375}
+	{"x": 569, "y": 632.59375},
+	{"x": 431.03125, "y": 519.5625}
       ]
     },
 
@@ -1202,7 +1207,6 @@
 	{"desc": "Book can spawn on a shelf","image":"images/Tools/bookUnder353.png","x": 353.0, "y": 504.5},
 	{"desc": "Book can spawn in a boat","image":"images/Tools/bookUnder856.png","x": 829.5625, "y": 192.5},
         {"desc": "Book can spawn on top of the roof corner","image":"images/Tools/bookUnder564.png","x": 564.0, "y": 660.6875},
-	{"desc": "Book can spawn in the cave below North Tower","image":"images/Tools/bookUnder354.png","x": 351.875, "y": 702.0625},
         {"desc": "Book can spawn on the window ledge next to river", "image":"images/Tools/bookUnder600.png", "x": 600.0, "y": 488.5625},
 	{"desc": "Book can spawn next to coffin in an alcove in the Castle","image":"images/Tools/bookUnder666.png", "x": 666.0, "y": 445.125},
 	{"desc": "On a wooden shelf behind the house, books and other rare items can spawn here","image":"images/Tools/bookUnder325.png","x": 325.0, "y": 635.5},
@@ -1265,13 +1269,14 @@
       "desc": "Possible spawns for Keys",
       "url": "images/Icons/keys.png",
       "points":[
+	{"image":"images/Tools/key491.png","x": 491.28125, "y": 554.125},
 	{"x": 519.21875, "y": 233.21875},
 	{"desc":"On Hunter Altar","x": 483.125, "y": 326.4375},
 	{"x": 809.5625, "y": 179.75},
 	{"image":"images/Tools/key483.png","x": 483.40625, "y": 338.46875},
 	{"image":"images/Tools/key680.png","x": 680.13, "y": 504.16},
 	{"desc": "On the ladder","image":"images/Tools/key459.png","x": 459.015625, "y": 606.546875},
-	{"x": 511.0, "y": 415.765625},
+	{"image":"images/Tools/key511.png","x": 511.0, "y": 415.765625},
 	{"desc": "Second floor window ledge","image":"images/Tools/key847.png","x": 847.0, "y": 558.5},
 	{"desc": "Second floor window ledge","image":"images/Tools/key467.png","x": 467.0, "y": 337.5625},
 	{"image":"images/Tools/key335.png","x": 335.0, "y": 369.53125},
@@ -1511,7 +1516,8 @@
       "url": "images/Icons/tree-mapple.png",
       "category": "Trees",
       "desc": "Birch, Oak and Maple",
-      "points": [     
+      "points": [   
+	{"x": 800.34375, "y": 220.25},  
 	{"image":"images/Plants/MapleTree765.png","x": 765, "y": 193},
         {"image":"images/Plants/MapleTree299.png","x": 299.0, "y": 617.625},
         {"image":"images/Plants/MapleTree790.png","x": 790.0, "y": 338.125},
@@ -1554,7 +1560,6 @@
       "points": [
 	{"x": 679.1875, "y": 523.75},
 	{"x": 480.6875, "y": 398.875},
-	{"desc": "Inside cave below","x": 701.0625, "y": 247.875},
 	{"x": 696.4375, "y": 156.5},
         {"x": 507.5, "y": 828.125},
 	{"x": 500.875, "y": 817.25},
@@ -1564,8 +1569,6 @@
 	{"x": 435.375, "y": 721.375},
 	{"x": 397.25, "y": 715.375},
 	{"x": 391, "y": 727.875},
-	{"x": 354.5, "y": 732.75},
-	{"x": 337.625, "y": 714.375},
 	{"x": 510.25, "y": 713.375},
 	{"x": 568.25, "y": 714.25},
 	{"x": 615.6875, "y": 723.9375},
@@ -1579,7 +1582,6 @@
 	{"x": 705.25, "y": 344.25},
 	{"x": 796.625, "y": 232.25},
 	{"x": 728.1875, "y": 230.1875},
-	{"desc": "Inside cave below","x": 747.875, "y": 233.1875},
 	{"x": 468.875, "y": 227.125},
 	{"x": 384.625, "y": 216.875},
 	{"x": 302.625, "y": 192.625},
@@ -1625,7 +1627,6 @@
        {"x": 479.5, "y": 795.875},
        {"x": 353.875, "y": 790.625},
        {"x": 325.1875, "y": 797},
-	{"x": 322.03125, "y": 738.65625},
 	{"x": 416.03125, "y": 600.90625},
 	{"x": 432.5, "y": 573.75},
 	{"x": 544.875, "y": 490.5},
@@ -1878,8 +1879,7 @@
         {"x": 713, "y": 165.5},
        {"x": 728.625, "y": 169.625},
         {"x": 745.5, "y": 235.75},
-        {"x": 765.0625, "y": 242.8125},
-	{"desc": "Inside cave below","x": 702.5, "y": 248.5}
+        {"x": 765.0625, "y": 242.8125}
       ]
     },
     {
@@ -1933,7 +1933,6 @@
         {"x": 401.5, "y": 657.5},
         {"x": 451.25, "y": 262.75},
         {"x": 430, "y": 219},
-        {"x": 470.5, "y": 318},
         {"x": 445, "y": 398},
 	{"x": 457.375, "y": 648.875},
 	{"x": 406.4375, "y": 724.3125},
@@ -2078,6 +2077,7 @@
       "category": "Misc",
       "desc": "Spawn Point",
       "points": [
+	{"x": 920.15625, "y": 585.4375},
         { "x": 580.60, "y": 738.51 },
         { "x": 546.94, "y": 246.15 },
         { "x": 262.50, "y": 252.47 },
@@ -2086,7 +2086,7 @@
         {"x": 332.75, "y": 762.75},
         {"x": 275.25, "y": 684.25},
         {"x": 282, "y": 541.5},
-        {"x": 227, "y": 396.25},
+        {"x": 216.3125, "y": 413.0625},
         {"x": 474.5, "y": 561},
         {"x": 835.5, "y": 432.25},
         {"x": 821.5, "y": 214.75},
