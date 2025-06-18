@@ -795,9 +795,10 @@
       "name": "Adventurer Bag",
       "color": "#f7d97e",
       "category": "Containers",
-      "desc": "Adventurer Bag",
+      "desc": "Usually contains a backpack, various foods and resources",
       "url": "images/Icons/chest-herb.png",
       "points": [
+	{"x": 880.65625, "y": 602.40625},
 	{"desc": "Inside Farmhouse","x": 247.90625, "y": 448.25},
 	{"desc": "In circular room 1st floor next to wall","x": 668.4375, "y": 446.3125},
 	{"desc":"Under the spiral staircase inside the tower","x": 354.21875, "y": 698.5625},
@@ -1595,6 +1596,7 @@
       "category": "Ores",
       "desc": "Mithril, Bloodsteel, Iron or Copper",
       "points": [
+		{"desc": "Behind the waterfall","x": 697.6875, "y": 127.8125},
 		{"x": 689.375, "y": 139.78125},
 		{"image":"images/Ores/Mithril738.png","x": 738.25, "y": 235.21875},
 		{"desc": "Inside cave below","x": 701.0625, "y": 247.875},
