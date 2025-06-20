@@ -327,8 +327,18 @@
       "category": "Ores",
       "desc": "Bloodsteel Ore",
       "points": [
-	{"x": 490.3125, "y": 856.4375}
              ]
+    },
+	 {
+      "name": "Mithril Ore or lower",
+      "color": "#c44b00",
+      "url": "images/Icons/ore-mithril.png",
+      "category": "Ores",
+      "desc": "Mithril, Bloodsteel, Iron or Copper",
+      "points": [
+			{"x": 490.3125, "y": 856.4375}
+
+      ]
     },
 
 	{

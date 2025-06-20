@@ -1227,7 +1227,8 @@
       "desc": "Possible spawns for Lodge upgrade items such as Artisan's Tool Kit,Iron Gear,Steel Tongs,Copper Pot,Master Hammer,Anvil etc.",
       "url": "images/Icons/lodge.png",
       "points":[
-{"x": 312.53125, "y": 632.125},
+	{"x": 696.625, "y": 523.0625},
+	{"x": 312.53125, "y": 632.125},
 	{"desc": "Ground floor corner","x": 852.78125, "y": 555.375},
 	{"x": 320.03125, "y": 451.78125},
 	{"x": 711.34375, "y": 606.28125},
@@ -1521,7 +1522,6 @@
 	{"x": 800.34375, "y": 220.25},  
 	{"image":"images/Plants/MapleTree765.png","x": 765, "y": 193},
         {"image":"images/Plants/MapleTree299.png","x": 299.0, "y": 617.625},
-        {"image":"images/Plants/MapleTree790.png","x": 790.0, "y": 338.125},
         {"x": 805, "y": 365.25},
         { "x": 710.30, "y": 135.56 },
 	 {"image":"images/Plants/MapleTrees675.png","x": 675.0, "y": 157.25},
@@ -1538,6 +1538,7 @@
       "category": "Trees",
       "desc": "Birch, Oak, Maple and Ironwood",
       "points": [
+	{"x": 788.65625, "y": 338.65625},
 	{"image":"images/Plants/IronwoodTree511.png", "x": 511.22, "y": 520.37 },
         {"image":"images/Plants/IronwoodTree780.png","x": 780.0, "y": 360},
         {"image":"images/Plants/IronwoodTree683.png","x": 683.0, "y": 491.625},
@@ -1624,7 +1625,6 @@
        {"x": 325.1875, "y": 797},
 	{"x": 416.03125, "y": 600.90625},
 	{"x": 432.5, "y": 573.75},
-	{"desc": "On top of mountain next to church","x": 699.8125, "y": 528.96875},
 	{"x": 855.3125, "y": 435.6875},
 	{"x": 852.375, "y": 403.875},
 	{"x": 707.6875, "y": 353.625},
@@ -1642,7 +1642,8 @@
       "category": "Ores",
       "desc": "Bloodsteel, Iron or Copper Ore",
       "points": [
-	{"x": 391.96875, "y": 595.625}
+	{"x": 391.96875, "y": 595.625},
+	{"desc": "On top of mountain next to church","x": 699.8125, "y": 528.96875}
              ]
     },
 	{
