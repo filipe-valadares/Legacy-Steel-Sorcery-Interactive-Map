@@ -390,9 +390,7 @@
       "category": "Ores",
       "desc": "Iron or Copper Ore",
       "points": [
-	{"desc":"Bottom floor","x": 226.4375, "y": 436.8125},
 	{"x": 470.5625, "y": 432.3125}
-
       ]
     },
     {
@@ -408,6 +406,16 @@
 	{"x": 412.03125, "y": 351.71875},
 	{"x": 810.21875, "y": 530.46875}
             ]
+    },
+	 {
+      "name": "Mithril Ore or lower",
+      "color": "#c44b00",
+      "url": "images/Icons/ore-mithril.png",
+      "category": "Ores",
+      "desc": "Mithril, Bloodsteel, Iron or Copper",
+      "points": [
+	{"desc":"Bottom floor","x": 226.4375, "y": 436.8125}
+	]
     },
 	 {
       "name": "Maple or below",

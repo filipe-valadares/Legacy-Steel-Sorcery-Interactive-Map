@@ -327,7 +327,7 @@
      "desc": "Bloodsteel, Iron or Copper Ore",
       "points": [
 	{"x": 752.75, "y": 174.625},
-		{"x": 776.09, "y": 198.2},
+
 	{"x": 333.4375, "y": 135.5625},
 	{"x": 689, "y": 677.84375}
       ]
@@ -339,6 +339,7 @@
       "category": "Ores",
       "desc": "Mithril, Bloodsteel, Iron or Copper",
       "points": [
+		{"x": 776.09, "y": 198.2},
 		{"x": 701.0625, "y": 247.875}
       ]
     },
