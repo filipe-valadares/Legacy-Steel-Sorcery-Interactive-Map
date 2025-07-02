@@ -1227,6 +1227,7 @@
       "desc": "Possible spawns for Lodge upgrade items such as Artisan's Tool Kit,Iron Gear,Steel Tongs,Copper Pot,Master Hammer,Anvil etc.",
       "url": "images/Icons/lodge.png",
       "points":[
+	{"image":"images/Tools/lodge748.png","x": 748.40625, "y": 234.75},
 	{"x": 696.625, "y": 523.0625},
 	{"x": 312.53125, "y": 632.125},
 	{"desc": "Ground floor corner","x": 852.78125, "y": 555.375},
@@ -1271,6 +1272,7 @@
       "desc": "Possible spawns for Keys",
       "url": "images/Icons/keys.png",
       "points":[
+	{"image":"images/Tools/key325.png","x": 324.3125, "y": 298.1875},
 	{"image":"images/Tools/key491.png","x": 491.28125, "y": 554.125},
 	{"x": 519.21875, "y": 233.21875},
 	{"desc":"On Hunter Altar","x": 483.125, "y": 326.4375},
