@@ -181,6 +181,18 @@
 	{"desc": "Requires Skull Key to open","x": 313.78125, "y": 361.46875}
       ]
     },
+	{
+      "name": "Keys",
+      "color": "#f7d97e",
+      "category": "Dropped Items",
+      "desc": "Possible spawns for Keys",
+      "url": "images/Icons/keys.png",
+      "points":[
+	{"image":"images/Other/key583.png","x": 583.21875, "y": 533.5625}
+
+      ]
+    },
+
  {
       "name": "Armor/Weapons",
       "color": "#f7d97e",

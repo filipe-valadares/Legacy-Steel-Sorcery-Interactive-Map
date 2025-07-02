@@ -537,6 +537,16 @@
 	{"image":"images/Collectables/gravemarrow728.png","desc":"Corridor in Catacombs of Consecration","x": 728.875, "y": 702.21875}
 	]
     },
+	{
+      "name": "Keys",
+      "color": "#f7d97e",
+      "category": "Dropped Items",
+      "desc": "Possible spawns for Keys",
+      "url": "images/Icons/keys.png",
+      "points":[
+	{"image":"images/Other/key420.png","x": 420.03125, "y": 359.09375}
+      ]
+    },
 	  {
       "name": "King's Mint",
       "color": "#f7d97e",
