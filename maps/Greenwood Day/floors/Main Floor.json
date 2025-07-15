@@ -877,6 +877,7 @@
       "desc": "Usually contains a backpack, various foods and resources",
       "url": "images/Icons/chest-herb.png",
       "points": [
+	{"x": 377.03125, "y": 394.21875},
 	{"x": 880.65625, "y": 602.40625},
 	{"desc": "Inside Farmhouse","x": 247.90625, "y": 448.25},
 	{"desc": "In circular room 1st floor next to wall","x": 668.4375, "y": 446.3125},
@@ -1766,6 +1767,7 @@
       "url": "images/Icons/flower-blue.png",
       "points": [
 	{"x": 553.5625, "y": 513.65625},
+	{"x": 677.5625, "y": 504.9375},
 	{"image":"images/Plants/KingsMint599.png","x": 599, "y": 501.7},
 	{"image":"images/Plants/KingsMint735.png","x": 735.8, "y": 259.3},
 	{"image":"images/Plants/KingsMint582.png","x": 582.0, "y": 531.8},
