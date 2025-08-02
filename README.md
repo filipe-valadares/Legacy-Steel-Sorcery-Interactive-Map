@@ -16,7 +16,7 @@ This project is a **static interactive map** template that lets you deploy a ric
 
 ## Live Demo
 
-For a real example of this interactive map in action, check out the Live Demo deployed on GitHub Pages: **Interactive Map Example – Legacy: Steel & Sorcery**. This demo was originally created for a game, but it showcases the core functionality of the map (multiple areas, markers with info, filters, etc.). You can use it as a reference to see how the markers and filters work from a user perspective.
+For a real example of this interactive map in action, check out the Live Demo deployed on [Interactive Map Example – Legacy: Steel & Sorcery](https://filipe-valadares.github.io/Legacy-Steel-Sorcery-Interactive-Map/). This demo was originally created for a game, but it showcases the core functionality of the map (multiple areas, markers with info, filters, etc.). You can use it as a reference to see how the markers and filters work from a user perspective.
 
 ## Getting Started
 
