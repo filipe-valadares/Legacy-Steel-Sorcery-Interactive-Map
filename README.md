@@ -1,3 +1,4 @@
+
 # Interactive Map Template
 
 ## Overview
@@ -61,10 +62,16 @@ Follow these steps to set up the interactive map for your own project:
    - `category`: A category name to group markers (e.g. "Shops", "Enemies", "Treasure"). Markers sharing a category can be toggled together.  
    - `color`: A hex color code (for the marker icon or label).  
    - `desc`: A longer description to show in the popup (can be empty or brief).  
-   - `url`: (Optional) an icon image for the marker. If not provided, a default marker icon is used. If provided, it should be a path relative to the map folder.  
-   - `points`: An array of coordinates for this marker type. Each point is an object with `x` and `y` coordinates (and optionally an `image` field if you have a unique image to show in the popup for that specific point).  
+   - `url`: (Optional) **marker icon** image shown for **every** point of this marker type on the map. Provide a path relative to the marker’s folder.  
+   - `points`: An array of point objects. Each point requires `x` and `y` coordinates and *may* include:  
+     - `image`: (Optional) an image displayed **inside the popup** for *that specific point*.  
+     - `desc`: (Optional) a point‑specific description to override or add context.  
 
-   Here is a simplified example of a floor JSON (`Downtown.json`) with one marker category and two points:
+   > **Key difference**  
+   > • `url` = marker *icon* (one per marker type, always visible on the map)  
+   > • `image` = optional *popup image* (per point)  
+
+   ### Minimal example
 
    ```json
    {
@@ -84,55 +91,76 @@ Follow these steps to set up the interactive map for your own project:
    }
    ```
 
-   In this example, two “Shop” markers will appear on the “Downtown” map layer at the specified coordinates. The coordinates correspond to pixel positions on the image (the system uses a default 0–1000 scale for the map’s width and height). When clicked, each marker will display a popup titled “Shop” with the description text. The marker icon will use the image at `maps/City Map/images/icons/shop.png` (you would need to place the `shop.png` icon image in that folder). If no `url` is specified, a default colored marker is used.
+   ### Extended example (icon vs. point images)
+
+   ```json
+   {
+     "name": "Armor/Weapons",
+     "color": "#f7d97e",
+     "category": "Containers",
+     "url": "images/Icons/armor-chest.png",
+     "desc": "Armor & Weapons",
+     "points": [
+       { "x": 637, "y": 202.5625 },
+       { "x": 811.53125, "y": 181.09375 },
+       { "x": 637.25, "y": 246.375 },
+       { "image": "images/Chests/armorChest732.png", "x": 732.96875, "y": 340.78125 },
+       { "desc": "On roof", "image": "images/Chests/armorChest663.png", "x": 663, "y": 441.28125 },
+       { "desc": "On second floor", "image": "images/Chests/armorChest649.png", "x": 649.21875, "y": 472.9375 },
+       { "image": "images/Chests/armorChest606.png", "x": 606.75, "y": 451.3125 },
+       { "desc": "Top of tower", "x": 544.84375, "y": 540.5625 },
+       { "image": "images/Chests/armorChest655.png", "desc": "On the roof", "x": 655.4375, "y": 468.375 }
+     ]
+   }
+   ```
 
 5. **Test Locally**  
-   Open the `index.html` file in a web browser. Note: If you open the file directly from the filesystem, you might encounter CORS restrictions preventing the JSON data from loading. It’s recommended to serve the files via a local web server for testing (for example, using Python’s `http.server` module or a VS Code Live Server). Once served, load the page and you should see your map. Use the “Show Menu” button to reveal the markers list and try toggling categories or clicking markers to ensure everything works.
+   Open the `index.html` file in a web browser. Note: If you open the file directly from the filesystem, you might encounter CORS restrictions preventing the JSON data from loading. It’s recommended to serve the files via a local web server for testing (for example, using Python’s `http.server` module or a VS Code Live Server). Once served, load the page and you should see your map. Use the “Show Menu” button to reveal the markers list and try toggling categories or clicking markers to ensure everything is working.
 
 6. **Deploy**  
-   Once you’re happy with your map, you can deploy it to any static hosting. For GitHub Pages, you can simply push the repository to a GitHub repository named `<username>.github.io` or enable Pages on the repository (if using a custom project name). The site will then be accessible online. Since there are no server requirements, deployment is as easy as uploading the files to a static host (GitHub Pages, Netlify, Vercel static, etc.).
+   Once you’re happy with your map, you can deploy it to any static hosting. For GitHub Pages, you can simply push the repository to a GitHub repository named `<username>.github.io` or enable Pages on the repository (if using a custom project name). The site will then be accessible online. Since there are no server requirements, deployment is as easy as uploading the files to a static host (GitHub Pages, Netlify, Vercel, etc.).
 
 ## Usage Tips
 
 - **Marker Coordinates**  
-  The coordinate system for markers is a simple grid corresponding to the image dimensions. By default, the template assumes an arbitrary 1000×1000 coordinate grid for convenience. In practice, you should input coordinates based on the actual pixel dimensions or a consistent scale for your image. If you’re unsure of the exact coordinates for a point on your map image, you can enable Dev Mode in the app (by editing the code to set `devMode = true` temporarily, or through a browser console command) to assist in finding coordinates. In Dev Mode, clicking on the map will log the coordinate values, which you can then use in your JSON.
+  The coordinate system for markers is a simple grid corresponding to the image dimensions. By default, the template assumes an arbitrary 1000×1000 coordinate grid for convenience. In practice, you should input coordinates based on the actual pixel dimensions or a consistent scale for your image. If you’re unsure of the exact coordinates for a point on your map, you can enable Dev Mode in the app (by setting `devMode = true` or via browser console) to log coordinates when you click on the map.
 
 - **Custom Icons and Colors**  
-  You can customize the look of markers. The `color` property in the JSON changes the marker icon color (when using the default icon). If you provide a custom icon via `url`, the `color` property can still be used for the marker’s outline or label. Make sure to place any custom icon images in a reachable path (for example `maps/[YourMap]/images/icons/` as shown above) and update the JSON path accordingly. The default marker icon and other CSS styles can be adjusted in `styles.css` if needed.
+  Use the `color` property to change the marker icon color (for default icon) or outline/label (when using a custom icon via `url`). Place custom icons and point images in accessible paths (e.g. `images/icons/`, `images/Chests/`, etc.) and reference them accordingly.
 
 - **Filters and Categories**  
-  By organizing markers into categories, the template automatically creates filter checkboxes in the side menu. Choose category names that make sense for your project (e.g., “Restaurants”, “Monsters”, “Artifacts”). The filter menu will group markers by these categories and allow users to toggle each group. (If a category has no markers on the currently visible map/layer, it simply won’t display until such markers exist.)
+  Categories automatically create filter checkboxes in the side menu. Choose names that make sense for your project (e.g., “Restaurants”, “Monsters”, “Artifacts”). Categories only appear when at least one marker of that category exists on the current map/layer.
 
 - **Multiple Floors/Levels**  
-  If your map has multiple layers (like floors in a building or an underground layer), users can switch floors via buttons that appear above the map view. The template preloads all floors of the currently selected map for smooth switching. Ensure that each floor image aligns with a common coordinate system or has the same dimensions so that markers overlay correctly. Typically, all floor images for a map should have the same pixel dimensions or scale.
+  All floor images of a map should share dimensions or a consistent scale so markers overlay correctly. The template preloads all floors for smooth switching.
 
 - **Performance Considerations**  
-  This template is lightweight and handles a moderate number of markers well. If you plan to have a very large number of markers (hundreds on a single map), consider grouping them into subcategories or enabling clustering (which would require additional customization or a Leaflet plugin). Likewise, very large image files can be downscaled or sliced if needed to improve performance. Since everything runs client-side, keep an eye on image file sizes for optimal load times.
+  For hundreds of markers on one map, consider subcategories or Leaflet clustering plugins. Optimize image dimensions and file sizes for faster load times.
 
 - **Extending Functionality**  
-  The code uses Leaflet.js under the hood for map rendering and interactions. If you are a developer, you can extend the functionality using Leaflet’s extensive API and plugins. For example, you could add search functionality, marker clustering, or even integrate real map tile layers if you want to use geographical maps. The template is meant as a starting point that provides core features out-of-the-box, but you have full freedom to modify the JavaScript to add new features as needed.
+  The template is built with Leaflet.js, so you can enhance it using the Leaflet API or plugins (search, clustering, real map tiles, etc.).
 
 ## Use Cases
 
-- **Game World Maps**: Display game terrain or level maps with locations of interest (quests, enemies, items, etc.). The example demo provided is based on a game map.  
-- **Campus or Park Maps**: Provide an interactive guide for a campus, zoo, theme park, or hiking trail with markers for facilities, exhibits, or points of interest.  
-- **Floor Plans**: Visualize building floor plans or mall directories with markers for stores, rooms, emergency exits, etc., across multiple levels.  
-- **Event Maps**: For conferences or festivals, show venue maps with booths, stages, or event areas marked and filterable by type (e.g., food, stage, info desk).  
-- **Any Image with Annotations**: Basically any scenario where you have a static image and want to place interactive annotations or markers on it – this template can handle it with minimal effort.  
+- **Game World Maps**: Display terrain or levels with quests, enemies, items, etc.  
+- **Campus or Park Maps**: Provide interactive guides for campuses, zoos, or theme parks.  
+- **Floor Plans**: Map out multi‑level buildings (malls, offices, museums).  
+- **Event Maps**: Show venue layouts for conferences or festivals with filterable booths and stages.  
+- **Any Static Image with Annotations**: Add interactive markers to any image—blueprints, artworks, diagrams, and more.
 
 ## Contributing
 
-Contributions are welcome! If you find a bug or have an idea for an improvement, feel free to open an issue or submit a pull request. Since this is a straightforward client-side project, you can easily test changes by opening `index.html` in your browser after making modifications. Some areas that could benefit from contributions or suggestions:
+Contributions are welcome! Ideas include:
 
-- Improving the mobile responsiveness and overall UI/UX design.  
-- Adding features like a search bar to find markers, marker clustering for dense areas, or optional support for tile-based maps.  
-- Enhancing the JSON schema or adding a simple editor mode to place markers (e.g. a mode to click on the map and output coordinates).  
+- Improving mobile responsiveness and overall UI/UX.  
+- Adding search, clustering, or tile‑map support.  
+- Creating a simple editor mode to click‑place markers.  
 
-When contributing, please ensure any new features remain optional or general enough to be useful for different use cases. This project aims to remain a lightweight template that others can adapt to their needs.
+Please keep new features optional or general to remain useful across projects.
 
 ## License
 
-This project is licensed under the **MIT License** – see the `LICENSE` file for details. You are free to use, modify, and distribute this project. Attribution is appreciated but not required. Enjoy building your interactive maps!
+This project is licensed under the **MIT License** – see the `LICENSE` file for details. You are free to use, modify, and distribute this project. Attribution is appreciated but not required.
 
 ---
 
