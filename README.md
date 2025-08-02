@@ -23,7 +23,7 @@ For a real example of this interactive map in action, check out the Live Demo de
 Follow these steps to set up the interactive map for your own project:
 
 1. **Download or Clone the Repository**  
-   Get the code from this repository (you can click “Use this template” if available, or clone it directly). All the necessary files are included: HTML, CSS, JavaScript, and a sample `maps/` data folder.
+   Get the code from this repository (you can clone it directly). All the necessary files are included: HTML, CSS, JavaScript, and a sample `maps/` data folder.
 
 2. **Prepare Your Map Images**  
    Replace or add your own map images. In the `maps/` directory, create a subfolder for each distinct map or region you want to include. For example, if you want to have a map called “City Map”, create `maps/City Map/`. Inside that, create a subfolder called `floors` and put your image files there. Each “floor” (or layer) is simply an image (JPEG/PNG) of that map. If your map only has one layer, you can still use the `floors` folder with one image (e.g. `Main Floor.jpg` or any name you choose).
