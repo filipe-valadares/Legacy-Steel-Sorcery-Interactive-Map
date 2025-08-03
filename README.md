@@ -148,16 +148,6 @@ Follow these steps to set up the interactive map for your own project:
 - **Event Maps**: Show venue layouts for conferences or festivals with filterable booths and stages.  
 - **Any Static Image with Annotations**: Add interactive markers to any image—blueprints, artworks, diagrams, and more.
 
-## Contributing
-
-Contributions are welcome! Ideas include:
-
-- Improving mobile responsiveness and overall UI/UX.  
-- Adding search, clustering, or tile‑map support.  
-- Creating a simple editor mode to click‑place markers.  
-
-Please keep new features optional or general to remain useful across projects.
-
 ## License
 
 This project is licensed under the **MIT License** – see the `LICENSE` file for details. You are free to use, modify, and distribute this project. Attribution is appreciated but not required.
