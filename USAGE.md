@@ -160,36 +160,6 @@ Edit `script.js` to modify:
 - **Marker Clustering**: Add clustering for performance
 - **Custom Interactions**: Add new user interactions
 
-### Adding New Features
-
-Common enhancements:
-
-```javascript
-// Add marker clustering
-var markers = L.markerClusterGroup();
-markers.addLayer(marker);
-map.addLayer(markers);
-
-// Add custom controls
-var customControl = L.control({position: 'topright'});
-customControl.onAdd = function(map) {
-    var div = L.DomUtil.create('div', 'custom-control');
-    div.innerHTML = '<button>Custom Button</button>';
-    return div;
-};
-customControl.addTo(map);
-
-// Add drawing tools
-var drawnItems = new L.FeatureGroup();
-map.addLayer(drawnItems);
-var drawControl = new L.Control.Draw({
-    edit: {
-        featureGroup: drawnItems
-    }
-});
-map.addControl(drawControl);
-```
-
 ## Performance Optimization
 
 ### Image Optimization
@@ -200,22 +170,6 @@ map.addControl(drawControl);
    - JPG for map backgrounds
    - PNG for icons (transparency needed)
    - WebP for modern browsers (optional)
-
-### Large Datasets
-
-For maps with 500+ markers:
-
-1. **Enable Clustering**:
-   ```javascript
-   var markers = L.markerClusterGroup({
-       chunkedLoading: true,
-       chunkInterval: 200
-   });
-   ```
-
-2. **Lazy Loading**: Load markers only when needed
-3. **Viewport Culling**: Hide markers outside view
-4. **Category Limits**: Limit visible categories by default
 
 ### Browser Performance
 
@@ -286,37 +240,6 @@ Debug features:
 2. Go to repository Settings → Pages
 3. Select source branch (usually `main`)
 4. Site will be available at `https://username.github.io/repository-name`
-
-### Netlify
-
-1. Drag and drop project folder to Netlify
-2. Or connect GitHub repository
-3. Automatic deployment on code changes
-4. Custom domain support available
-
-### Vercel
-
-1. Install Vercel CLI: `npm i -g vercel`
-2. Run `vercel` in project directory
-3. Follow prompts for deployment
-4. Automatic deployments from Git
-
-### Custom Hosting
-
-Requirements:
-- Static file hosting
-- HTTPS recommended
-- CDN for better performance
-- Gzip compression for faster loading
-
-## Best Practices
-
-### Content Organization
-
-1. **Consistent Naming**: Use clear, consistent names for maps and floors
-2. **Logical Categories**: Group related markers together
-3. **Descriptive Text**: Write helpful descriptions for markers
-4. **Image Quality**: Use high-quality, appropriately sized images
 
 ### User Experience
 
