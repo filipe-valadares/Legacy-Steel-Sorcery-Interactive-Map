@@ -44,7 +44,7 @@ This is a **static interactive map application** designed for gaming communities
 
 ## � Documgentation
 
-- **[� Req uirements](REQUIREMENTS.md)** - System requirements, dependencies, and technical specifications
+- **[📋 Requirements](REQUIREMENTS.md)** - System requirements, dependencies, and technical specifications
 - **[🛠️ Tech Stack](TECH_STACK.md)** - Detailed breakdown of technologies and architecture
 - **[📖 Usage Guide](USAGE.md)** - Comprehensive guide for setup, customization, and deployment
 
