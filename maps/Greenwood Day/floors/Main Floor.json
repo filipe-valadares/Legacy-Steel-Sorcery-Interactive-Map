@@ -1140,6 +1140,7 @@
       "desc": "Search this area for possible spawn of: Wood Saw,Simple Scissors,Crude Awl,Dried Herbs,Ogre Fat,Tree Resin,Paper,Heavy Thread,Simple Buckle,Metal Hinge,Wax Candle,Sewing Needles,Iron Nails,Simple Vial,Simple Rope,Waxed Rope,Fire Powder,Bone Hammer,Splintered Bone,Massive Femur",
       "url": "images/Icons/tools.png",
       "points": [
+	{"image": "images/Tools/toolsandmats599.png","x": 599.03125, "y": 422.78125},
 	{"x": 834.375, "y": 426},
 	{"x": 801.8125, "y": 185.25},
 	{"x": 725.4375, "y": 350.875},
@@ -1299,6 +1300,7 @@
       "url": "images/Icons/gemstone.png",
       "points": [
 	{"x": 806.4375, "y": 179.28125},
+	{"image":"images/Tools/gemstone620.png","x": 620.65625, "y": 442.96875},
 	{"image":"images/Tools/gemstone347.png","x": 347.09375, "y": 321.46875},
 	{"image":"images/Tools/gemstone609.png","x": 609.5, "y": 345.9375},
 	{"image":"images/Tools/gemstone616.png","x": 616.3125, "y": 435.21875},

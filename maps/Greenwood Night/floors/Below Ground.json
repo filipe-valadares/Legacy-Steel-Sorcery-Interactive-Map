@@ -322,6 +322,7 @@
      "desc": "Bloodsteel, Iron or Copper Ore",
       "points": [
 	{"image":"images/Ores/Bloodsteel488.png","x": 488.75, "y": 829.3125},
+	{"image":"images/Ores/Bloodsteel408.png","x": 408.84375, "y": 687.75},
 	{"x": 752.75, "y": 174.625},
 	{"x": 333.4375, "y": 135.5625},
 	{"x": 689, "y": 677.84375}
@@ -334,7 +335,6 @@
       "category": "Ores",
       "desc": "Mithril, Bloodsteel, Iron or Copper",
       "points": [
-		{"image":"images/Ores/Mithril408.png","x": 408.84375, "y": 687.75},
 		{"image":"images/Ores/mithril489.png","x": 489.78125, "y": 854.90625},
 		{"image":"images/Ores/mithril747.png","x": 747.875, "y": 233.1875},  
 		{"x": 759.1875, "y": 230.8125},
