@@ -4,26 +4,7 @@
 
 ### 1. Local Development Setup
 
-```bash
-# Clone or download the repository
-git clone <repository-url>
-cd interactive-gaming-map
-
-# Start a local web server (choose one):
-# Python 3
-python -m http.server 8000
-
-# Python 2
-python -m SimpleHTTPServer 8000
-
-# Node.js
-npx serve .
-
-# PHP
-php -S localhost:8000
-```
-
-Open your browser to `http://localhost:8000`
+//TODO
 
 ### 2. Basic Navigation
 
