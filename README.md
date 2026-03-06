@@ -119,24 +119,6 @@ For detailed setup instructions, see the **[📖 Usage Guide](USAGE.md)**.
 - **🏫 Campus Maps**: Universities, theme parks, large facilities
 - **📐 Technical Diagrams**: Blueprints, schematics, annotated images
 
-## 🚀 Deployment
-
-Deploy to any static hosting platform:
-
-- **GitHub Pages**: Push to repository, enable Pages in settings
-- **Netlify**: Drag & drop or connect Git repository
-- **Vercel**: `npx vercel` for instant deployment
-- **Custom Hosting**: Any static file server with HTTPS
-
-## 🤝 Contributing
-
-This project welcomes contributions! Whether you're:
-
-- Adding new maps or improving existing ones
-- Enhancing the user interface
-- Fixing bugs or improving performance
-- Writing documentation or tutorials
-
 See the documentation files for technical details and best practices.
 
 ## 📄 License
